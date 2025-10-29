@@ -212,7 +212,7 @@ def main(
                 shutil.rmtree(agents_dir.parent)
                 console.print("[dim]Cleaned up temporary directory[/dim]")
             except Exception:
-                pass  # Best effort cleanup
+                pass
 
 
 if __name__ == "__main__":

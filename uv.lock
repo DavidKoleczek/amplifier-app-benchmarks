@@ -134,6 +134,7 @@ dependencies = [
     { name = "click" },
     { name = "eval-recipes" },
     { name = "python-dotenv" },
+    { name = "pyyaml" },
     { name = "rich" },
 ]
 
@@ -147,8 +148,9 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.0" },
-    { name = "eval-recipes", git = "https://github.com/microsoft/eval-recipes?branch=main" },
+    { name = "eval-recipes", git = "https://github.com/microsoft/eval-recipes?tag=v0.0.15" },
     { name = "python-dotenv", specifier = ">=1.0.0" },
+    { name = "pyyaml", specifier = ">=6.0" },
     { name = "rich", specifier = ">=13.0" },
 ]
 
@@ -388,15 +390,15 @@ wheels = [
 
 [[package]]
 name = "claude-agent-sdk"
-version = "0.1.1"
+version = "0.1.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anyio" },
     { name = "mcp" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e6/85/5e0364d8b567375bc5561a5ca30d73db46072573308677e3db1c435dec69/claude_agent_sdk-0.1.1.tar.gz", hash = "sha256:dcb224d4a65699cd9ceaddf4b9f9501606ba4f10d37fa691aff1ab60b9849b65", size = 43941, upload-time = "2025-10-07T00:21:14.018Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4f/b6/b73279eb875333fcc3e14c28fc080f815abaf35d2a65b132be0c8b05851c/claude_agent_sdk-0.1.6.tar.gz", hash = "sha256:3090a595896d65a5d951e158e191b462759aafc97399e700e4f857d5265a8f23", size = 49328, upload-time = "2025-10-31T05:15:55.803Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bb/17/d18977ef5089064bced8cbf056a4317fc175e986a4a98391fc4121c3cb5b/claude_agent_sdk-0.1.1-py3-none-any.whl", hash = "sha256:4e95ed38786b045c5d42c942d5ce2870cd7e7c4c836cc22b5b9526b1543bfd8a", size = 33672, upload-time = "2025-10-07T00:21:12.717Z" },
+    { url = "https://files.pythonhosted.org/packages/cc/12/38e4e9f7f79f2c04c7be34cd995ef4a56681f8266e382a5288ce815ede71/claude_agent_sdk-0.1.6-py3-none-any.whl", hash = "sha256:54227b096e8c7cfb60fc8b570082fce1f91ea060413092f65a08a2824cb9cb4b", size = 36369, upload-time = "2025-10-31T05:15:54.767Z" },
 ]
 
 [[package]]
@@ -507,8 +509,8 @@ wheels = [
 
 [[package]]
 name = "eval-recipes"
-version = "0.0.11"
-source = { git = "https://github.com/microsoft/eval-recipes?branch=main#e2e2732e76250397abdec9ecf37227d766f81870" }
+version = "0.0.15"
+source = { git = "https://github.com/microsoft/eval-recipes?tag=v0.0.15#d14c4dff6badb29d8b365d18ba32a239d4316f61" }
 dependencies = [
     { name = "azure-core", extra = ["aio"] },
     { name = "azure-identity" },
@@ -518,6 +520,7 @@ dependencies = [
     { name = "loguru" },
     { name = "nltk" },
     { name = "openai", extra = ["aiohttp"] },
+    { name = "pathspec" },
     { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "python-liquid" },
@@ -1158,6 +1161,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/a1/d4/1fc4078c65507b51b96ca8f8c3ba19e6a61c8253c72794544580a7b6c24d/packaging-25.0.tar.gz", hash = "sha256:d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f", size = 165727, upload-time = "2025-04-19T11:48:59.673Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/20/12/38679034af332785aac8774540895e234f4d07f7545804097de4b666afd8/packaging-25.0-py3-none-any.whl", hash = "sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484", size = 66469, upload-time = "2025-04-19T11:48:57.875Z" },
+]
+
+[[package]]
+name = "pathspec"
+version = "0.12.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ca/bc/f35b8446f4531a7cb215605d100cd88b7ac6f44ab3fc94870c120ab3adbf/pathspec-0.12.1.tar.gz", hash = "sha256:a482d51503a1ab33b1c67a6c3813a26953dbdc71c31dacaef9a838c4e29f5712", size = 51043, upload-time = "2023-12-10T22:30:45Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cc/20/ff623b09d963f88bfde16306a54e12ee5ea43e9b597108672ff3a408aad6/pathspec-0.12.1-py3-none-any.whl", hash = "sha256:a0d503e138a4c123b27490a4f7beda6a01c6f288df0e4a8b79c7eb0dc7b4cc08", size = 31191, upload-time = "2023-12-10T22:30:43.14Z" },
 ]
 
 [[package]]

@@ -1,3 +1,5 @@
+# Copyright (c) Microsoft. All rights reserved.
+
 """CLI for running Amplifier benchmarks."""
 
 import asyncio
@@ -9,6 +11,7 @@ import urllib.request
 from pathlib import Path
 
 import click
+import yaml
 from dotenv import load_dotenv
 from eval_recipes.benchmarking.harness import Harness
 from rich.console import Console
@@ -30,68 +33,141 @@ def download_github_file(url: str, dest_path: Path) -> None:
         dest_path.write_bytes(response.read())
 
 
-def fetch_eval_recipes_data(mode: str) -> tuple[Path, Path]:
-    """Fetch agent and task data from eval-recipes GitHub repo to temp directory.
+def fetch_eval_recipes_tasks(mode: str, temp_dir: Path) -> Path:
+    """Fetch task data from eval-recipes GitHub repo to temp directory.
 
     Args:
         mode: Benchmark mode (currently only "quick" is supported)
+        temp_dir: Temporary directory to store task data
 
     Returns:
-        Tuple of (agents_dir, tasks_dir) paths in temp directory
+        Path to tasks directory containing downloaded tasks
     """
     if mode != "quick":
         raise ValueError(f"Unsupported mode: {mode}. Currently only 'quick' is supported.")
 
-    # Create temp directory
-    temp_dir = Path(tempfile.mkdtemp(prefix="amplifier_benchmarks_"))
-    console.print(f"[cyan]Created temporary directory: {temp_dir}[/cyan]")
-
     # GitHub raw URLs for eval-recipes data
     github_base = "https://raw.githubusercontent.com/microsoft/eval-recipes/main/data"
 
-    # For quick mode: fetch amplifier_v2 agent and arxiv_conclusion_extraction task
-    agent_name = "amplifier_v2"
-    task_name = "arxiv_conclusion_extraction"
+    # For quick mode: fetch two tasks
+    task_names = ["arxiv_conclusion_extraction", "cpsc_recall_monitor"]
 
-    # Create directories
-    agents_dir = temp_dir / "agents" / agent_name
-    tasks_dir = temp_dir / "tasks" / task_name
-    agents_dir.mkdir(parents=True, exist_ok=True)
-    tasks_dir.mkdir(parents=True, exist_ok=True)
-
-    console.print("[cyan]Fetching agent and task data from GitHub...[/cyan]")
+    tasks_dir = temp_dir / "tasks"
+    console.print("[cyan]Fetching task data from GitHub...[/cyan]")
 
     try:
-        # Download agent files
-        agent_files = ["agent.yaml", "command_template.txt", "install.dockerfile"]
-        for file in agent_files:
-            url = f"{github_base}/agents/{agent_name}/{file}"
-            dest = agents_dir / file
-            download_github_file(url, dest)
-        console.print(f"[green]✓[/green] Downloaded agent: {agent_name}")
+        for task_name in task_names:
+            task_dir = tasks_dir / task_name
+            task_dir.mkdir(parents=True, exist_ok=True)
 
-        # Download task files
-        task_files = ["task.yaml", "instructions.txt", "setup.dockerfile", "test.py"]
-        for file in task_files:
-            url = f"{github_base}/tasks/{task_name}/{file}"
-            dest = tasks_dir / file
-            download_github_file(url, dest)
-        console.print(f"[green]✓[/green] Downloaded task: {task_name}")
+            # Download task files
+            task_files = ["task.yaml", "instructions.txt", "test.py"]
+            for file in task_files:
+                url = f"{github_base}/tasks/{task_name}/{file}"
+                dest = task_dir / file
+                try:
+                    download_github_file(url, dest)
+                except urllib.error.HTTPError as e:
+                    if e.code == 404 and file == "setup.dockerfile":
+                        # setup.dockerfile is optional
+                        continue
+                    raise
+
+            # Try to download optional setup.dockerfile
+            try:
+                url = f"{github_base}/tasks/{task_name}/setup.dockerfile"
+                dest = task_dir / "setup.dockerfile"
+                download_github_file(url, dest)
+            except urllib.error.HTTPError as e:
+                if e.code == 404:
+                    pass  # setup.dockerfile is optional
+                else:
+                    raise
+
+            console.print(f"[green]✓[/green] Downloaded task: {task_name}")
 
     except urllib.error.URLError as e:
-        raise RuntimeError(f"Failed to download data from GitHub: {e}")
+        raise RuntimeError(f"Failed to download data from GitHub: {e}") from e
     except Exception as e:
-        raise RuntimeError(f"Error fetching eval-recipes data: {e}")
+        raise RuntimeError(f"Error fetching eval-recipes data: {e}") from e
 
-    return temp_dir / "agents", temp_dir / "tasks"
+    return tasks_dir
+
+
+def prepare_agent_configuration(
+    local_source_path: Path,
+    override_agent_path: Path | None,
+    temp_dir: Path,
+) -> tuple[Path, str]:
+    """Prepare agent configuration with local source path.
+
+    Args:
+        local_source_path: Path to local amplifier-dev source
+        override_agent_path: Optional path to custom agent definition
+        temp_dir: Temporary directory to store agent configuration
+
+    Returns:
+        Tuple of (agents_dir, agent_name)
+    """
+    # Determine source agent directory
+    if override_agent_path:
+        source_agent_dir = override_agent_path
+        agent_name = override_agent_path.name
+        console.print(f"[cyan]Using custom agent from: {override_agent_path}[/cyan]")
+    else:
+        # Use bundled default agent
+        package_dir = Path(__file__).parent.parent.parent
+        source_agent_dir = package_dir / "agents" / "amplifier_next_default"
+        agent_name = "amplifier_next_default"
+        console.print("[cyan]Using default agent: amplifier_next_default[/cyan]")
+
+    # Validate source agent directory
+    required_files = ["agent.yaml", "install.dockerfile", "command_template.txt"]
+    for file in required_files:
+        if not (source_agent_dir / file).exists():
+            raise ValueError(f"Agent directory missing required file: {file}")
+
+    # Copy agent directory to temp location
+    agents_dir = temp_dir / "agents"
+    dest_agent_dir = agents_dir / agent_name
+    dest_agent_dir.mkdir(parents=True, exist_ok=True)
+
+    for file in required_files:
+        shutil.copy2(source_agent_dir / file, dest_agent_dir / file)
+
+    # Update agent.yaml with actual local_source_path
+    agent_yaml_path = dest_agent_dir / "agent.yaml"
+    with agent_yaml_path.open() as f:
+        agent_config = yaml.safe_load(f) or {}
+
+    agent_config["local_source_path"] = str(local_source_path.resolve())
+
+    with agent_yaml_path.open("w") as f:
+        yaml.dump(agent_config, f, default_flow_style=False, sort_keys=False)
+
+    console.print(f"[green]✓[/green] Configured agent with local source: {local_source_path}")
+
+    return agents_dir, agent_name
 
 
 @click.command()
 @click.option(
+    "--local_source_path",
+    type=click.Path(exists=True, file_okay=False, path_type=Path),
+    required=True,
+    help="Path to local amplifier-dev repository to be evaluated",
+)
+@click.option(
+    "--override_agent_path",
+    type=click.Path(exists=True, file_okay=False, path_type=Path),
+    default=None,
+    help="Optional path to custom agent definition (default: uses bundled amplifier_next_default)",
+)
+@click.option(
     "--mode",
     type=click.Choice(["quick"], case_sensitive=False),
     required=True,
-    help="Benchmark mode. 'quick' runs amplifier_v2 on arxiv_conclusion_extraction task.",
+    help="Benchmark mode. 'quick' runs two simple tasks: arxiv_conclusion_extraction and cpsc_recall_monitor",
 )
 @click.option(
     "--runs-dir",
@@ -106,6 +182,8 @@ def fetch_eval_recipes_data(mode: str) -> tuple[Path, Path]:
     help="Number of times to run each task (default: 1)",
 )
 def main(
+    local_source_path: Path,
+    override_agent_path: Path | None,
     mode: str,
     runs_dir: Path,
     num_trials: int,
@@ -114,11 +192,16 @@ def main(
 
     Examples:
 
-        # Quick benchmark (1 trial)
-        run_benchmarks --mode quick
+        # Quick benchmark with local amplifier-dev
+        run_benchmarks --local_source_path /path/to/amplifier-dev --mode quick
+
+        # With custom agent definition
+        run_benchmarks --local_source_path /path/to/amplifier-dev \\
+            --override_agent_path /path/to/custom-agent --mode quick
 
         # Multiple trials with custom output directory
-        run_benchmarks --mode quick --num-trials 3 --runs-dir ./my_results
+        run_benchmarks --local_source_path /path/to/amplifier-dev \\
+            --mode quick --num-trials 3 --runs-dir ./my_results
     """
     # Show banner
     console.print()
@@ -129,6 +212,25 @@ def main(
         )
     )
     console.print()
+
+    # Validate local_source_path
+    if not local_source_path.exists():
+        console.print(f"[red]Error: Local source path does not exist: {local_source_path}[/red]")
+        raise click.Abort()
+
+    if not local_source_path.is_dir():
+        console.print(f"[red]Error: Local source path is not a directory: {local_source_path}[/red]")
+        raise click.Abort()
+
+    # Validate override_agent_path if provided
+    if override_agent_path:
+        if not override_agent_path.exists():
+            console.print(f"[red]Error: Override agent path does not exist: {override_agent_path}[/red]")
+            raise click.Abort()
+
+        if not override_agent_path.is_dir():
+            console.print(f"[red]Error: Override agent path is not a directory: {override_agent_path}[/red]")
+            raise click.Abort()
 
     # Verify required environment variables
     required_vars = ["ANTHROPIC_API_KEY", "OPENAI_API_KEY"]
@@ -141,27 +243,35 @@ def main(
             console.print(f"  export {var}=your-key-here")
         raise click.Abort()
 
-    # Fetch agent and task data based on mode
-    try:
-        agents_dir, tasks_dir = fetch_eval_recipes_data(mode)
-    except Exception as e:
-        console.print(f"[red]Error preparing benchmark data: {e}[/red]")
-        raise click.Abort()
-
-    # Show configuration
-    console.print("[cyan]Configuration:[/cyan]")
-    console.print(f"  Mode: {mode}")
-    console.print("  Agent: amplifier_v2")
-    console.print("  Task: arxiv_conclusion_extraction")
-    console.print(f"  Trials: {num_trials}")
-    console.print(f"  Results directory: {runs_dir}")
-    console.print()
-
-    # Set up agent and task filters for quick mode
-    agent_filters = ["name=amplifier_v2"]
-    task_filters = ["name=arxiv_conclusion_extraction"]
+    # Create temp directory for agent and task data
+    temp_dir = Path(tempfile.mkdtemp(prefix="amplifier_benchmarks_"))
+    console.print(f"[cyan]Created temporary directory: {temp_dir}[/cyan]")
 
     try:
+        # Prepare agent configuration
+        agents_dir, agent_name = prepare_agent_configuration(
+            local_source_path=local_source_path,
+            override_agent_path=override_agent_path,
+            temp_dir=temp_dir,
+        )
+
+        # Fetch task data
+        tasks_dir = fetch_eval_recipes_tasks(mode=mode, temp_dir=temp_dir)
+
+        # Show configuration
+        console.print()
+        console.print("[cyan]Configuration:[/cyan]")
+        console.print(f"  Mode: {mode}")
+        console.print(f"  Agent: {agent_name}")
+        console.print(f"  Local source: {local_source_path}")
+        console.print("  Tasks: arxiv_conclusion_extraction, cpsc_recall_monitor")
+        console.print(f"  Trials per task: {num_trials}")
+        console.print(f"  Results directory: {runs_dir}")
+        console.print()
+
+        # Set up agent filter (run all fetched tasks)
+        agent_filters = [f"name={agent_name}"]
+
         # Create harness
         harness = Harness(
             agents_dir=agents_dir,
@@ -172,7 +282,7 @@ def main(
                 "OPENAI_API_KEY": os.environ["OPENAI_API_KEY"],
             },
             agent_filters=agent_filters,
-            task_filters=task_filters,
+            task_filters=None,  # Run all fetched tasks
             max_parallel_tasks=1,  # Run sequentially for clarity
             num_trials=num_trials,
         )
@@ -204,12 +314,12 @@ def main(
         raise click.Abort()
     except Exception as e:
         console.print(f"\n[red]Error running benchmarks: {e}[/red]")
-        raise click.Abort()
+        raise
     finally:
         # Cleanup temp directory
-        if agents_dir and agents_dir.parent.exists():
+        if temp_dir.exists():
             try:
-                shutil.rmtree(agents_dir.parent)
+                shutil.rmtree(temp_dir)
                 console.print("[dim]Cleaned up temporary directory[/dim]")
             except Exception:
                 pass

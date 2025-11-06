@@ -33,6 +33,7 @@ uvx --from git+https://github.com/DavidKoleczek/amplifier-app-benchmarks \
 ```bash
 git clone https://github.com/DavidKoleczek/amplifier-app-benchmarks.git
 cd amplifier-app-benchmarks
+uv venv
 uv pip install -e .
 uv run run_benchmarks \
     --local_source_path /path/to/local/amplifier-development/ \

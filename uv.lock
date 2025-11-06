@@ -128,7 +128,7 @@ wheels = [
 
 [[package]]
 name = "amplifier-app-benchmarks"
-version = "0.1.0"
+version = "0.2.0"
 source = { editable = "." }
 dependencies = [
     { name = "click" },
@@ -149,7 +149,7 @@ dev = [
 requires-dist = [
     { name = "click", specifier = ">=8.0" },
     { name = "eval-recipes", git = "https://github.com/microsoft/eval-recipes?tag=v0.0.15" },
-    { name = "python-dotenv", specifier = ">=1.0.0" },
+    { name = "python-dotenv", specifier = ">=1.0" },
     { name = "pyyaml", specifier = ">=6.0" },
     { name = "rich", specifier = ">=13.0" },
 ]

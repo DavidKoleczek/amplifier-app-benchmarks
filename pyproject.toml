@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 dependencies = [
-    "eval_recipes @ git+https://github.com/microsoft/eval-recipes@v0.0.15",
+    "eval_recipes @ git+https://github.com/microsoft/eval-recipes@v0.0.16",
     "click>=8.0",
     "rich>=13.0",
     "python-dotenv>=1.0",
@@ -35,7 +35,7 @@ Repository = "https://github.com/DavidKoleczek/amplifier-app-benchmarks"
 Issues = "https://github.com/DavidKoleczek/amplifier-app-benchmarks/issues"
 
 [tool.uv.sources]
-eval_recipes = {git = "https://github.com/microsoft/eval-recipes", tag = "v0.0.15"}
+eval_recipes = {git = "https://github.com/microsoft/eval-recipes", tag = "v0.0.16"}
 
 [build-system]
 requires = ["hatchling"]

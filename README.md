@@ -61,18 +61,20 @@ Scores range from 0-100%. The consolidated report categorizes failures and provi
 A Python Click CLI app to implement a custom version of the eval-recipes' benchmarking script found [here](https://github.com/DavidKoleczek/eval-recipes/blob/main/scripts/run_benchmarks.py).
 
 The CLI app has the following options:
-- `local_source_path` is the path to your local amplifier development repo to be evaluated. The will use the agent definition found at [./agents/amplifier_next_default](./agents/amplifier_next_default) by default.
+- `local_source_path` is the path to your local amplifier development repo to be evaluated. This will use the agent definition found at [./agents/amplifier_next_default](./agents/amplifier_next_default) by default.
 - `override_agent_path` optional path to a custom agent definition to use instead of the default one provided.
 - `mode` determines which subset of tasks is run.
-  - `quick` pulls from eval-recipes two simple tasks: `arxiv_conclusion_extraction` and `cpsc_recall_monitor`
-It then uses agent-filter and task-filter to only run the local agent and task. 
+  - `sanity_check` pulls from eval-recipes two simple tasks: `arxiv_conclusion_extraction` and `cpsc_recall_monitor`. Run this to simply validate if things are working and configured correctly.
+  - `quick` pulls a small set of representative tasks (`cpsc_recall_monitor`, `email_drafting`, `product_review_finder`, `style_blender`, `news_research_tool`). Use this to get a rough indication of quality. Runs two trials of each task with 10 parallel tasks. This is the default mode that takes about an hour.
+  - `full` this does a full evaluation run. WARNING: This will take hours and has significant API cost.
+It then uses agent-filter and task-filter to only run the local agent and task.
 The tasks will be pulled directly from the eval-recipes repo by this script and placed in a temporary directory.
 - `runs-dir` directory to output results. Defaults to current directory / ".benchmark_results"
-- `num_trials` - defaults to 1 for faster iteration.
+- `num_trials` number of times to try each task, defaults to 1 for faster iteration. If provided, this overrides the amount set by the mode
+- `max_parallel_tasks` maximum number of tasks to run in parallel. If provided, this overrides the default set by the mode.
 
 
 # Roadmap
 
-- Greater variety of subsets of tasks that can be run quickly for iterative development or a full suite for comprehensive reporting. Currently just supports a quick mode with one hard coded task.
 - The ability to define custom tasks specific to Amplifier. Currently we use the ones provided by eval-recipes out of the box.
 - Integration with off the shelf benchmarks (such as terminal-bench) for comparison against other agents.

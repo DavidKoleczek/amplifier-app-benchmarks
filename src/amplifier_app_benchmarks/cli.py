@@ -37,20 +37,46 @@ def fetch_eval_recipes_tasks(mode: str, temp_dir: Path) -> Path:
     """Fetch task data from eval-recipes GitHub repo to temp directory.
 
     Args:
-        mode: Benchmark mode (currently only "quick" is supported)
+        mode: Benchmark mode (sanity_check, quick, or full)
         temp_dir: Temporary directory to store task data
 
     Returns:
         Path to tasks directory containing downloaded tasks
     """
-    if mode != "quick":
-        raise ValueError(f"Unsupported mode: {mode}. Currently only 'quick' is supported.")
-
     # GitHub raw URLs for eval-recipes data
     github_base = "https://raw.githubusercontent.com/microsoft/eval-recipes/main/data"
 
-    # For quick mode: fetch two tasks
-    task_names = ["arxiv_conclusion_extraction", "cpsc_recall_monitor"]
+    # Define task sets for each mode
+    if mode == "sanity_check":
+        task_names = ["arxiv_conclusion_extraction", "cpsc_recall_monitor"]
+    elif mode == "quick":
+        task_names = [
+            "cpsc_recall_monitor",
+            "email_drafting",
+            "product_review_finder",
+            "style_blender",
+            "news_research_tool",
+        ]
+    elif mode == "full":
+        # Full mode: all available tasks
+        task_names = [
+            "arxiv_conclusion_extraction",
+            "arxiv_paper_summarizer",
+            "cpsc_recall_monitor",
+            "cross_repo_improvement_tool",
+            "email_drafting",
+            "gdpval_extraction",
+            "github_docs_extractor",
+            "image_tagging",
+            "linkedin_drafting",
+            "markdown_deck_converter",
+            "news_research_tool",
+            "product_review_finder",
+            "repo_embedding_server",
+            "style_blender",
+        ]
+    else:
+        raise ValueError(f"Unsupported mode: {mode}. Must be one of: sanity_check, quick, full")
 
     tasks_dir = temp_dir / "tasks"
     console.print("[cyan]Fetching task data from GitHub...[/cyan]")
@@ -92,6 +118,24 @@ def fetch_eval_recipes_tasks(mode: str, temp_dir: Path) -> Path:
         raise RuntimeError(f"Error fetching eval-recipes data: {e}") from e
 
     return tasks_dir
+
+
+def get_mode_defaults(mode: str) -> tuple[int, int]:
+    """Get default num_trials and max_parallel_tasks for a given mode.
+
+    Args:
+        mode: Benchmark mode (sanity_check, quick, or full)
+
+    Returns:
+        Tuple of (num_trials, max_parallel_tasks)
+    """
+    if mode == "sanity_check":
+        return 1, 2
+    if mode == "quick":
+        return 2, 10
+    if mode == "full":
+        return 5, 20
+    raise ValueError(f"Unknown mode: {mode}")
 
 
 def prepare_agent_configuration(
@@ -165,9 +209,14 @@ def prepare_agent_configuration(
 )
 @click.option(
     "--mode",
-    type=click.Choice(["quick"], case_sensitive=False),
-    required=True,
-    help="Benchmark mode. 'quick' runs two simple tasks: arxiv_conclusion_extraction and cpsc_recall_monitor",
+    type=click.Choice(["sanity_check", "quick", "full"], case_sensitive=False),
+    default="quick",
+    help=(
+        "Benchmark mode. "
+        "sanity_check: 2 simple tasks (1 trial each). "
+        "quick: 5 representative tasks (2 trials, 10 parallel, ~1 hour). "
+        "full: all tasks (5 trials, 20 parallel, many hours)."
+    ),
 )
 @click.option(
     "--runs-dir",
@@ -178,31 +227,24 @@ def prepare_agent_configuration(
 @click.option(
     "--num-trials",
     type=int,
-    default=1,
-    help="Number of times to run each task (default: 1)",
+    default=None,
+    help="Number of times to run each task",
+)
+@click.option(
+    "--max-parallel-tasks",
+    type=int,
+    default=None,
+    help="Maximum number of tasks to run in parallel",
 )
 def main(
     local_source_path: Path,
     override_agent_path: Path | None,
     mode: str,
     runs_dir: Path,
-    num_trials: int,
+    num_trials: int | None,
+    max_parallel_tasks: int | None,
 ) -> None:
-    """Run benchmarks for Amplifier using eval-recipes.
-
-    Examples:
-
-        # Quick benchmark with local amplifier-dev
-        run_benchmarks --local_source_path /path/to/amplifier-dev --mode quick
-
-        # With custom agent definition
-        run_benchmarks --local_source_path /path/to/amplifier-dev \\
-            --override_agent_path /path/to/custom-agent --mode quick
-
-        # Multiple trials with custom output directory
-        run_benchmarks --local_source_path /path/to/amplifier-dev \\
-            --mode quick --num-trials 3 --runs-dir ./my_results
-    """
+    """Run benchmarks for Amplifier using eval-recipes."""
     # Show banner
     console.print()
     console.print(
@@ -258,14 +300,32 @@ def main(
         # Fetch task data
         tasks_dir = fetch_eval_recipes_tasks(mode=mode, temp_dir=temp_dir)
 
+        # Get mode defaults and apply overrides
+        default_num_trials, default_max_parallel = get_mode_defaults(mode)
+        final_num_trials = num_trials if num_trials is not None else default_num_trials
+        final_max_parallel = max_parallel_tasks if max_parallel_tasks is not None else default_max_parallel
+
+        # Get task names for display
+        if mode == "sanity_check":
+            task_display = "arxiv_conclusion_extraction, cpsc_recall_monitor"
+        elif mode == "quick":
+            task_display = (
+                "cpsc_recall_monitor, email_drafting, product_review_finder, style_blender, news_research_tool"
+            )
+        else:  # full
+            task_display = "all tasks"
+
         # Show configuration
         console.print()
         console.print("[cyan]Configuration:[/cyan]")
         console.print(f"  Mode: {mode}")
         console.print(f"  Agent: {agent_name}")
         console.print(f"  Local source: {local_source_path}")
-        console.print("  Tasks: arxiv_conclusion_extraction, cpsc_recall_monitor")
-        console.print(f"  Trials per task: {num_trials}")
+        console.print(f"  Tasks: {task_display}")
+        console.print(f"  Trials per task: {final_num_trials}{' (default)' if num_trials is None else ' (override)'}")
+        console.print(
+            f"  Max parallel tasks: {final_max_parallel}{' (default)' if max_parallel_tasks is None else ' (override)'}"
+        )
         console.print(f"  Results directory: {runs_dir}")
         console.print()
 
@@ -283,8 +343,8 @@ def main(
             },
             agent_filters=agent_filters,
             task_filters=None,  # Run all fetched tasks
-            max_parallel_tasks=1,  # Run sequentially for clarity
-            num_trials=num_trials,
+            max_parallel_tasks=final_max_parallel,
+            num_trials=final_num_trials,
         )
 
         # Run benchmarks

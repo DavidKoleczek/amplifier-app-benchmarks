@@ -5,7 +5,7 @@
 The default configuration of the agent makes some assumptions about the `local_source_path` and other settings. It is available at [./agents/amplifier_next_default](./agents/amplifier_next_default).
 The assumptions are:
 - The command to kick start the agent per task is at [./agents/amplifier_next_default/command_template.txt](./agents/amplifier_next_default/command_template.txt)
-- The installation script assumes that the repo contains a `scripts/install-dev.sh` script that can install the agent in a development mode. 
+- The installation script assumes that the repo contains a `scripts/install-dev.sh` script that can install the agent in a development mode.
 - It will automatically ignore any gitignored files from the local source path when building the Docker image.
 
 
@@ -35,12 +35,12 @@ The assumptions are:
 # Troubleshooting
 
 If you run into issues, please double check and think hard in these areas:
-- Make sure the prerequisites are correctly installed and configured. See the README. 
+- Make sure the prerequisites are correctly installed and configured. See the README.
 Common errors may be due to Docker/installs, missing API keys, or misconfiguration. For example using Azure OpenAI within Docker requires additional setup.
 - Double check paths provided to the CLI are correct.
 - Correctly installing an agent from local source can be finicky. Double check that you followed the correct instructions and made any special considerations for the agent running within Docker.
 - Lastly, this app is in active development. Be patient and reach out to the maintainer for help!
-- For deeper troubleshooting, look at the source code of the eval-recipes package. The llms.txt is available at https://github.com/microsoft/eval-recipes/blob/main/llms.txtt and the repo is at https://github.com/microsoft/eval-recipes
+- For deeper troubleshooting, look at the source code of the eval-recipes package. The llms.txt is available at https://github.com/microsoft/eval-recipes/blob/main/llms.txt and the repo is at https://github.com/microsoft/eval-recipes
 
 
 # Common Questions
@@ -54,3 +54,6 @@ A: This is not currently supported without code changes to the app, but is plann
 
 Q: Why is it taking so long?
 A: Each task not only runs the agent solving an often long running problem, but then runs a semantic test which is its own agent that evaluates the output and takes time to do its work. Each task per trial is expected to take upwards of 20 minutes or more.
+
+Q: How can I make it run faster or do more in parallel?
+A: You can set a higher value of `max_parallel_tasks`. This will increase the number of trials that are run in parallel.

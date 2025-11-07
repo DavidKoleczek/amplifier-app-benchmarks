@@ -58,7 +58,7 @@ def fetch_eval_recipes_tasks(mode: str, temp_dir: Path) -> Path:
             "news_research_tool",
         ]
     elif mode == "full":
-        # Full mode: all available tasks
+        # Full mode: all available tasks (excluding sec_10q_extractor)
         task_names = [
             "arxiv_conclusion_extraction",
             "arxiv_paper_summarizer",
@@ -120,11 +120,41 @@ def fetch_eval_recipes_tasks(mode: str, temp_dir: Path) -> Path:
     return tasks_dir
 
 
-def get_mode_defaults(mode: str) -> tuple[int, int]:
+def parse_mode_parameter(mode: str) -> tuple[str | None, Path | None]:
+    """Parse mode parameter into base mode and custom tasks path.
+
+    Args:
+        mode: Mode string which can be:
+            - "sanity_check", "quick", or "full" (predefined modes)
+            - "quick+/path/to/tasks" (combine mode with custom tasks)
+            - "/path/to/tasks" (custom tasks only)
+
+    Returns:
+        Tuple of (base_mode, custom_tasks_path):
+            - ("quick", None) for predefined mode
+            - ("quick", Path("/path")) for combined mode
+            - (None, Path("/path")) for custom only
+    """
+    # Check if mode contains '+' (combined mode)
+    if "+" in mode:
+        base_mode, tasks_path = mode.split("+", 1)
+        if base_mode not in ["sanity_check", "quick", "full"]:
+            raise ValueError(f"Invalid base mode: {base_mode}. Must be sanity_check, quick, or full")
+        return base_mode, Path(tasks_path)
+
+    # Check if mode is a predefined mode
+    if mode in ["sanity_check", "quick", "full"]:
+        return mode, None
+
+    # Otherwise, treat as custom tasks path
+    return None, Path(mode)
+
+
+def get_mode_defaults(mode: str | None) -> tuple[int, int]:
     """Get default num_trials and max_parallel_tasks for a given mode.
 
     Args:
-        mode: Benchmark mode (sanity_check, quick, or full)
+        mode: Benchmark mode (sanity_check, quick, full, or None for custom)
 
     Returns:
         Tuple of (num_trials, max_parallel_tasks)
@@ -135,7 +165,78 @@ def get_mode_defaults(mode: str) -> tuple[int, int]:
         return 2, 10
     if mode == "full":
         return 5, 20
+    if mode is None:  # Custom tasks only
+        return 1, 5
     raise ValueError(f"Unknown mode: {mode}")
+
+
+def prepare_tasks_configuration(
+    base_mode: str | None,
+    custom_tasks_path: Path | None,
+    temp_dir: Path,
+) -> tuple[Path, int]:
+    """Prepare tasks configuration by fetching and/or copying task definitions.
+
+    Args:
+        base_mode: Base mode (sanity_check, quick, full) or None for custom only
+        custom_tasks_path: Path to custom tasks directory, or None for mode-only
+        temp_dir: Temporary directory to store tasks
+
+    Returns:
+        Tuple of (tasks_dir, num_tasks)
+    """
+    tasks_dir = temp_dir / "tasks"
+    tasks_dir.mkdir(parents=True, exist_ok=True)
+
+    num_tasks = 0
+
+    # Fetch eval-recipes tasks if base mode specified
+    if base_mode:
+        console.print(f"[cyan]Fetching {base_mode} tasks from eval-recipes...[/cyan]")
+        eval_tasks_dir = fetch_eval_recipes_tasks(mode=base_mode, temp_dir=temp_dir)
+        num_tasks = len(list(eval_tasks_dir.iterdir()))
+        console.print(f"[green]✓[/green] Fetched {num_tasks} eval-recipes tasks")
+
+    # Copy custom tasks if path specified
+    if custom_tasks_path:
+        if not custom_tasks_path.exists():
+            raise ValueError(f"Custom tasks path does not exist: {custom_tasks_path}")
+        if not custom_tasks_path.is_dir():
+            raise ValueError(f"Custom tasks path is not a directory: {custom_tasks_path}")
+
+        console.print(f"[cyan]Copying custom tasks from {custom_tasks_path}...[/cyan]")
+
+        # Copy each task directory
+        custom_count = 0
+        for task_dir in custom_tasks_path.iterdir():
+            if not task_dir.is_dir():
+                continue
+
+            # Validate required files
+            required_files = ["task.yaml", "instructions.txt", "test.py"]
+            missing_files = [f for f in required_files if not (task_dir / f).exists()]
+            if missing_files:
+                console.print(
+                    f"[yellow]⚠[/yellow] Skipping {task_dir.name}: missing {', '.join(missing_files)}"
+                )
+                continue
+
+            # Copy task directory to tasks_dir
+            dest_task_dir = tasks_dir / task_dir.name
+            if dest_task_dir.exists():
+                console.print(f"[yellow]⚠[/yellow] Skipping {task_dir.name}: already exists (from eval-recipes)")
+                continue
+
+            shutil.copytree(task_dir, dest_task_dir)
+            custom_count += 1
+
+        console.print(f"[green]✓[/green] Copied {custom_count} custom tasks")
+        num_tasks += custom_count
+
+    if num_tasks == 0:
+        raise ValueError("No tasks found. Check your mode or custom tasks path.")
+
+    return tasks_dir, num_tasks
 
 
 def prepare_agent_configuration(
@@ -209,13 +310,17 @@ def prepare_agent_configuration(
 )
 @click.option(
     "--mode",
-    type=click.Choice(["sanity_check", "quick", "full"], case_sensitive=False),
+    type=str,
     default="quick",
     help=(
-        "Benchmark mode. "
-        "sanity_check: 2 simple tasks (1 trial each). "
-        "quick: 5 representative tasks (2 trials, 10 parallel, ~1 hour). "
-        "full: all tasks (5 trials, 20 parallel, many hours)."
+        "Task selection mode:\n\n"
+        "Predefined modes:\n"
+        "  sanity_check: 2 tasks (1 trial, 2 parallel)\n"
+        "  quick: 5 tasks (2 trials, 10 parallel, ~1 hour) [default]\n"
+        "  full: 14 tasks (5 trials, 20 parallel, many hours)\n\n"
+        "Custom tasks:\n"
+        "  quick+/path/to/tasks: Add custom tasks to quick mode\n"
+        "  /path/to/tasks: Custom tasks only (1 trial, 5 parallel default)"
     ),
 )
 @click.option(
@@ -297,31 +402,63 @@ def main(
             temp_dir=temp_dir,
         )
 
-        # Fetch task data
-        tasks_dir = fetch_eval_recipes_tasks(mode=mode, temp_dir=temp_dir)
+        # Parse mode parameter
+        base_mode, custom_tasks_path = parse_mode_parameter(mode)
+
+        # Prepare tasks configuration
+        tasks_dir, num_tasks = prepare_tasks_configuration(
+            base_mode=base_mode,
+            custom_tasks_path=custom_tasks_path,
+            temp_dir=temp_dir,
+        )
 
         # Get mode defaults and apply overrides
-        default_num_trials, default_max_parallel = get_mode_defaults(mode)
+        default_num_trials, default_max_parallel = get_mode_defaults(base_mode)
         final_num_trials = num_trials if num_trials is not None else default_num_trials
         final_max_parallel = max_parallel_tasks if max_parallel_tasks is not None else default_max_parallel
 
-        # Get task names for display
-        if mode == "sanity_check":
-            task_display = "arxiv_conclusion_extraction, cpsc_recall_monitor"
-        elif mode == "quick":
-            task_display = (
-                "cpsc_recall_monitor, email_drafting, product_review_finder, style_blender, news_research_tool"
-            )
-        else:  # full
-            task_display = "all tasks"
+        # Build task display string
+        task_parts = []
+        if base_mode == "sanity_check":
+            task_parts.append("2 eval-recipes tasks")
+        elif base_mode == "quick":
+            task_parts.append("5 eval-recipes tasks")
+        elif base_mode == "full":
+            task_parts.append("14 eval-recipes tasks")
+
+        if custom_tasks_path:
+            # Calculate number of custom tasks
+            eval_count = 0
+            if base_mode == "sanity_check":
+                eval_count = 2
+            elif base_mode == "quick":
+                eval_count = 5
+            elif base_mode == "full":
+                eval_count = 14
+
+            custom_count = num_tasks - eval_count
+            if base_mode:
+                task_parts.append(f"{custom_count} custom tasks")
+            else:
+                task_parts = [f"{num_tasks} custom tasks"]
+
+        task_display = " + ".join(task_parts) if task_parts else f"{num_tasks} tasks"
+
+        # Determine mode display name
+        if base_mode and custom_tasks_path:
+            mode_display = f"{base_mode} + custom"
+        elif base_mode:
+            mode_display = base_mode
+        else:
+            mode_display = "custom"
 
         # Show configuration
         console.print()
         console.print("[cyan]Configuration:[/cyan]")
-        console.print(f"  Mode: {mode}")
+        console.print(f"  Mode: {mode_display}")
         console.print(f"  Agent: {agent_name}")
         console.print(f"  Local source: {local_source_path}")
-        console.print(f"  Tasks: {task_display}")
+        console.print(f"  Tasks: {task_display} ({num_tasks} total)")
         console.print(f"  Trials per task: {final_num_trials}{' (default)' if num_trials is None else ' (override)'}")
         console.print(
             f"  Max parallel tasks: {final_max_parallel}{' (default)' if max_parallel_tasks is None else ' (override)'}"

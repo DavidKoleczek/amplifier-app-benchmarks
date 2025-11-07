@@ -50,7 +50,12 @@ A: Currently, the recommendation is to point the `local_source_path` to differen
 In the future, we may add support for specifying multiple agents to compare in a single run.
 
 Q: How can I specify different or my own tasks to run?
-A: This is not currently supported without code changes to the app, but is planned soon.
+A: Use the --mode parameter with a path to your custom tasks directory:
+   - Add to mode: `--mode quick+./my-tasks/` (runs eval-recipes + custom)
+   - Replace mode: `--mode ./my-tasks/` (runs only custom tasks)
+
+   Each task must be in a subdirectory with required files: task.yaml, instructions.txt, and test.py.
+   For now, the details of the structure are available in the eval-recipes library itself.
 
 Q: Why is it taking so long?
 A: Each task not only runs the agent solving an often long running problem, but then runs a semantic test which is its own agent that evaluates the output and takes time to do its work. Each task per trial is expected to take upwards of 20 minutes or more.

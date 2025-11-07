@@ -1,0 +1,10 @@
+Create a Python command-line utility that prints the current machine's CPU core count and total RAM. The output must be exactly two lines in this format:
+
+CPU Cores: <number>
+RAM: <number> GB
+
+Example output:
+CPU Cores: 8
+RAM: 16 GB
+
+The RAM value should be in gigabytes (GB, decimal 1000-based) rounded to the nearest whole number.

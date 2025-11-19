@@ -216,9 +216,7 @@ def prepare_tasks_configuration(
             required_files = ["task.yaml", "instructions.txt", "test.py"]
             missing_files = [f for f in required_files if not (task_dir / f).exists()]
             if missing_files:
-                console.print(
-                    f"[yellow]⚠[/yellow] Skipping {task_dir.name}: missing {', '.join(missing_files)}"
-                )
+                console.print(f"[yellow]⚠[/yellow] Skipping {task_dir.name}: missing {', '.join(missing_files)}")
                 continue
 
             # Copy task directory to tasks_dir
@@ -279,6 +277,13 @@ def prepare_agent_configuration(
 
     for file in required_files:
         shutil.copy2(source_agent_dir / file, dest_agent_dir / file)
+
+    # Copy data directory if it exists
+    source_data_dir = source_agent_dir / "data"
+    if source_data_dir.exists() and source_data_dir.is_dir():
+        dest_data_dir = dest_agent_dir / "data"
+        shutil.copytree(source_data_dir, dest_data_dir)
+        console.print("[green]✓[/green] Copied data directory from agent definition")
 
     # Update agent.yaml with actual local_source_path
     agent_yaml_path = dest_agent_dir / "agent.yaml"
@@ -341,6 +346,17 @@ def prepare_agent_configuration(
     default=None,
     help="Maximum number of tasks to run in parallel",
 )
+@click.option(
+    "--enable-agent-continuation/--disable-agent-continuation",
+    default=True,
+    help="Enable or disable agent continuation checks",
+)
+@click.option(
+    "--report-score-threshold",
+    type=float,
+    default=85.0,
+    help="Minimum score threshold to skip report generation (reports generated for scores below this)",
+)
 def main(
     local_source_path: Path,
     override_agent_path: Path | None,
@@ -348,6 +364,8 @@ def main(
     runs_dir: Path,
     num_trials: int | None,
     max_parallel_tasks: int | None,
+    enable_agent_continuation: bool,
+    report_score_threshold: float,
 ) -> None:
     """Run benchmarks for Amplifier using eval-recipes."""
     # Show banner
@@ -482,6 +500,8 @@ def main(
             task_filters=None,  # Run all fetched tasks
             max_parallel_tasks=final_max_parallel,
             num_trials=final_num_trials,
+            enable_agent_continuation=enable_agent_continuation,
+            report_score_threshold=report_score_threshold,
         )
 
         # Run benchmarks

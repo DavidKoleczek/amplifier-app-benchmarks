@@ -1,4 +1,9 @@
+## Documentation
+
 @README.md
+@docs/CREATE_BENCHMARK_TASK.md
+@docs/CREATE_SEMANTIC_TEST.md
+
 
 ## Changing Configuration of the Local Agent
 

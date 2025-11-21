@@ -41,6 +41,10 @@ uv run run_benchmarks \
     --mode quick
 ```
 
+### Creating Custom Agents and Tasks
+
+See [docs/CREATE_BENCHMARK_TASK.md](docs/CREATE_BENCHMARK_TASK.md) and [docs/CREATE_SEMANTIC_TEST.md](docs/CREATE_SEMANTIC_TEST.md)
+
 
 ## Interpreting Results
 

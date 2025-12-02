@@ -28,6 +28,7 @@ dependencies = [
 
 [project.scripts]
 run_benchmarks = "amplifier_app_benchmarks.cli:main"
+run_harbor = "amplifier_app_benchmarks.harbor.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/DavidKoleczek/amplifier-app-benchmarks"
@@ -53,6 +54,9 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/amplifier_app_benchmarks"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/amplifier_app_benchmarks/harbor/amplifier_install.sh" = "amplifier_app_benchmarks/harbor/amplifier_install.sh"
 
 [tool.ruff]
 line-length = 120

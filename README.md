@@ -4,6 +4,8 @@ Provide a uvx-installable tool for benchmarking and testing local versions of Am
 
 The tool is a custom wrapper around [eval-recipes](https://github.com/microsoft/eval-recipes)'s benchmarking capability, preconfigured for Amplifier.
 
+We also provide an experimental wrapper around [Harbor](https://harborframework.com/docs/getting-started#installation) to facilitate running industry benchmarks like terminal-bench 2.0. It is detailed at the end.
+
 
 ## Quick Start
 
@@ -35,6 +37,9 @@ git clone https://github.com/DavidKoleczek/amplifier-app-benchmarks.git
 cd amplifier-app-benchmarks
 uv venv
 uv pip install -e .
+# harbor requires openai<1.100.0 but eval-recipes requires openai>=2.1, so we install harbor without deps and add them manually
+uv pip install harbor==0.1.18 --no-deps
+uv pip install "jinja2>=3.1.6" "pydantic>=2.11.7" "shortuuid>=1.0.13" "typer>=0.16.0" "requests>=2.32.4" "pyyaml>=6.0.2" "rich>=14.1.0" "toml>=0.10.2" "tenacity>=9.1.2" "python-dotenv>=1.1.1" "litellm>=1.79.0" "dirhash>=0.5.0" "e2b>=2.4.2" "modal>=1.2.1" "datasets>=4.4.1" "runloop-api-client>=0.64.0" "daytona==0.112.2"
 uv run run_benchmarks \
     --local_source_path /path/to/local/amplifier-development/ \
     --runs-dir ".benchmark_results/" \
@@ -49,6 +54,7 @@ uv run run_benchmarks \
     --runs-dir ".benchmark_results/" \
     --mode sanity_check
 ```
+
 
 ### Creating Custom Agents and Tasks
 
@@ -69,14 +75,9 @@ Results are saved to timestamped directories in `runs-dir` (defaults to `.benchm
 
 Scores range from 0-100%. The consolidated report categorizes failures and provides actionable insights for agent improvements.
 
+## `run_benchmarks` CLI Options
 
-# Architecture
-
-A Python Click CLI app to implement a custom version of the eval-recipes' benchmarking script found [here](https://github.com/DavidKoleczek/eval-recipes/blob/main/scripts/run_benchmarks.py).
-
-## CLI Options
-
-The CLI app has the following options:
+The `run_benchmarks` command has the following options:
 - `local_source_path` path to your local amplifier development repo to be evaluated. Uses the agent definition at [./agents/amplifier_next_default](./agents/amplifier_next_default). **Mutually exclusive with `--agent`.**
 - `agent` use a predefined bundled agent that pulls from git (e.g., `amplifier_v2_toolkit`). **Mutually exclusive with `--local_source_path`.**
 - `override_agent_path` optional path to a custom agent definition (only with `--local_source_path`).
@@ -99,6 +100,36 @@ The CLI app has the following options:
 - `report-score-threshold` minimum score threshold to skip report generation (reports generated for scores below this). Defaults to 85.0.
 
 
-# Roadmap
+## Run Terminal-Bench with Harbor
 
-- Integration with off the shelf benchmarks (such as terminal-bench) for comparison against other agents.
+Run the [terminal-bench@2.0](https://github.com/laude-institute/harbor) benchmark using Harbor. This runs a **predetermined version of Amplifier** (from `microsoft/amplifier@next` with `amplifier-collection-toolkit@main`) using the `toolkit:toolkit-dev` profile and `claude-sonnet-4-5-20250929` model by default.
+
+**Note:** Harbor must be configured separately. See the [Harbor GitHub repository](https://github.com/laude-institute/harbor) and [Harbor documentation](https://harborframework.com/docs/getting-started) for installation instructions.
+
+```bash
+# Run all 89 terminal-bench tasks with multiple concurrent trials
+uv run run_harbor --n-concurrent 2 --n-attempts 3
+
+# Run a specific task 
+uv run run_harbor --task prove-plus-comm 
+
+# List available datasets
+uv run run_harbor --list-datasets
+
+# List tasks in terminal-bench
+uv run run_harbor --list-tasks
+
+# Specify output directory
+uv run run_harbor --jobs-dir ./my_results
+```
+
+**Harbor CLI Options:**
+- `--dataset` / `-d`: Benchmark dataset (default: `terminal-bench`)
+- `--version` / `-v`: Dataset version (default: `2.0`)
+- `--task` / `-t`: Specific task to run (omit for all tasks)
+- `--model` / `-m`: LLM model for the agent (default: `claude-sonnet-4-5-20250929`)
+- `--n-concurrent` / `-n`: Number of concurrent trials (default: `1`)
+- `--n-attempts` / `-k`: Number of attempts per task (default: `1`)
+- `--jobs-dir` / `-o`: Output directory (default: `./harbor_jobs`)
+- `--list-datasets`: List available datasets from Harbor registry
+- `--list-tasks`: List tasks in the selected dataset

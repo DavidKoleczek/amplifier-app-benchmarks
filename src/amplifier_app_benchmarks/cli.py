@@ -9,6 +9,7 @@ import tempfile
 import urllib.error
 import urllib.request
 from pathlib import Path
+from typing import Literal, cast
 
 import click
 import yaml
@@ -300,18 +301,77 @@ def prepare_agent_configuration(
     return agents_dir, agent_name
 
 
+def prepare_predefined_agent(agent_name: str, temp_dir: Path) -> tuple[Path, str]:
+    """Prepare a predefined bundled agent (no local source needed).
+
+    Args:
+        agent_name: Name of the predefined agent (e.g., 'amplifier_v2_toolkit')
+        temp_dir: Temporary directory to store agent configuration
+
+    Returns:
+        Tuple of (agents_dir, agent_name)
+    """
+    # Locate the bundled agent
+    package_dir = Path(__file__).parent.parent.parent
+    source_agent_dir = package_dir / "agents" / agent_name
+
+    if not source_agent_dir.exists():
+        raise ValueError(f"Predefined agent not found: {agent_name}")
+
+    console.print(f"[cyan]Using predefined agent: {agent_name}[/cyan]")
+
+    # Validate required files
+    required_files = ["agent.yaml", "install.dockerfile", "command_template.txt"]
+    for file in required_files:
+        if not (source_agent_dir / file).exists():
+            raise ValueError(f"Agent directory missing required file: {file}")
+
+    # Copy agent directory to temp location
+    agents_dir = temp_dir / "agents"
+    dest_agent_dir = agents_dir / agent_name
+    dest_agent_dir.mkdir(parents=True, exist_ok=True)
+
+    # Copy required files
+    for file in required_files:
+        shutil.copy2(source_agent_dir / file, dest_agent_dir / file)
+
+    # Copy optional files if they exist
+    optional_files = ["command_template_continue.txt"]
+    for file in optional_files:
+        source_file = source_agent_dir / file
+        if source_file.exists():
+            shutil.copy2(source_file, dest_agent_dir / file)
+
+    # Copy data directory if it exists
+    source_data_dir = source_agent_dir / "data"
+    if source_data_dir.exists() and source_data_dir.is_dir():
+        dest_data_dir = dest_agent_dir / "data"
+        shutil.copytree(source_data_dir, dest_data_dir)
+        console.print("[green]✓[/green] Copied data directory from agent definition")
+
+    console.print(f"[green]✓[/green] Configured predefined agent: {agent_name}")
+
+    return agents_dir, agent_name
+
+
 @click.command()
 @click.option(
     "--local_source_path",
     type=click.Path(exists=True, file_okay=False, path_type=Path),
-    required=True,
-    help="Path to local amplifier-dev repository to be evaluated",
+    default=None,
+    help="Path to local amplifier-dev repository to be evaluated (mutually exclusive with --agent)",
+)
+@click.option(
+    "--agent",
+    type=click.Choice(["amplifier_v2_toolkit"], case_sensitive=False),
+    default=None,
+    help="Use a predefined bundled agent (mutually exclusive with --local_source_path)",
 )
 @click.option(
     "--override_agent_path",
     type=click.Path(exists=True, file_okay=False, path_type=Path),
     default=None,
-    help="Optional path to custom agent definition (default: uses bundled amplifier_next_default)",
+    help="Optional path to custom agent definition (only with --local_source_path)",
 )
 @click.option(
     "--mode",
@@ -341,15 +401,22 @@ def prepare_agent_configuration(
     help="Number of times to run each task",
 )
 @click.option(
-    "--max-parallel-tasks",
+    "--max-parallel-trials",
     type=int,
     default=None,
-    help="Maximum number of tasks to run in parallel",
+    help="Maximum number of trials to run in parallel",
 )
 @click.option(
-    "--enable-agent-continuation/--disable-agent-continuation",
-    default=True,
-    help="Enable or disable agent continuation checks",
+    "--continuation-provider",
+    type=click.Choice(["openai", "azure_openai", "none"], case_sensitive=False),
+    default="openai",
+    help="LLM provider for agent continuation ('none' to disable)",
+)
+@click.option(
+    "--continuation-model",
+    type=click.Choice(["gpt-5", "gpt-5.1"], case_sensitive=False),
+    default="gpt-5",
+    help="Model to use for agent continuation decisions",
 )
 @click.option(
     "--report-score-threshold",
@@ -358,13 +425,15 @@ def prepare_agent_configuration(
     help="Minimum score threshold to skip report generation (reports generated for scores below this)",
 )
 def main(
-    local_source_path: Path,
+    local_source_path: Path | None,
+    agent: str | None,
     override_agent_path: Path | None,
     mode: str,
     runs_dir: Path,
     num_trials: int | None,
-    max_parallel_tasks: int | None,
-    enable_agent_continuation: bool,
+    max_parallel_trials: int | None,
+    continuation_provider: str,
+    continuation_model: str,
     report_score_threshold: float,
 ) -> None:
     """Run benchmarks for Amplifier using eval-recipes."""
@@ -378,13 +447,18 @@ def main(
     )
     console.print()
 
-    # Validate local_source_path
-    if not local_source_path.exists():
-        console.print(f"[red]Error: Local source path does not exist: {local_source_path}[/red]")
+    # Validate mutually exclusive options
+    if agent and local_source_path:
+        console.print("[red]Error: --agent and --local_source_path are mutually exclusive[/red]")
         raise click.Abort()
 
-    if not local_source_path.is_dir():
-        console.print(f"[red]Error: Local source path is not a directory: {local_source_path}[/red]")
+    if not agent and not local_source_path:
+        console.print("[red]Error: Must specify either --agent or --local_source_path[/red]")
+        raise click.Abort()
+
+    # Validate override_agent_path only allowed with local_source_path
+    if override_agent_path and agent:
+        console.print("[red]Error: --override_agent_path can only be used with --local_source_path[/red]")
         raise click.Abort()
 
     # Validate override_agent_path if provided
@@ -414,11 +488,20 @@ def main(
 
     try:
         # Prepare agent configuration
-        agents_dir, agent_name = prepare_agent_configuration(
-            local_source_path=local_source_path,
-            override_agent_path=override_agent_path,
-            temp_dir=temp_dir,
-        )
+        if agent:
+            # Use predefined bundled agent
+            agents_dir, resolved_agent_name = prepare_predefined_agent(
+                agent_name=agent,
+                temp_dir=temp_dir,
+            )
+        else:
+            # Use local source with default or custom agent template
+            assert local_source_path is not None  # Validated above
+            agents_dir, resolved_agent_name = prepare_agent_configuration(
+                local_source_path=local_source_path,
+                override_agent_path=override_agent_path,
+                temp_dir=temp_dir,
+            )
 
         # Parse mode parameter
         base_mode, custom_tasks_path = parse_mode_parameter(mode)
@@ -433,7 +516,7 @@ def main(
         # Get mode defaults and apply overrides
         default_num_trials, default_max_parallel = get_mode_defaults(base_mode)
         final_num_trials = num_trials if num_trials is not None else default_num_trials
-        final_max_parallel = max_parallel_tasks if max_parallel_tasks is not None else default_max_parallel
+        final_max_parallel = max_parallel_trials if max_parallel_trials is not None else default_max_parallel
 
         # Build task display string
         task_parts = []
@@ -474,18 +557,20 @@ def main(
         console.print()
         console.print("[cyan]Configuration:[/cyan]")
         console.print(f"  Mode: {mode_display}")
-        console.print(f"  Agent: {agent_name}")
-        console.print(f"  Local source: {local_source_path}")
+        console.print(f"  Agent: {resolved_agent_name}")
+        if local_source_path:
+            console.print(f"  Local source: {local_source_path}")
+        else:
+            console.print("  Local source: N/A (predefined agent)")
         console.print(f"  Tasks: {task_display} ({num_tasks} total)")
         console.print(f"  Trials per task: {final_num_trials}{' (default)' if num_trials is None else ' (override)'}")
-        console.print(
-            f"  Max parallel tasks: {final_max_parallel}{' (default)' if max_parallel_tasks is None else ' (override)'}"
-        )
+        max_parallel_suffix = " (default)" if max_parallel_trials is None else " (override)"
+        console.print(f"  Max parallel trials: {final_max_parallel}{max_parallel_suffix}")
         console.print(f"  Results directory: {runs_dir}")
         console.print()
 
         # Set up agent filter (run all fetched tasks)
-        agent_filters = [f"name={agent_name}"]
+        agent_filters = [f"name={resolved_agent_name}"]
 
         # Create harness
         harness = Harness(
@@ -498,16 +583,17 @@ def main(
             },
             agent_filters=agent_filters,
             task_filters=None,  # Run all fetched tasks
-            max_parallel_tasks=final_max_parallel,
+            max_parallel_trials=final_max_parallel,
             num_trials=final_num_trials,
-            enable_agent_continuation=enable_agent_continuation,
+            continuation_provider=cast(Literal["openai", "azure_openai", "none"], continuation_provider),
+            continuation_model=cast(Literal["gpt-5", "gpt-5.1"], continuation_model),
             report_score_threshold=report_score_threshold,
         )
 
         # Run benchmarks
         console.print("[bold cyan]Running benchmarks...[/bold cyan]")
         console.print()
-        asyncio.run(harness.run(generate_reports=True))
+        asyncio.run(harness.run())
 
         # Show completion message
         console.print()

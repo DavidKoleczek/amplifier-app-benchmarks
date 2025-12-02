@@ -38,7 +38,16 @@ uv pip install -e .
 uv run run_benchmarks \
     --local_source_path /path/to/local/amplifier-development/ \
     --runs-dir ".benchmark_results/" \
-    --mode quick
+    --mode sanity_check
+```
+
+### Run with Predefined Agent (no local source needed)
+
+```bash
+uv run run_benchmarks \
+    --agent amplifier_v2_toolkit \
+    --runs-dir ".benchmark_results/" \
+    --mode sanity_check
 ```
 
 ### Creating Custom Agents and Tasks
@@ -68,8 +77,9 @@ A Python Click CLI app to implement a custom version of the eval-recipes' benchm
 ## CLI Options
 
 The CLI app has the following options:
-- `local_source_path` is the path to your local amplifier development repo to be evaluated. This will use the agent definition found at [./agents/amplifier_next_default](./agents/amplifier_next_default) by default.
-- `override_agent_path` optional path to a custom agent definition to use instead of the default one provided.
+- `local_source_path` path to your local amplifier development repo to be evaluated. Uses the agent definition at [./agents/amplifier_next_default](./agents/amplifier_next_default). **Mutually exclusive with `--agent`.**
+- `agent` use a predefined bundled agent that pulls from git (e.g., `amplifier_v2_toolkit`). **Mutually exclusive with `--local_source_path`.**
+- `override_agent_path` optional path to a custom agent definition (only with `--local_source_path`).
 - `mode` determines which tasks are run and execution defaults.
   - **Predefined modes:**
     - `sanity_check`: 2 simple tasks (1 trial, 2 parallel) - Quick validation
@@ -83,7 +93,10 @@ The CLI app has the following options:
   Predefined modes pull tasks from the eval-recipes repo. Custom tasks are copied from your local directory.
 - `runs-dir` directory to output results. Defaults to current directory / ".benchmark_results"
 - `num_trials` number of times to try each task, defaults to 1 for faster iteration. If provided, this overrides the amount set by the mode
-- `max_parallel_tasks` maximum number of tasks to run in parallel. If provided, this overrides the default set by the mode.
+- `max_parallel_trials` maximum number of trials to run in parallel. If provided, this overrides the default set by the mode.
+- `continuation-provider` LLM provider for agent continuation - `openai`, `azure_openai`, or `none` to disable. Defaults to `openai`.
+- `continuation-model` model to use for agent continuation decisions - `gpt-5` or `gpt-5.1`. Defaults to `gpt-5`.
+- `report-score-threshold` minimum score threshold to skip report generation (reports generated for scores below this). Defaults to 85.0.
 
 
 # Roadmap

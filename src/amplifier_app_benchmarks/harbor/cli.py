@@ -8,20 +8,18 @@ import click
 from dotenv import load_dotenv
 from rich.console import Console
 
-from .runner import (
-    DEFAULT_DATASET,
-    DEFAULT_DEBUG,
-    DEFAULT_JOBS_DIR,
-    DEFAULT_MODEL,
-    DEFAULT_N_ATTEMPTS,
-    DEFAULT_N_CONCURRENT,
-    DEFAULT_QUIET,
-    DEFAULT_TIMEOUT_MULTIPLIER,
-    DEFAULT_VERSION,
-    list_datasets,
-    list_tasks,
-    run_job,
-)
+from .runner import DEFAULT_DATASET
+from .runner import DEFAULT_DEBUG
+from .runner import DEFAULT_JOBS_DIR
+from .runner import DEFAULT_MODEL
+from .runner import DEFAULT_N_ATTEMPTS
+from .runner import DEFAULT_N_CONCURRENT
+from .runner import DEFAULT_QUIET
+from .runner import DEFAULT_TIMEOUT_MULTIPLIER
+from .runner import DEFAULT_VERSION
+from .runner import list_datasets
+from .runner import list_tasks
+from .runner import run_job
 
 load_dotenv()
 console = Console()

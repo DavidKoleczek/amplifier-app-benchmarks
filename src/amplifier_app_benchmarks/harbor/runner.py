@@ -7,9 +7,13 @@ import sys
 from pathlib import Path
 
 from harbor.job import Job
-from harbor.models.job.config import JobConfig, OrchestratorConfig, RegistryDatasetConfig
-from harbor.models.registry import Registry, RemoteRegistryInfo
-from harbor.models.trial.config import AgentConfig, EnvironmentConfig
+from harbor.models.job.config import JobConfig
+from harbor.models.job.config import OrchestratorConfig
+from harbor.models.job.config import RegistryDatasetConfig
+from harbor.models.registry import Registry
+from harbor.models.registry import RemoteRegistryInfo
+from harbor.models.trial.config import AgentConfig
+from harbor.models.trial.config import EnvironmentConfig
 from rich.console import Console
 from rich.table import Table
 

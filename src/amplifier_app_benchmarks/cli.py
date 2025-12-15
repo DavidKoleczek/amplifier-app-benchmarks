@@ -9,7 +9,8 @@ import tempfile
 import urllib.error
 import urllib.request
 from pathlib import Path
-from typing import Literal, cast
+from typing import Literal
+from typing import cast
 
 import click
 import yaml

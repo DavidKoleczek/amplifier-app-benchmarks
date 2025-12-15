@@ -5,7 +5,8 @@
 import os
 from pathlib import Path
 
-from harbor.agents.installed.base import BaseInstalledAgent, ExecInput
+from harbor.agents.installed.base import BaseInstalledAgent
+from harbor.agents.installed.base import ExecInput
 from harbor.models.agent.context import AgentContext
 
 

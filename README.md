@@ -11,12 +11,67 @@
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </p>
 
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - [uv](https://docs.astral.sh/uv/getting-started/installation/)
-- [prek](https://github.com/j178/prek/blob/master/README.md#installation)
+- Install [Docker Desktop](https://docs.docker.com/desktop/) for work on systems running Windows* or [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) on setups like WSL 2.
+  - After installing Docker Engine on WSL 2, ensure your user has docker permissions by running:
+    - `sudo usermod -aG docker $USER`
+    - `newgrp docker`
+- The Claude Agent SDK which requires setting up [Claude Code](https://docs.claude.com/en/docs/claude-code/overview)
+- [`ANTHROPIC_API_KEY`](https://platform.claude.com/docs/en/get-started) for the Claude Agent SDK.
+- [`OPENAI_API_KEY`](https://platform.openai.com/api-keys) if using agent continuation (see parameters below, or running tasks that requires it as a dependency).
+
+\* All features may not currently work on Windows due to Claude Agent SDK limitations.
+
+
+## Usage
+
+### Run directly with uvx (no installation required)
+
+```bash
+uvx --from "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks" amplifier-benchmarks run \
+    path/to/eval-setup.yaml \
+    --agents-dir path/to/agents \
+    --tasks-dir path/to/tasks
+```
+
+### Install as a tool
+
+```bash
+uv tool install "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks"
+
+amplifier-benchmarks run path/to/eval-setup.yaml --agents-dir path/to/agents --tasks-dir path/to/tasks
+```
+
+### Run from a local clone
+
+```bash
+git clone https://github.com/DavidKoleczek/amplifier-app-benchmarks
+cd amplifier-app-benchmarks
+
+# Run using uv
+uv run amplifier-benchmarks run data/eval-setups/sample.yaml --agents-dir data/agents --tasks-dir data/tasks
+```
+
+### CLI Options
+
+```
+amplifier-benchmarks run [OPTIONS] EVAL_SETUP
+
+Arguments:
+  EVAL_SETUP  Path to a YAML file defining which agents and tasks to run.
+
+Options:
+  --agents-dir PATH              Directory containing agent configurations.
+  --tasks-dir PATH               Directory containing task definitions.
+  --runs-dir PATH                Output directory for results (creates timestamped dir if not provided).
+  --max-parallel INTEGER         Maximum number of trials to run in parallel (default: 5).
+  --continuation-provider TEXT   LLM provider for agent continuation: openai, azure_openai, or none (default: none).
+```
+
+
+## Development
 
 ### Setup
 
@@ -26,7 +81,7 @@ Create uv virtual environment and install dependencies:
 uv sync --frozen --all-extras --all-groups
 ```
 
-Set up git hooks:
+Set up git hooks (requires [prek](https://github.com/j178/prek/blob/master/README.md#installation)):
 
 ```bash
 prek install

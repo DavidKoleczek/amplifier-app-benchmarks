@@ -1,6 +1,6 @@
-"""Allow running the package as a module: python -m amplifier_app_benchmarks"""
+"""Entry point for running the CLI as a module."""
 
-from amplifier_app_benchmarks.cli import main
+from amplifier_app_benchmarks.cli import cli
 
 if __name__ == "__main__":
-    main()
+    cli()

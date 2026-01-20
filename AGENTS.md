@@ -1,69 +1,28 @@
-## Documentation
+# General Instructions
+- Amplifier App Benchmarks is a production-grade Python package. You must *always* follow best open-source Python practices. 
+- Shortcuts are not appropriate. When in doubt, you must work with the user for guidance.
+- Any documentation you write, including in the README.md, should be clear, concise, and accurate like the official documentation of other production-grade Python packages.
+- Make sure any comments in code are necessary. A necessary comment captures intent that cannot be encoded in names, types, or structure. Comments should be reserved for the "why", only used to record rationale, trade-offs, links to specs/papers, or non-obvious domain insights. They should add signal that code cannot.
+- The current code in the package should be treated as an example of high quality code. Make sure to follow its style and tackle issues in similar ways where appropriate.
+- Do not run tests automatically unless asked since they take a while.
+
+# Python Development Instructions
+- Add new dependencies with `uv add <package-name>`, then update pyproject.toml to follow the existing structure (e.g., version constraints like `>=X.Y,<Z.0`).
+- `ty` by Astral is used for type checking. Always add appropriate type hints such that the code would pass ty's type check.
+- Follow the Google Python Style Guide.
+- After each code change, checks are automatically run. Fix any issues that arise.
+- **IMPORTANT**: The checks will remove any unused imports after you make an edit to a file. So if you need to use a new import, be sure to use it FIRST (or do your edits at the same time) or else it will be automatically removed. DO NOT use local imports to get around this.
+- Always prefer pathlib for dealing with files. Use `Path.open` instead of `open`. 
+- When using pathlib, **always** Use `.parents[i]` syntax to go up directories instead of using `.parent` multiple times.
+- NEVER use `# type: ignore`. It is better to leave the issue and have the user work with you to fix it.
+- You must use the source code of libraries as your source of truth for how to use them.
+
+# Documentation Instructions
+- Keep it very concise
+- No emojis or em dashes.
+
+# Key Files
 
 @README.md
-@docs/CREATE_BENCHMARK_TASK.md
-@docs/CREATE_SEMANTIC_TEST.md
 
-
-## Changing Configuration of the Local Agent
-
-The default configuration of the agent makes some assumptions about the `local_source_path` and other settings. It is available at [./agents/amplifier_next_default](./agents/amplifier_next_default).
-The assumptions are:
-- The command to kick start the agent per task is at [./agents/amplifier_next_default/command_template.txt](./agents/amplifier_next_default/command_template.txt)
-- The installation script assumes that the repo contains a `scripts/install-dev.sh` script that can install the agent in a development mode.
-- It will automatically ignore any gitignored files from the local source path when building the Docker image.
-
-
-### Creating a Local Agent Variant
-
-1. Create a new agent directory (e.g., `data/agents/your_agent_local/`)
-2. Add `agent.yaml` with `local_source_path` pointing to your local source:
-   ```yaml
-   local_source_path: /absolute/path/to/your/agent/source
-   required_env_vars:
-     - API_KEY
-   ```
-3. Create `install.dockerfile` that installs from `/tmp/agent_source/` (where source is automatically copied)
-4. Copy or create `command_template.txt`
-
-
-### How It Works
-
-1. Harness validates `local_source_path` exists
-2. Collects files, respecting `.gitignore` if present (otherwise excludes `.git`, `.venv`, `__pycache__`, etc.)
-3. Adds files to Docker build context as `agent_source/`
-4. Copies `agent_source` to `/tmp/agent_source/` in container
-5. Your `install.dockerfile` installs from there. This dockerfile should install the agent so that it is globally available. The commands will run in `/project/`, not where the agent's files are.
-6. Image is rebuilt each run, capturing your latest changes
-
-
-# Troubleshooting
-
-If you run into issues, please double check and think hard in these areas:
-- Make sure the prerequisites are correctly installed and configured. See the README.
-Common errors may be due to Docker/installs, missing API keys, or misconfiguration. For example using Azure OpenAI within Docker requires additional setup.
-- Double check paths provided to the CLI are correct.
-- Correctly installing an agent from local source can be finicky. Double check that you followed the correct instructions and made any special considerations for the agent running within Docker.
-- Lastly, this app is in active development. Be patient and reach out to the maintainer for help!
-- For deeper troubleshooting, look at the source code of the eval-recipes package. The llms.txt is available at https://github.com/microsoft/eval-recipes/blob/main/llms.txt and the repo is at https://github.com/microsoft/eval-recipes
-
-
-# Common Questions
-
-Q: How can I compare the performance of different agents?
-A: Currently, the recommendation is to point the `local_source_path` to different local versions of Amplifier that have different agent definitions checked out.
-In the future, we may add support for specifying multiple agents to compare in a single run.
-
-Q: How can I specify different or my own tasks to run?
-A: Use the --mode parameter with a path to your custom tasks directory:
-   - Add to mode: `--mode quick+./my-tasks/` (runs eval-recipes + custom)
-   - Replace mode: `--mode ./my-tasks/` (runs only custom tasks)
-
-   Each task must be in a subdirectory with required files: task.yaml, instructions.txt, and test.py.
-   For now, the details of the structure are available in the eval-recipes library itself.
-
-Q: Why is it taking so long?
-A: Each task not only runs the agent solving an often long running problem, but then runs a semantic test which is its own agent that evaluates the output and takes time to do its work. Each task per trial is expected to take upwards of 20 minutes or more.
-
-Q: How can I make it run faster or do more in parallel?
-A: You can set a higher value of `max_parallel_tasks`. This will increase the number of trials that are run in parallel.
+@pyproject.toml

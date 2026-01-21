@@ -27,31 +27,31 @@
 
 ## Usage
 
-### Run directly with uvx (no installation required)
+### (Recommended) Clone locally
+
+Cloning locally is currently recommended because it will give you access to the provided evaluation configurations, agents, and tasks.
 
 ```bash
-uvx --from "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks" amplifier-benchmarks run \
-    path/to/eval-setup.yaml \
-    --agents-dir path/to/agents \
-    --tasks-dir path/to/tasks
+git clone https://github.com/DavidKoleczek/amplifier-app-benchmarks
+cd amplifier-app-benchmarks
+
+uv run amplifier-benchmarks run data/eval-setups/sample.yaml --agents-dir data/agents --tasks-dir data/tasks
 ```
 
 ### Install as a tool
 
 ```bash
 uv tool install "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks"
-
 amplifier-benchmarks run path/to/eval-setup.yaml --agents-dir path/to/agents --tasks-dir path/to/tasks
 ```
 
-### Run from a local clone
+### Run directly with uvx
 
 ```bash
-git clone https://github.com/DavidKoleczek/amplifier-app-benchmarks
-cd amplifier-app-benchmarks
-
-# Run using uv
-uv run amplifier-benchmarks run data/eval-setups/sample.yaml --agents-dir data/agents --tasks-dir data/tasks
+uvx --from "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks" amplifier-benchmarks run \
+    path/to/eval-setup.yaml \
+    --agents-dir path/to/agents \
+    --tasks-dir path/to/tasks
 ```
 
 ### CLI Options

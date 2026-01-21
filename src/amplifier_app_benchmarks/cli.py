@@ -25,7 +25,7 @@ def cli() -> None:
 
 @cli.command()
 @click.argument(
-    "eval_setup",
+    "run_config",
     type=click.Path(exists=True, dir_okay=False, path_type=Path),
 )
 @click.option(
@@ -59,16 +59,16 @@ def cli() -> None:
     help="LLM provider for agent continuation.",
 )
 def run(
-    eval_setup: Path,
+    run_config: Path,
     agents_dir: Path | None,
     tasks_dir: Path | None,
     runs_dir: Path | None,
     max_parallel: int,
     continuation_provider: str,
 ) -> None:
-    """Run a score-based benchmark from an eval-setup YAML file.
+    """Run a score-based benchmark from a run config YAML file.
 
-    EVAL_SETUP is the path to a YAML file defining which agents and tasks to run.
+    RUN_CONFIG is the path to a YAML file defining which agents and tasks to run.
     """
     data_dir = get_default_data_dir()
 
@@ -78,11 +78,11 @@ def run(
         tasks_dir = data_dir / "tasks"
 
     # Load run definition from config file
-    with eval_setup.open(encoding="utf-8") as f:
+    with run_config.open(encoding="utf-8") as f:
         config = yaml.safe_load(f)
 
     run_definition = ScoreRunSpec.model_validate(config)
-    logger.info(f"Loaded eval setup from {eval_setup}")
+    logger.info(f"Loaded run config from {run_config}")
 
     # Create or use runs directory
     if runs_dir is None:

@@ -1,0 +1,23 @@
+type: score
+definitions:
+  - agent: amplifier_foundation
+    trials: 2
+    tasks:
+      - task: arxiv_conclusion_extraction
+      - task: arxiv_paper_summarizer
+      - task: code-discrepancy-docs-knack
+      - task: code-discrepancy-docstrings-grasp
+      - task: code-discrepancy-tutorials-grasp
+      - task: cpsc_recall_monitor
+      - task: cross_repo_improvement_tool
+      - task: email_drafting
+      - task: gdpval_extraction
+      - task: github_docs_extractor
+      - task: image_tagging
+      - task: linkedin_drafting
+      - task: markdown_deck_converter
+      - task: news_research_tool
+      - task: pdf-hr-q4
+      - task: product_review_finder
+      - task: repo_embedding_server
+      - task: style_blender

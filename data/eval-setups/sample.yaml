@@ -1,6 +1,0 @@
-type: score
-definitions:
-  - agent: amplifier_foundation
-    trials: 2
-    tasks:
-      - task: system_info_utility

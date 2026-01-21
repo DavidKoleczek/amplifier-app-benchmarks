@@ -30,26 +30,27 @@
 ### (Recommended) Clone locally
 
 Cloning locally is currently recommended because it will give you access to the provided evaluation configurations, agents, and tasks.
+See the section [Provided Run Configurations](#provided-run-configurations) for more details on pre-configured evaluation configurations.
 
 ```bash
 git clone https://github.com/DavidKoleczek/amplifier-app-benchmarks
 cd amplifier-app-benchmarks
 
-uv run amplifier-benchmarks run data/eval-setups/sample.yaml --agents-dir data/agents --tasks-dir data/tasks
+uv run amplifier-benchmarks run data/run-configs/sample.yaml --agents-dir data/agents --tasks-dir data/tasks
 ```
 
 ### Install as a tool
 
 ```bash
 uv tool install "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks"
-amplifier-benchmarks run path/to/eval-setup.yaml --agents-dir path/to/agents --tasks-dir path/to/tasks
+amplifier-benchmarks run path/to/run-config.yaml --agents-dir path/to/agents --tasks-dir path/to/tasks
 ```
 
 ### Run directly with uvx
 
 ```bash
 uvx --from "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks" amplifier-benchmarks run \
-    path/to/eval-setup.yaml \
+    path/to/run-config.yaml \
     --agents-dir path/to/agents \
     --tasks-dir path/to/tasks
 ```
@@ -57,10 +58,10 @@ uvx --from "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks" ampli
 ### CLI Options
 
 ```
-amplifier-benchmarks run [OPTIONS] EVAL_SETUP
+amplifier-benchmarks run [OPTIONS] RUN_CONFIG
 
 Arguments:
-  EVAL_SETUP  Path to a YAML file defining which agents and tasks to run.
+  RUN_CONFIG  Path to a YAML file defining which agents and tasks to run.
 
 Options:
   --agents-dir PATH              Directory containing agent configurations.
@@ -69,6 +70,15 @@ Options:
   --max-parallel INTEGER         Maximum number of trials to run in parallel (default: 5).
   --continuation-provider TEXT   LLM provider for agent continuation: openai, azure_openai, or none (default: none).
 ```
+
+### Provided Run Configurations
+
+Two run configurations are provided in [data/run-configs](data/run-configs):
+
+| Configuration | Description |
+|---------------|-------------|
+| `sample.yaml` | Quick test with 3 simple tasks- use for validating setup |
+| `full.yaml` | Complete benchmark run |
 
 
 ## Development

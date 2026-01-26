@@ -1,0 +1,37 @@
+name: Amplifier Regression Tests
+
+on:
+  schedule:
+    # 8:30 PM EST Mon-Thu = 1:30 AM UTC Tue-Fri
+    - cron: '30 1 * * 2-5'
+  workflow_dispatch: # Allow manual triggers
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v3
+
+      - name: Run regression tests
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          uv run amplifier-benchmarks run data/run-configs/regression.yaml \
+            --agents-dir data/agents \
+            --tasks-dir data/tasks
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: regression-results-${{ github.run_id }}
+          path: runs/
+          retention-days: 30

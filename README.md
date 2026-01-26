@@ -73,12 +73,13 @@ Options:
 
 ### Provided Run Configurations
 
-Two run configurations are provided in [data/run-configs](data/run-configs):
+Three run configurations are provided in [data/run-configs](data/run-configs):
 
 | Configuration | Description |
 |---------------|-------------|
-| `sample.yaml` | Quick test with 3 simple tasks- use for validating setup |
+| `sample.yaml` | Quick test with 3 simple tasks - use for validating setup |
 | `full.yaml` | Complete benchmark run |
+| `regression.yaml` | Amplifier CLI regression tests (provider response, tool execution, agent delegation) |
 
 
 ## Development

@@ -1,0 +1,8 @@
+type: score
+definitions:
+  - agent: amplifier_foundation
+    trials: 1
+    tasks:
+      - task: amplifier_provider_responds
+      - task: amplifier_tool_execution
+      - task: amplifier_agent_delegation

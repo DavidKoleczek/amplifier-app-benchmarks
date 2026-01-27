@@ -13,14 +13,18 @@ from eval_recipes.benchmarking.test_utils import (
 )
 from loguru import logger
 
-STEPS = """1. Check if a file named "result.txt" exists in the /project directory.
-2. If it exists, read the contents of result.txt.
-3. Check if the file contains the exact text "REGRESSION_PROVIDER_OK".
-4. Evaluate whether the agent successfully created the file with the correct content."""
+STEPS = """1. Check if a file named "microsoft_news.md" exists in the /project directory.
+2. If it exists, read the contents of microsoft_news.md.
+3. Check if the file contains:
+   - News content related to Microsoft
+   - Dates for the articles (publication dates from within the last few days relative to 2026-01-27)
+   - Multiple news items or articles"""
 
 RUBRIC = {
-    "file_exists": "str - (40 points) Does the file 'result.txt' exist in /project?",
-    "correct_content": "str - (60 points) Does result.txt contain 'REGRESSION_PROVIDER_OK'?",
+    "file_exists": "str - (30 points) Does the file 'microsoft_news.md' exist in /project?",
+    "contains_microsoft_news": "str - (25 points) Does the file contain news content related to Microsoft?",
+    "contains_recent_dates": "str - (30 points) Does the file include article dates that are recent (within the last few days)?",
+    "has_multiple_items": "str - (15 points) Does the file contain multiple news items or articles (at least 2)?",
     "score": "float - Score between 0 and 100 based on the above criteria. Sum the points earned from each criterion.",
 }
 
@@ -44,7 +48,7 @@ RUBRIC = {
     help="Path to instructions file (defaults to ./instructions.txt in working directory)",
 )
 def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """Test script for amplifier_provider_responds task."""
+    """Test script for amplifier_web_search task."""
     return asyncio.run(run_test(test_id, output_dir, instructions_file))
 
 
@@ -52,7 +56,7 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
     instructions = get_instructions_from_file_or_default(instructions_file=instructions_file)
 
     try:
-        logger.info("Running semantic test: Evaluating provider response...")
+        logger.info("Running semantic test: Evaluating web search results...")
         result = await semantic_test(
             steps=STEPS,
             rubric=RUBRIC,

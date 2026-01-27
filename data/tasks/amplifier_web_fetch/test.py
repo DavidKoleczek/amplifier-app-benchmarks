@@ -13,14 +13,15 @@ from eval_recipes.benchmarking.test_utils import (
 )
 from loguru import logger
 
-STEPS = """1. Check if a file named "result.txt" exists in the /project directory.
-2. If it exists, read the contents of result.txt.
-3. Check if the file contains the exact text "REGRESSION_PROVIDER_OK".
-4. Evaluate whether the agent successfully created the file with the correct content."""
+STEPS = """1. Check if a file named "blog_posts.txt" exists in the /project directory.
+2. If it exists, read the contents of blog_posts.txt.
+3. Check if the file contains blog post titles (multiple lines with post names).
+4. Evaluate whether the agent successfully fetched the webpage and extracted blog post titles."""
 
 RUBRIC = {
-    "file_exists": "str - (40 points) Does the file 'result.txt' exist in /project?",
-    "correct_content": "str - (60 points) Does result.txt contain 'REGRESSION_PROVIDER_OK'?",
+    "file_exists": "str - (40 points) Does the file 'blog_posts.txt' exist in /project?",
+    "contains_blog_titles": "str - (40 points) Does the file contain what appear to be blog post titles (multiple meaningful text entries)?",
+    "has_multiple_entries": "str - (20 points) Does the file contain multiple blog post titles (at least 2)?",
     "score": "float - Score between 0 and 100 based on the above criteria. Sum the points earned from each criterion.",
 }
 
@@ -44,7 +45,7 @@ RUBRIC = {
     help="Path to instructions file (defaults to ./instructions.txt in working directory)",
 )
 def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """Test script for amplifier_provider_responds task."""
+    """Test script for amplifier_web_fetch task."""
     return asyncio.run(run_test(test_id, output_dir, instructions_file))
 
 
@@ -52,7 +53,7 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
     instructions = get_instructions_from_file_or_default(instructions_file=instructions_file)
 
     try:
-        logger.info("Running semantic test: Evaluating provider response...")
+        logger.info("Running semantic test: Evaluating web fetch results...")
         result = await semantic_test(
             steps=STEPS,
             rubric=RUBRIC,

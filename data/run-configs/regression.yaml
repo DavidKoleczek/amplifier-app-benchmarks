@@ -6,3 +6,5 @@ definitions:
       - task: amplifier_provider_responds
       - task: amplifier_tool_execution
       - task: amplifier_agent_delegation
+      - task: amplifier_web_search
+      - task: amplifier_web_fetch

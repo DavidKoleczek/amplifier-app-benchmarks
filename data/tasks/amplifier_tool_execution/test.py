@@ -1,13 +1,5 @@
 # Copyright (c) Microsoft. All rights reserved.
 
-"""
-Test script for amplifier_tool_execution task.
-
-This is a regression test that verifies Amplifier can successfully execute tools.
-The agent is asked to use the bash tool to echo a specific token, then write
-the output to a file.
-"""
-
 import asyncio
 import sys
 from pathlib import Path
@@ -57,10 +49,6 @@ def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
 
 
 async def run_test(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """
-    Semantic test: Use an auditor agent to evaluate if the agent ran the bash
-    command and wrote the output to result.txt.
-    """
     instructions = get_instructions_from_file_or_default(instructions_file=instructions_file)
 
     try:

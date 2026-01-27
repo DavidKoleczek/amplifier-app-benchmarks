@@ -1,0 +1,11 @@
+Search the web for the latest news about Microsoft. Find recent articles from the last few days and write a summary of your findings to a file named "microsoft_news.md" in the current directory.
+
+The file should include:
+1. A brief summary of the news you found
+2. For each article/news item, include:
+   - The title or headline
+   - The date of the article (this is required - include the actual publication date)
+   - A brief description of what the article is about
+   - The source URL if available
+
+Make sure to use web search capabilities to find current, recent news (within the last few days). The output file must contain dates for the articles found.

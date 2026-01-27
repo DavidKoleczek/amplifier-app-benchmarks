@@ -1,13 +1,5 @@
 # Copyright (c) Microsoft. All rights reserved.
 
-"""
-Test script for amplifier_agent_delegation task.
-
-This is a regression test that verifies Amplifier's agent delegation system works.
-The agent is asked to use the task tool to delegate to another agent (foundation:explorer),
-which should respond with a specific token, then write the response to a file.
-"""
-
 import asyncio
 import sys
 from pathlib import Path
@@ -57,10 +49,6 @@ def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
 
 
 async def run_test(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """
-    Semantic test: Use an auditor agent to evaluate if the agent delegated
-    to another agent and wrote the response to result.txt.
-    """
     instructions = get_instructions_from_file_or_default(instructions_file=instructions_file)
 
     try:

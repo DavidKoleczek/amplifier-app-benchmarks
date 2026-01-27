@@ -16,15 +16,15 @@ from loguru import logger
 
 STEPS = """1. Navigate to the agent log directory provided in AGENT LOG LOCATION.
 2. Look for session log files corresponding to this test (there should only be one).
-3. Search the logs for evidence that the task tool was called to delegate to the foundation:explorer agent.
-4. Look for indicators such as: task tool invocations, agent spawn events, sub-session creation, or references to "foundation:explorer".
-5. Verify that the sub-agent (Explorer) was successfully invoked and returned a response.
-6. Evaluate whether the agent successfully delegated to the Explorer sub-agent based on the log evidence."""
+3. Search the logs for evidence that tools were called to discover available recipes.
+4. Look for tool calls such as: recipes tool with 'list' operation, glob/read_file for recipe files, load_skill for recipe information, or similar discovery mechanisms.
+5. Count how many separate tool invocations were needed to find/list the recipes. Ideally, the agent should discover recipes efficiently (1-2 tool calls).
+6. Verify that the agent successfully discovered and listed recipe names."""
 
 RUBRIC = {
-    "task_tool_called": "str - (40 points) Is there evidence in the logs that the task tool was called?",
-    "explorer_agent_invoked": "str - (40 points) Is there evidence that the foundation:explorer sub-agent was specifically invoked?",
-    "delegation_successful": "str - (20 points) Does the log evidence indicate the delegation completed successfully with a response?",
+    "tools_used_for_discovery": "str - (40 points) Is there evidence in the logs that the agent used internal tools (such as recipes list, glob, read_file, or similar) to discover available recipes? Award full points if tools were clearly used for discovery.",
+    "discovery_efficiency": "str - (30 points) How efficiently did the agent discover recipes? Award 30 points if recipes were found in 1-2 tool calls, 20 points for 3 tool calls, 10 points for 4 tool calls, 0 points for 5+ tool calls or if no tools were used. Count only tool calls directly related to finding recipes.",
+    "recipes_discovered": "str - (30 points) Did the agent successfully discover and list actual recipe names? Award full points if the logs show recipe names were found and listed.",
     "score": "float - Score between 0 and 100 based on the above criteria. Sum the points earned from each criterion.",
 }
 
@@ -48,7 +48,7 @@ RUBRIC = {
     help="Path to instructions file (defaults to ./instructions.txt in working directory)",
 )
 def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """Test script for amplifier_agent_delegation task."""
+    """Test script for amplifier_recipe_list task."""
     return asyncio.run(run_test(test_id, output_dir, instructions_file))
 
 
@@ -57,7 +57,7 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
     agent_log_hint = get_agent_log_hint()
 
     try:
-        logger.info("Running semantic test: Evaluating agent delegation via logs...")
+        logger.info("Running semantic test: Evaluating recipe discovery via logs...")
         logger.info(f"Agent log hint: {agent_log_hint}")
 
         result = await semantic_test(

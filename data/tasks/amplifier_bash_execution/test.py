@@ -7,20 +7,22 @@ from pathlib import Path
 import click
 from eval_recipes.benchmarking.semantic_test import semantic_test
 from eval_recipes.benchmarking.test_utils import (
+    get_agent_log_hint,
     get_instructions_from_file_or_default,
     get_test_id_from_env_or_default,
     write_test_result,
 )
 from loguru import logger
 
-STEPS = """1. Check if a file named "result.txt" exists in the /project directory.
-2. If it exists, read the contents of result.txt.
-3. Check if the file contains "REGRESSION_TOOL_OK" (the output of the bash echo command).
-4. Evaluate whether the agent successfully ran the bash command and wrote the output to the file."""
+STEPS = """1. Navigate to the agent log directory provided in AGENT LOG LOCATION.
+2. Look for session log files corresponding to this test (there should only be one).
+3. Search the logs for evidence that the bash tool was called.
+4. Verify that the bash tool execution was successful (look for tool call events, exit codes, or output).
+5. Evaluate whether the agent successfully invoked the bash tool based on the log evidence."""
 
 RUBRIC = {
-    "file_exists": "str - (40 points) Does the file 'result.txt' exist in /project?",
-    "correct_content": "str - (60 points) Does result.txt contain 'REGRESSION_TOOL_OK'?",
+    "bash_tool_called": "str - (60 points) Is there evidence in the logs that the bash tool was called?",
+    "execution_successful": "str - (40 points) Does the log evidence indicate the bash command executed successfully?",
     "score": "float - Score between 0 and 100 based on the above criteria. Sum the points earned from each criterion.",
 }
 
@@ -44,24 +46,29 @@ RUBRIC = {
     help="Path to instructions file (defaults to ./instructions.txt in working directory)",
 )
 def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """Test script for amplifier_tool_execution task."""
+    """Test script for amplifier_bash_execution task."""
     return asyncio.run(run_test(test_id, output_dir, instructions_file))
 
 
 async def run_test(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
     instructions = get_instructions_from_file_or_default(instructions_file=instructions_file)
+    agent_log_hint = get_agent_log_hint()
 
     try:
-        logger.info("Running semantic test: Evaluating tool execution...")
+        logger.info("Running semantic test: Evaluating bash tool execution via logs...")
+        logger.info(f"Agent log hint: {agent_log_hint}")
+
         result = await semantic_test(
             steps=STEPS,
             rubric=RUBRIC,
             context=instructions,
             working_dir=Path("/project"),
+            agent_log_hint=agent_log_hint,
         )
 
         metadata = {
             "instructions": instructions,
+            "agent_log_hint": agent_log_hint,
             "semantic_test_result": {
                 "score": result.score,
                 "details": result.metadata,
@@ -76,6 +83,7 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
         logger.error(f"Test failed with exception: {e}")
         metadata = {
             "instructions": instructions,
+            "agent_log_hint": agent_log_hint,
             "error": str(e),
         }
         write_test_result(output_dir, test_id, 0, metadata)

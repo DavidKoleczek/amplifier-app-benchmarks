@@ -7,24 +7,23 @@ from pathlib import Path
 import click
 from eval_recipes.benchmarking.semantic_test import semantic_test
 from eval_recipes.benchmarking.test_utils import (
-    get_agent_log_hint,
     get_instructions_from_file_or_default,
     get_test_id_from_env_or_default,
     write_test_result,
 )
 from loguru import logger
 
-STEPS = """1. Navigate to the agent log directory provided in AGENT LOG LOCATION.
-2. Look for session log files corresponding to this test (there should only be one).
-3. Search the logs for evidence that the task tool was called to delegate to the foundation:explorer agent.
-4. Look for indicators such as: task tool invocations, agent spawn events, sub-session creation, or references to "foundation:explorer".
-5. Verify that the sub-agent (Explorer) was successfully invoked and returned a response.
-6. Evaluate whether the agent successfully delegated to the Explorer sub-agent based on the log evidence."""
+# The exact target text that should be extracted from the PDF
+TARGET_CODE = "BENCHMARK_SECRET_CODE_7X9K2M4P"
+
+STEPS = f"""1. Check if a file named "extracted_code.txt" exists in the /project directory.
+2. If it exists, read the contents of extracted_code.txt.
+3. Check if the file contains the exact code "{TARGET_CODE}".
+4. Evaluate whether the agent successfully read the PDF and extracted the correct verification code."""
 
 RUBRIC = {
-    "task_tool_called": "str - (40 points) Is there evidence in the logs that the task tool was called?",
-    "explorer_agent_invoked": "str - (40 points) Is there evidence that the foundation:explorer sub-agent was specifically invoked?",
-    "delegation_successful": "str - (20 points) Does the log evidence indicate the delegation completed successfully with a response?",
+    "file_exists": "str - (30 points) Does the file 'extracted_code.txt' exist in /project?",
+    "correct_code": f"str - (70 points) Does extracted_code.txt contain the exact code '{TARGET_CODE}'?",
     "score": "float - Score between 0 and 100 based on the above criteria. Sum the points earned from each criterion.",
 }
 
@@ -48,29 +47,27 @@ RUBRIC = {
     help="Path to instructions file (defaults to ./instructions.txt in working directory)",
 )
 def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """Test script for amplifier_agent_delegation task."""
+    """Test script for amplifier_pdf_extraction task."""
     return asyncio.run(run_test(test_id, output_dir, instructions_file))
 
 
 async def run_test(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
     instructions = get_instructions_from_file_or_default(instructions_file=instructions_file)
-    agent_log_hint = get_agent_log_hint()
 
     try:
-        logger.info("Running semantic test: Evaluating agent delegation via logs...")
-        logger.info(f"Agent log hint: {agent_log_hint}")
+        logger.info("Running semantic test: Evaluating PDF extraction...")
+        logger.info(f"Expected target code: {TARGET_CODE}")
 
         result = await semantic_test(
             steps=STEPS,
             rubric=RUBRIC,
             context=instructions,
             working_dir=Path("/project"),
-            agent_log_hint=agent_log_hint,
         )
 
         metadata = {
             "instructions": instructions,
-            "agent_log_hint": agent_log_hint,
+            "expected_target_code": TARGET_CODE,
             "semantic_test_result": {
                 "score": result.score,
                 "details": result.metadata,
@@ -85,7 +82,7 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
         logger.error(f"Test failed with exception: {e}")
         metadata = {
             "instructions": instructions,
-            "agent_log_hint": agent_log_hint,
+            "expected_target_code": TARGET_CODE,
             "error": str(e),
         }
         write_test_result(output_dir, test_id, 0, metadata)

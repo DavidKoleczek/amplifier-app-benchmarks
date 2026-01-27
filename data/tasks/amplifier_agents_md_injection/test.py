@@ -16,16 +16,16 @@ from loguru import logger
 
 STEPS = """1. Navigate to the agent log directory provided in AGENT LOG LOCATION.
 2. Look for session log files corresponding to this test (there should only be one).
-3. Search the logs for evidence that the task tool was called to delegate to the foundation:explorer agent.
-4. Look for indicators such as: task tool invocations, agent spawn events, sub-session creation, or references to "foundation:explorer".
-5. Verify that the sub-agent (Explorer) was successfully invoked and returned a response.
-6. Evaluate whether the agent successfully delegated to the Explorer sub-agent based on the log evidence."""
+3. CRITICAL CHECK 1 - NO MANUAL READING: Search the logs for any evidence that the agent used read_file, read, cat, or similar tools to read "AGENTS.md" or ".amplifier/AGENTS.md". The agent should NOT have read this file manually - it should be auto-injected.
+4. Look for tool calls with names like: read_file, read, cat, head, tail, less, more, or similar file reading operations.
+5. Check if any of these tool calls targeted files named "AGENTS.md" or paths containing "AGENTS.md".
+6. CRITICAL CHECK 2 - PIRATE BEHAVIOR: The AGENTS.md instructed the agent to respond like a pirate. Search the agent's responses for pirate language such as: "Ahoy", "Arrr", "matey", "ye", "landlubber", "shiver me timbers", "Aye", or similar pirate expressions.
+7. Evaluate: (a) Did the agent avoid manually reading AGENTS.md? (b) Did the agent respond like a pirate as instructed?"""
 
 RUBRIC = {
-    "task_tool_called": "str - (40 points) Is there evidence in the logs that the task tool was called?",
-    "explorer_agent_invoked": "str - (40 points) Is there evidence that the foundation:explorer sub-agent was specifically invoked?",
-    "delegation_successful": "str - (20 points) Does the log evidence indicate the delegation completed successfully with a response?",
-    "score": "float - Score between 0 and 100 based on the above criteria. Sum the points earned from each criterion.",
+    "no_manual_read": "str - (50 points) Is there evidence that the agent did NOT manually read AGENTS.md? Award 50 points if there are NO read_file/read/cat calls targeting AGENTS.md in the logs. Award 0 points if the agent explicitly read AGENTS.md using any file reading tool.",
+    "pirate_language_present": "str - (50 points) Did the agent respond using pirate language? Look for words/phrases like 'Ahoy', 'Arrr', 'matey', 'ye', 'Aye', 'landlubber', 'shiver me timbers', or similar pirate expressions in the agent's responses. Award 50 points if clear pirate language is present, 0 points if the agent responded in normal language without any pirate characteristics.",
+    "score": "float - Score between 0 and 100 based on the above criteria. Sum the points earned from each criterion. A perfect score (100) means: the agent did not manually read AGENTS.md AND the agent responded like a pirate.",
 }
 
 
@@ -48,7 +48,7 @@ RUBRIC = {
     help="Path to instructions file (defaults to ./instructions.txt in working directory)",
 )
 def main(test_id: str, output_dir: Path, instructions_file: Path | None) -> int:
-    """Test script for amplifier_agent_delegation task."""
+    """Test script for amplifier_agents_md_injection task."""
     return asyncio.run(run_test(test_id, output_dir, instructions_file))
 
 
@@ -57,8 +57,9 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
     agent_log_hint = get_agent_log_hint()
 
     try:
-        logger.info("Running semantic test: Evaluating agent delegation via logs...")
+        logger.info("Running semantic test: Evaluating AGENTS.md auto-injection...")
         logger.info(f"Agent log hint: {agent_log_hint}")
+        logger.info("Checking for pirate language in responses (injection test)")
 
         result = await semantic_test(
             steps=STEPS,
@@ -71,6 +72,7 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
         metadata = {
             "instructions": instructions,
             "agent_log_hint": agent_log_hint,
+            "injection_type": "pirate_language",
             "semantic_test_result": {
                 "score": result.score,
                 "details": result.metadata,
@@ -86,6 +88,7 @@ async def run_test(test_id: str, output_dir: Path, instructions_file: Path | Non
         metadata = {
             "instructions": instructions,
             "agent_log_hint": agent_log_hint,
+            "injection_type": "pirate_language",
             "error": str(e),
         }
         write_test_result(output_dir, test_id, 0, metadata)

@@ -144,7 +144,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "click", specifier = ">=8.3,<9.0" },
-    { name = "eval-recipes", git = "https://github.com/microsoft/eval-recipes?rev=v0.0.30" },
+    { name = "eval-recipes", git = "https://github.com/microsoft/eval-recipes?rev=v0.0.31" },
 ]
 
 [package.metadata.requires-dev]
@@ -503,8 +503,8 @@ wheels = [
 
 [[package]]
 name = "eval-recipes"
-version = "0.0.30"
-source = { git = "https://github.com/microsoft/eval-recipes?rev=v0.0.30#ed2540e24c1a7e78eb3f5324d429085ba85470a2" }
+version = "0.0.31"
+source = { git = "https://github.com/microsoft/eval-recipes?rev=v0.0.31#c66922a628fca45041aad8ffbed08e2b4e2553b8" }
 dependencies = [
     { name = "azure-core", extra = ["aio"] },
     { name = "azure-identity" },

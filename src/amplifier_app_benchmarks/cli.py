@@ -49,7 +49,7 @@ def cli() -> None:
 @click.option(
     "--max-parallel",
     type=int,
-    default=5,
+    default=15,
     help="Maximum number of trials to run in parallel.",
 )
 @click.option(
@@ -111,6 +111,7 @@ def run(
         environment={
             "ANTHROPIC_API_KEY": os.environ.get("ANTHROPIC_API_KEY", ""),
             "OPENAI_API_KEY": os.environ.get("OPENAI_API_KEY", ""),
+            "GEMINI_API_KEY": os.environ.get("GEMINI_API_KEY", ""),
         },
         max_parallel_trials=max_parallel,
         continuation_provider=cast(Literal["openai", "azure_openai", "none"], continuation_provider),

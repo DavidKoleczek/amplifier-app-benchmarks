@@ -1,0 +1,7 @@
+You should have context from the smoke-test-bundle loaded into your system context. Your task is to find two specific verification tokens that prove bundle context resolution is working correctly.
+
+1. Look in your system context for a verification token that starts with 'BUNDLE_'. This token proves direct context.include resolution works (context included directly in the bundle's frontmatter).
+
+2. Look in your system context for a verification token that starts with 'BEHAVIOR_'. This token proves transitive context resolution works (context contributed by an included behavior).
+
+Report BOTH exact tokens you found. If you cannot find one or both tokens, say which ones are missing.

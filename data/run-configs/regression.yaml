@@ -11,6 +11,10 @@ definitions:
       - task: amplifier_recipe_list
       - task: amplifier_pdf_extraction
       - task: amplifier_agents_md_injection
+  - agent: amplifier_smoke_test_bundle
+    trials: 1
+    tasks:
+      - task: amplifier_bundle_context
   - agent: amplifier_foundation_openai
     trials: 1
     tasks:

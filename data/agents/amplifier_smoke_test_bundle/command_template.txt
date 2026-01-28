@@ -1,0 +1,1 @@
+amplifier bundle add "file:///project/test-bundle/bundle.md" --name smoke-test-bundle && amplifier run --bundle smoke-test-bundle --verbose --output-format "json" "{{task_instructions}}"

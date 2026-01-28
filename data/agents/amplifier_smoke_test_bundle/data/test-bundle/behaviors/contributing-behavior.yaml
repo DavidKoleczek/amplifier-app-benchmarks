@@ -1,0 +1,16 @@
+bundle:
+  name: contributing-behavior
+  version: 1.0.0
+  description: |
+    Behavior that contributes an agent and context to the parent bundle.
+    Tests transitive composition mechanisms.
+
+# Contributes behavior-agent to any bundle that includes this behavior
+agents:
+  include:
+    - smoke-test-bundle:behavior-agent
+
+# Contributes context that should appear in bundle's context
+context:
+  include:
+    - smoke-test-bundle:context/behavior-context.md

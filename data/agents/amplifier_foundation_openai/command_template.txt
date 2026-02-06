@@ -1,1 +1,0 @@
-amplifier run --bundle foundation --verbose --output-format "json" "{{task_instructions}}"

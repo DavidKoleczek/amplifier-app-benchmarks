@@ -1,3 +1,0 @@
-Write the exact text "REGRESSION_PROVIDER_OK" to a file named "result.txt" in the current directory.
-
-Use the write_file tool or bash to create this file. The file should contain only the text "REGRESSION_PROVIDER_OK" with no additional content.

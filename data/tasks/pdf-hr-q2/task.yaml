@@ -1,6 +1,0 @@
-task_info:
-  difficulty: medium
-  non_deterministic_evals: false
-  categories:
-    - pdf_extraction
-test_command: uv run --no-project /project/test.py

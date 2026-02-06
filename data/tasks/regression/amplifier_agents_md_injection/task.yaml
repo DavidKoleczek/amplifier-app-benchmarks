@@ -1,0 +1,17 @@
+name: amplifier_agents_md_injection
+task_info:
+  difficulty: easy
+  non_deterministic_evals: true
+  categories:
+    - regression
+evaluation_configs:
+  - type: score
+    test_script: test.py
+    test_command: uv run --no-project /project/test.py
+dockerfile_portion: ""
+task_time_files:
+  - source: ./task_time_data
+    dest: /project
+instructions: |
+  Write a short greeting message (2-3 sentences) introducing yourself as an AI assistant.
+timeout: 1800

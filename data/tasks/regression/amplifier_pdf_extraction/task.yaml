@@ -1,0 +1,17 @@
+name: amplifier_pdf_extraction
+task_info:
+  difficulty: medium
+  non_deterministic_evals: true
+  categories:
+    - regression
+evaluation_configs:
+  - type: score
+    test_script: test.py
+    test_command: uv run --no-project /project/test.py
+dockerfile_portion: ""
+task_time_files:
+  - source: ./task_time_data
+    dest: /project
+instructions: |
+  Read the PDF file "document.pdf" in the current directory. Find and extract the verification code mentioned in the "Document Verification Section". Write ONLY the extracted code to a file named "extracted_code.txt" in the current directory.
+timeout: 1800

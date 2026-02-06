@@ -1,0 +1,10 @@
+score_benchmark:
+  benchmark_type: score
+  continuation_provider: openai
+  continuation_model: gpt-5.2
+  score_benchmarks:
+    - agent_id: amplifier_foundation
+      task_names:
+        - arxiv_conclusion_extraction
+        - cpsc_recall_monitor
+      trials: 1

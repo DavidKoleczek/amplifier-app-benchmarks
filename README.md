@@ -36,21 +36,21 @@ See the section [Provided Run Configurations](#provided-run-configurations) for 
 git clone https://github.com/DavidKoleczek/amplifier-app-benchmarks
 cd amplifier-app-benchmarks
 
-uv run amplifier-benchmarks run data/run-configs/sample.yaml --agents-dir data/agents --tasks-dir data/tasks
+uv run amplifier-benchmarks run --benchmark data/benchmarks/sample.yaml
 ```
 
 ### Install as a tool
 
 ```bash
 uv tool install "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks"
-amplifier-benchmarks run path/to/run-config.yaml --agents-dir path/to/agents --tasks-dir path/to/tasks
+amplifier-benchmarks run --benchmark path/to/benchmark.yaml --agents-dir path/to/agents --tasks-dir path/to/tasks
 ```
 
 ### Run directly with uvx
 
 ```bash
 uvx --from "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks" amplifier-benchmarks run \
-    path/to/run-config.yaml \
+    --benchmark path/to/benchmark.yaml \
     --agents-dir path/to/agents \
     --tasks-dir path/to/tasks
 ```
@@ -58,22 +58,19 @@ uvx --from "git+https://github.com/DavidKoleczek/amplifier-app-benchmarks" ampli
 ### CLI Options
 
 ```
-amplifier-benchmarks run [OPTIONS] RUN_CONFIG
-
-Arguments:
-  RUN_CONFIG  Path to a YAML file defining which agents and tasks to run.
+amplifier-benchmarks run [OPTIONS]
 
 Options:
-  --agents-dir PATH              Directory containing agent configurations.
-  --tasks-dir PATH               Directory containing task definitions.
-  --runs-dir PATH                Output directory for results (creates timestamped dir if not provided).
-  --max-parallel INTEGER         Maximum number of trials to run in parallel (default: 5).
-  --continuation-provider TEXT   LLM provider for agent continuation: openai, azure_openai, or none (default: none).
+  --benchmark PATH         Path to a benchmark definition YAML file. (Required)
+  --agents-dir PATH        Directory containing agent configurations. Defaults to data/agents.
+  --tasks-dir PATH         Directory containing task definitions. Defaults to data/tasks.
+  --output-dir PATH        Directory to store benchmark results. Creates timestamped dir if not provided.
+  --max-parallel INTEGER   Maximum number of parallel jobs (default: 12).
 ```
 
 ### Provided Run Configurations
 
-Three run configurations are provided in [data/run-configs](data/run-configs):
+Three benchmark configurations are provided in [data/benchmarks](data/benchmarks):
 
 | Configuration | Description |
 |---------------|-------------|

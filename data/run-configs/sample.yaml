@@ -1,8 +1,0 @@
-type: score
-definitions:
-  - agent: amplifier_foundation
-    trials: 1
-    tasks:
-      - task: system_info_utility
-      - task: arxiv_conclusion_extraction
-      - task: cpsc_recall_monitor

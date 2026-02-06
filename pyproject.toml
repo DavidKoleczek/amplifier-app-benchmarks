@@ -9,7 +9,7 @@ authors = [
 requires-python = ">=3.11"
 dependencies = [
     "click>=8.3,<9.0",
-    "eval-recipes @ git+https://github.com/microsoft/eval-recipes@v0.0.31",
+    "eval-recipes @ git+https://github.com/microsoft/eval-recipes@v0.0.34",
 ]
 
 [project.scripts]

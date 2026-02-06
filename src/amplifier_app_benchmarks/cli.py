@@ -1,16 +1,20 @@
 """CLI for running Amplifier benchmarks."""
 
 import asyncio
-from datetime import UTC, datetime
+from datetime import datetime
 import os
 from pathlib import Path
-from typing import Literal, cast
+import sys
 
 import click
-from eval_recipes.benchmarking.harness import Harness
-from eval_recipes.benchmarking.schemas import ScoreRunSpec
+from dotenv import load_dotenv
 from loguru import logger
-import yaml
+
+from eval_recipes.benchmarking.loaders import load_agents, load_benchmark, load_tasks
+from eval_recipes.benchmarking.pipelines.comparison_pipeline import ComparisonPipeline
+from eval_recipes.benchmarking.pipelines.score_pipeline import ScorePipeline
+
+load_dotenv()
 
 
 def get_default_data_dir() -> Path:
@@ -24,9 +28,12 @@ def cli() -> None:
 
 
 @cli.command()
-@click.argument(
-    "run_config",
+@click.option(
+    "--benchmark",
+    "benchmark_path",
     type=click.Path(exists=True, dir_okay=False, path_type=Path),
+    required=True,
+    help="Path to benchmark definition YAML file",
 )
 @click.option(
     "--agents-dir",
@@ -41,83 +48,82 @@ def cli() -> None:
     help="Directory containing task definitions. Defaults to data/tasks.",
 )
 @click.option(
-    "--runs-dir",
-    type=click.Path(file_okay=False, path_type=Path),
+    "--output-dir",
+    type=click.Path(path_type=Path),
     default=None,
-    help="Output directory for results. Creates timestamped dir if not provided.",
+    help="Directory to store benchmark results. Creates timestamped dir if not provided.",
 )
 @click.option(
     "--max-parallel",
     type=int,
     default=15,
-    help="Maximum number of trials to run in parallel.",
-)
-@click.option(
-    "--continuation-provider",
-    type=click.Choice(["openai", "azure_openai", "none"], case_sensitive=False),
-    default="none",
-    help="LLM provider for agent continuation.",
+    help="Maximum number of parallel jobs.",
 )
 def run(
-    run_config: Path,
+    benchmark_path: Path,
     agents_dir: Path | None,
     tasks_dir: Path | None,
-    runs_dir: Path | None,
+    output_dir: Path | None,
     max_parallel: int,
-    continuation_provider: str,
 ) -> None:
-    """Run a score-based benchmark from a run config YAML file.
-
-    RUN_CONFIG is the path to a YAML file defining which agents and tasks to run.
-    """
+    """Run a benchmark from a benchmark definition YAML file."""
     data_dir = get_default_data_dir()
 
     if agents_dir is None:
         agents_dir = data_dir / "agents"
     if tasks_dir is None:
         tasks_dir = data_dir / "tasks"
+    if output_dir is None:
+        output_dir = Path.cwd() / ".benchmark_results" / datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    # Load run definition from config file
-    with run_config.open(encoding="utf-8") as f:
-        config = yaml.safe_load(f)
+    # Ensure output directory exists before setting up file logging
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    run_definition = ScoreRunSpec.model_validate(config)
-    logger.info(f"Loaded run config from {run_config}")
+    # Configure logging to both stderr and file
+    logger.remove()
+    logger.add(sys.stderr, level="INFO")
+    logger.add(output_dir / "benchmark.log", level="INFO", encoding="utf-8")
 
-    # Create or use runs directory
-    if runs_dir is None:
-        base_dir = Path.cwd() / ".benchmark_results"
-        timestamp = datetime.now(UTC).strftime("%Y-%m-%d_%H-%M-%S")
-        runs_dir = base_dir / timestamp
-        logger.info(f"Starting new run: {runs_dir}")
-    else:
-        if runs_dir.exists() and (runs_dir / "jobs.db").exists():
-            logger.info(f"Resuming existing run: {runs_dir}")
-        else:
-            logger.info(f"Starting new run: {runs_dir}")
+    agents = load_agents(agents_dir)
+    tasks = load_tasks(tasks_dir)
+    benchmark = load_benchmark(benchmark_path)
 
-    runs_dir.mkdir(parents=True, exist_ok=True)
+    logger.info(f"Agents: {list(agents.keys())}")
+    logger.info(f"Tasks: {list(tasks.keys())}")
 
-    # Set up logging
-    log_file = runs_dir / "benchmark.log"
-    logger.add(log_file, format="{time:YYYY-MM-DD HH:mm:ss} | {level: <8} | {message}")
-    logger.info(f"Logging to {log_file}")
+    environment = {
+        "ANTHROPIC_API_KEY": os.environ.get("ANTHROPIC_API_KEY", ""),
+        "OPENAI_API_KEY": os.environ.get("OPENAI_API_KEY", ""),
+        "GEMINI_API_KEY": os.environ.get("GEMINI_API_KEY", ""),
+        "GITHUB_TOKEN": os.environ.get("GITHUB_TOKEN", ""),
+    }
 
-    harness = Harness(
-        agents_dir=agents_dir,
-        tasks_dir=tasks_dir,
-        run_definition=run_definition,
-        runs_dir=runs_dir,
-        environment={
-            "ANTHROPIC_API_KEY": os.environ.get("ANTHROPIC_API_KEY", ""),
-            "OPENAI_API_KEY": os.environ.get("OPENAI_API_KEY", ""),
-            "GEMINI_API_KEY": os.environ.get("GEMINI_API_KEY", ""),
-        },
-        max_parallel_trials=max_parallel,
-        continuation_provider=cast(Literal["openai", "azure_openai", "none"], continuation_provider),
-    )
+    if benchmark.score_benchmark and benchmark.score_benchmark.score_benchmarks:
+        logger.info("Running score pipeline...")
+        pipeline = ScorePipeline(
+            benchmark=benchmark.score_benchmark,
+            agents=agents,
+            tasks=tasks,
+            output_dir=output_dir,
+            max_parallel=max_parallel,
+            environment=environment,
+        )
+        results = asyncio.run(pipeline.run())
+        logger.info(f"Completed {len(results)} score job(s)")
 
-    asyncio.run(harness.run())
+    if benchmark.comparison_benchmark and benchmark.comparison_benchmark.comparison_benchmarks:
+        logger.info("Running comparison pipeline...")
+        comparison_pipeline = ComparisonPipeline(
+            benchmark=benchmark.comparison_benchmark,
+            agents=agents,
+            tasks=tasks,
+            output_dir=output_dir,
+            max_parallel=max_parallel,
+            environment=environment,
+        )
+        comparison_results = asyncio.run(comparison_pipeline.run())
+        logger.info(f"Completed {len(comparison_results)} comparison job(s)")
+
     logger.info("Benchmark complete")
 
 

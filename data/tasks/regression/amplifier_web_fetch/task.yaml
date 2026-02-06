@@ -1,0 +1,16 @@
+name: amplifier_web_fetch
+task_info:
+  difficulty: easy
+  non_deterministic_evals: true
+  categories:
+    - regression
+evaluation_configs:
+  - type: score
+    test_script: test.py
+    test_command: uv run --no-project /project/test.py
+dockerfile_portion: ""
+instructions: |
+  Fetch the content from https://blogs.microsoft.com/ and extract the names/titles of the latest blog posts.
+
+  Write the blog post titles to a file named "blog_posts.txt" in the current directory. Each title should be on its own line.
+timeout: 1800

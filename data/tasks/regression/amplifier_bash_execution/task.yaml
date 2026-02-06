@@ -1,0 +1,14 @@
+name: amplifier_bash_execution
+task_info:
+  difficulty: easy
+  non_deterministic_evals: true
+  categories:
+    - regression
+evaluation_configs:
+  - type: score
+    test_script: test.py
+    test_command: uv run --no-project /project/test.py
+dockerfile_portion: ""
+instructions: |
+  Use the bash tool to run the following command: echo "AMPLIFIER_BASH_TEST_SUCCESS"
+timeout: 1800

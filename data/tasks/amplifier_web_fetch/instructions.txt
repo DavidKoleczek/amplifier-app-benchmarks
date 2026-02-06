@@ -1,3 +1,0 @@
-Fetch the content from https://blogs.microsoft.com/ and extract the names/titles of the latest blog posts.
-
-Write the blog post titles to a file named "blog_posts.txt" in the current directory. Each title should be on its own line.

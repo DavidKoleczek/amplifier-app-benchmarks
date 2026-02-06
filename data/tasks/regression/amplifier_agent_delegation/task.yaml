@@ -1,0 +1,16 @@
+name: amplifier_agent_delegation
+task_info:
+  difficulty: easy
+  non_deterministic_evals: true
+  categories:
+    - regression
+evaluation_configs:
+  - type: score
+    test_script: test.py
+    test_command: uv run --no-project /project/test.py
+dockerfile_portion: ""
+instructions: |
+  Delegate to an exploration agent with this instruction: "Reply with exactly: REGRESSION_AGENT_OK"
+
+  After the agent responds, write exactly what the agent said to a file named "result.txt" in the current directory.
+timeout: 1800

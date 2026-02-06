@@ -1,3 +1,0 @@
-Use the task tool to delegate to the foundation:explorer agent with this instruction: "Reply with exactly: REGRESSION_AGENT_OK"
-
-After the agent responds, write exactly what the agent said to a file named "result.txt" in the current directory.

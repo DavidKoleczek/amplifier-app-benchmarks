@@ -1,0 +1,26 @@
+score_benchmark:
+  benchmark_type: score
+  continuation_provider: openai
+  continuation_model: gpt-5.2
+  score_benchmarks:
+    - agent_id: amplifier_foundation
+      task_names:
+        - arxiv_conclusion_extraction
+        - arxiv_paper_summarizer
+        - code-discrepancy-docs-knack
+        - code-discrepancy-docstrings-grasp
+        - code-discrepancy-tutorials-grasp
+        - cpsc_recall_monitor
+        - cross_repo_improvement_tool
+        - email_drafting
+        - gdpval_extraction
+        - github_docs_extractor
+        - image_tagging
+        - linkedin_drafting
+        - markdown_deck_converter
+        - news_research_tool
+        - pdf-hr-q4
+        - product_review_finder
+        - repo_embedding_server
+        - style_blender
+      trials: 2

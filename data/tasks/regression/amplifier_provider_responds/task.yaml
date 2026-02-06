@@ -1,0 +1,16 @@
+name: amplifier_provider_responds
+task_info:
+  difficulty: easy
+  non_deterministic_evals: true
+  categories:
+    - regression
+evaluation_configs:
+  - type: score
+    test_script: test.py
+    test_command: uv run --no-project /project/test.py
+dockerfile_portion: ""
+instructions: |
+  Write the exact text "REGRESSION_PROVIDER_OK" to a file named "result.txt" in the current directory.
+
+  Use the write_file tool or bash to create this file. The file should contain only the text "REGRESSION_PROVIDER_OK" with no additional content.
+timeout: 1800

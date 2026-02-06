@@ -1,0 +1,28 @@
+score_benchmark:
+  benchmark_type: score
+  continuation_provider: openai
+  continuation_model: gpt-5.2
+  score_benchmarks:
+    - agent_id: amplifier_foundation
+      task_names:
+        - amplifier_provider_responds
+        - amplifier_bash_execution
+        - amplifier_agent_delegation
+        - amplifier_web_search
+        - amplifier_web_fetch
+        - amplifier_recipe_list
+        - amplifier_pdf_extraction
+        - amplifier_agents_md_injection
+      trials: 1
+    - agent_id: amplifier_smoke_test_bundle
+      task_names:
+        - amplifier_bundle_context
+      trials: 1
+    - agent_id: amplifier_foundation_openai
+      task_names:
+        - amplifier_provider_responds
+      trials: 1
+    - agent_id: amplifier_foundation_gemini
+      task_names:
+        - amplifier_provider_responds
+      trials: 1

@@ -1,1 +1,0 @@
-Read the PDF file "document.pdf" in the current directory. Find and extract the verification code mentioned in the "Document Verification Section". Write ONLY the extracted code to a file named "extracted_code.txt" in the current directory.

@@ -1,0 +1,27 @@
+item_id,item_name,ordered_qty,distributed_qty,remaining_qty,unit_cost,total_value,storage_location,notes
+SWG-001,CloudSync T-Shirt (S),100,67,33,12.50,412.50,Storage Room B,Need more mediums next time
+SWG-002,CloudSync T-Shirt (M),200,198,2,12.50,25.00,Storage Room B,Most popular size
+SWG-003,CloudSync T-Shirt (L),150,134,16,12.50,200.00,Storage Room B,
+SWG-004,CloudSync T-Shirt (XL),100,78,22,12.50,275.00,Storage Room B,
+SWG-005,CloudSync T-Shirt (XXL),50,23,27,12.50,337.50,Storage Room B,Over-ordered
+SWG-006,Branded Water Bottle,300,245,55,8.00,440.00,Storage Room B,Good quality feedback
+SWG-007,CloudSync Sticker Pack,500,489,11,2.00,22.00,Marketing desk,Almost gone
+SWG-008,Laptop Sticker (Die-cut),1000,876,124,0.75,93.00,Marketing desk,
+SWG-009,CloudSync Notebook,200,156,44,6.50,286.00,Storage Room B,
+SWG-010,Branded Pen Set,400,312,88,3.00,264.00,Storage Room B,Pens are mediocre quality
+SWG-011,CloudSync Lanyard,250,234,16,1.50,24.00,Reception,For events
+SWG-012,Webcam Cover (branded),500,467,33,1.00,33.00,Marketing desk,Popular giveaway
+SWG-013,CloudSync Hoodie,75,72,3,35.00,105.00,Storage Room B,Premium item for VIPs
+SWG-014,Portable Charger,50,48,2,25.00,50.00,Storage Room B,Expensive but appreciated
+SWG-015,Mouse Pad,150,89,61,4.50,274.50,Storage Room B,Less popular than expected
+TOTAL,,,,,,$2842.50,,
+
+NOTES:
+------
+Leftover inventory can be used for:
+- Next conference (CloudCon in September)
+- Customer welcome kits
+- Employee onboarding packages
+
+Action item: Move XXL shirts to employee store at discount
+Action item: Reorder sticker packs before next event

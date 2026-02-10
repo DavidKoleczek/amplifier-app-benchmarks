@@ -1,0 +1,16 @@
+attendee_id,first_name,last_name,email,company,job_title,conference_name,registration_date,attendance_confirmed
+CONF-001,Michael,Roberts,mroberts@randomtech.com,Random Tech LLC,Software Engineer,TechConnect 2025,2025-01-05,Yes
+CONF-002,Jennifer,Adams,jadams@startuphub.io,Startup Hub,Product Manager,TechConnect 2025,2025-01-08,Yes
+CONF-003,David,Wilson,dwilson@bigcorpinc.com,BigCorp Inc,VP Engineering,TechConnect 2025,2025-01-10,No
+CONF-004,Sarah,Thompson,sthompson@innovate.co,Innovate Co,CEO,TechConnect 2025,2025-01-12,Yes
+CONF-005,Robert,Garcia,rgarcia@futuretech.net,Future Tech,CTO,TechConnect 2025,2025-01-15,Yes
+CONF-006,Emily,Brown,ebrown@cloudworks.io,CloudWorks,Solutions Architect,TechConnect 2025,2025-01-18,Yes
+CONF-007,James,Miller,jmiller@datadriven.com,Data Driven Inc,Data Scientist,TechConnect 2025,2025-01-20,No
+CONF-008,Lisa,Davis,ldavis@agilesolutions.net,Agile Solutions,Scrum Master,TechConnect 2025,2025-01-22,Yes
+CONF-009,Chris,Martinez,cmartinez@devops.io,DevOps Central,DevOps Engineer,TechConnect 2025,2025-01-25,Yes
+CONF-010,Amanda,Johnson,ajohnson@mlstartup.ai,ML Startup,ML Engineer,TechConnect 2025,2025-01-28,Yes
+CONF-011,Kevin,Lee,klee@securetech.com,SecureTech,Security Analyst,TechConnect 2025,2025-02-01,No
+CONF-012,Rachel,White,rwhite@uxdesign.co,UX Design Co,UX Designer,TechConnect 2025,2025-02-03,Yes
+CONF-013,Brian,Taylor,btaylor@mobileapps.io,Mobile Apps Inc,iOS Developer,TechConnect 2025,2025-02-05,Yes
+CONF-014,Nicole,Anderson,nanderson@webdev.net,WebDev Agency,Full Stack Developer,TechConnect 2025,2025-02-08,Yes
+CONF-015,Steven,Thomas,sthomas@consultingpro.com,Consulting Pro,IT Consultant,TechConnect 2025,2025-02-10,No

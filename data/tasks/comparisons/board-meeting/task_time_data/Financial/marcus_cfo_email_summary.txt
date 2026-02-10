@@ -1,0 +1,58 @@
+From: Marcus Chen <marcus.chen@nexusai.com>
+To: Maya Rodriguez <maya.rodriguez@nexusai.com>
+CC: Sarah Chen <sarah.chen@nexusai.com>
+Date: January 3, 2026
+Subject: RE: Q4 Board Deck - Financial Narrative
+
+Maya,
+
+Here's my summary of the financial story for the board deck. A few key points to frame:
+
+**The Good News:**
+- We beat revenue target: $2.15M vs $2.0M plan (107%)
+- ARR hit $8.6M - this is a major milestone and ahead of schedule
+- Gross margin improved to 82% (up from 81% in Q3)
+- New business was strong: $680K in new logos
+
+**The Challenging News (and how to frame it):**
+- We lost GlobalMfg ($65K ARR) and Acme Logistics ($30K ARR)
+- Total churn impact: $145K for the quarter vs $85K in Q3
+- NRR dropped to 108% from 112%
+
+My recommendation on framing the churn:
+"Strategic customer portfolio optimization" - both accounts were:
+1. Unprofitable (heavy support burden, custom work)
+2. Poor fit for our ICP (too small, wrong vertical)
+3. Distracting sales team from enterprise focus
+
+The truth is we probably should have churned them earlier. Neither was going to expand, and we were spending disproportionate CS resources on them.
+
+**Series B Framing:**
+- We CANNOT present this as done. Robert was very clear.
+- Say: "Active discussions with 3 top-tier firms"
+- Say: "Targeting $15-20M raise at $60-80M valuation range"
+- Do NOT name the firms (Greylock, Accel, Index) in the deck
+- Do NOT include term sheet details
+
+**Cash Position - The Elephant in the Room:**
+- $1.91M ending cash
+- 4.4 months runway at current burn
+- This is FINE if Series B closes by March (expected)
+- This is CRITICAL if Series B delays
+- Board will ask about contingency - have answer ready
+
+Contingency options if Series B delays:
+1. Cut burn 30% (painful but survivable) - buys 2 more months
+2. Bridge financing from existing investors - likely available
+3. Accelerate enterprise pipeline closure - some deals can pull in
+
+**Metrics Board Will Focus On:**
+- NRR decline (have the churn narrative ready)
+- Cash runway (have contingency ready)
+- Enterprise mix improvement (good story here: 55% now)
+
+Let me know if you want to rehearse the financial Q&A before the meeting.
+
+Marcus
+
+P.S. - Make sure to use v3 of the financials spreadsheet. v1 had the old October projections which were way off. December actuals came in much stronger.

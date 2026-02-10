@@ -1,0 +1,21 @@
+name: training-curriculum
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create sales training materials for new reps:
+  1. "Sales_Training_Deck.pptx" - product overview, pricing tiers, competitive positioning, objection handling
+  2. "Sales_Quick_Reference.docx" - one-page cheat sheet for calls
+
+  Focus on practical selling, not technical details. Prioritize objection handling - especially "why not [competitor]" and pricing objections.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

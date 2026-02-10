@@ -1,0 +1,299 @@
+1
+00:00:00,000 --> 00:00:12,000
+[AUDIO UNCLEAR - MULTIPLE SPEAKERS]
+
+2
+00:00:12,000 --> 00:00:18,000
+Okay I think we're recording now. Can everyone hear me? Sarah, you're muted.
+
+3
+00:00:18,000 --> 00:00:31,000
+Sorry about that. Okay yes I can hear everyone now. Thanks for joining the queue one planning meeting everyone. Um, we have a lot to cover today so let's try to stay on track.
+
+4
+00:00:31,000 --> 00:00:35,000
+Before we start, Jennifer are you joining from the airport?
+
+5
+00:00:35,000 --> 00:00:43,000
+Yeah sorry about the background noise. My flight got delayed so I'm at the gate. I'll mute when I'm not talking.
+
+6
+00:00:43,000 --> 00:00:54,000
+No problem. Okay so first item on the agenda is the Prism launch timeline. Marcus, can you give us an update on where engineering stands?
+
+7
+00:00:54,000 --> 00:01:14,000
+Sure. So we're, uh, we finished the court sprint last week and the API is about 80% complete. The main blocker right now is the authentication module - we're waiting on the security audit results which should come back by [INAUDIBLE] maybe Friday?
+
+8
+00:01:14,000 --> 00:01:17,000
+Sorry Marcus you cut out - by when?
+
+9
+00:01:17,000 --> 00:01:21,000
+By Friday. January 17th.
+
+10
+00:01:21,000 --> 00:01:26,000
+That's cutting it close if we want to hit the Feb 15 launch date we discussed.
+
+11
+00:01:26,000 --> 00:01:42,000
+February 15th is aggressive. Honestly I think we need to talk about pushing to March 1st. The team is already working weekends and we're still have the dashboard integration and the mobile SDK to finish.
+
+12
+00:01:42,000 --> 00:01:48,000
+[BACKGROUND NOISE - AIRPORT ANNOUNCEMENT]
+
+13
+00:01:48,000 --> 00:01:57,000
+Sorry that was my gate. Can we circle back to marketing timing? If we're pushing to March that changes our whole campaign schedule.
+
+14
+00:01:57,000 --> 00:02:05,000
+Let's finish the engineering update first then we'll come back to marketing. Marcus, what about the mobile STK?
+
+15
+00:02:05,000 --> 00:02:23,000
+SDK. Yeah so Android is done but iOS is behind. We lost two weeks when Chen was out sick and the contractor we brought in didn't work out. Realistically iOS needs another three weeks minimum.
+
+16
+00:02:23,000 --> 00:02:28,000
+[JOINING SOUND] Hey everyone sorry I'm late. Traffic was insane. What did I miss?
+
+17
+00:02:28,000 --> 00:02:36,000
+Hey David. We're discussing the Prism launch timeline. Marcus is saying we might need to push to March 1st.
+
+18
+00:02:36,000 --> 00:02:46,000
+March? That's not going to work. I already told the board we'd have revenue from Prism in Q1. Can we do a phased lunch instead?
+
+19
+00:02:46,000 --> 00:02:55,000
+A phased launch could work. We could do web only on Feb 15 and add mobile in late Feb or early March.
+
+20
+00:02:55,000 --> 00:03:04,000
+That makes sense actually. Tom, from a sales perspective, how many of your deals actually need mobile day one?
+
+21
+00:03:04,000 --> 00:03:21,000
+Uh let me think... Meridian definitely needs mobile, they were very clear about that. But most of the other pipeline could probably work with web first. Maybe 70% don't need mobile immediately?
+
+22
+00:03:21,000 --> 00:03:30,000
+Okay so we do phased launch. Web on February 15, mobile by end of February. Marcus can you commit to that?
+
+23
+00:03:30,000 --> 00:03:40,000
+I can commit to web on Feb 15 if we get the security audit results this week. Mobile by Feb 28 is doable if [CROSSTALK]
+
+24
+00:03:40,000 --> 00:03:42,000
+[CROSSTALK] What about the dashboard?
+
+25
+00:03:42,000 --> 00:03:46,000
+[CROSSTALK] dashboard is part of web, that's included.
+
+26
+00:03:46,000 --> 00:03:56,000
+Okay let me make sure I have this right. Web launch including dashboard February 15, mobile by February 28. Is that the action item?
+
+27
+00:03:56,000 --> 00:04:02,000
+Yes but contingent on security audit. If that slips everything slips.
+
+28
+00:04:02,000 --> 00:04:06,000
+Got it. Jennifer, does that work for marketing?
+
+29
+00:04:06,000 --> 00:04:21,000
+[BACKGROUND NOISE] It's not ideal but we can make it work. We'll do a soft launch announcement Feb 15 and save the big press push for when mobile is ready. Actually that might be better for building momentum.
+
+30
+00:04:21,000 --> 00:04:29,000
+Great. Okay let's move to the reorg discussion. David, you wanted to talk about the team restructuring?
+
+31
+00:04:29,000 --> 00:04:45,000
+Yeah so this is sensitive so let's keep it in this room for now. We're looking at consolidating the Platform and Infrastructure teams under one leader. The current structure has too much overlap and we're duplicating effort.
+
+32
+00:04:45,000 --> 00:04:49,000
+Is this related to the budget cuts we discussed last month?
+
+33
+00:04:49,000 --> 00:05:02,000
+Partly. We need to find efficiences and this is one way to do it. The plan is to announce by end of January and have the new structure in place by February 1st.
+
+34
+00:05:02,000 --> 00:05:05,000
+Who's going to lead the combined team?
+
+35
+00:05:05,000 --> 00:05:12,000
+We're still finalizing that. I should have an answer by [AUDIO DROPOUT]
+
+36
+00:05:12,000 --> 00:05:14,000
+David you cut out - by when?
+
+37
+00:05:14,000 --> 00:05:18,000
+By next Wednesday. January 22nd.
+
+38
+00:05:18,000 --> 00:05:22,000
+What happens to the people who don't fit in the new structure?
+
+39
+00:05:22,000 --> 00:05:33,000
+We're committed to finding roles for everyone. Some might move to other teams, product or customer success. No layoffs planned at this time.
+
+40
+00:05:33,000 --> 00:05:44,000
+Okay I want to make sure we capture this. David to announce reorg leadership by January 22, new structure effective February 1. Correct?
+
+41
+00:05:44,000 --> 00:05:50,000
+Correct. And I need everyone to keep this confidential until the announcement.
+
+42
+00:05:50,000 --> 00:05:54,000
+[MULTIPLE SPEAKERS AGREEING]
+
+43
+00:05:54,000 --> 00:06:07,000
+Next item is the Q1 budget. Lisa couldn't make it today but she sent me the numbers. Overall we're looking at a 12% reduction from what we originally planned.
+
+44
+00:06:07,000 --> 00:06:12,000
+12%? That's going to hurt the campaign budget. We were already lean.
+
+45
+00:06:12,000 --> 00:06:20,000
+I know. Lisa said marketing is looking at an 8% cut specifically. Engineering is 15%.
+
+46
+00:06:20,000 --> 00:06:25,000
+15%? Where is that supposed to come from? We're already understaffed.
+
+47
+00:06:25,000 --> 00:06:33,000
+The contractor budget mainly. We need to convert more work to FTEs or defer some projects.
+
+48
+00:06:33,000 --> 00:06:37,000
+Which projects? We can't defer Prism obviously.
+
+49
+00:06:37,000 --> 00:06:48,000
+The analytics revamp can probably wait until Q2. And the legacy system migration - we've been limping along, we can limp a bit longer.
+
+50
+00:06:48,000 --> 00:06:56,000
+So to clarify - analytics revamp deferred to Q2, legacy migration deferred. Anything else?
+
+51
+00:06:56,000 --> 00:07:04,000
+Not right now but department heads should come to me with proposals by end of month if you have other ideas.
+
+52
+00:07:04,000 --> 00:07:08,000
+What about the new CRM integration Tom asked about last week?
+
+53
+00:07:08,000 --> 00:07:12,000
+That's still on the table. Tom how critical is that?
+
+54
+00:07:12,000 --> 00:07:24,000
+Pretty critical honestly. We're losing deals because our current system can't handle the volume. Sales team is spending 20% of their time on manual data entry.
+
+55
+00:07:24,000 --> 00:07:31,000
+Okay let's keep CRM integration funded. Marcus can your team handle that with the cuts?
+
+56
+00:07:31,000 --> 00:07:35,000
+We'll make it work. Priority after Prism.
+
+57
+00:07:35,000 --> 00:07:44,000
+Alright so CRM integration stays, priority after Prism launch. Tom to provide requirements to Marcus by... when?
+
+58
+00:07:44,000 --> 00:07:49,000
+I can have requirements documented by January 24th.
+
+59
+00:07:49,000 --> 00:07:55,000
+Great. Okay we have about 10 minutes left. Anything else urgent?
+
+60
+00:07:55,000 --> 00:08:06,000
+One thing on my end - we need to finalize the press release for Prism. I have a draft but I need Marcus to review the technical claims. Can you do that this week?
+
+61
+00:08:06,000 --> 00:08:10,000
+Send it over. I'll get to it by Thursday.
+
+62
+00:08:10,000 --> 00:08:14,000
+Thursday January 16. Perfect.
+
+63
+00:08:14,000 --> 00:08:25,000
+I have a quick one - the customer advisory board meeting is Jan 28 and we need to decide what we're showing them. Is Prism going to be demo-ready?
+
+64
+00:08:25,000 --> 00:08:32,000
+Demo ready yes. Production ready no. We can show the web interface and walk them through the API.
+
+65
+00:08:32,000 --> 00:08:38,000
+Great. I'll add that to the CAB agenda. Sarah are you handling the logistics?
+
+66
+00:08:38,000 --> 00:08:46,000
+Yes I'm coordinating with facilities. We're doing it in the main conference room with zoom for remote attendees.
+
+67
+00:08:46,000 --> 00:08:53,000
+Make sure we have NDAs signed before the demo. Legal is paranoid about Prism details leaking.
+
+68
+00:08:53,000 --> 00:09:03,000
+Good point. I'll check with legal on NDA status for all CAB members. Anyone without a current NDA won't be able to attend the demo portion.
+
+69
+00:09:03,000 --> 00:09:12,000
+Quick question - are we inviting Meridian to the CAB meeting? They're not technically a customer yet but they're our biggest prospect.
+
+70
+00:09:12,000 --> 00:09:17,000
+That's a good idea actually. They've been asking for more visibility into our roadmap.
+
+71
+00:09:17,000 --> 00:09:24,000
+Let's do it. Special invitation, separate NDA. Tom can you handle that outreach?
+
+72
+00:09:24,000 --> 00:09:31,000
+Sure I'll reach out to their CTO. We have a call scheduled anyway for [AUDIO UNCLEAR]
+
+73
+00:09:31,000 --> 00:09:37,000
+Okay I think we're at time. Let me quickly recap the action items I captured.
+
+74
+00:09:37,000 --> 00:10:50,000
+[RECAP AND CLOSING - SEE TRANSCRIPT]
+
+75
+00:10:50,000 --> 00:10:50,500
+[END OF RECORDING]

@@ -1,0 +1,20 @@
+employee_id,first_name,last_name,email,department,title,manager_id,manager_name,hire_date,employment_status,location,phone_ext
+EMP001,David,Chen,david.chen@techcorp.com,Engineering,VP of Engineering,,CEO,2019-03-15,Active,HQ - Floor 3,3001
+EMP002,Sarah,Mitchell,sarah.mitchell@techcorp.com,Engineering,Senior Software Engineer,EMP001,David Chen,2020-06-01,Terminated,HQ - Floor 3,3012
+EMP003,James,Wilson,james.wilson@techcorp.com,Engineering,Software Engineer,EMP001,David Chen,2021-09-12,Active,HQ - Floor 3,3015
+EMP004,Emily,Rodriguez,emily.rodriguez@techcorp.com,Engineering,Software Engineer,EMP001,David Chen,2022-01-10,Active,HQ - Floor 3,3018
+EMP005,Michael,Thompson,mike.thompson@techcorp.com,Sales,Sales Representative,EMP006,Rachel Kim,2020-08-17,Active,HQ - Floor 2,2005
+EMP006,Rachel,Kim,rachel.kim@techcorp.com,Sales,Director of Sales,,CEO,2018-11-05,Active,HQ - Floor 2,2001
+EMP007,Kevin,Patel,kevin.patel@techcorp.com,Sales,Sales Representative,EMP006,Rachel Kim,2021-04-22,Active,HQ - Floor 2,2008
+EMP008,Lisa,Wang,lisa.wang@techcorp.com,Sales,Sales Representative,EMP006,Rachel Kim,2022-07-11,Active,HQ - Floor 2,2012
+EMP009,Jennifer,Martinez,jennifer.martinez@techcorp.com,Marketing,Director of Marketing,,CEO,2019-01-28,Active,HQ - Floor 2,2020
+EMP010,Brandon,Lee,brandon.lee@techcorp.com,Marketing,Marketing Specialist,EMP009,Jennifer Martinez,2021-11-15,Active,HQ - Floor 2,2025
+EMP011,Amanda,Foster,amanda.foster@techcorp.com,Marketing,Content Writer,EMP009,Jennifer Martinez,2022-03-07,Active,HQ - Floor 2,2028
+EMP012,Carlos,Reyes,carlos.reyes@techcorp.com,Operations,Director of Operations,,CEO,2017-05-20,Active,HQ - Floor 1,1001
+EMP013,Nicole,Johnson,nicole.johnson@techcorp.com,Operations,Operations Coordinator,EMP012,Carlos Reyes,2020-02-14,Active,HQ - Floor 1,1005
+EMP014,Derek,Brown,derek.brown@techcorp.com,Operations,Facilities Manager,EMP012,Carlos Reyes,2019-08-30,Active,HQ - Floor 1,1008
+EMP015,Stephanie,Clark,stephanie.clark@techcorp.com,HR,HR Manager,EMP012,Carlos Reyes,2020-10-05,Active,HQ - Floor 1,1012
+EMP016,Ryan,Taylor,ryan.taylor@techcorp.com,Engineering,DevOps Engineer,EMP001,David Chen,2021-07-19,Active,HQ - Floor 3,3022
+EMP017,Michelle,Adams,michelle.adams@techcorp.com,Finance,Finance Manager,,CEO,2018-04-12,Active,HQ - Floor 1,1020
+EMP018,Alex,Nguyen,alex.nguyen@techcorp.com,Engineering,Software Engineer,EMP001,David Chen,2026-01-06,Active,HQ - Floor 3,3025
+EMP019,Priya,Sharma,priya.sharma@techcorp.com,Marketing,Digital Marketing Specialist,EMP009,Jennifer Martinez,2026-01-13,Active,HQ - Floor 2,2030

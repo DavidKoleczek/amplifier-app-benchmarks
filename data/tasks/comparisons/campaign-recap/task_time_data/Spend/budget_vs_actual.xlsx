@@ -1,0 +1,68 @@
+This is a placeholder for an Excel file. In a real scenario, this would be binary Excel data.
+
+BUDGET VS ACTUAL - SPRING CAMPAIGN 2025
+=======================================
+
+EXECUTIVE SUMMARY:
+------------------
+Campaign came in 2.8% under budget overall.
+Some line items over, others under - net positive variance.
+
+DETAILED COMPARISON:
+--------------------
+
+Category              | Original  | Revised   | Actual      | Var ($)    | Var (%)  | Notes
+----------------------|-----------|-----------|-------------|------------|----------|------------------
+MEDIA SPEND           |           |           |             |            |          |
+  Google Ads          | $125,000  | $125,000  | $128,456.78 | +$3,456.78 | +2.8%    | ROAS justified
+  Facebook/Instagram  | $85,000   | $85,000   | $82,340.12  | -$2,659.88 | -3.1%    | 
+  LinkedIn Ads        | $45,000   | $45,000   | $43,567.89  | -$1,432.11 | -3.2%    |
+  Twitter/X Ads       | $20,000   | $20,000   | $18,234.56  | -$1,765.44 | -8.8%    | Underperformed
+  Programmatic        | $25,000   | $25,000   | $16,780.34  | -$8,219.66 | -32.9%   | Paused early
+----------------------|-----------|-----------|-------------|------------|----------|------------------
+  Subtotal Media      | $300,000  | $300,000  | $289,379.69 | -$10,620.31| -3.5%    |
+
+INFLUENCER            |           |           |             |            |          |
+  Influencer Partners | $35,000   | $38,500   | $38,500.00  | $0.00      | 0.0%     | Revised up*
+----------------------|-----------|-----------|-------------|------------|----------|------------------
+  Subtotal Influencer | $35,000   | $38,500   | $38,500.00  | +$3,500.00 | +10.0%   | *Approved 4/18
+
+OTHER                 |           |           |             |            |          |
+  Email Platform      | $8,000    | $8,000    | $7,456.23   | -$543.77   | -6.8%    |
+  Content Syndication | $7,000    | $7,000    | $4,791.53   | -$2,208.47 | -31.5%   | Underperformed
+----------------------|-----------|-----------|-------------|------------|----------|------------------
+  Subtotal Other      | $15,000   | $15,000   | $12,247.76  | -$2,752.24 | -18.3%   |
+
+----------------------|-----------|-----------|-------------|------------|----------|------------------
+GRAND TOTAL           | $350,000  | $353,500  | $340,127.45 | -$9,872.55 | -2.8%    | vs Original
+                      |           |           |             | -$13,372.55| -3.8%    | vs Revised
+
+VARIANCE ANALYSIS:
+------------------
+
+FAVORABLE VARIANCES (Under Budget):
+1. Programmatic Display (-$8,220): Paused April 20 after poor CTR (<0.05%)
+2. Content Syndication (-$2,208): Two planned placements fell through
+3. Twitter (-$1,765): Reallocated to better-performing channels
+4. Facebook (-$2,660): More efficient targeting reduced waste
+
+UNFAVORABLE VARIANCES (Over Budget):
+1. Google Ads (+$3,457): Intentional - ROAS was 4.2x, increased investment
+2. Influencer (+$3,500): TechReviewPro extension (approved by CMO)
+
+REALLOCATION DECISIONS:
+-----------------------
+- April 15: Moved $5K from Twitter to Google (approved)
+- April 20: Paused Programmatic, reallocated to Facebook (approved)
+- April 22: Reduced LinkedIn daily cap by 15% (tactical)
+
+CFO QUESTIONS TO ADDRESS:
+-------------------------
+1. "Why did we overspend on influencers?" 
+   - Answer: TechReviewPro extension showed strong early results
+   
+2. "What happened to programmatic?"
+   - Answer: 0.03% CTR, decided to cut losses early
+
+3. "Net: did we hit ROI targets?"
+   - Answer: See ROI analysis sheet - overall 3.8x ROAS

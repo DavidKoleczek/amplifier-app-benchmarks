@@ -1,0 +1,18 @@
+name: contract-redlines
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Contract_Redline_Summary.docx" comparing original contract to legal's redlined version.
+
+  Summarize all material changes, flag potential dealbreakers (liability, indemnification, IP), and note legal's reasoning from their email. Output should be practical talking points for vendor negotiation.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

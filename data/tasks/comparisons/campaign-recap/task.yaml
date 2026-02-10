@@ -1,0 +1,19 @@
+name: campaign-recap
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - excel
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Spring_Campaign_Recap.pptx" analyzing the product launch campaign performance. Include spend breakdown by channel, ROI analysis, engagement metrics, and A/B test results.
+
+  Total spend was $340K. Note: GA tracking pixel was broken for 2 weeks in April - flag data gaps. The A/B test has small sample size - include with caveats.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

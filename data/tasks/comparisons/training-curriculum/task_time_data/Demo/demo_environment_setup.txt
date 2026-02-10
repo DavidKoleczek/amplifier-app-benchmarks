@@ -1,0 +1,191 @@
+VELOCITYRM DEMO ENVIRONMENT SETUP GUIDE
+========================================
+Last Updated: January 2026
+
+DEMO ENVIRONMENTS AVAILABLE
+===========================
+
+1. STANDARD DEMO (demo.velocityrm.io)
+   - Generic B2B data set
+   - Good for most demos
+   - Pre-loaded with sample deals across stages
+   - Login: demo@velocityrm.io / VelocityDemo2026!
+
+2. MANUFACTURING DEMO (demo-manufacturing.velocityrm.io)
+   - Manufacturing industry data
+   - Long deal cycles, complex stakeholder maps
+   - Includes: Equipment deals, service contracts
+   - Login: demo@velocityrm.io / VelocityDemo2026!
+
+3. FINANCIAL SERVICES DEMO (demo-finserv.velocityrm.io)
+   - Financial services data
+   - Compliance-focused examples
+   - Includes: Regulatory deadlines, audit trails
+   - Login: demo@velocityrm.io / VelocityDemo2026!
+
+4. TECHNOLOGY DEMO (demo-tech.velocityrm.io)
+   - SaaS/Technology data
+   - Faster deal cycles, product-led examples
+   - Includes: API integrations, Slack workflows
+   - Login: demo@velocityrm.io / VelocityDemo2026!
+
+SETTING UP BEFORE A DEMO
+========================
+
+30 Minutes Before:
+
+[ ] 1. Clear browser cache and cookies
+       - Ensures clean login experience
+       - Prevents "remember me" issues from previous demos
+
+[ ] 2. Log into demo environment
+       - Verify login works
+       - Check that data looks correct
+
+[ ] 3. Navigate through key screens
+       - Dashboard loads properly
+       - Pipeline view has deals
+       - Forecast numbers look realistic
+
+[ ] 4. Check VelocityScore calculations
+       - Open 2-3 deals
+       - Verify scores are populating
+       - Check that activity timelines are populated
+
+[ ] 5. Test screen sharing
+       - Share screen before call starts
+       - Check resolution is readable
+       - Hide browser bookmarks bar (cleaner look)
+
+[ ] 6. Have backup ready
+       - Open second browser tab with screenshots
+       - In case of environment issues
+
+[ ] 7. Close unnecessary tabs/apps
+       - No notification pop-ups
+       - No embarrassing bookmarks visible
+
+CUSTOMIZING DEMO DATA
+=====================
+
+If you need to customize the demo environment for a specific prospect:
+
+Option 1: Rename Existing Deals
+- Go to Settings > Demo Mode
+- Enable "Custom Labels"
+- You can rename companies to match prospect's industry
+
+Option 2: Create Custom Deals
+- Create new deals manually
+- Use prospect's industry terminology
+- Pro tip: Create night before, data will look more "settled"
+
+Option 3: Request Custom Environment
+- Slack #demo-support
+- Allow 48 hours
+- Include: Industry, deal types, team size for realistic data volume
+
+DEMO PERSONAS (pre-configured)
+=============================
+
+The demo environments have pre-configured users you can switch between:
+
+SALES REP VIEW
+- User: sarah.rep@demo.velocityrm.io
+- Shows: Individual pipeline, personal deals, quota progress
+- Use for: Showing rep day-to-day experience
+
+SALES MANAGER VIEW
+- User: mike.manager@demo.velocityrm.io
+- Shows: Team pipeline, manager dashboards, coaching views
+- Use for: Showing management visibility
+
+SALES VP VIEW
+- User: jennifer.vp@demo.velocityrm.io
+- Shows: All pipelines, forecast rollups, strategic dashboards
+- Use for: Exec-level demos
+
+ADMIN VIEW
+- User: admin@demo.velocityrm.io
+- Shows: Settings, integrations, user management
+- Use for: IT/Admin stakeholder demos
+
+(All use password: VelocityDemo2026!)
+
+BROWSER RECOMMENDATIONS
+=======================
+
+Best: Google Chrome (latest version)
+- Most tested, most reliable
+- Best rendering of dashboards
+
+Acceptable: Microsoft Edge
+- Works well, Chromium-based
+- Good for Microsoft-heavy customers
+
+Avoid: Safari
+- Some CSS rendering issues
+- Charts may display incorrectly
+
+Never: Internet Explorer
+- Not supported
+- Will break
+
+SCREEN RESOLUTION
+=================
+
+Optimal: 1920x1080 or higher
+- Dashboards designed for this resolution
+- Charts and tables display correctly
+
+Minimum: 1366x768
+- Functional but cramped
+- May need to scroll more
+
+Pro tips:
+- Use browser zoom at 100% (reset with Ctrl+0)
+- Full-screen mode (F11) removes browser chrome
+- Hide bookmarks bar (Ctrl+Shift+B in Chrome)
+
+COMMON SETUP ISSUES
+===================
+
+Issue: "Demo environment won't load"
+Fix: Clear cache, try incognito mode, check VPN
+
+Issue: "Data looks wrong/empty"
+Fix: Demo resets nightly at 3 AM PT. If demo just ran, wait 30 min.
+
+Issue: "VelocityScore shows 'Calculating'"
+Fix: Score calculation runs every 15 min. Wait or refresh.
+
+Issue: "Activity timeline is empty"
+Fix: Demo accounts need activity. Create a test email/meeting.
+
+Issue: "Can't switch user personas"
+Fix: Log out completely, clear cookies, log in as new user
+
+EMERGENCY BACKUP
+================
+
+If demo environment is completely down during a live demo:
+
+1. Acknowledge: "Looks like we're having a technical hiccup"
+
+2. Switch to backup: Use screenshot deck in Google Drive
+   Drive > Sales > Demo > Emergency Backup Slides
+
+3. Offer follow-up: "Let me schedule a follow-up demo so you can
+   see this live. In the meantime, let me walk through the key
+   screens via screenshots."
+
+4. Report: After call, report issue to #demo-support with details
+
+NEED HELP?
+==========
+
+- Slack: #demo-support
+- Email: demo-support@velocityrm.io
+- Emergency (demo down during call): Call Sales Ops on-call
+
+On-call schedule: docs.velocityrm.io/sales-ops-oncall

@@ -1,0 +1,69 @@
+This is a placeholder for an Excel file. In a real scenario, this would be binary Excel data.
+
+ATTRIBUTION MODEL COMPARISON - SPRING CAMPAIGN 2025
+===================================================
+
+EXECUTIVE SUMMARY:
+------------------
+Different attribution models tell VERY different stories about channel performance.
+This is critical context for the campaign recap - recommend presenting multiple views.
+
+MODEL COMPARISON - CONVERSIONS BY CHANNEL:
+-----------------------------------------
+
+Channel          | Last Click | First Click | Linear | Time Decay | Data-Driven
+-----------------|------------|-------------|--------|------------|-------------
+Google Paid      | 1,465      | 987         | 1,234  | 1,356      | 1,289
+Facebook Paid    | 543        | 892         | 698    | 612        | 734
+LinkedIn Paid    | 287        | 412         | 356    | 312        | 378
+Email            | 645        | 234         | 423    | 534        | 467
+Twitter Paid     | 98         | 156         | 134    | 112        | 145
+Direct           | 345        | 189         | 267    | 298        | 278
+Organic Search   | 403        | 567         | 478    | 423        | 456
+Referral         | 152        | 234         | 189    | 167        | 178
+-----------------|------------|-------------|--------|------------|-------------
+TOTAL            | 3,938      | 3,671*      | 3,779  | 3,814      | 3,925
+
+* First Click total differs due to cross-device tracking limitations
+
+MODEL COMPARISON - REVENUE BY CHANNEL:
+--------------------------------------
+
+Channel          | Last Click  | First Click | Linear    | Time Decay | Data-Driven
+-----------------|-------------|-------------|-----------|------------|-------------
+Google Paid      | $142,560    | $96,230     | $120,340  | $132,450   | $125,670
+Facebook Paid    | $54,320     | $89,120     | $69,870   | $61,230    | $73,450
+LinkedIn Paid    | $28,670     | $41,230     | $35,620   | $31,180    | $37,890
+Email            | $64,230     | $23,450     | $42,120   | $53,340    | $46,780
+Twitter Paid     | $9,980      | $15,620     | $13,450   | $11,230    | $14,560
+Direct           | $32,890     | $18,120     | $25,340   | $28,120    | $26,780
+Organic Search   | $40,340     | $56,780     | $47,890   | $42,340    | $45,670
+Referral         | $12,120     | $23,450     | $18,370   | $14,560    | $17,200
+
+KEY INSIGHTS:
+-------------
+1. Google Paid looks best under Last Click (our default), but Facebook looks 
+   much stronger under First Click - FB is good at awareness, Google at closing
+
+2. Email appears to be primarily a "closer" - strong Last Click, weak First Click
+   This makes sense - people research, then act when they get the reminder email
+
+3. LinkedIn punches above its weight in First Click - good for B2B awareness
+   Consider this when evaluating LinkedIn's seemingly low direct conversion numbers
+
+4. Data-Driven model (Google's ML-based) tends to redistribute credit more evenly
+   This is probably the most "accurate" but hardest to explain to stakeholders
+
+RECOMMENDATIONS FOR PRESENTATION:
+---------------------------------
+1. Show Last Click as primary (it's what we've always shown, maintains consistency)
+2. Include footnote about attribution model limitations
+3. Consider adding "assisted conversions" view to show full-funnel contribution
+4. For Facebook specifically, show First Click alongside Last Click
+
+CAVEATS:
+--------
+- April 11-24 data gap affects all models
+- Cross-device tracking has ~15% gap (users who start on mobile, convert on desktop)
+- Data-Driven model requires 300+ conversions per channel for reliability
+  * Twitter and Referral fall below this threshold

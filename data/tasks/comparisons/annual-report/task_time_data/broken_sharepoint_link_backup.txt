@@ -1,0 +1,52 @@
+SHAREPOINT LINK BACKUP - DO NOT DELETE
+======================================
+Created: March 2024
+Purpose: Backup of links that keep breaking
+
+These links were working at some point. Keeping them here in case 
+IT can restore access or we need the document IDs.
+
+BROKEN LINKS
+============
+
+1. Q3 2024 Planning Doc
+   Original: https://company.sharepoint.com/sites/dept/Shared%20Documents/Planning/Q3_2024_Plan.docx
+   Status: 404 - Not Found
+   Last worked: June 2024
+   Note: Think this got moved during the SharePoint migration
+
+2. Old Org Chart
+   Original: https://company.sharepoint.com/sites/hr/org-charts/dept_org_2024.pptx  
+   Status: Access Denied
+   Last worked: August 2024
+   Note: HR restricted access after reorg announcement
+
+3. Benefits Presentation
+   Original: https://company.sharepoint.com/sites/benefits/open-enrollment-2024.pdf
+   Status: File not found
+   Last worked: November 2024
+   Note: Probably archived after enrollment ended
+
+4. Team Building Event Photos
+   Original: https://company.sharepoint.com/sites/social/Photos/TeamBuilding_April2024
+   Status: Redirect loop
+   Last worked: April 2024
+   Note: Photos folder reorganized, never fixed
+
+5. Old Vendor Contract
+   Original: https://company.sharepoint.com/sites/legal/contracts/vendor_xyz_2023.docx
+   Status: 403 Forbidden
+   Last worked: February 2024
+   Note: Legal locked down contracts folder
+
+NOTES
+=====
+- IT ticket #4521 opened for SharePoint migration issues (no response)
+- IT ticket #4892 opened for access permissions (closed - "by design")
+- Gave up trying to fix these, just keeping record
+
+TODO: Ask new IT person about these when they start
+
+---
+Last updated: September 2024
+Owner: Nobody really

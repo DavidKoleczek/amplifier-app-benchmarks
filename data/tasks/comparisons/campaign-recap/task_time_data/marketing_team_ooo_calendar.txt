@@ -1,0 +1,50 @@
+MARKETING TEAM - OUT OF OFFICE CALENDAR
+=======================================
+Q2 2025 (April - June)
+
+APRIL 2025:
+-----------
+Apr 7-11    | Marcus Webb      | PTO - Family vacation (Backup: Sarah)
+Apr 14-15   | Jennifer Chen    | Conference - MarketingProfs Summit
+Apr 18      | Tom Rodriguez    | Personal day
+Apr 21-25   | Emily Watson     | PTO - Wedding (Backup: Mike)
+Apr 28      | COMPANY HOLIDAY  | Memorial Day (observed)
+
+MAY 2025:
+---------
+May 5-9     | Sarah Kim        | PTO - Japan trip (Backup: Marcus)
+May 12      | Marcus Webb      | Dentist appointment (half day)
+May 19-20   | Jennifer Chen    | Executive offsite
+May 23      | Mike Chen        | Moving day
+May 26      | COMPANY HOLIDAY  | Memorial Day
+
+JUNE 2025:
+----------
+Jun 2-6     | Tom Rodriguez    | PTO - Anniversary trip
+Jun 9-13    | David Park       | Sales kickoff (out of office but reachable)
+Jun 16      | Emily Watson     | Doctor appointment (half day)
+Jun 23-27   | Marcus Webb      | PTO - Summer vacation
+Jun 30      | Jennifer Chen    | Board prep day (no meetings)
+
+NOTES:
+------
+- Always check Slack status before scheduling meetings
+- For urgent issues during PTO, contact listed backup
+- Jennifer prefers no meetings on Fridays (focus time)
+- Team standup moves to async during heavy OOO weeks
+
+SHARED CALENDAR:
+----------------
+All OOO is on the Marketing Team shared calendar
+Link: [internal calendar link]
+
+COVERAGE ASSIGNMENTS:
+---------------------
+Jennifer → Marcus (strategy decisions)
+Marcus → Sarah (analytics/data)
+Sarah → Mike (campaign execution)
+Emily → Marcus (content)
+Tom → Jennifer (budget approvals)
+
+Updated: March 28, 2025
+Next review: June 30, 2025

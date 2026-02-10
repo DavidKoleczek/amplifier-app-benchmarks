@@ -1,0 +1,77 @@
+# Q3 Board Meeting - Follow-up Questions & Action Items
+
+**Meeting Date:** October 15, 2025
+**Attendees:** Board Members, Executive Team
+**Document Owner:** Sarah Chen, VP Finance
+
+---
+
+## Questions Raised During Q3 Meeting
+
+### From Michael Torres (Board Member)
+
+**Q1: What's driving the improvement in sales cycle length?**
+- Rachel to provide detailed analysis of deal velocity by segment
+- STATUS: Completed - See Q4 sales update
+
+**Q2: Are we seeing any leading indicators of churn in the mid-market segment?**
+- Customer Success team to provide health score analysis
+- STATUS: In progress - Early warning system being developed
+
+### From Dr. Jennifer Walsh (Board Member)
+
+**Q3: How does our AI accuracy compare to competitors?**
+- David to prepare competitive benchmarking analysis
+- STATUS: Completed - 94% vs industry avg of 65%
+
+**Q4: What's the plan for the technical debt identified in engineering?**
+- Sprint completed in Q3, ongoing monitoring in place
+- STATUS: Completed
+
+### From Robert Kim (Board Lead)
+
+**Q5: When will we have clarity on Series B timing?**
+- Target: Q4 2025 for initial conversations
+- STATUS: In progress - Discussions initiated with 3 firms
+
+**Q6: What's our contingency if Series B is delayed?**
+- Finance to model scenarios with extended runway options
+- STATUS: To be presented in Q4 meeting
+
+**Q7: Enterprise customer concentration risk - are we too dependent on top 3?**
+- Sales team to report on diversification progress
+- STATUS: Top 3 now represent 42% of ARR (down from 51%)
+
+---
+
+## Concerns to Address in Q4 Meeting
+
+1. **Cash runway** - Board wants to see updated projections with Series B scenarios
+2. **Customer concentration** - Continue reporting on diversification
+3. **Mid-market churn** - Expecting update on retention initiatives
+4. **International expansion** - UK market entry progress
+5. **Competition** - Any response from incumbents to our market share gains?
+
+---
+
+## Board Preferences Noted
+
+- **Slide format**: Keep executive summary to one slide with 5-6 bullet points max
+- **Financial detail**: Board prefers seeing trends (QoQ, YoY) not just absolute numbers
+- **Department updates**: 1 slide per department is sufficient, focus on outcomes not activities
+- **Strategic section**: Always include "what we're watching" / risks section
+- **Timing**: 45-minute presentation, 45-minute discussion
+
+---
+
+## Q4 Meeting Preparation Checklist
+
+- [ ] Financial close completed (by Dec 15)
+- [ ] Department heads submit updates (by Dec 20)
+- [ ] Draft deck to CEO for review (by Dec 28)
+- [ ] Final deck to board (by Jan 5)
+- [ ] Pre-read materials distributed (48 hours before meeting)
+
+---
+
+*Last updated: December 1, 2025*

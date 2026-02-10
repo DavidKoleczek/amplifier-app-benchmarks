@@ -1,0 +1,149 @@
+PROJECT PHOENIX - BLOCKED TICKETS ANALYSIS
+Generated: 2025-12-20
+Report Period: Full Project (March 2025 - December 2025)
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Total tickets blocked at some point: 127 of 847 (15%)
+Average block duration: 8.3 days
+Longest block: 34 days (PHX-456: Salesforce API rate limiting resolution)
+
+This report identifies systematic blocking patterns, not individual performance issues.
+
+================================================================================
+BLOCKING CATEGORIES
+================================================================================
+
+1. EXTERNAL DEPENDENCY BLOCKS (42 tickets, 33%)
+   -------------------------------------------
+   - Salesforce API documentation unclear: 18 tickets blocked
+   - HubSpot sandbox environment issues: 12 tickets blocked
+   - Client environment access delays: 8 tickets blocked
+   - Third-party library bugs: 4 tickets blocked
+
+   Root Cause: Integration work started before all API access was confirmed.
+   Lesson: Validate all external dependencies before sprint commitment.
+
+2. INTERNAL ARCHITECTURE BLOCKS (31 tickets, 24%)
+   -----------------------------------------------
+   - Multi-tenant refactor cascade: 14 tickets blocked
+   - Database schema changes: 9 tickets blocked
+   - API contract changes: 8 tickets blocked
+
+   Root Cause: Major architecture changes (multi-tenancy) mid-project created
+   ripple effects across all dependent work.
+   Lesson: Scope changes requiring architecture rework need full impact analysis.
+
+3. SCOPE CHANGE BLOCKS (28 tickets, 22%)
+   --------------------------------------
+   - Waiting for scope clarification: 15 tickets blocked
+   - Dependent on other scope changes: 13 tickets blocked
+
+   Root Cause: 23 scope changes during project, some requiring clarification
+   before work could proceed.
+   Lesson: Establish scope change review process with defined SLAs.
+
+4. ENVIRONMENT/TOOLING BLOCKS (16 tickets, 13%)
+   ---------------------------------------------
+   - CI/CD pipeline issues: 8 tickets blocked
+   - Staging environment instability: 5 tickets blocked
+   - Test data availability: 3 tickets blocked
+
+   Root Cause: Infrastructure investment deferred early in project.
+   Lesson: Invest in robust development infrastructure from day one.
+
+5. RESOURCE/AVAILABILITY BLOCKS (10 tickets, 8%)
+   ----------------------------------------------
+   - Key person unavailable: 6 tickets blocked
+   - Cross-team coordination: 4 tickets blocked
+
+   Root Cause: Some critical knowledge not distributed across team.
+   Lesson: Document tribal knowledge and cross-train on critical paths.
+
+================================================================================
+CRITICAL BLOCKING CHAINS
+================================================================================
+
+Chain 1: Multi-Tenant Cascade (14 tickets, 34 total days blocked)
+-----------------------------------------------------------------
+PHX-032 (Multi-tenant support) 
+  └─> PHX-033 (Database refactor) - blocked 8 days
+      └─> PHX-034 (Query updates) - blocked 12 days
+          └─> PHX-056 (Tenant data leak fix) - blocked 5 days
+              └─> 10 downstream tickets - blocked avg 3 days each
+
+Impact: This single scope change created the longest blocking chain in the project.
+
+Chain 2: Salesforce Integration (12 tickets, 28 total days blocked)
+-------------------------------------------------------------------
+PHX-020 (Salesforce connector)
+  └─> API access delays - blocked 15 days
+      └─> PHX-241 (Sync feature) - blocked 8 days
+          └─> PHX-245 (Error handling) - blocked 5 days
+
+Impact: Integration started before API access confirmed. Team context-switched.
+
+Chain 3: Workflow Automation (8 tickets, 21 total days blocked)
+---------------------------------------------------------------
+PHX-051 (Workflow automation engine)
+  └─> PHX-052 (Rule engine design) - blocked 5 days for scope clarity
+      └─> PHX-053 (Trigger system) - blocked 8 days
+          └─> PHX-054-057 - blocked avg 2 days each
+
+Impact: Late scope addition with unclear requirements.
+
+================================================================================
+TIMELINE OF MAJOR BLOCKS
+================================================================================
+
+May 2025:
+- PHX-020 Salesforce integration blocked on API access (15 days)
+- Team pivoted to other work, lost context
+
+June 2025:
+- Multi-tenant scope change (PHX-032) creates cascade
+- 14 tickets enter blocked state over 2-week period
+
+July 2025:
+- Workflow automation scope change adds to backlog
+- Peak blocking: 23 tickets blocked simultaneously (July 15)
+
+August 2025:
+- Security vulnerability discovery blocks all feature work (3 days)
+- Performance issues discovered, emergency investigation
+
+September-October 2025:
+- Blocking issues largely resolved
+- Average 3-5 tickets blocked at any time (acceptable)
+
+November-December 2025:
+- Minimal blocks during QA and launch phases
+- Good execution on resolved architecture
+
+================================================================================
+RECOMMENDATIONS FOR FUTURE PROJECTS
+================================================================================
+
+1. DEPENDENCY VALIDATION SPRINT
+   - Dedicate Sprint 0 to validating all external dependencies
+   - No feature work until integrations are proven
+
+2. SCOPE CHANGE IMPACT ANALYSIS
+   - Require full dependency analysis for scope changes
+   - Estimate blocking impact, not just direct work
+
+3. ARCHITECTURE DECISION RECORDS
+   - Document decisions early to prevent mid-project pivots
+   - Multi-tenancy should have been Sprint 1 decision
+
+4. BLOCKING ESCALATION PROCESS
+   - Escalate blocks > 3 days to project management
+   - Weekly blocking review in standups
+
+5. KNOWLEDGE DISTRIBUTION
+   - No single-point-of-failure on any critical path
+   - Pair programming on complex integrations
+
+================================================================================

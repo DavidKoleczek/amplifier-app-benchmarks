@@ -1,0 +1,43 @@
+HealthFirst Implementation - Planned Timeline
+Project Start: March 15, 2025
+Planned Go-Live: June 7, 2025
+
+Phase,Task,Start Date,End Date,Duration (Days),Owner,Status
+Phase 1: Discovery,Kickoff meeting,2025-03-17,2025-03-17,1,CloudSync PM,Planned
+Phase 1: Discovery,Stakeholder interviews,2025-03-18,2025-03-21,4,CloudSync PM,Planned
+Phase 1: Discovery,Technical assessment,2025-03-18,2025-03-25,6,CloudSync Engineer,Planned
+Phase 1: Discovery,Requirements documentation,2025-03-24,2025-03-28,5,CloudSync PM,Planned
+Phase 2: Technical Setup,Environment provisioning,2025-03-31,2025-04-04,5,CloudSync Engineer,Planned
+Phase 2: Technical Setup,Security baseline config,2025-04-01,2025-04-07,5,CloudSync Security,Planned
+Phase 2: Technical Setup,SSO integration (Okta),2025-04-07,2025-04-11,5,Customer IT + CloudSync,Planned
+Phase 3: Integration,Epic EMR connector setup,2025-04-14,2025-04-25,10,CloudSync Engineer,Planned
+Phase 3: Integration,Data migration - pilot,2025-04-21,2025-04-25,5,CloudSync Engineer,Planned
+Phase 3: Integration,Data migration - full,2025-04-28,2025-05-09,10,CloudSync Engineer,Planned
+Phase 3: Integration,ServiceNow integration,2025-05-05,2025-05-09,5,Customer IT + CloudSync,Planned
+Phase 4: UAT,User acceptance testing,2025-05-12,2025-05-23,10,Customer + CloudSync,Planned
+Phase 4: UAT,Admin training,2025-05-19,2025-05-21,3,CloudSync Training,Planned
+Phase 4: UAT,End-user training (wave 1),2025-05-26,2025-05-30,5,CloudSync Training,Planned
+Phase 5: Go-Live,Production cutover,2025-06-07,2025-06-07,1,All Teams,Planned
+Phase 5: Go-Live,End-user training (wave 2),2025-06-09,2025-06-13,5,CloudSync Training,Planned
+Phase 6: Hypercare,Enhanced support period,2025-06-07,2025-07-05,28,CloudSync Support,Planned
+
+MILESTONES
+Milestone,Planned Date
+Project Kickoff,2025-03-17
+Technical Design Approved,2025-03-28
+Environment Ready,2025-04-11
+Integration Complete,2025-05-09
+UAT Sign-off,2025-05-30
+Go-Live,2025-06-07
+Hypercare Complete,2025-07-05
+
+RESOURCE ALLOCATION
+Role,Name,Organization,Allocation %
+Project Manager,Sarah Mitchell,CloudSync,75%
+Lead Engineer,James Torres,CloudSync,100%
+Security Specialist,Amanda Wright,CloudSync,25%
+Training Lead,Kevin O'Brien,CloudSync,50%
+Executive Sponsor,Michael Chen,HealthFirst,10%
+IT Project Manager,David Nguyen,HealthFirst,50%
+Epic Administrator,Lisa Park,HealthFirst,25%
+Network Engineer,Robert Kim,HealthFirst,25%

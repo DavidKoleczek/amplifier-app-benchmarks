@@ -1,0 +1,19 @@
+name: ppt-4
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - analysis
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Project_Phoenix_Postmortem.pptx" covering what went well, what didn't, and lessons learned. Include timeline analysis, budget variance, and key incidents.
+
+  The project shipped 3 months late and 40% over budget. Frame issues as systemic/process problems, not individual blame. The client is happy with the final result - emphasize that.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

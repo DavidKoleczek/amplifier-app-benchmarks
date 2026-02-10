@@ -1,0 +1,22 @@
+project_id,project_name,category,status,start_date,end_date,planned_end,budget_allocated,budget_spent,team_size,business_impact,priority,notes
+PRJ-2025-001,Customer Portal Redesign,Product,Completed,2025-01-15,2025-04-30,2025-05-15,150000,142000,6,High,P1,Launched 2 weeks early; 34% increase in self-service adoption
+PRJ-2025-002,Data Pipeline Modernization,Infrastructure,Completed,2025-02-01,2025-06-30,2025-06-30,200000,195000,4,High,P1,Reduced report generation time by 78%
+PRJ-2025-003,Mobile App v3.0,Product,Completed,2025-03-01,2025-08-15,2025-07-31,175000,182000,5,High,P1,Delayed 2 weeks due to Q3 reorg; 4.8 star rating achieved
+PRJ-2025-004,SOC2 Type II Certification,Compliance,Completed,2025-01-01,2025-09-30,2025-09-30,80000,75000,3,Critical,P0,Certification achieved; enabled 4 enterprise deals
+PRJ-2025-005,Automated Testing Framework,Engineering,Completed,2025-04-01,2025-07-31,2025-08-31,60000,52000,3,Medium,P2,Completed ahead of schedule; 40% reduction in QA cycle time
+PRJ-2025-006,Customer Analytics Dashboard,Analytics,Completed,2025-05-15,2025-10-31,2025-10-31,90000,88000,4,High,P1,Real-time insights now available to all account managers
+PRJ-2025-007,API Gateway Migration,Infrastructure,Completed,2025-06-01,2025-11-30,2025-12-15,120000,108000,4,High,P1,Zero-downtime migration; 45% latency improvement
+PRJ-2025-008,Employee Training Platform,Internal,Completed,2025-02-15,2025-05-31,2025-06-30,45000,41000,2,Medium,P2,Replaced 3 external training tools
+PRJ-2025-009,Disaster Recovery Enhancement,Infrastructure,Completed,2025-07-01,2025-12-15,2025-12-31,95000,93000,3,Critical,P0,RTO reduced from 4 hours to 45 minutes
+PRJ-2025-010,Customer Feedback Integration,Product,Completed,2025-08-01,2025-11-30,2025-11-30,55000,54000,3,Medium,P2,Automated NPS collection; contributed to satisfaction improvement
+PRJ-2025-011,Security Audit Remediation,Security,Completed,2025-03-15,2025-06-30,2025-06-30,70000,68000,3,Critical,P0,All critical findings addressed
+PRJ-2025-012,Partner API Launch,Product,Completed,2025-09-01,2025-12-31,2025-12-31,85000,82000,4,High,P1,3 integration partners live at launch
+
+SUMMARY
+=======
+Total Projects Completed: 12
+On-Time or Early: 10 (83%)
+Delayed: 2 (17%)
+Total Budget Allocated: $1,225,000
+Total Budget Spent: $1,180,000
+Budget Variance: -$45,000 (3.7% under budget)

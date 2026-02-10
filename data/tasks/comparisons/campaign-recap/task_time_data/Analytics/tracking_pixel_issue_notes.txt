@@ -1,0 +1,73 @@
+INCIDENT REPORT: Google Analytics Tracking Pixel Failure
+=========================================================
+
+Incident ID: INC-2025-0411
+Reported By: Marcus Webb, Digital Analytics
+Date Identified: April 25, 2025
+Date Resolved: April 25, 2025
+
+TIMELINE:
+---------
+April 11, 2025 (approx 2:30 AM): Website deployment pushed new header template
+April 11, 2025 (8:45 AM): Marketing noticed zero sessions in real-time GA
+April 11, 2025 (9:15 AM): Ticket escalated to Engineering
+April 11, 2025 (11:30 AM): Root cause identified - GA snippet accidentally removed
+April 11, 2025 (2:00 PM): Fix deployed to staging
+April 14, 2025 (9:00 AM): Fix deployed to production (delayed due to weekend)
+April 25, 2025 (10:30 AM): ACTUAL fix confirmed working (previous fix was incomplete)
+
+ROOT CAUSE:
+-----------
+During the April 10th website update, a junior developer accidentally deleted the 
+Google Analytics tracking snippet from the base template. The initial "fix" on 
+April 14th only partially restored tracking - it was missing the enhanced ecommerce
+module. This wasn't caught until April 25th when we noticed conversion data was
+still missing.
+
+IMPACT:
+-------
+- 14 days of missing/incomplete Google Analytics data (April 11-24)
+- Affected data:
+  * All session/user metrics
+  * Goal completions
+  * Ecommerce transactions
+  * Event tracking
+  * Attribution data
+
+- NOT affected:
+  * Social platform native analytics (Facebook, LinkedIn, etc.)
+  * Email platform metrics (Marketo)
+  * CRM data (Salesforce lead tracking)
+  * Server-side transaction logs
+
+DATA RECOVERY ATTEMPTS:
+-----------------------
+1. Server logs: Retrieved basic pageview counts, but no user identification
+2. Facebook Pixel: Still working - can cross-reference FB-attributed traffic
+3. Marketo: Email clicks still tracked properly
+4. Salesforce: Lead source data intact from UTM parameters
+
+ESTIMATED IMPACT ON CAMPAIGN METRICS:
+-------------------------------------
+Based on traffic patterns before/after outage:
+- Estimated missed sessions: ~45,000-55,000
+- Estimated missed conversions: 180-220
+- Estimated missed revenue tracking: $55,000-$70,000
+
+Note: These are ESTIMATES based on extrapolation. Actual numbers cannot be recovered.
+
+RECOMMENDATIONS FOR REPORTING:
+------------------------------
+1. Flag all April data as incomplete
+2. Use social platform native data as primary source for April 11-24
+3. Consider showing two views: "Tracked Data" vs "Estimated Total"
+4. CFO has been briefed - expects asterisks in any April reporting
+
+PREVENTIVE MEASURES IMPLEMENTED:
+--------------------------------
+1. Added automated GA tracking verification to deployment pipeline
+2. Set up real-time alerting for GA data drops
+3. Created backup tracking via server-side logging
+4. Added code review requirement for template changes
+
+Contact Marcus Webb (marcus.webb@company.com) with questions.

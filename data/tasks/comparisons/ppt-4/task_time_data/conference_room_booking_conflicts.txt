@@ -1,0 +1,44 @@
+CONFERENCE ROOM BOOKING CONFLICTS - Q4 2025
+============================================
+
+This document tracks recurring room booking issues for the Phoenix team.
+
+RECURRING CONFLICTS:
+--------------------
+
+1. Falcon Room (2nd Floor)
+   - Every Tuesday 2-3 PM: Phoenix standup conflicts with Marketing weekly
+   - Resolution: Marketing agreed to move to Falcon Room B
+   - Status: Resolved as of October 1
+
+2. Eagle Room (3rd Floor)
+   - October 15: Double-booked for steering committee and all-hands
+   - Resolution: Steering committee moved to CEO's office
+   - Status: One-time issue, resolved
+
+3. Hawk Room (2nd Floor)
+   - Recurring: No video equipment despite being marked as "video-capable"
+   - Resolution: IT ordered new webcam/display (arriving Nov 1)
+   - Status: In progress
+
+ROOM PREFERENCES BY MEETING TYPE:
+---------------------------------
+
+Phoenix Daily Standup: Hawk Room (small, quick access)
+Sprint Planning: Eagle Room (whiteboard, large screen)
+Client Calls: Falcon Room A (best audio quality)
+Retrospectives: Offsite or Eagle Room
+Steering Committee: Eagle Room or CEO's office
+
+NOTES:
+------
+- Jennifer prefers rooms near the kitchen (can grab coffee during long meetings)
+- David needs power outlets accessible for laptop
+- Sarah requests rooms with natural light when available
+
+CONTACT FOR ROOM ISSUES:
+------------------------
+Facilities: facilities@ourcompany.com
+IT Support: it-help@ourcompany.com (for AV issues)
+
+Last updated: November 2025

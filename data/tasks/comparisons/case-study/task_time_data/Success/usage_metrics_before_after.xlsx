@@ -1,0 +1,111 @@
+HEALTHFIRST REGIONAL MEDICAL CENTER
+CloudSync Usage Metrics - Before and After Comparison
+Data Period: Pre-Implementation vs. 6 Months Post-Go-Live
+
+================================================================================
+DOCUMENT ACCESS AND SEARCH
+================================================================================
+
+Metric,Before (Legacy System),After (CloudSync),Change,% Improvement
+Average search time (seconds),45,4,41 seconds faster,91% faster
+Searches per day,1200,3400,+2200 searches,183% increase
+Failed searches per day,180,12,168 fewer failures,93% reduction
+Average files accessed per user per day,23,47,+24 files,104% increase
+Document retrieval success rate,78%,99.2%,+21.2 points,27% improvement
+
+================================================================================
+COLLABORATION METRICS
+================================================================================
+
+Metric,Before (Legacy System),After (CloudSync),Change,% Improvement
+Files shared externally per month,340,890,+550 shares,162% increase
+Concurrent editors per document (avg),N/A,3.2,New capability,N/A
+Real-time collaboration sessions/week,0,1240,New capability,N/A
+Cross-department file access,Limited,Full,New capability,N/A
+Version conflicts per month,89,7,-82 conflicts,92% reduction
+
+================================================================================
+COMPLIANCE AND SECURITY
+================================================================================
+
+Metric,Before (Legacy System),After (CloudSync),Change,% Improvement
+Audit log completeness,72%,100%,+28 points,39% improvement
+Time to produce audit report (hours),40,2,-38 hours,95% reduction
+HIPAA compliance check time (hours/week),12,2,-10 hours,83% reduction
+Unauthorized access attempts detected,Unknown,47 (blocked),New visibility,N/A
+Data classification coverage,15%,100%,+85 points,567% improvement
+Policy violations auto-remediated,0,234,New capability,N/A
+
+================================================================================
+IT OPERATIONS
+================================================================================
+
+Metric,Before (Legacy System),After (CloudSync),Change,% Improvement
+File-related support tickets per month,245,58,-187 tickets,76% reduction
+Average ticket resolution time (hours),4.2,1.1,-3.1 hours,74% improvement
+Storage servers maintained,6,0 (cloud),-6 servers,100% reduction
+Backup management time (hours/week),8,0 (automated),-8 hours,100% reduction
+System availability,97.2%,99.9%,+2.7 points,2.8% improvement
+Planned maintenance windows per month,4,0,-4 windows,100% reduction
+
+================================================================================
+CLINICAL WORKFLOW IMPACT
+================================================================================
+
+Metric,Before (Legacy System),After (CloudSync),Change,Notes
+Epic document retrieval (avg seconds),12,1.2,-10.8 seconds,90% faster
+Patient record access from mobile,Not available,Available,New capability,180 physicians enabled
+Critical alert document access,Manual,Automated,New capability,Instant access during emergencies
+Care plan template updates,Weekly,Real-time,Improved,Always current versions
+
+================================================================================
+USER SATISFACTION
+================================================================================
+
+Survey Category,Before (2025 Q1),After (2025 Q4),Change
+Overall satisfaction,3.1/5.0,4.4/5.0,+1.3 points
+Ease of finding documents,2.4/5.0,4.6/5.0,+2.2 points
+System reliability,3.4/5.0,4.7/5.0,+1.3 points
+Speed and performance,2.8/5.0,4.5/5.0,+1.7 points
+Would recommend to colleague,52%,89%,+37 points
+
+================================================================================
+ADOPTION METRICS (POST GO-LIVE TRAJECTORY)
+================================================================================
+
+Week,Active Users,% of Licensed,Daily Logins,Files Uploaded
+Week 1,1680,70%,4200,12400
+Week 2,1920,80%,5100,18900
+Week 3,2088,87%,5800,22100
+Week 4,2160,90%,6200,24500
+Week 8,2256,94%,6800,28200
+Week 12,2304,96%,7100,31000
+Week 24,2352,98%,7400,35800
+
+================================================================================
+DEPARTMENT-LEVEL ADOPTION (CURRENT)
+================================================================================
+
+Department,Users,Adoption %,Daily Logins,Top Use Case
+Emergency,320,99%,640,Patient care documentation
+Nursing,680,98%,1100,Care plans and protocols
+Radiology,120,97%,180,DICOM image management
+Laboratory,95,96%,160,Test result documentation
+Pharmacy,75,99%,140,Drug reference and protocols
+Surgery,110,94%,165,Surgical schedules and notes
+Administration,450,97%,650,Policies and procedures
+IT,85,100%,170,System documentation
+Other Clinical,465,96%,695,Various
+
+================================================================================
+DATA SUMMARY
+================================================================================
+
+Category,Key Metric,Value
+Total files migrated,Count,2.3 million
+Total storage in use,GB,14,200
+Files created since go-live,Count,847,000
+Peak concurrent users,Count,890
+Average daily active users,Count,1,850
+Mobile app users,Count,520
+External shares (cumulative),Count,4,200

@@ -1,0 +1,29 @@
+employee_id,name,previous_role,new_role,previous_level,new_level,effective_date,department,years_at_company,promotion_type,salary_increase_pct,notes
+EMP-1042,Sarah Chen,Product Manager,Senior Product Manager,L4,L5,2025-03-01,Product,3,Merit,12,Led portal redesign; exceptional stakeholder management
+EMP-1089,Marcus Williams,Engineer II,Senior Engineer,L3,L4,2025-06-01,Engineering,4,Merit,15,Testing framework innovation; technical leadership growth
+EMP-1156,Jennifer Park,Customer Success Specialist,Customer Success Manager,L3,L4,2025-06-01,Customer Success,2,Merit,14,Saved at-risk accounts; strong customer relationships
+EMP-1203,David Kim,Analyst,Senior Analyst,L2,L3,2025-09-01,Analytics,2,Merit,10,Dashboard project leadership despite reorg challenges
+EMP-1067,Alex Thompson,Support Lead,Customer Success Specialist,L2,L3,2025-04-01,Customer Success,3,Merit,11,Consistent high performer; expanded responsibilities
+EMP-1198,Rachel Torres,Junior Engineer,Engineer II,L2,L3,2025-12-01,Engineering,1,Merit,13,Rapid skill development; key contributor to API project
+
+SUMMARY
+=======
+Total Promotions in 2025: 6
+Promotions as % of Headcount: 13%
+Average Salary Increase: 12.5%
+Promotions by Quarter: Q1(1), Q2(3), Q3(1), Q4(1)
+
+Note: Q3 promotion for David Kim proceeded despite reorg - commitment to recognizing excellence maintained even during difficult period.
+
+PROMOTION BY DEPARTMENT
+=======================
+Engineering: 2
+Customer Success: 2
+Product: 1
+Analytics: 1
+
+PROMOTION BY LEVEL
+==================
+L2 to L3: 3
+L3 to L4: 2
+L4 to L5: 1

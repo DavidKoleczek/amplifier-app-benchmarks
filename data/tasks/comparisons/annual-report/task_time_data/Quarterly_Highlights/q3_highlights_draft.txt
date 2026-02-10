@@ -1,0 +1,91 @@
+Q3 2025 HIGHLIGHTS DRAFT
+========================
+Department Quarterly Review - July through September
+
+EXECUTIVE SUMMARY
+-----------------
+A quarter of significant transition. Company-wide reorganization announced in
+August impacted team structure and morale. Despite challenges, delivered on
+critical commitments including SOC2 certification and Mobile App launch. 
+Customer satisfaction dipped mid-quarter but stabilized by end of September.
+
+THE REORGANIZATION
+------------------
+On August 15, company announced restructuring affecting all departments.
+For our team:
+- Headcount reduced from 53 to 45 (-15%)
+- Contractor positions eliminated (4 technical writers)
+- Two positions consolidated
+- All reductions handled with dignity and support
+- Severance and outplacement provided
+
+Team showed remarkable resilience. No critical capabilities lost. Maintained
+all customer commitments despite transition.
+
+KEY ACCOMPLISHMENTS
+-------------------
+
+1. SOC2 Type II Certification - ACHIEVED
+   - Certification received September 28
+   - Clean audit with no exceptions
+   - Enabled 4 enterprise deals in pipeline
+   - Major competitive differentiator established
+
+2. Mobile App v3.0 - LAUNCHED (with delay)
+   - GA release August 15 (2 weeks late)
+   - Delay due to team transition, not technical issues
+   - 4.8 star rating achieved
+   - 45% increase in mobile engagement
+
+3. Customer Analytics Dashboard - CONTINUED
+   - Development continued despite disruption
+   - Team prioritized effectively
+   - Some features deferred to Q4
+   - Core functionality on track
+
+4. Disaster Recovery Enhancement - STARTED
+   - Critical project initiated post-reorg
+   - Leadership recognized importance of resilience
+   - RTO improvement work underway
+
+METRICS SNAPSHOT
+----------------
+- Customer Satisfaction: 84 → 77 → 80 (dip and recovery)
+- NPS: 45 → 31 → 36 (similar pattern)
+- Project Delivery: 83% on-time (1 delay)
+- Budget: 16% under plan (reorg savings)
+- Support Response Time: peaked at 5.2 hours, recovered to 3.8
+
+CHALLENGES (Candid Assessment)
+------------------------------
+- Morale significantly impacted by reorg
+- Knowledge transfer gaps from departures
+- Customer concerns about stability
+- Workload redistribution took time
+- Communication fatigue
+
+WHAT WENT WELL DESPITE EVERYTHING
+---------------------------------
+- Zero customer churn during transition
+- SOC2 achieved on original timeline
+- Mobile launch happened (delayed but successful)
+- Team pulled together remarkably
+- Transparent communication maintained trust
+
+RECOGNITION
+-----------
+- Entire Department: Resilience Award from CEO
+- Operations Team: kept everything running
+- Customer Success: proactive customer outreach prevented churn
+
+LESSONS LEARNED
+---------------
+- Over-communication during change is never too much
+- Cross-training investments paid off when people left
+- Customer relationships matter most during uncertainty
+- Team culture is a competitive advantage
+
+---
+Draft prepared by: Department Operations
+Last updated: October 5, 2025
+Status: Ready for manager review - SENSITIVE CONTENT

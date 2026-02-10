@@ -1,0 +1,9 @@
+role,employee_name,level,hire_date,salary_band,location,manager
+Tech Lead,David Kim,L5,2021-03-15,Senior,$165K-185K,Seattle,VP Engineering
+Senior Engineer,Sarah Martinez,L4,2020-08-01,Senior,$145K-165K,Seattle,David Kim
+Senior Engineer,James Chen,L4,2022-01-10,Senior,$145K-165K,Remote,David Kim
+Engineer II,Emily Rodriguez,L3,2022-06-15,Mid,$120K-140K,Seattle,David Kim
+Engineer II,Michael Park,L3,2023-02-01,Mid,$120K-140K,Remote,David Kim
+Engineer I,Ashley Thompson,L2,2024-01-15,Junior,$95K-115K,Seattle,David Kim
+QA Engineer,Rachel Foster,L3,2023-05-01,Mid,$110K-130K,Seattle,David Kim
+DevOps Engineer,Kevin O'Brien,L4,2021-11-01,Senior,$140K-160K,Remote,David Kim

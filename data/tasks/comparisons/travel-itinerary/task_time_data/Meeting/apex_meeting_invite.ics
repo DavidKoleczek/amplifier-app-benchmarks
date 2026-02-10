@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Quantum Solutions Inc//Outlook 16.0//EN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20260219T100000
+DTEND:20260219T150000
+DTSTAMP:20260115T143022Z
+ORGANIZER;CN="Marcus Webb":mailto:m.webb@apexindustries.com
+UID:040000008200E00074C5B7101A82E00800000000F0A8B2C3D4E5F600
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN="Sarah Mitchell":mailto:s.mitchell@quantumsolutions.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN="Jason Rodriguez":mailto:j.rodriguez@quantumsolutions.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN="Marcus Webb":mailto:m.webb@apexindustries.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;PARTSTAT=TENTATIVE;CN="Diana Chen":mailto:d.chen@apexindustries.com
+LOCATION:Apex Industries HQ - Willis Tower\, 233 S Wacker Dr\, Suite 4500\, Chicago\, IL 60606
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Q1 Partnership Planning - Quantum Solutions / Apex Industries
+TRANSP:OPAQUE
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:2
+DESCRIPTION:Q1 Partnership Planning Meeting
+
+Agenda:
+- 10:00 AM: Introductions and Q4 Review
+- 11:00 AM: Q1 Goals and Deliverables
+- 12:00 PM: Working Lunch (catered)
+- 1:00 PM: Technical Integration Roadmap
+- 2:30 PM: Contract Renewal Discussion
+- 3:30 PM: Next Steps and Action Items
+
+Please bring:
+- Q4 performance metrics
+- Updated integration timeline
+- Renewal proposal draft
+
+Parking validated at building - see Diana for guest passes.
+
+Meeting room: Conference Room 45-A (45th floor)
+END:VEVENT
+END:VCALENDAR

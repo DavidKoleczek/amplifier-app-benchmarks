@@ -1,0 +1,19 @@
+name: invoice-matching
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - excel
+    - data
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Invoice_Reconciliation.xlsx" matching vendor invoices to purchase orders.
+
+  Flag: duplicate invoices, amount discrepancies vs PO, invoices without matching PO, POs without invoices. Use contracts to verify rates. Follow previous month's format.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

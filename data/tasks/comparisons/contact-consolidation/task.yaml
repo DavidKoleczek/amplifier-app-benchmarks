@@ -1,0 +1,19 @@
+name: contact-consolidation
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - excel
+    - data
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Contacts_Master.xlsx" by merging contacts from Outlook, iPhone, LinkedIn, old spreadsheet, and business card photos.
+
+  Deduplicate, prefer newer info, flag stale contacts, filter out personal (non-work) contacts from phone export.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

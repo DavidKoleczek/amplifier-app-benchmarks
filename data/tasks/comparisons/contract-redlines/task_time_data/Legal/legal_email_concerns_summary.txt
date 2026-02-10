@@ -1,0 +1,71 @@
+From: Rachel Kim <rachel.kim@acme.com>
+To: Jennifer Walsh <jennifer.walsh@acme.com>
+Cc: Legal Team <legal@acme.com>
+Date: January 10, 2026 4:47 PM
+Subject: RE: DataFlow MSA - Legal Review Complete
+
+Jennifer,
+
+I've completed my review of the DataFlow MSA. Attached is our redlined version. Here's a summary of my concerns and the reasoning behind our proposed changes:
+
+CRITICAL ISSUES (Must Address Before Signing):
+
+1. LIABILITY CAP - Section 6.2
+   Original: Both parties capped at 12 months of fees
+   Our Change: Vendor capped at 3x fees; we stay at 1x
+   
+   Reasoning: Given the nature of their services (handling our customer data, integration with core systems), a 12-month cap exposes us to disproportionate risk. If they cause a data breach affecting our customers, our damages could easily exceed $1M+ in notification costs alone, let alone regulatory fines and litigation. The asymmetric cap reflects the asymmetric risk - they're handling OUR data.
+
+2. INDEMNIFICATION - Section 7
+   Original: Balanced indemnification including Customer Data claims
+   Our Change: Expanded Vendor scope, narrowed our scope to gross negligence only
+   
+   Reasoning: The original language had us indemnifying them for "Customer Data" claims - that's backwards. If our data causes problems while in THEIR custody, that's their responsibility. Also added explicit coverage for data breaches and regulatory violations. These are table-stakes protections for any vendor handling PII.
+
+3. IP OWNERSHIP - Section 4.2-4.4
+   Original: Basic work product ownership language
+   Our Change: Added derivative works, assignment language, ML training prohibition
+   
+   Reasoning: The AI/ML training prohibition is crucial. I've seen vendors use customer data to train their models, then effectively sell our insights to competitors. The derivative works language closes a common loophole where vendors claim ownership of "improvements" built on our work product.
+
+IMPORTANT BUT NEGOTIABLE:
+
+4. Termination Rights - Section 2.2
+   Changed to asymmetric (30 days for us, 90 for them)
+   This gives us flexibility if they underperform. May face pushback.
+
+5. Insurance Limits - Section 8
+   Doubled/tripled all limits. Standard practice given data sensitivity.
+   They may have difficulty meeting the cyber liability increase to $10M.
+
+6. Breach Notification - Section 9.3
+   Changed from 48 hours to 24 hours. Industry standard is moving to 24.
+
+7. Payment Terms - Section 3.2
+   Extended from Net 30 to Net 45. Standard for our vendor relationships.
+
+NICE TO HAVE (Can Concede If Needed):
+
+8. Confidentiality survival (extended to 5 years)
+9. Transition assistance clause
+10. Monthly service reviews
+
+NEGOTIATION STRATEGY RECOMMENDATION:
+
+Start with all changes. Be prepared to:
+- Concede on payment terms (back to Net 30)
+- Reduce insurance limits slightly (but not below $7M cyber)
+- Accept 30-day breach notification if they push hard
+
+DO NOT concede on:
+- The 3x liability cap for vendor
+- IP ownership and ML training prohibition  
+- Data breach indemnification
+
+The IP and indemnification changes are dealbreakers for me. If they won't accept those, I'd recommend walking away. There are other vendors in this space.
+
+Let me know if you want to discuss before sending to DataFlow.
+
+Rachel Kim
+Senior Corporate Counsel
+Acme Corporation

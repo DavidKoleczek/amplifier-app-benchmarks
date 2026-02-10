@@ -1,0 +1,21 @@
+name: budget-request
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - excel
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create budget request materials:
+  1. "Budget_Request_2026.xlsx" - headcount and tools spend with cost breakdown
+  2. "Budget_Justification.docx" - business case for the request
+
+  Requesting: 3 new headcount + $150K tools budget. Use utilization data and project backlog to justify need. Reference last year's approved format.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

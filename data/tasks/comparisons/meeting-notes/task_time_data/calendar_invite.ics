@@ -1,0 +1,41 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NovaTech Solutions//Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20260114T100000
+DTEND:20260114T110000
+DTSTAMP:20260107T143022Z
+ORGANIZER;CN=Sarah Chen:mailto:sarah.chen@novatech.com
+UID:847293105620260114@novatech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Marcus Williams:mailto:marcus.williams@novatech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Jennifer Park:mailto:jennifer.park@novatech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=David Thompson:mailto:david.thompson@novatech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Tom Rodriguez:mailto:tom.rodriguez@novatech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=TENTATIVE;RSVP=TRUE
+ ;CN=Lisa Martinez:mailto:lisa.martinez@novatech.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Alex Kim:mailto:alex.kim@novatech.com
+CREATED:20260107T143022Z
+DESCRIPTION:Q1 Planning Meeting - Extended session to cover Prism launch\, 
+ budget review\, and team restructuring.\n\nAgenda attached.\n\nZoom link: 
+ https://novatech.zoom.us/j/8472931056\nPassword: Q1Plan26\n\nPlease review 
+ pre-read materials before the meeting.
+LAST-MODIFIED:20260113T091500Z
+LOCATION:Zoom Meeting
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Q1 Planning Meeting
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder: Q1 Planning Meeting in 15 minutes
+TRIGGER:-PT15M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

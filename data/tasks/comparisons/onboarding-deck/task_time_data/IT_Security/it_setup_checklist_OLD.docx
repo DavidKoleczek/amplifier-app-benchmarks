@@ -1,0 +1,98 @@
+HORIZONWORKS NEW HIRE IT SETUP CHECKLIST
+=========================================
+Version 2.1 - Last Updated: March 2024
+[OUTDATED - DO NOT USE]
+
+Welcome to HorizonWorks! This checklist will help you get your technology 
+set up on Day 1.
+
+------------------------------------------------------------------------
+BEFORE YOUR FIRST DAY
+------------------------------------------------------------------------
+
+[ ] Check your personal email for HorizonWorks IT welcome message
+[ ] Note your temporary password (expires after first login)
+[ ] Download required apps on your phone (see list below)
+
+------------------------------------------------------------------------
+DAY 1 SETUP TASKS
+------------------------------------------------------------------------
+
+LAPTOP SETUP:
+[ ] Receive laptop from IT (MacBook Pro or Dell XPS based on role)
+[ ] Power on and complete initial macOS/Windows setup
+[ ] Connect to "HorizonWorks-Guest" WiFi for initial setup
+[ ] Sign in with your @horizonworks.com credentials
+[ ] Complete automatic software installation (takes ~30 minutes)
+[ ] Restart when prompted
+[ ] Connect to "HorizonWorks-Secure" WiFi with your credentials
+
+ACCOUNTS TO SET UP:
+[ ] Gmail (for HorizonWorks email)
+[ ] Slack
+[ ] Okta (for SSO)
+[ ] 1Password (password manager)
+[ ] Zoom
+[ ] Jira
+[ ] Confluence
+
+VPN SETUP:
+[ ] Download Cisco AnyConnect from Software Center
+[ ] Connect to vpn.horizonworks.com
+[ ] Use your Okta credentials
+[ ] Complete MFA enrollment (phone or hardware key)
+
+PHONE APPS:
+[ ] Slack
+[ ] Okta Verify (for MFA)
+[ ] Gmail
+[ ] Zoom
+
+------------------------------------------------------------------------
+WITHIN FIRST WEEK
+------------------------------------------------------------------------
+
+[ ] Complete security training (see separate document)
+[ ] Set up email signature (template in Confluence)
+[ ] Configure calendar preferences
+[ ] Join relevant Slack channels
+[ ] Test screen sharing for video calls
+
+------------------------------------------------------------------------
+IT SUPPORT
+------------------------------------------------------------------------
+
+Hours: Monday-Friday, 8am-6pm PT
+Email: helpdesk@horizonworks.com
+Phone: Extension 4357 (HELP)
+Slack: #it-helpdesk
+Location: Building A, 1st Floor, Room 102
+
+For after-hours emergencies only: (555) 123-4567
+
+------------------------------------------------------------------------
+COMMON ISSUES & SOLUTIONS
+------------------------------------------------------------------------
+
+"Laptop won't connect to WiFi"
+→ Ensure you're connecting to HorizonWorks-Secure, not Guest
+→ Verify caps lock is off when entering password
+
+"Can't access internal websites"
+→ Make sure VPN is connected (check AnyConnect icon)
+→ Try disconnecting and reconnecting
+
+"Okta login failing"
+→ Clear browser cache
+→ Try incognito/private window
+→ Contact IT if persists
+
+------------------------------------------------------------------------
+
+NOTE: This document may be outdated. For the latest version, 
+check Confluence: https://horizonworks.atlassian.net/wiki/it-setup
+
+Version History:
+- 2.1 (March 2024): Updated VPN instructions
+- 2.0 (January 2024): Added Okta SSO info
+- 1.5 (June 2023): Initial release

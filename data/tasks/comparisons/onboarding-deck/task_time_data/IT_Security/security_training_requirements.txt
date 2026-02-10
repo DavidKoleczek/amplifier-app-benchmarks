@@ -1,0 +1,109 @@
+HORIZONWORKS SECURITY TRAINING REQUIREMENTS
+============================================
+Effective: January 2026 | IT Security Team
+
+All employees must complete the following security training within their first 
+30 days of employment. Failure to complete may result in restricted system access.
+
+------------------------------------------------------------------------
+REQUIRED TRAINING MODULES
+------------------------------------------------------------------------
+
+1. SECURITY AWARENESS FUNDAMENTALS (45 minutes)
+   Platform: KnowBe4
+   Topics:
+   - Phishing recognition and reporting
+   - Social engineering tactics
+   - Password best practices
+   - Physical security basics
+   - Incident reporting procedures
+   
+   Access: https://training.horizonworks.com/security-101
+   Passing score: 80%
+
+2. DATA HANDLING & CLASSIFICATION (30 minutes)
+   Platform: Internal LMS
+   Topics:
+   - Data classification levels (Public, Internal, Confidential, Restricted)
+   - Handling requirements for each level
+   - Customer data protection
+   - GDPR and CCPA basics
+   - Data retention policies
+   
+   Access: https://training.horizonworks.com/data-handling
+   Passing score: 85%
+
+3. SECURE REMOTE WORK (20 minutes)
+   Platform: KnowBe4
+   Topics:
+   - Home network security
+   - VPN requirements (Cloudflare Access - see IT Setup Checklist)
+   - Public WiFi dangers
+   - Screen privacy
+   - Device theft/loss reporting
+   
+   Access: https://training.horizonworks.com/remote-security
+   Passing score: 80%
+
+------------------------------------------------------------------------
+ADDITIONAL TRAINING BY ROLE
+------------------------------------------------------------------------
+
+ENGINEERING/PRODUCT:
+- Secure coding practices (2 hours) - Required within 60 days
+- OWASP Top 10 training - Required within 60 days
+- Code review security checklist
+
+MANAGERS:
+- Security incident response for managers (1 hour)
+- Access review procedures
+
+CUSTOMER-FACING ROLES:
+- Customer data handling extended module (30 min)
+- Support ticket security procedures
+
+FINANCE/HR:
+- PII handling advanced module (1 hour)
+- Wire fraud prevention
+
+------------------------------------------------------------------------
+ONGOING REQUIREMENTS
+------------------------------------------------------------------------
+
+- Monthly phishing simulations (automatic, no action required)
+- Annual security refresher training (1 hour, due each December)
+- Quarterly security newsletter (read & acknowledge)
+- Immediate training for new threat types as needed
+
+------------------------------------------------------------------------
+COMPLIANCE TRACKING
+------------------------------------------------------------------------
+
+Training completion is tracked automatically. You can view your status at:
+https://training.horizonworks.com/my-progress
+
+Your manager receives weekly reports on team completion rates.
+
+Non-compliance escalation:
+- Day 25: Reminder email
+- Day 30: Manager notification
+- Day 35: System access restricted to email only
+- Day 45: Account suspended pending training completion
+
+------------------------------------------------------------------------
+QUESTIONS?
+------------------------------------------------------------------------
+
+IT Security Team: security@horizonworks.com
+Slack: #it-security-help
+IT Help Desk: x4357 or helpdesk@horizonworks.com
+
+------------------------------------------------------------------------
+IMPORTANT LINKS
+------------------------------------------------------------------------
+
+Report a phishing attempt: phishing@horizonworks.com (or use Outlook button)
+Report a security incident: security-incident@horizonworks.com
+Lost/stolen device: IMMEDIATELY call IT Help Desk x4357
+
+Remember: Security is everyone's responsibility!

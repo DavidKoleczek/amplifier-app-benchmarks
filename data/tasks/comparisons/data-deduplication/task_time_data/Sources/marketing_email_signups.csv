@@ -1,0 +1,16 @@
+signup_id,email,first_name,last_name,company,signup_date,source,opted_in,bounce_status
+MKT-2024-001,john.smith@acmecorp.com,John,Smith,Acme,2024-09-15,Webinar,TRUE,
+MKT-2024-002,schen@techflow.io,Sarah,Chen,TechFlow,2024-10-01,White Paper,TRUE,
+MKT-2024-003,newlead1@prospect.com,Alex,Newbie,Prospect Inc,2024-11-20,Website,TRUE,
+MKT-2024-004,bounced@invalid-domain.com,Bad,Email,Unknown,2024-08-05,Trade Show,TRUE,hard_bounce
+MKT-2024-005,dkim@pacificretail.com,David,Kim,Pacific Retail Group,2024-10-18,Newsletter,TRUE,
+MKT-2024-006,contact@defunctcorp.com,Old,Contact,Defunct Corp,2024-06-12,Website,TRUE,hard_bounce
+MKT-2024-007,ewatson@pinnaclehealthcare.org,Emily,Watson,Pinnacle Healthcare,2024-12-01,Conference,TRUE,
+MKT-2024-008,unsubscribed@former.com,Left,Us,Former Customer,2024-03-22,Webinar,FALSE,
+MKT-2024-009,mgarcia@desertresorts.com,Maria,Garcia,Desert Sun,2024-11-08,Website,TRUE,
+MKT-2024-010,newlead2@futurecompany.io,Future,Lead,Future Company,2024-12-05,LinkedIn,TRUE,
+MKT-2024-011,rfeynman@quantumlabs.com,Richard,Feynman,Quantum Labs,2024-10-25,White Paper,TRUE,
+MKT-2024-012,spam.trap@honeypot.net,Spam,Trap,,2024-07-30,Unknown,TRUE,hard_bounce
+MKT-2024-013,phayes@summitinsurance.com,Patricia,Hayes,Summit Insurance,2024-09-28,Referral,TRUE,
+MKT-2024-014,old.email@closedcompany.org,Closed,Business,Closed Company,2024-04-15,Trade Show,TRUE,hard_bounce
+MKT-2024-015,awhite@skylineproperties.com,Amanda,White,Skyline Properties,2024-10-10,Website,TRUE,

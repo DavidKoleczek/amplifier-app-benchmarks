@@ -1,0 +1,62 @@
+EXEC TALKING POINTS - ACME QBR
+==============================
+Prepared by: Marcus (Sales Director)
+For: Leadership prep meeting Jan 10
+
+CONTEXT
+-------
+This QBR is high-stakes. Acme is one of our largest accounts and their CFO 
+has been asking pointed questions since the November incident. We need to 
+thread the needle - be honest about challenges while reinforcing value.
+
+CEO CONCERNS (from my 1:1 with Sarah)
+-------------------------------------
+1. "Are we at risk of losing Acme?"
+   - Not immediate churn risk, but renewal is not guaranteed
+   - Need to rebuild trust, especially with CFO David Park
+   
+2. "Should we offer concessions?"
+   - SLA credit is still being negotiated (legal/finance)
+   - DO NOT promise anything in the QBR - say "being discussed"
+   - If pushed, defer to "our leadership is personally involved"
+
+3. "What's the competitive threat?"
+   - Intel suggests they've had demos with CompetitorX
+   - Their pitch is probably "reliability" - we need to counter
+   - Our usage metrics are actually our best defense
+
+WHAT TO EMPHASIZE
+-----------------
+- Usage is UP 36% YoY despite the incident
+- Feature adoption is strong (89% on reporting, up from 67%)
+- Their team voluntarily expanded usage post-incident = trust signal
+- We've invested in infrastructure (new monitoring, redundancy)
+
+WHAT TO AVOID
+-------------
+- Do NOT bring up the November outage unless they do
+- Do NOT mention specific SLA credit amounts
+- Do NOT make promises about future pricing
+- Do NOT speculate about incident cause (legal sensitivity)
+
+IF THEY BRING UP THE OUTAGE
+---------------------------
+Acknowledge -> Apologize briefly -> Pivot to actions taken:
+"We know November was disruptive. We've taken it seriously - [list improvements]. 
+What matters now is the path forward, and we're committed to earning back trust."
+
+ATTENDEE MANAGEMENT
+-------------------
+- Thomas Chen (VP Ops) - friendly, focus on value/features
+- Maria Santos (IT Dir) - needs technical reassurance
+- David Park (CFO) - skeptical, focus on ROI and stability
+- [POSSIBLE] External consultant - if present, may be evaluating vendors
+
+QBR SUCCESS CRITERIA
+--------------------
+1. No new concerns raised about relationship
+2. CFO leaves with positive impression
+3. Thomas confirms interest in expansion conversation
+4. Schedule follow-up within 2 weeks
+
+-Marcus

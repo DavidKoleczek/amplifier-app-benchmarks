@@ -1,0 +1,30 @@
+domain,company_name,status,notes
+acmecorp.com,Acme Corporation,active,Primary domain
+techflow.io,TechFlow Solutions,active,Primary domain
+globallogistics.com,Global Logistics Inc,active,Primary domain
+pinnaclehealthcare.org,Pinnacle Healthcare Systems,active,Primary domain - rebranded 2024
+pinnaclehealth.org,Pinnacle Healthcare Systems,deprecated,Old domain - redirect to pinnaclehealthcare.org
+firstnational.com,First National Bank,active,Primary domain
+fnb.com,First National Bank,alias,Short alias domain
+sunriseenergy.com,Sunrise Energy Co,active,Primary domain
+pacificretail.com,Pacific Retail Group,active,Primary domain
+midwestmfg.com,Midwest Manufacturing LLC,active,Primary domain
+cloudtech-innovations.com,CloudTech Innovations,active,Primary domain with hyphen
+atlanticfinancial.com,Atlantic Financial Services,active,Primary domain
+greenvalleyfarms.com,Green Valley Farms,active,Current domain
+greenvalley.com,Green Valley Farms,deprecated,Old domain - no longer in use
+metroconstruction.com,Metro Construction Co,active,Primary domain
+metroconst.com,Metro Construction Co,alias,Short alias - forwards to primary
+brighteducation.edu,Bright Education Inc,active,Educational domain
+velocitymotors.com,Velocity Motors,active,Primary domain
+skylineproperties.com,Skyline Properties,active,Primary domain
+quantumlabs.com,Quantum Labs,active,Primary domain
+harborshipping.com,Harbor Shipping LLC,active,Primary domain
+summitinsurance.com,Summit Insurance Group,active,Primary domain
+desertresorts.com,Desert Sun Resorts,active,Primary domain
+northerntimber.com,Northern Timber Co,active,Primary domain
+legacysystems.com,Legacy Systems Inc,active,Primary domain
+riverdalemfg.com,Riverdale Manufacturing,active,Primary domain
+coastalmed.org,Coastal Medical Center,active,Primary domain
+defunctcorp.com,Defunct Corp,inactive,Company closed 2022
+oldtimersllc.net,Old Timers LLC,inactive,Email bouncing since 2024

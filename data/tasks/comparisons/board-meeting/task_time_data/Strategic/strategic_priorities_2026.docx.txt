@@ -1,0 +1,190 @@
+# NexusAI Strategic Priorities 2026
+
+**Document Status:** Board Approved (Draft for Q4 Update)
+**Last Updated:** December 15, 2025
+**Owner:** Maya Rodriguez, CEO
+
+---
+
+## Executive Summary
+
+2026 represents a critical inflection point for NexusAI. With Series B funding (expected Q1), we will accelerate our path from promising startup to market leader in AI-powered supply chain intelligence for the mid-market. Our strategy focuses on three pillars: Product Leadership, Market Expansion, and Operational Excellence.
+
+---
+
+## Strategic Pillars
+
+### Pillar 1: Product Leadership
+
+**Goal:** Establish NexusAI as the definitive AI-native supply chain platform for mid-market enterprises.
+
+**Key Initiatives:**
+
+1. **Supplier Risk Module (Q2 Launch)**
+   - Address #1 competitive gap
+   - Projected impact: +15% win rate improvement
+   - Investment: $1.2M development cost
+   
+2. **Platform 3.0 (Q4 Launch)**
+   - Next-generation AI engine (96% accuracy target)
+   - Real-time collaboration features
+   - Advanced scenario planning
+   
+3. **Mobile App GA (Q1)**
+   - Complete beta → production transition
+   - iOS and Android parity
+   
+4. **Industry Vertical Templates**
+   - Healthcare (Q2)
+   - Manufacturing (Q3)
+   - Retail/Distribution (Q4)
+
+**Success Metrics:**
+- NPS: 65+ (from 58)
+- Feature usage breadth: 70%+ of features used per customer
+- AI accuracy: 96%+ (from 94%)
+
+---
+
+### Pillar 2: Market Expansion
+
+**Goal:** Triple ARR from $8.6M to $28M while expanding geographic footprint.
+
+**Key Initiatives:**
+
+1. **Enterprise Acceleration**
+   - Target: 60% of new ARR from Enterprise segment
+   - Dedicated enterprise sales team (4 AEs)
+   - Strategic account management program
+   
+2. **International Expansion**
+   - UK market entry (Q1)
+   - Germany market entry (Q2)
+   - Target: 15% of new ARR from international by Q4
+   
+3. **Channel Development**
+   - 2-3 strategic partnerships (consultancies, integrators)
+   - Referral partner program launch
+   
+4. **Vertical Go-to-Market**
+   - Healthcare-specific messaging and case studies
+   - Manufacturing industry events presence
+
+**Success Metrics:**
+- ARR: $28M (225% growth)
+- Enterprise mix: 60%+ of new ARR
+- International: 15%+ of new ARR
+- Net Revenue Retention: 115%+
+
+---
+
+### Pillar 3: Operational Excellence
+
+**Goal:** Build the operational foundation to support 3x growth while maintaining efficiency.
+
+**Key Initiatives:**
+
+1. **Team Scaling**
+   - Grow from 42 to 85 FTEs
+   - Key hires: VP Engineering, VP CS, Sales Directors
+   - Maintain culture through hypergrowth
+   
+2. **Infrastructure & Compliance**
+   - EU data center (Q1)
+   - SOC 2 Type II certification
+   - GDPR full compliance
+   
+3. **Customer Success at Scale**
+   - Implement digital CS for Business tier
+   - Reduce time-to-value to <8 weeks
+   - Customer health scoring automation
+   
+4. **Financial Operations**
+   - Series B close (Q1)
+   - Implement FP&A tooling
+   - Board reporting automation
+
+**Success Metrics:**
+- Gross margin: 82%+
+- CAC payback: <10 months
+- Employee NPS: 60+
+- Customer implementation time: <8 weeks
+
+---
+
+## Resource Allocation (Post-Series B)
+
+| Function | Current FTE | 2026 Target | Investment |
+|----------|-------------|-------------|------------|
+| Engineering | 20 | 40 | $4.5M |
+| Sales | 10 | 22 | $3.2M |
+| Marketing | 6 | 12 | $1.8M |
+| Customer Success | 4 | 8 | $0.9M |
+| G&A | 2 | 3 | $0.4M |
+| **Total** | **42** | **85** | **$10.8M** |
+
+---
+
+## Risk Factors
+
+### High Priority Risks
+
+1. **Series B Timing**
+   - Risk: Delay beyond Q1 impacts all initiatives
+   - Mitigation: Parallel conversations with 3 firms, bridge option available
+
+2. **Enterprise Sales Execution**
+   - Risk: Longer cycles, fewer reps with enterprise experience
+   - Mitigation: Hire experienced enterprise AEs, sales enablement investment
+
+3. **Product Delivery**
+   - Risk: Supplier risk module delays impact competitive position
+   - Mitigation: Dedicated team, clear scope, no feature creep
+
+### Medium Priority Risks
+
+4. **International Complexity**
+   - Risk: Underestimate effort for UK/EU market entry
+   - Mitigation: Phase approach, local partnerships
+
+5. **Team Culture**
+   - Risk: Hypergrowth dilutes culture
+   - Mitigation: Values-based hiring, culture initiatives
+
+---
+
+## Board Requests
+
+1. **Series B Support**
+   - Introductions to enterprise buyers for due diligence calls
+   - Reference calls with potential investors
+
+2. **Strategic Guidance**
+   - Acquisition target list review (potential acquirers in 18-24 months)
+   - International expansion sequencing advice
+
+3. **Network Access**
+   - Enterprise CIO/COO introductions
+   - UK/Germany market contacts
+
+---
+
+## 2026 Quarterly Milestones
+
+| Quarter | ARR Target | Key Milestones |
+|---------|------------|----------------|
+| Q1 | $10.5M | Series B close, UK launch, Mobile GA |
+| Q2 | $14.0M | Supplier Risk Module, Germany launch |
+| Q3 | $20.0M | 50 enterprise customers, Platform 3.0 beta |
+| Q4 | $28.0M | Platform 3.0 GA, Path to profitability clear |
+
+---
+
+## Conclusion
+
+2026 is our breakout year. With Series B capital and continued execution, we will establish NexusAI as the category leader in mid-market supply chain AI. The opportunity is significant, the team is ready, and the market timing is ideal.
+
+---
+
+*Approved by Board of Directors: December 12, 2025*
+*Next Review: Q1 2026 Board Meeting*

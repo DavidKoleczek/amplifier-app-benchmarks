@@ -1,0 +1,91 @@
+BOUNCED EMAIL LOG
+=================
+Tracking emails that bounced - these addresses are likely invalid/stale.
+
+Date: 2025-12-15
+To: mrodriguez@oldcompany.com
+Error: 550 5.1.1 User unknown
+Notes: Michael Rodriguez's old email - he's at TechVentures now
+
+Date: 2025-12-18
+To: priya@stanford.edu
+Error: 550 5.1.1 The email account does not exist
+Notes: Priya Sharma's old university email - alumni access expired
+
+Date: 2025-12-20
+To: david.kim@oldventures.com
+Error: 550 5.1.1 Recipient not found
+Notes: David Kim moved to Pacific Ventures in 2023
+
+Date: 2025-12-22
+To: afoster@oldbank.com
+Error: 550 Mailbox not found
+Notes: Amanda Foster's old employer - she's at Meridian now
+
+Date: 2025-12-28
+To: marcus.t@oldanalytics.com
+Error: 550 5.1.1 User unknown
+Notes: Marcus Thompson's old company email - company was acquired
+
+Date: 2026-01-02
+To: kevin.m@oldsecurity.com
+Error: 550 5.1.1 The email account that you tried to reach does not exist
+Notes: Kevin Mitchell left SecureNet for CyberSec in 2024
+
+Date: 2026-01-05
+To: richard.stevens@defunct.com
+Error: 550 Domain not found
+Notes: Company no longer exists - remove from contacts entirely
+
+Date: 2026-01-05
+To: maria.lopez@closedshop.com
+Error: 550 Domain not found
+Notes: Business closed in 2018 - stale contact
+
+Date: 2026-01-06
+To: brian.cox@retired.net
+Error: 550 5.1.1 User unknown
+Notes: Brian Cox retired - email no longer active
+
+Date: 2026-01-06
+To: patricia.young@acquired.com
+Error: 550 5.1.1 Mailbox not found
+Notes: Company was acquired, domain decommissioned
+
+Date: 2026-01-07
+To: george.hall@bankrupt.com
+Error: 550 Domain not found
+Notes: Company went bankrupt 2018, domain expired
+
+Date: 2026-01-08
+To: sarah.c@horizonhealth.io
+Error: 550 5.1.1 User unknown
+Notes: Slightly wrong format - correct is sarah.chen@horizonhealth.io
+
+Date: 2026-01-08
+To: s.lee@quantumcomputing.tech
+Error: 550 5.1.1 User unknown
+Notes: Samantha Lee uses samantha.lee@ format, not s.lee@
+
+Date: 2026-01-09
+To: bob.martinez@greentech.io
+Error: 550 5.1.1 User unknown
+Notes: Robert Martinez uses robert.martinez@, not bob.martinez@
+
+---
+
+SUMMARY OF INVALID ADDRESSES (DO NOT USE):
+- mrodriguez@oldcompany.com
+- priya@stanford.edu
+- david.kim@oldventures.com
+- afoster@oldbank.com
+- marcus.t@oldanalytics.com
+- kevin.m@oldsecurity.com
+- richard.stevens@defunct.com
+- maria.lopez@closedshop.com
+- brian.cox@retired.net
+- patricia.young@acquired.com
+- george.hall@bankrupt.com
+- sarah.c@horizonhealth.io (typo)
+- s.lee@quantumcomputing.tech (wrong format)
+- bob.martinez@greentech.io (wrong first name)

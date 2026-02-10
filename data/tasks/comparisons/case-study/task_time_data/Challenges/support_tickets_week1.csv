@@ -1,0 +1,48 @@
+ticket_id,created_date,created_time,department,user_name,category,priority,subject,description,resolution_time_hours,status
+HF-001,2025-07-12,06:45,Emergency,Dr. James Wilson,Login,High,Cannot access CloudSync after go-live,Tried logging in at shift start but getting SSO error. Need access to patient files urgently.,0.5,Resolved
+HF-002,2025-07-12,07:12,Nursing,Maria Santos,Login,High,SSO loop - keeps redirecting,Click login and it just keeps sending me back to the login screen. Tried 3 browsers.,0.75,Resolved
+HF-003,2025-07-12,07:23,Radiology,Tech Team,Sync,Critical,Images not syncing to workstations,DICOM images uploaded 2 hours ago still not visible on reading workstations. Radiologists waiting.,2.5,Resolved
+HF-004,2025-07-12,07:45,Administration,Karen Phillips,Training,Medium,How do I share a folder externally?,Missed the training session - need to share budget docs with external auditor by Monday,N/A,Resolved - sent docs
+HF-005,2025-07-12,08:02,Lab,Multiple Users,Performance,High,CloudSync running extremely slow,Entire lab department reporting 30+ second delays opening files. Unusable.,1.5,Resolved
+HF-006,2025-07-12,08:15,Nursing,Floor 3 Charge Nurse,Missing Files,Critical,Patient care plans not migrated,Looking for care plans we created last week - not in CloudSync. WHERE ARE THEY?,3.0,Resolved - found in archive
+HF-007,2025-07-12,08:34,IT,David Nguyen,Integration,Critical,Epic integration showing errors,Epic connector throwing timeout errors. Clinical staff can't access EMR-linked documents.,4.5,Resolved - patch deployed
+HF-008,2025-07-12,09:00,Pharmacy,Linda Chen,Access,High,Can't see shared pharmacy protocols folder,Had access before migration - now folder not visible. Need for medication verification.,1.0,Resolved - permissions fix
+HF-009,2025-07-12,09:22,Emergency,Night Shift RN,Login,High,Login working but very slow,Takes 45 seconds to authenticate. During emergencies this is not acceptable.,2.0,Resolved - SSO caching
+HF-010,2025-07-12,09:45,Administration,CFO Office,Feature,Low,Request: Offline access for executives,Leadership wants to access files during travel without internet. Is this possible?,N/A,Documented for roadmap
+HF-011,2025-07-12,10:15,Surgery,OR Coordinator,Missing Files,High,Surgical schedules missing,Weekly OR schedules we uploaded yesterday are gone. Surgery starts in 2 hours!,1.5,Resolved - wrong folder
+HF-012,2025-07-12,10:30,Radiology,Dr. Patricia Lee,Performance,Critical,Can't open large imaging studies,PACS-linked studies over 500MB won't open at all. Getting timeout error.,3.0,Escalated to engineering
+HF-013,2025-07-12,11:00,HR,Benefits Team,Training,Low,Need refresher on version history,Training covered this but I forgot - how do I see old versions of a document?,N/A,Sent help article
+HF-014,2025-07-12,11:30,Nursing,ICU Manager,Access,High,Staff showing wrong department access,Three nurses see files from other departments they shouldn't have access to.,2.5,Resolved - AD sync issue
+HF-015,2025-07-12,12:00,IT,Security Team,Security,Medium,Audit log not showing all events,Compliance team noticed gaps in audit log from 6-8 AM. Need complete records.,24.0,Resolved - logging delay
+HF-016,2025-07-12,12:45,Lab,Lab Director,Performance,High,Still slow after earlier fix,Performance was better for an hour but now slow again. Is this going to be ongoing?,1.0,Monitoring
+HF-017,2025-07-12,13:15,Pharmacy,Pharmacy Manager,Integration,High,ServiceNow tickets not creating,When I report an issue through CloudSync it's supposed to create a ticket. It's not.,2.0,Resolved - config fix
+HF-018,2025-07-12,14:00,Emergency,Department Head,Escalation,Critical,Department threatening to go back to paper,Multiple issues this morning. Staff saying the old system was better. Need exec intervention.,N/A,Escalated to PM
+HF-019,2025-07-12,14:30,Radiology,Multiple Techs,Sync,High,Files syncing but metadata wrong,Documents showing wrong dates and authors after sync. Confusing for audit trail.,8.0,Resolved - migration fix
+HF-020,2025-07-12,15:00,Administration,CIO Office,General,Medium,Requesting status update for board,Board meeting Tuesday - CIO needs summary of go-live status and any concerns.,N/A,Report provided
+HF-021,2025-07-12,15:30,Nursing,Med-Surg Unit,Training,Medium,Confusion about shared vs personal folders,Staff uploading personal files to shared department folder. Need clarification.,N/A,Additional training scheduled
+HF-022,2025-07-12,16:00,Surgery,Surgeon Dr. Roberts,Performance,High,Opening case files takes too long,Between surgeries need quick access. Current speed not acceptable for clinical use.,4.0,Optimization applied
+HF-023,2025-07-12,16:45,IT,Help Desk,Volume,High,Overwhelmed with CloudSync calls,Help desk has taken 35 CloudSync calls today. Need additional support resources.,N/A,CloudSync staff augmented
+HF-024,2025-07-13,06:30,Emergency,Night Shift Lead,Login,Medium,Sporadic SSO failures overnight,3 staff reported login failures between 2-4 AM. Working now but concerning.,12.0,Monitoring
+HF-025,2025-07-13,07:15,Lab,Morning Shift,Performance,Medium,Slow but better than yesterday,Still noticing delays but more like 5-10 seconds now vs 30 yesterday. Improving?,N/A,Acknowledged
+HF-026,2025-07-13,08:00,Radiology,Dr. Patricia Lee,Performance,High,Large study issue still not fixed,Ticket HF-012 from yesterday - still can't open big imaging files. When is fix coming?,6.0,Patch scheduled
+HF-027,2025-07-13,09:00,Pharmacy,Staff Pharmacist,Feature,Low,Can we get mobile app access?,Would be helpful to check drug reference docs from phones during rounds.,N/A,Mobile planned Q4
+HF-028,2025-07-13,10:00,Nursing,Multiple Units,General,Medium,Mixed feedback from staff,Some nurses love it others want the old system. Is there additional training available?,N/A,Office hours scheduled
+HF-029,2025-07-13,11:30,IT,David Nguyen,Integration,Medium,Epic connector warnings in logs,Not causing visible issues but seeing warnings in Epic integration logs. Proactive flag.,4.0,Investigated - benign
+HF-030,2025-07-13,13:00,Administration,Compliance Officer,Security,High,Need confirmation audit logs complete,Following up on HF-015 - need written confirmation all audit events captured for HIPAA.,N/A,Confirmation provided
+HF-031,2025-07-13,14:00,Surgery,OR Team,Sync,Medium,Files taking longer to sync than expected,Upload something and it takes 5 minutes to appear on other workstations. Is that normal?,2.0,Expected behavior explained
+HF-032,2025-07-13,15:00,Emergency,Department Head,General,Low,Wanted to apologize and thank team,Things much better today. Staff calming down. Thanks for quick response yesterday.,N/A,Acknowledged with thanks
+HF-033,2025-07-14,07:00,Radiology,Tech Team,Sync,Low,Minor sync delay noticed,Small delays this morning but resolved on their own. Just documenting for record.,N/A,Logged
+HF-034,2025-07-14,09:00,Lab,Lab Director,Performance,Low,Performance has stabilized,Just wanted to confirm things are working well now. Big improvement from Saturday.,N/A,Acknowledged
+HF-035,2025-07-14,10:30,IT,David Nguyen,General,Low,Requesting week 1 metrics summary,Need to compile report for CIO. Can you provide ticket counts and resolution times?,N/A,Report sent
+HF-036,2025-07-14,14:00,Administration,CIO Office,General,Medium,CIO very pleased with recovery,Michael wanted me to pass along that he's impressed with how team handled the rough start.,N/A,Shared with team
+HF-037,2025-07-15,08:00,Multiple,General,Training,Low,Requests for additional training sessions,Several departments asking for follow-up training now that they've used system a few days.,N/A,Sessions scheduled
+HF-038,2025-07-15,11:00,Radiology,Dr. Patricia Lee,Performance,Low,Large file issue finally resolved,The patch worked - can now open big imaging studies. Thank you for prioritizing this.,N/A,Closed with thanks
+HF-039,2025-07-16,09:00,IT,David Nguyen,Integration,Low,Epic integration fully stable,No warnings in logs for 48 hours. Integration running smoothly.,N/A,Monitoring continues
+HF-040,2025-07-16,14:00,Administration,CMO Office,General,Low,Clinical leadership satisfied,Dr. Williams reports clinical staff have adapted well. Initial concerns addressed.,N/A,Logged
+HF-041,2025-07-17,10:00,Nursing,ICU Manager,General,Low,Staff now preferring new system,ICU nurses saying search is much better than old system. Positive feedback.,N/A,Shared with team
+HF-042,2025-07-17,15:00,Emergency,Department Head,General,Low,Official feedback: much improved from Day 1,Department formally withdrawing concerns from Day 1. System working well for clinical care.,N/A,Documented
+HF-043,2025-07-18,09:00,IT,David Nguyen,General,Low,Week 1 officially complete - stable,Closing out hypercare week 1. All critical issues resolved. System stable.,N/A,Milestone logged
+HF-044,2025-07-18,14:00,Administration,CIO Office,General,Low,Request to discuss case study participation,Michael interested in participating in CloudSync case study. Please have marketing reach out.,N/A,Forwarded to marketing
+HF-045,2025-07-18,16:00,Multiple,All Staff,General,Low,End of Week 1 Survey: 72% satisfied,Survey results in - 72% satisfied or very satisfied. Up from estimated 40% on Day 1.,N/A,Reported to leadership
+HF-046,2025-07-19,10:00,Administration,CIO Office,General,Low,Board update well received,Michael's board presentation on CloudSync deployment received positive feedback.,N/A,Logged
+HF-047,2025-07-19,14:00,IT,IT Leadership,General,Low,IT team commended for handling go-live,CIO formally thanked IT team for managing through difficult first 48 hours.,N/A,Recognition shared

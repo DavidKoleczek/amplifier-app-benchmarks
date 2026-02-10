@@ -1,0 +1,18 @@
+name: onboarding-deck
+task_info:
+  difficulty: medium
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Update the onboarding presentation for new hires. Create "New_Hire_Onboarding_2026.pptx" based on the 2023 deck but with current benefits, org structure, IT requirements, and company values.
+
+  Note: We had layoffs in Q3 - avoid "rapid growth" messaging from the old deck.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

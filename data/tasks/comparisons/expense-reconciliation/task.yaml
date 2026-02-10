@@ -1,0 +1,19 @@
+name: expense-reconciliation
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - excel
+    - data
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Expense_Reconciliation.xlsx" matching corporate card charges to receipts from the AWS re:Invent trip.
+
+  Flag: missing receipts, duplicates, charges that don't match any receipt, and anything exceeding per diem policy limits.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

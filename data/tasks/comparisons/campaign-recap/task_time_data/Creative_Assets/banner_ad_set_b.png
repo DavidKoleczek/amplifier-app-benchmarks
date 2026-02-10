@@ -1,0 +1,51 @@
+This is a placeholder for a PNG image file. In a real scenario, this would be binary image data.
+
+BANNER AD SET B - CREATIVE BRIEF
+================================
+
+Campaign: Spring Launch 2025
+Version: B (Test - Social Proof)
+Created: April 10, 2025
+Designer: CreativeStudio Inc
+
+VARIANTS IN THIS SET:
+---------------------
+1. Leaderboard (728x90)
+2. Medium Rectangle (300x250)
+3. Wide Skyscraper (160x600)
+4. Large Rectangle (336x280)
+5. Mobile Leaderboard (320x50)
+6. Mobile Interstitial (320x480)
+7. Billboard (970x250)
+8. Half Page (300x600)
+
+DESIGN ELEMENTS:
+----------------
+- Hero: Customer testimonial with headshot
+- Headline: "Join 10,000+ Teams Who Switched"
+- Subhead: "See why enterprises choose CloudSync"
+- CTA Button: "See Customer Stories" (Green #00CC66)
+- Logo: CloudSync logo (bottom right)
+- Trust badges: SOC2, HIPAA, G2 rating
+- Background: White with subtle pattern
+
+COLOR PALETTE:
+--------------
+Primary Green: #00CC66
+Secondary Blue: #0066CC
+Accent: #FF6600 (urgency elements)
+Text: #333333
+Background: #FFFFFF
+
+DESIGN RATIONALE:
+-----------------
+Set B tests social proof messaging vs product features.
+Hypothesis: Testimonials build trust and improve CTR.
+Added trust badges based on enterprise buyer feedback.
+
+PERFORMANCE NOTES:
+------------------
+This is the test set for A/B testing against Set A.
+Set B emphasizes social proof and customer success.
+CTR average across sizes: 0.94% (+14.6% vs Set A)
+Statistical significance: 92% (below 95% threshold)

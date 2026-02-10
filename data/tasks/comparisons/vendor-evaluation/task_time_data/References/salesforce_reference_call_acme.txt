@@ -1,0 +1,122 @@
+SALESFORCE REFERENCE CALL - ACME MANUFACTURING
+==============================================
+
+Date: December 16, 2025
+Reference Contact: Jennifer Walsh, VP Sales Operations
+Company: Acme Manufacturing (Industrial equipment)
+Employees: 2,200
+Salesforce Users: 340
+Using Since: 2021 (4 years)
+Products: Sales Cloud Enterprise, Service Cloud, CPQ
+
+CALL ATTENDEES (Meridian):
+- Sarah Chen (IT Director)
+- Mike Torres (VP Sales)
+
+---
+
+QUESTIONS AND RESPONSES:
+
+Q: Why did you choose Salesforce over alternatives?
+
+Jennifer: We evaluated HubSpot and Microsoft Dynamics back in 2020. Honestly, 
+it came down to scale and compliance. We're in industrial manufacturing with 
+government contracts, so we needed FedRAMP-ready infrastructure. Salesforce 
+was the only one that checked that box. HubSpot was actually our sales team's 
+preference for usability, but IT vetoed it on security grounds.
+
+
+Q: How was the implementation experience?
+
+Jennifer: Longer than quoted. They said 16 weeks, we went 24. Part of that 
+was on us - scope creep, couldn't get stakeholders aligned, data cleanup 
+took forever. But their team also underestimated our complexity. The 
+professional services bill came in about 40% over original quote.
+
+That said, once we were live, it worked. No major issues post go-live.
+
+
+Q: What's your honest assessment of user adoption?
+
+Jennifer: Mixed. Power users love it - our sales ops team, managers, 
+forecasting people. They couldn't live without it now. Regular sales reps? 
+Maybe 60% are actually using it properly. The rest do the minimum to not 
+get in trouble.
+
+The mobile app is a sore point. Reps say it's too slow in the field. 
+They've resorted to taking notes on their phones and entering later, 
+which defeats the purpose.
+
+
+Q: Any surprise costs or gotchas?
+
+Jennifer: A few:
+1. Storage overages - we hit our limit year 2, had to buy more
+2. The good AI features (Einstein) are extra - we thought they were included
+3. Training is ongoing - new hires need real training, not just "figure it out"
+4. We ended up hiring a full-time Salesforce admin by year 2
+
+All-in, we're probably paying 30% more than the original quote when you 
+add everything up.
+
+
+Q: How's the support?
+
+Jennifer: Support is good when you need it. Premier Success has been worth 
+it - we have a named CSM who knows our setup. Response times are reasonable 
+for non-critical issues. Critical issues we've had (twice in 4 years) were 
+resolved within hours.
+
+
+Q: Any regrets? Would you choose Salesforce again?
+
+Jennifer: Regrets... I wish we'd pushed back harder on scope during 
+implementation. We tried to do too much at once. Should have started 
+simpler and added features over time.
+
+Would I choose it again? For our size and compliance needs, yes, probably. 
+But if we were smaller - say under 200 users - I'd seriously look at 
+HubSpot. Salesforce is a lot of firepower. Make sure you need it.
+
+
+Q: Advice for a company our size (150 users)?
+
+Jennifer: Three things:
+
+1. Be honest about your actual needs. Don't buy features you won't use. 
+   We have CPQ and barely use half of it.
+
+2. Budget 25-30% over quoted implementation costs. Plan for overruns.
+
+3. Have a plan for adoption. The best CRM is useless if people don't use it.
+   Tie usage to something meaningful (compensation, visibility, etc.)
+
+Also - really push your sales team to test the mobile app. That's been our 
+biggest complaint and I wish we'd caught it earlier.
+
+
+Q: Any other vendors you've looked at since?
+
+Jennifer: We looked at dumping Service Cloud for Zendesk (cheaper, better 
+for our support team) but the integration headaches weren't worth it. 
+Once you're in Salesforce, you tend to stay in Salesforce. That's both 
+good and bad.
+
+---
+
+OVERALL IMPRESSION:
+
+Jennifer was candid and helpful. Key takeaways:
+- Implementation overruns are common (plan for 30%+ buffer)
+- Adoption is a real challenge, especially for field reps
+- Mobile experience is weak point
+- Once in, switching cost is high
+- For enterprise/compliance needs, still the go-to choice
+- For smaller orgs without strict compliance, consider alternatives
+
+She offered to connect us with their Salesforce admin if we have 
+technical questions.
+
+---
+
+Notes by: Sarah Chen

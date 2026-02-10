@@ -1,0 +1,4 @@
+date,health_index,product_adoption,user_engagement,support_sentiment,churn_risk
+2025-07-01,78,72,75,81,Low
+2025-08-01,80,76,77,83,Low
+2025-09-01,81,79,76,85,Low

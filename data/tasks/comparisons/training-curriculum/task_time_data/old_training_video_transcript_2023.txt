@@ -1,0 +1,140 @@
+SALES TRAINING VIDEO TRANSCRIPT
+================================
+Recorded: March 2023
+Presenter: Mike Harrison (former VP Sales - left company August 2024)
+
+*** OUTDATED CONTENT - DO NOT USE FOR CURRENT TRAINING ***
+*** This transcript contains old pricing and product information ***
+
+[00:00] Welcome to VelocityRM sales training. I'm Mike Harrison, VP of Sales, 
+and today I'll walk you through everything you need to know to start selling 
+VelocityRM successfully.
+
+[00:15] Let's start with our product positioning. VelocityRM is a revenue 
+management platform that helps sales teams forecast accurately and close more 
+deals. Our key differentiators are...
+
+[02:30] PRICING OVERVIEW
+Now let's talk about pricing. We have three tiers:
+
+Basic: $35 per user per month
+- This is our entry-level tier
+- Includes core CRM functionality
+- Up to 25 users
+- Best for small teams just getting started
+
+Professional: $65 per user per month
+- Our most popular tier
+- Includes AI forecasting
+- Up to 150 users
+- Best for growing sales teams
+
+Enterprise: $120 per user per month
+- For large organizations
+- Custom AI models
+- Unlimited users
+- Dedicated support
+
+*** NOTE: THESE PRICES ARE NO LONGER VALID ***
+*** Current pricing effective January 2026: ***
+*** Starter $45, Professional $85, Enterprise $150+ ***
+
+[05:45] COMPETITIVE POSITIONING
+Our main competitors are Salesforce, HubSpot, and Pipedrive.
+
+Against Salesforce:
+- We're 50% cheaper [NOTE: This claim needs updating]
+- Easier to implement
+- Better out-of-box forecasting
+
+Against HubSpot:
+- More enterprise features
+- Better for complex deals
+- Stronger AI capabilities
+
+[08:20] OBJECTION HANDLING
+Here are the most common objections you'll hear:
+
+"It's too expensive"
+- Focus on ROI
+- Our average customer sees 10x return [NOTE: Current data shows 8x]
+- Compare to cost of inaccurate forecasts
+
+"We already have a CRM"
+- Position as complementary layer
+- Emphasize forecasting gap
+- Offer migration assistance
+
+[12:15] DEMO BEST PRACTICES
+When demoing VelocityRM:
+1. Always do discovery first
+2. Focus on their pain points
+3. Show no more than 3 features
+4. End with clear next steps
+
+The demo environment is demo.velocityrm.io
+Login: demo@velocityrm.io
+Password: VelocityDemo2023!
+[NOTE: Demo password has been changed multiple times since this recording]
+
+[15:30] DISCOVERY QUESTIONS
+Key questions to ask:
+- How do you manage pipeline today?
+- What's your forecast accuracy?
+- How much time do reps spend on admin?
+
+[18:00] CLOSING TECHNIQUES
+- Always aim to close within the call
+- Use assumptive closes
+- Create urgency with quarter-end discounts
+
+[20:30] TOOLS AND RESOURCES
+- Sales playbook: Check the Google Drive
+- Competitive intel: Ask the sales ops team
+- Demo environment: Request from IT
+
+[22:00] WRAP UP
+That covers the basics of selling VelocityRM. Remember:
+- Know the product
+- Understand the customer
+- Focus on value, not features
+
+Questions? Reach out to me directly.
+
+[END OF TRANSCRIPT]
+
+================================================================================
+WARNING - OUTDATED CONTENT
+================================================================================
+
+This training video was recorded in March 2023. The following information
+is now INCORRECT and should NOT be used:
+
+PRICING (Invalid):
+- Basic $35 → Now "Starter" at $45
+- Professional $65 → Now $85
+- Enterprise $120 → Now $150+
+- All minimums have increased
+
+COMPETITIVE CLAIMS (Need verification):
+- "50% cheaper than Salesforce" - needs recalculation with new pricing
+- ROI figures may have changed
+- Some competitor features have evolved
+
+PRODUCT FEATURES:
+- Some features mentioned are now different
+- VelocityScore has been significantly enhanced
+- New integrations have been added
+
+PERSONNEL:
+- Mike Harrison left the company in August 2024
+- Do not reference him as current VP Sales
+
+DEMO CREDENTIALS:
+- Password in video is no longer valid
+- See demo_environment_setup.txt for current credentials
+
+================================================================================
+This transcript maintained for historical reference only.
+For current training, see sales_playbook_v2.docx
+================================================================================

@@ -1,0 +1,72 @@
+From: Marcus Rivera <marcus.rivera@dataflow.io>
+To: Jennifer Walsh <jennifer.walsh@acme.com>
+Date: January 8, 2026 2:15 PM
+Subject: RE: Contract Discussion - Quick Sync
+
+Jennifer,
+
+Thanks for the call earlier. As promised, here's a summary of where we have flexibility on the contract terms. I've had preliminary conversations with our legal team and leadership.
+
+AREAS WHERE WE CAN BE FLEXIBLE:
+
+1. Payment Terms
+   - We can move from Net 30 to Net 45. Our CFO approved this given your size and payment history with other vendors.
+
+2. Termination Notice Period
+   - We can accept asymmetric termination rights (30 days for you, 90 for us). We'd rather keep you happy than hold you to a contract you don't want.
+
+3. Insurance Limits
+   - We're already working with our broker on increased coverage. We can likely get to:
+     * CGL: $2M (up from $1M) - no problem
+     * E&O: $4M (up from $2M) - broker says yes
+     * Cyber: $7M (up from $3M) - this is the max our carrier will do at reasonable cost
+   - If you need higher cyber limits, we'd need to discuss cost sharing or a different carrier.
+
+4. Breach Notification
+   - 24 hours is tight but doable. Our security team confirmed we can meet this SLA.
+
+5. Audit Rights
+   - We're fine with customer audit rights with reasonable notice (we typically ask for 2 weeks minimum).
+
+AREAS WHERE WE'LL NEED TO DISCUSS FURTHER:
+
+1. Liability Cap
+   - Our standard is 1x annual fees. I understand you're looking for higher.
+   - I got preliminary approval for up to 2x for Tier 1 customers like Acme.
+   - Going to 3x would require executive sign-off. Possible but will add time to the process.
+   - Can we discuss what specific scenarios are driving the higher cap requirement? That might help me make the case internally.
+
+2. Indemnification Scope
+   - The standard mutual indemnification is what we sign with 90% of customers.
+   - I need to better understand the concern around Customer Data indemnification.
+   - Our legal counsel, Sarah Chen, would like to have a direct conversation with your legal team to work through this.
+
+3. IP/Data Usage Restrictions
+   - This is new language we haven't seen before. I'll be honest - our product team is planning ML-based features and they may have concerns.
+   - Can we schedule a call to understand exactly what you're trying to protect against? There may be a middle ground.
+
+AREAS WHERE WE'RE FIRM:
+
+1. Base Pricing
+   - The $40K/month we agreed to is already at our floor for this deal size. No room here.
+
+2. Implementation Timeline
+   - 4 months is aggressive. We can't compress further without risking quality.
+
+NEXT STEPS:
+
+I think the cleanest path is:
+1. You send us your redlined contract
+2. Sarah and your legal counsel have a 30-minute call to align on the trickier issues
+3. We turn around a response within 5 business days
+4. One more negotiation call to close remaining gaps
+
+I'm committed to getting this done before your Feb 15 deadline. Let me know what works on your end.
+
+Best,
+Marcus
+
+--
+Marcus Rivera
+VP, Sales | DataFlow Solutions
+(512) 555-0147 | marcus.rivera@dataflow.io

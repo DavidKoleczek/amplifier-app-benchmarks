@@ -1,0 +1,18 @@
+name: case-study
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "HealthFirst_Case_Study.pptx" for prospect-facing use. Include challenge/solution/results structure, ROI metrics, implementation timeline, and customer quotes.
+
+  Note: Implementation had early bumps before success - include for authenticity. Frame their pre-implementation state diplomatically (legal approved name usage but don't embarrass them).
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

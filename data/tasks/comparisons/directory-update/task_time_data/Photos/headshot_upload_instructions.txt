@@ -1,0 +1,27 @@
+EMPLOYEE HEADSHOT UPLOAD INSTRUCTIONS
+=====================================
+
+HR Portal > My Profile > Photo Upload
+
+REQUIREMENTS:
+- File format: JPEG or PNG
+- Minimum size: 400x400 pixels
+- Maximum size: 5MB
+- Background: Plain, neutral preferred
+- Attire: Business casual or professional
+
+TIPS FOR A GOOD HEADSHOT:
+1. Face the camera directly
+2. Ensure good lighting (natural light works best)
+3. Choose a plain background
+4. Wear solid colors (avoid busy patterns)
+5. Smile naturally!
+
+APPROVAL PROCESS:
+Photos are reviewed by HR within 2 business days. You'll receive an email when your photo is approved and live in the directory.
+
+NEED HELP?
+Contact IT Help Desk at helpdesk@techcorp.com or ext. 5000
+
+---
+Last updated: November 2025

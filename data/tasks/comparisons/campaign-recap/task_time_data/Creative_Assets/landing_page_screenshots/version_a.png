@@ -1,0 +1,56 @@
+This is a placeholder for a PNG image file. In a real scenario, this would be binary image data.
+
+LANDING PAGE VERSION A (CONTROL)
+================================
+
+Screenshot captured: April 7, 2025
+URL: /spring-launch?v=a
+Designer: CreativeStudio Inc
+
+PAGE STRUCTURE:
+---------------
+
+[HEADER]
+- Logo (left)
+- Navigation: Features | Pricing | Enterprise | Login
+- CTA Button: "Start Free Trial"
+
+[HERO SECTION]
+- Headline: "Sync Smarter. Collaborate Faster."
+- Subheadline: "CloudSync Pro brings enterprise-grade file synchronization 
+               to teams of all sizes."
+- Primary CTA: "Start Your Free Trial" (large blue button)
+- Secondary CTA: "Watch Demo" (text link)
+- Hero Image: Product screenshot showing dashboard
+
+[FEATURES SECTION]
+- 3-column layout
+- Feature 1: Real-Time Sync (icon + description)
+- Feature 2: Enterprise Security (icon + description)  
+- Feature 3: Seamless Integration (icon + description)
+
+[SOCIAL PROOF SECTION]
+- "Trusted by 10,000+ teams"
+- Logo strip: 6 customer logos
+
+[FORM SECTION]
+- Heading: "Start Your Free Trial"
+- Fields: Name, Email, Company, Phone, Company Size (dropdown)
+- Checkbox: "I agree to terms"
+- Submit Button: "Get Started Free"
+
+[FOOTER]
+- Standard footer links
+- Trust badges: SOC2, HIPAA, GDPR
+
+DESIGN NOTES:
+-------------
+- Feature-first approach
+- 5-field form (industry standard)
+- Blue CTA color (#0066CC)
+- Form completion rate: 58%
+
+A/B TEST NOTES:
+---------------
+This is the control version. Version B tests testimonial-led hero 
+and simplified 3-field form.

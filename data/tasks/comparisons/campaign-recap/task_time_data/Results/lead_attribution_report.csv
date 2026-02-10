@@ -1,0 +1,36 @@
+lead_id,created_date,first_touch_source,first_touch_campaign,last_touch_source,last_touch_campaign,lead_score,status,converted,converted_date,deal_value,sales_rep,notes
+L-2025-4001,2025-04-01,google_cpc,spring_launch,google_cpc,spring_launch,85,Converted,Yes,2025-04-18,$12500,Sarah Kim,Clean attribution
+L-2025-4002,2025-04-01,facebook_paid,spring_launch,email,spring_launch_nurture,72,Converted,Yes,2025-04-25,$8900,Mike Chen,Multi-touch
+L-2025-4003,2025-04-02,linkedin_paid,spring_launch,direct,,68,Converted,Yes,2025-05-02,$15200,Sarah Kim,Lost attribution on last touch
+L-2025-4004,2025-04-02,google_cpc,spring_launch,google_cpc,spring_launch,91,Converted,Yes,2025-04-15,$22000,David Park,Enterprise deal
+L-2025-4005,2025-04-03,organic_search,,google_cpc,spring_launch,65,Converted,Yes,2025-04-28,$6500,Mike Chen,
+L-2025-4006,2025-04-03,facebook_paid,spring_launch,facebook_paid,spring_launch,78,Converted,Yes,2025-04-22,$9800,Sarah Kim,
+L-2025-4007,2025-04-04,twitter_paid,spring_launch,email,spring_launch_nurture,54,Working,No,,,Mike Chen,Still in pipeline
+L-2025-4008,2025-04-04,google_cpc,spring_launch,google_cpc,spring_launch,88,Converted,Yes,2025-04-19,$18500,David Park,
+L-2025-4009,2025-04-05,influencer,techreviewpro,google_cpc,spring_launch,71,Converted,Yes,2025-05-05,$7200,Sarah Kim,Influencer first touch
+L-2025-4010,2025-04-05,linkedin_paid,spring_launch,linkedin_paid,spring_launch,82,Converted,Yes,2025-04-30,$11000,David Park,
+L-2025-4011,2025-04-07,unknown,,google_cpc,spring_launch,67,Converted,Yes,2025-05-08,$5800,Mike Chen,First touch unknown - tracking gap?
+L-2025-4012,2025-04-07,google_cpc,spring_launch,email,spring_launch_nurture,75,Converted,Yes,2025-05-01,$8400,Sarah Kim,
+L-2025-4013,2025-04-08,facebook_paid,spring_launch,google_cpc,spring_launch,69,Working,No,,,David Park,Hot lead
+L-2025-4014,2025-04-08,referral,partner_abc,direct,,84,Converted,Yes,2025-04-25,$19500,Sarah Kim,Partner referral
+L-2025-4015,2025-04-09,email,spring_launch_teaser,google_cpc,spring_launch,77,Converted,Yes,2025-05-03,$10200,Mike Chen,
+L-2025-4016,2025-04-10,unknown,,unknown,,62,Disqualified,No,,,David Park,GA outage - no data
+L-2025-4017,2025-04-11,unknown,,unknown,,58,Working,No,,,Mike Chen,GA outage - no data
+L-2025-4018,2025-04-12,unknown,,unknown,,71,Converted,Yes,2025-05-10,$7800,Sarah Kim,GA outage - attributed via CRM notes
+L-2025-4019,2025-04-14,unknown,,unknown,,65,Working,No,,,David Park,GA outage - no data
+L-2025-4020,2025-04-15,unknown,,email,spring_launch_nurture,73,Converted,Yes,2025-05-12,$9100,Mike Chen,GA outage - partial data
+L-2025-4021,2025-04-18,unknown,,google_cpc,spring_launch,80,Converted,Yes,2025-05-08,$13500,Sarah Kim,GA outage - partial data
+L-2025-4022,2025-04-22,unknown,,facebook_paid,spring_launch,68,Working,No,,,David Park,GA outage - partial data
+L-2025-4023,2025-04-25,google_cpc,spring_launch,google_cpc,spring_launch,86,Converted,Yes,2025-05-15,$16200,Sarah Kim,Post-outage - clean data
+L-2025-4024,2025-04-26,facebook_paid,spring_launch,email,spring_launch_nurture,74,Converted,Yes,2025-05-18,$8700,Mike Chen,
+L-2025-4025,2025-04-28,linkedin_paid,spring_launch,direct,,79,Converted,Yes,2025-05-20,$12100,David Park,
+L-2025-4026,2025-04-29,influencer,sarahtechtalks,google_cpc,spring_launch,72,Converted,Yes,2025-05-22,$7500,Sarah Kim,Influencer attribution
+L-2025-4027,2025-04-30,google_cpc,spring_launch,google_cpc,spring_launch,90,Converted,Yes,2025-05-12,$24500,David Park,Large enterprise
+L-2025-4028,2025-05-01,organic_search,,facebook_paid,spring_launch,66,Converted,Yes,2025-05-25,$6100,Mike Chen,
+L-2025-4029,2025-05-02,google_cpc,spring_launch,email,spring_launch_nurture,81,Converted,Yes,2025-05-28,$14800,Sarah Kim,
+L-2025-4030,2025-05-03,facebook_paid,spring_launch,facebook_paid,spring_launch,70,Working,No,,,David Park,In negotiation
+L-2025-4031,2025-05-05,twitter_paid,spring_launch,google_cpc,spring_launch,63,Disqualified,No,,,Mike Chen,Not a fit
+L-2025-4032,2025-05-06,linkedin_paid,spring_launch,linkedin_paid,spring_launch,87,Converted,Yes,2025-05-30,$17900,David Park,
+L-2025-4033,2025-05-07,influencer,cloudnativechris,direct,,76,Converted,Yes,2025-06-01,$9400,Sarah Kim,LinkedIn influencer
+L-2025-4034,2025-05-08,google_cpc,spring_launch,google_cpc,spring_launch,83,Converted,Yes,2025-05-29,$15600,Mike Chen,
+L-2025-4035,2025-05-09,email,spring_launch_nurture,google_cpc,spring_launch,69,Working,No,,,David Park,Warm

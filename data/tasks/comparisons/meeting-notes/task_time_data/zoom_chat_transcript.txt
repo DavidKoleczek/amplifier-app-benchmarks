@@ -1,0 +1,131 @@
+ZOOM MEETING CHAT LOG
+Q1 Planning Meeting
+January 14, 2026
+
+================================================================================
+
+10:00:23 From Sarah Chen to Everyone:
+    Hi everyone! We'll get started in just a minute. Still waiting for a couple people to join.
+
+10:00:45 From Alex Kim to Everyone:
+    Morning! 👋
+
+10:00:52 From Tom Rodriguez to Everyone:
+    Good morning
+
+10:01:15 From Jennifer Park to Everyone:
+    Hey all - I'm at the airport so might have background noise. Will stay muted when not talking.
+
+10:01:33 From Marcus Williams to Everyone:
+    No problem Jennifer, we've all been there 😅
+
+10:02:18 From Sarah Chen to Everyone:
+    OK I think we're recording now. Let's get started.
+
+10:05:42 From Tom Rodriguez to Everyone:
+    @Marcus - is the security audit the same one we discussed last week with the external firm?
+
+10:06:01 From Marcus Williams to Everyone:
+    @Tom yes, CyberSecure Inc. They started Monday.
+
+10:08:15 From Jennifer Park to Everyone:
+    If we push to March that's going to mess with our media buys. We've already committed budget.
+
+10:08:44 From Alex Kim to Everyone:
+    Can we split the announcement? Soft launch web, bigger push for mobile?
+
+10:09:02 From Jennifer Park to Everyone:
+    @Alex that could actually work. Let me think about it.
+
+10:12:33 From Sarah Chen to Everyone:
+    Just to confirm - phased launch: Web Feb 15, Mobile Feb 28. Is that what we're agreeing to?
+
+10:12:55 From Marcus Williams to Everyone:
+    Yes, contingent on security audit results this week.
+
+10:13:18 From Tom Rodriguez to Everyone:
+    Works for me. Most of my pipeline can live with web-only initially.
+
+10:13:45 From Jennifer Park to Everyone:
+    OK I can make that work. Actually might be better for building anticipation.
+
+10:18:22 From Alex Kim to Everyone:
+    Quick Q - the reorg, does that affect the CAB meeting planning at all?
+
+10:18:45 From David Thompson to Everyone:
+    @Alex no, CAB meeting proceeds as planned. Reorg is internal only.
+
+10:19:12 From Sarah Chen to Everyone:
+    Reminder: reorg discussion is CONFIDENTIAL until announcement
+
+10:19:30 From Marcus Williams to Everyone:
+    👍
+
+10:19:33 From Tom Rodriguez to Everyone:
+    Understood
+
+10:24:55 From Alex Kim to Everyone:
+    @Lisa is joining us for budget? I see she's not on the call.
+
+10:25:18 From Sarah Chen to Everyone:
+    Lisa couldn't make it - she sent me the numbers. I'll share.
+
+10:28:42 From Marcus Williams to Everyone:
+    15% engineering cut is going to be tough. We're already stretched thin on Prism.
+
+10:29:05 From David Thompson to Everyone:
+    @Marcus mainly contractor budget. We can discuss offline.
+
+10:32:14 From Tom Rodriguez to Everyone:
+    Re: CRM - this is really critical. We're losing deals to manual process overhead.
+
+10:32:45 From Marcus Williams to Everyone:
+    @Tom let's sync on requirements. What's your timeline for getting me specs?
+
+10:33:02 From Tom Rodriguez to Everyone:
+    I can have something by Jan 24
+
+10:33:15 From Marcus Williams to Everyone:
+    Works for me
+
+10:38:50 From Jennifer Park to Everyone:
+    @Marcus I'll email you the press release draft today. Need your review by Thursday if possible.
+
+10:39:08 From Marcus Williams to Everyone:
+    @Jennifer got it, Thursday works
+
+10:42:33 From Alex Kim to Everyone:
+    For CAB - should we invite Meridian? They've been asking about roadmap visibility.
+
+10:43:01 From Tom Rodriguez to Everyone:
+    Good idea - I have a call with their CTO next week anyway
+
+10:43:22 From David Thompson to Everyone:
+    Yes, let's invite them. Make sure they sign NDA first.
+
+10:43:45 From Tom Rodriguez to Everyone:
+    On it
+
+10:45:12 From Sarah Chen to Everyone:
+    Great meeting everyone. I'll send notes this afternoon.
+
+10:45:30 From Jennifer Park to Everyone:
+    Thanks! Sarah can we sync tomorrow on campaign timing?
+
+10:45:45 From Sarah Chen to Everyone:
+    Sure, send me an invite for afternoon. I'm free after 2.
+
+10:45:58 From Jennifer Park to Everyone:
+    Will do!
+
+10:46:05 From Alex Kim to Everyone:
+    Thanks all 👋
+
+10:46:12 From Marcus Williams to Everyone:
+    Later everyone
+
+10:46:15 From Tom Rodriguez to Everyone:
+    Bye!
+
+================================================================================
+END OF CHAT LOG

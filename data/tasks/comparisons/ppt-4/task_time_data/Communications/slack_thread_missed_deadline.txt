@@ -1,0 +1,114 @@
+SLACK EXPORT - #phoenix-project
+Thread: September Milestone Discussion
+Date: 2025-09-08 to 2025-09-10
+
+---
+
+James Chen [2025-09-08 09:00 AM]
+Team, I just got off a call with the steering committee. They're asking why we're not on track for the September 15th milestone that was in the v2 plan.
+
+Alex Turner [2025-09-08 09:05 AM]
+The September 15th date was set before the workflow automation scope change. That alone added 6 weeks of work.
+
+Sarah Kim [2025-09-08 09:08 AM]
+And the custom fields feature. And the SSO requirement. We've absorbed like 5 major scope changes since that plan was made.
+
+David Park [2025-09-08 09:12 AM]
+I have the scope change log. 23 changes total since March. Want me to share the impact breakdown?
+
+James Chen [2025-09-08 09:15 AM]
+Please do. I need ammunition for the exec meeting.
+
+---
+
+Jennifer Liu [2025-09-08 09:20 AM]
+Not to pile on, but we also lost a week in August when the security vulnerability was found. All hands on deck for that.
+
+Maria Santos [2025-09-08 09:23 AM]
+That was necessary. We couldn't ship with that vulnerability.
+
+Jennifer Liu [2025-09-08 09:25 AM]
+Totally agree! Not blaming anyone. Just pointing out it was unplanned work.
+
+Michael Brown [2025-09-08 09:30 AM]
+I think the root issue is that every time we say "yes" to a scope change, we're not adjusting the timeline. It's like we expect the extra work to just... fit.
+
+Alex Turner [2025-09-08 09:35 AM]
+THIS. We keep absorbing scope without pushing dates. Then everyone acts surprised when we're behind.
+
+James Chen [2025-09-08 09:40 AM]
+I hear you. The pressure from the client side is real though. They're paying for these features.
+
+David Park [2025-09-08 09:45 AM]
+Can we have an honest conversation about what "on track" even means at this point? The original plan had us launching in September. We're clearly not launching in September.
+
+---
+
+James Chen [2025-09-08 02:00 PM]
+Just finished the exec call. I shared the scope change impact analysis. 
+
+Outcome: They're acknowledging the timeline slip was driven by scope, not execution. New target is end of November.
+
+Sarah Kim [2025-09-08 02:05 PM]
+That's a relief. I was worried this was going to turn into a blame game.
+
+Alex Turner [2025-09-08 02:08 PM]
+Is the scope now frozen? Or are we going to keep adding things?
+
+James Chen [2025-09-08 02:12 PM]
+I pushed hard for a scope freeze. Leadership agreed - no new features after September 15th. Bug fixes and polish only.
+
+Maria Santos [2025-09-08 02:15 PM]
+Can we get that in writing? Seriously. I've seen "scope freezes" melt before.
+
+James Chen [2025-09-08 02:18 PM]
+Fair point. I'll get it documented and sent to the client for acknowledgment.
+
+---
+
+Michael Brown [2025-09-09 10:00 AM]
+New scope change request just came in from TechCorp. They want data retention policies.
+
+Alex Turner [2025-09-09 10:03 AM]
+You have got to be kidding me.
+
+Sarah Kim [2025-09-09 10:05 AM]
+@James Chen I thought we had a scope freeze?
+
+James Chen [2025-09-09 10:10 AM]
+Let me look at this. Might be compliance-related which could be a blocker for them.
+
+David Park [2025-09-09 10:15 AM]
+If it's truly compliance-required, we might not have a choice. But can we at least push it to a fast-follow release?
+
+James Chen [2025-09-09 10:30 AM]
+Talked to the client. It IS compliance-related - they can't go live without data retention. But they agreed it's a small scope - just the policy framework, not the full implementation.
+
+We're estimating 2 weeks of work. I know this sucks but it's the last one.
+
+Alex Turner [2025-09-09 10:35 AM]
+"The last one." I'll believe it when I see it.
+
+Maria Santos [2025-09-09 10:38 AM]
+At least compliance requirements are legitimate blockers. Unlike "nice to have" features.
+
+---
+
+Jennifer Liu [2025-09-10 09:00 AM]
+Hey team, just want to say - I know this has been frustrating. But we're still building good software. The client is actually really happy with what they're seeing in demos.
+
+Michael Brown [2025-09-10 09:05 AM]
+Thanks Jennifer. Sometimes it helps to step back and remember the big picture.
+
+David Park [2025-09-10 09:10 AM]
+Agreed. We're stressed about timeline, but the product is solid. That matters.
+
+James Chen [2025-09-10 09:15 AM]
+Good perspective. Let's finish strong. The finish line is in sight.
+
+Sarah Kim [2025-09-10 09:18 AM]
+November it is. Let's do this.
+
+---
+END OF THREAD EXPORT
+---

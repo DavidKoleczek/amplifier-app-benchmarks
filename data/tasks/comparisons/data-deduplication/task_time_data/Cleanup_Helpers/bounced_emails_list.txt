@@ -1,0 +1,26 @@
+# Bounced Email Addresses
+# Last updated: 2025-12-15
+# Source: Email service provider bounce reports (Mailchimp + SendGrid)
+# 
+# Format: email_address | bounce_type | date_detected | notes
+# bounce_type: hard = permanent failure, soft = temporary (retry allowed)
+
+# Hard Bounces - REMOVE FROM ALL LISTS
+contact@defunctcorp.com | hard | 2024-08-22 | Domain no longer exists
+info@oldtimersllc.net | hard | 2024-11-03 | Mailbox does not exist
+bounced@invalid-domain.com | hard | 2024-08-10 | Invalid domain
+spam.trap@honeypot.net | hard | 2024-08-01 | Known spam trap - do not email
+old.email@closedcompany.org | hard | 2024-05-20 | Company dissolved
+noreply@abandoned.biz | hard | 2024-09-15 | Domain expired
+test@example.invalid | hard | 2024-07-01 | Invalid TLD
+sales@bankruptco.com | hard | 2024-10-28 | Company bankruptcy, domain seized
+
+# Soft Bounces - Monitor but keep (3 soft = convert to hard)
+temp.issue@bigcorp.com | soft | 2025-01-05 | Mailbox full (1st occurrence)
+vacation@onleave.org | soft | 2024-12-20 | Auto-reply vacation, retry later
+
+# Notes:
+# - Hard bounces should be immediately removed from all marketing lists
+# - Hard bounces should be flagged in CRM for sales team awareness
+# - Soft bounces get 3 attempts before conversion to hard bounce
+# - All bounced emails should be excluded from Customer_Master_List.xlsx

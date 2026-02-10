@@ -1,0 +1,93 @@
+VELOCITYRM FEATURE COMPARISON BY TIER
+=====================================
+Last Updated: January 2026
+
+FEATURE,STARTER,PROFESSIONAL,ENTERPRISE,NOTES
+Base Price (per user/month),$45,$85,$150+,Enterprise pricing is custom
+Minimum Users,5,10,25,Annual commitment required
+Contract Term,Annual,Annual,Annual or Multi-year,Multi-year discounts available
+
+DEAL MANAGEMENT
+---------------
+Deal Records,Unlimited,Unlimited,Unlimited,
+Custom Fields per Object,200,500,Unlimited,
+Record History Retention,2 years,5 years,Unlimited,
+Deal Scoring (VelocityScore),Basic,Advanced,Advanced + Custom,Custom models available Enterprise only
+Stage Automation,Manual only,Semi-automatic,Fully automatic,
+Multi-currency Support,No,Yes,Yes,50+ currencies supported
+Deal Teams,No,Yes,Yes,Collaborative selling
+
+PIPELINE & ANALYTICS
+--------------------
+Standard Reports,15 reports,40+ reports,Unlimited,
+Custom Reports,5,25,Unlimited,
+Dashboards,3,10,Unlimited,
+Forecasting,Basic,ML-Powered,ML-Powered + Custom,
+Forecast Categories,2 (Commit/Pipeline),4 (Full),Unlimited custom,
+Historical Analytics,6 months,2 years,Unlimited,
+Export Formats,CSV,CSV/Excel,CSV/Excel/API,
+
+WORKFLOW AUTOMATION
+-------------------
+Active Workflows,10,50,Unlimited,
+Actions per Day,5000,50000,Unlimited,
+Trigger Types,5 basic,All,All + Custom,
+Approval Workflows,No,Yes,Yes,
+Scheduled Workflows,No,Yes,Yes,
+
+INTEGRATIONS
+------------
+Native Integrations,5,15,All,
+API Access,Read-only,Full,Full + Bulk,
+API Rate Limit,100/min,500/min,2000/min,
+Custom Webhooks,5,25,Unlimited,
+Salesforce Sync,One-way,Bi-directional,Bi-directional + Custom Objects,
+Slack/Teams,Notifications only,Full integration,Full + Custom bots,
+
+EMAIL & CALENDAR
+----------------
+Email Sync,Microsoft 365,M365 + Google,All supported,Exchange on-prem Enterprise only
+Calendar Sync,Yes,Yes,Yes,
+Email Tracking,No,Yes,Yes,
+Email Templates,10,50,Unlimited,
+Sequences/Cadences,No,Yes,Yes,
+
+SECURITY & COMPLIANCE
+---------------------
+SSO (SAML),No,$5/user add-on,Included,
+SCIM Provisioning,No,No,Yes,
+Role-Based Access,Basic (3 roles),Advanced (10 roles),Custom roles,
+Field-Level Security,No,Yes,Yes,
+IP Allowlisting,No,No,Yes,
+Audit Log Retention,30 days,1 year,Unlimited,
+SOC 2 Report Access,No,Yes,Yes,
+HIPAA Compliance,No,No,Add-on,Requires BAA
+
+DATA & STORAGE
+--------------
+File Storage,5 GB,25 GB,100 GB,Additional storage available
+Data Residency Options,US only,US/EU,US/EU/APAC,
+Data Export,Manual,Scheduled,Scheduled + API,
+Sandbox Environment,No,No,Yes,
+
+SUPPORT
+-------
+Support Channels,Email,Email + Chat,Email + Chat + Phone,
+Response Time SLA,48 hours,8 hours,4 hours,
+Customer Success Manager,No,Shared,Dedicated,
+Training,Self-service,Live webinars,Custom onboarding,
+Implementation,Self-service,Guided,White-glove,
+
+MOBILE
+------
+iOS App,View only,Full features,Full + Offline,
+Android App,View only,Full features,Full + Offline,
+Mobile SSO,No,Yes,Yes,
+
+POPULAR ADD-ONS (any tier)
+--------------------------
+Additional API Calls,$200/month for 2x limit
+Additional Storage,$50/month per 50GB
+Sandbox Environment (Pro),$500/month
+Premium Support Upgrade,$1000/month
+Custom Training Package,$2500 one-time

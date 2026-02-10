@@ -1,0 +1,6 @@
+request_id,email,full_name,company,request_date,request_type,status,deadline,notes
+GDPR-2025-001,delete.request@gdpruser.eu,GDPR Delete,EU Company,2025-01-10,Right to Erasure,Pending,2025-02-10,Must remove from ALL systems including backups
+GDPR-2025-002,former.employee@eusubsidiary.de,Hans Schmidt,EU Subsidiary GmbH,2025-01-05,Right to Erasure,Completed,2025-02-05,Removed from CRM and marketing on 2025-01-20
+GDPR-2024-015,privacy.conscious@ukfirm.co.uk,Jane Doe,UK Firm Ltd,2024-11-15,Right to Erasure,Pending,2024-12-15,OVERDUE - escalate immediately
+GDPR-2024-012,opted.out@frenchco.fr,Pierre Martin,French Company SA,2024-10-20,Marketing Opt-Out,Completed,N/A,Removed from marketing lists only - retained in CRM
+GDPR-2025-003,eu.customer@berlin.de,Klaus Weber,Berlin Tech AG,2025-01-12,Data Access Request,In Progress,2025-02-12,Preparing data export

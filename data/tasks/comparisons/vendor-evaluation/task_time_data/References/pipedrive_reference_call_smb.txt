@@ -1,0 +1,159 @@
+PIPEDRIVE REFERENCE CALL - BEACON CONSULTING
+=============================================
+
+Date: December 18, 2025
+Reference Contact: Tom Bradley, CEO/Founder
+Company: Beacon Consulting (Management Consulting)
+Employees: 45
+Pipedrive Users: 32
+Using Since: 2022 (3 years)
+Products: Pipedrive Professional + LeadBooster
+
+CALL ATTENDEES (Meridian):
+- Mike Torres (VP Sales)
+- Jennifer Park (Sales Manager)
+
+---
+
+QUESTIONS AND RESPONSES:
+
+Q: Why Pipedrive over other options?
+
+Tom: We're a small shop and needed something our consultants would 
+actually use between client meetings. We tried Salesforce years ago - 
+disaster. Nobody used it. Too complicated for a small team.
+
+Pipedrive just... works. You open it, see your pipeline, drag deals 
+around. Five minutes of training and people get it. That simplicity 
+is worth a lot when you're running lean.
+
+
+Q: How has it performed over 3 years?
+
+Tom: Rock solid. We've never had an outage that I can remember. The 
+pipeline view is still the best I've seen - it's visual in a way that 
+makes sense to salespeople. Our close rate actually went up because 
+people could see deals going stale.
+
+We added LeadBooster last year for the chatbot and prospector features. 
+Decent ROI on that.
+
+
+Q: What CAN'T Pipedrive do?
+
+Tom: [laughs] How much time do you have?
+
+Look, Pipedrive does one thing really well: sales pipeline. If you 
+want anything else, you need other tools.
+
+- Marketing? We use Mailchimp separately. They don't talk well.
+- Support ticketing? We use Zendesk. Separate system.
+- Complex reporting? I export to Excel. Pipedrive's reporting is basic.
+- Invoicing/Quoting? We use PandaDoc. Another subscription.
+
+So yeah, we have like 5 different tools. It works, but it's not ideal.
+
+
+Q: Any security or compliance issues?
+
+Tom: For a 45-person consulting firm, not really. Our IT guy (part-time) 
+did a basic review and said it was fine. We're not handling healthcare 
+data or government contracts, so SOC 2 wasn't a dealbreaker.
+
+I know they're working on SOC 2 now. For bigger companies or regulated 
+industries, that might matter more.
+
+
+Q: How does pricing compare to alternatives?
+
+Tom: Way cheaper than Salesforce. Like, not even close. We pay around 
+$20K/year for 32 users. Salesforce quoted us over $100K for comparable 
+features.
+
+But if I add up Pipedrive + Mailchimp + Zendesk + PandaDoc + other 
+tools, we're probably at $45K. Still cheaper than Salesforce, but 
+the gap isn't as big as it looks.
+
+
+Q: Would you recommend Pipedrive to a company Meridian's size (150 users)?
+
+Tom: [pause] Honestly? I'd think hard about it.
+
+Pipedrive is perfect for us at 30-50 users. Everyone can use it, 
+minimal admin, it just works.
+
+At 150 users, you're getting into territory where you might want:
+- More sophisticated permissions
+- Better reporting
+- Native marketing automation
+- Real security certifications
+
+If your sales team is the primary focus and you can live with the 
+limitations, Pipedrive is great. If you need an all-in-one platform, 
+I'd look at HubSpot. If you need enterprise-grade everything, 
+Salesforce.
+
+Pipedrive's sweet spot is probably 10-75 users.
+
+
+Q: Any regrets?
+
+Tom: I wish Pipedrive had better marketing integration. The Campaigns 
+add-on is weak. We're essentially running two separate systems.
+
+Also, their support is responsive but not amazing. For technical 
+issues, you might wait a few days.
+
+
+Q: What would make you leave Pipedrive?
+
+Tom: If we grew to 100+ people, I'd probably move to HubSpot. The 
+multiple tools thing gets annoying at scale. But for now, Pipedrive 
+does what we need.
+
+---
+
+ADDITIONAL QUESTIONS FROM JENNIFER:
+
+Q: How do your reps like the mobile app?
+
+Tom: They love it. It's fast, simple, works offline. My consultants 
+update deals from airport lounges all the time. This was actually a 
+big selling point vs. Salesforce - their mobile was terrible.
+
+
+Q: Any issues with data quality or duplicate contacts?
+
+Tom: Pipedrive has duplicate detection that works okay. Not perfect - 
+we still get some duplicates - but it catches most of them. We do a 
+quarterly cleanup.
+
+
+Q: What about integrations with other tools?
+
+Tom: Hit or miss. Google Workspace integration is great. Slack is fine. 
+Some other integrations through Zapier work but feel duct-taped together.
+
+If tight integrations matter, look at how Pipedrive connects to your 
+specific tools before committing.
+
+---
+
+OVERALL IMPRESSION:
+
+Tom was helpful and candid about Pipedrive's limitations. Key takeaways:
+- Excellent for small sales teams (10-75 users)
+- Best-in-class pipeline visualization and mobile app
+- Very easy to adopt - minimal training needed
+- Limited beyond core sales functionality
+- Multiple tools needed = hidden complexity/cost
+- May outgrow it at 100+ users
+- Security certifications still in progress
+
+For Meridian at 150 users, Pipedrive might be at the edge of its 
+sweet spot. Worth considering for pure sales, but gaps in marketing, 
+service, and enterprise features are real.
+
+---
+
+Notes by: Mike Torres

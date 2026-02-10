@@ -1,0 +1,19 @@
+opportunity_id,opportunity_name,account_name,created_date,close_date,stage,amount,probability,source_campaign,first_touch_channel,owner,next_step,notes
+OPP-2025-1001,CloudSync Enterprise - Pinnacle Healthcare,Pinnacle Healthcare Systems,2025-04-08,2025-05-15,Closed Won,$45000,100%,spring_launch,google_cpc,David Park,Closed,Flagship win - case study candidate
+OPP-2025-1002,Annual License - Atlantic Financial,Atlantic Financial Group,2025-04-10,2025-05-22,Closed Won,$28500,100%,spring_launch,linkedin_paid,Sarah Kim,Closed,Expansion from trial
+OPP-2025-1003,CloudSync Pro - TechFlow Industries,TechFlow Industries,2025-04-12,2025-05-30,Closed Won,$18900,100%,spring_launch,facebook_paid,Mike Chen,Closed,Competitive displacement
+OPP-2025-1004,Enterprise Rollout - Boston Dynamics,Boston Dynamics Ltd,2025-04-15,2025-06-15,Negotiation,$62000,75%,spring_launch,google_cpc,David Park,Contract review,Legal reviewing MSA
+OPP-2025-1005,Department Pilot - NYC Media Holdings,NYC Media Holdings,2025-04-18,2025-05-28,Closed Won,$12400,100%,spring_launch,influencer_techreviewpro,Sarah Kim,Closed,Saw YouTube review
+OPP-2025-1006,CloudSync Business - Pacific Retail,Pacific Retail Group,2025-04-20,2025-06-01,Closed Won,$15600,100%,spring_launch,email_nurture,Mike Chen,Closed,Nurtured from webinar
+OPP-2025-1007,Enterprise License - Deutsche Logistics,Deutsche Logistics GmbH,2025-04-22,2025-07-01,Proposal,$78000,50%,spring_launch,linkedin_paid,David Park,Proposal sent,EMEA expansion opportunity
+OPP-2025-1008,Multi-Year Deal - Chicago Legal Partners,Chicago Legal Partners LLP,2025-04-25,2025-06-20,Negotiation,$34500,70%,spring_launch,google_cpc,Sarah Kim,Pricing discussion,3-year deal structure
+OPP-2025-1009,Startup Package - Silicon Valley Startups,Silicon Valley Startups Inc,2025-04-28,2025-05-18,Closed Won,$8200,100%,spring_launch,twitter_paid,Mike Chen,Closed,Quick sales cycle
+OPP-2025-1010,CloudSync Enterprise - Hartford Healthcare,Hartford Healthcare System,2025-05-01,2025-06-30,Discovery,$52000,30%,spring_launch,google_cpc,David Park,Demo scheduled,Large health system
+OPP-2025-1011,Business License - Seattle Cloud Services,Seattle Cloud Services,2025-05-03,2025-05-25,Closed Won,$11800,100%,spring_launch,facebook_paid,Sarah Kim,Closed,
+OPP-2025-1012,Enterprise Expansion - London Finance Group,London Finance Group PLC,2025-05-05,2025-07-15,Qualification,$89000,25%,spring_launch,linkedin_paid,David Park,Needs assessment,Requires GDPR review
+OPP-2025-1013,Team License - LA Entertainment Studios,LA Entertainment Studios,2025-05-07,2025-06-10,Proposal,$16200,60%,spring_launch,influencer_sarahtechtalks,Mike Chen,Awaiting budget approval,Instagram referral
+OPP-2025-1014,Department Pilot - DC Government Services,DC Government Services,2025-05-08,2025-08-01,Discovery,$125000,20%,spring_launch,google_cpc,David Park,Security review,FedRAMP question came up
+OPP-2025-1015,CloudSync Pro - Minneapolis Medical,Minneapolis Medical Center,2025-05-10,2025-06-05,Closed Won,$9400,100%,spring_launch,email_nurture,Sarah Kim,Closed,
+OPP-2025-1016,Annual Subscription - Portland Tech Co,Portland Tech Collective,2025-05-12,2025-06-18,Negotiation,$22000,65%,spring_launch,google_cpc,Mike Chen,Contract redline,Procurement involved
+OPP-2025-1017,Enterprise - Financial Services Corp,Financial Services Corp,2025-05-14,2025-07-30,Qualification,$95000,20%,spring_launch,linkedin_paid,David Park,Executive meeting,CFO wants ROI analysis
+OPP-2025-1018,Business Expansion - Austin Startup Hub,Austin Startup Hub,2025-05-15,2025-06-08,Closed Won,$7800,100%,spring_launch,twitter_paid,Sarah Kim,Closed,Twitter ad click

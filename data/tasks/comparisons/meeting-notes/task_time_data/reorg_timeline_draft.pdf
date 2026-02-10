@@ -1,0 +1,178 @@
+CONFIDENTIAL - DRAFT
+Platform & Infrastructure Team Consolidation
+Timeline and Implementation Plan
+
+Prepared by: David Thompson, VP Operations
+Date: January 10, 2026
+Status: DRAFT - For Leadership Review Only
+
+================================================================================
+
+EXECUTIVE SUMMARY
+
+This document outlines the proposed consolidation of the Platform Team and 
+Infrastructure Team into a single unified Engineering Platform group. The goal
+is to eliminate duplication, improve efficiency, and reduce costs by 15-20%.
+
+================================================================================
+
+BACKGROUND
+
+Current State:
+- Platform Team: 8 FTEs (reports to Marcus Williams)
+- Infrastructure Team: 6 FTEs (reports to separate manager)
+- Total headcount: 14 FTEs
+
+Issues Identified:
+1. Overlapping responsibilities in deployment/DevOps
+2. Duplicate tooling and processes
+3. Communication gaps between teams
+4. Unclear ownership of shared services
+5. Budget pressure requiring efficiency gains
+
+================================================================================
+
+PROPOSED STRUCTURE
+
+New "Engineering Platform" Team:
+- Combined headcount: 12-14 FTEs (TBD based on role alignment)
+- Single reporting line
+- Clear ownership of all platform and infrastructure functions
+
+Leadership Options (under consideration):
+Option A: Promote internal candidate from Platform Team
+Option B: Promote internal candidate from Infrastructure Team  
+Option C: External hire (not preferred given timeline)
+
+Decision deadline: January 22, 2026
+
+================================================================================
+
+TIMELINE
+
+Phase 1: Planning & Announcement (January 13-31)
+--------------------------------------------------
+Jan 13-17: Finalize new org structure
+           Identify role alignments and any gaps
+           Prepare communication materials
+
+Jan 20-22: Leadership decision finalized
+           HR briefing and legal review
+           Prepare 1:1 talking points
+
+Jan 23:    ANNOUNCEMENT TO AFFECTED TEAMS
+           Team meeting with all Platform + Infra members
+           Individual 1:1s to begin same day
+
+Jan 24-31: Complete all 1:1 conversations
+           Address questions and concerns
+           Begin transition planning
+
+Phase 2: Transition (February 1-28)
+--------------------------------------------------
+Feb 1:     NEW STRUCTURE EFFECTIVE
+           Reporting lines officially change
+           New team meetings begin
+
+Feb 1-14:  Process harmonization
+           Tooling consolidation planning
+           Team building activities
+
+Feb 15-28: Documentation updates
+           Complete knowledge transfer
+           Finalize operating procedures
+
+Phase 3: Optimization (March onwards)
+--------------------------------------------------
+Mar 1+:    Full operational mode
+           Measure efficiency gains
+           Iterate on processes
+
+================================================================================
+
+PEOPLE IMPACT
+
+Expected outcomes by role type:
+
+Staying in combined team (10-12 people):
+- Core platform engineers
+- Infrastructure/DevOps engineers
+- No material change to responsibilities
+
+Potential redeployment (2-4 people):
+- Duplicate management/lead roles
+- Roles with significant overlap
+- Target: Product team, Customer Success, or other engineering teams
+
+Commitment: NO LAYOFFS
+All affected employees will be offered equivalent roles within the company.
+
+================================================================================
+
+COMMUNICATION PLAN
+
+Before Announcement (Jan 13-22):
+- Leadership team only (today's meeting attendees)
+- STRICT CONFIDENTIALITY required
+- No discussions with team members
+
+Announcement Day (Jan 23):
+- All-hands meeting for Platform + Infrastructure: 10am
+- Company-wide email from David: 11am
+- FAQ document published to internal wiki: 11am
+- Manager 1:1 schedule published: 12pm
+
+Post-Announcement:
+- Weekly updates from new team lead
+- Skip-level meetings available
+- HR office hours: Tuesdays 2-4pm
+
+================================================================================
+
+RISKS AND MITIGATIONS
+
+Risk: Key talent departure during transition
+Mitigation: Retention conversations, clear career paths, possible retention bonuses
+
+Risk: Productivity dip during transition
+Mitigation: Protect Prism launch timeline, defer non-critical work
+
+Risk: Premature information leak
+Mitigation: Limited distribution, confidentiality reminders, quick timeline
+
+Risk: Team morale impact
+Mitigation: Transparent communication, "no layoffs" commitment, team building
+
+================================================================================
+
+BUDGET IMPACT
+
+Current combined team cost: ~$2.4M annually
+Target savings: 15-20% ($360K - $480K)
+Source of savings:
+- Management consolidation
+- Tooling rationalization  
+- Reduced contractor spend
+- Process efficiency
+
+================================================================================
+
+APPROVAL
+
+This plan requires approval from:
+[  ] David Thompson, VP Operations - DRAFT COMPLETE
+[  ] CEO - Pending
+[  ] HR Director - Pending
+[  ] Legal - Pending
+
+Target approval date: January 17, 2026
+
+================================================================================
+
+APPENDIX A: Current Org Charts (not included in this draft)
+APPENDIX B: Proposed Org Chart (not included in this draft)
+APPENDIX C: Role Mapping Matrix (not included in this draft)
+
+================================================================================
+END OF DOCUMENT
+CONFIDENTIAL - DO NOT DISTRIBUTE

@@ -1,0 +1,53 @@
+GLASSDOOR REVIEWS SUMMARY - PRODUCT ENGINEERING TEAM
+=====================================================
+Compiled by HR: January 2, 2026
+Time Period: Last 12 months
+Total Reviews Mentioning Eng Team: 7
+
+OVERALL RATING TREND
+--------------------
+2024 Average: 3.8 / 5.0
+2025 Average: 3.1 / 5.0
+Change: -0.7 (concerning decline)
+
+POSITIVE THEMES
+---------------
++ Great technical challenges and interesting problems
++ Smart, collaborative colleagues  
++ Good benefits package
++ Leadership is transparent about company direction
++ Modern tech stack
+
+NEGATIVE THEMES (RECURRING)
+---------------------------
+- "Engineering team is severely understaffed" (mentioned in 5/7 reviews)
+- "Constant crunch time and overtime expected" (mentioned in 4/7 reviews)
+- "Work-life balance has deteriorated significantly" (mentioned in 4/7 reviews)
+- "Too much on-call burden for team size" (mentioned in 3/7 reviews)
+- "Management aware of staffing issues but slow to act" (mentioned in 3/7 reviews)
+
+SELECTED QUOTES (ANONYMIZED)
+----------------------------
+"Love the work, but the team is stretched way too thin. We've lost 4 people 
+this year and haven't backfilled. It's not sustainable."
+
+"I used to recommend this place to friends. Now I tell them to wait until 
+they hire more engineers. The burnout is real."
+
+"Great company with a serious understaffing problem. My manager is supportive 
+but there's only so much they can do when we need 3 more people."
+
+"The product roadmap is ambitious but the team can't deliver without more 
+hands. Something has to give - either scope or headcount."
+
+"Overtime is the norm, not the exception. Weekend deployments happen 
+because we don't have enough people to cover normal hours."
+
+MANAGEMENT RESPONSE RECOMMENDATIONS
+-----------------------------------
+1. Address staffing concerns in next budget cycle
+2. Consider retention bonuses for high-risk employees
+3. Review on-call rotation and compensation
+4. Communicate hiring plans to team
+
+HR Contact: Patricia Nguyen (patricia.nguyen@company.com)

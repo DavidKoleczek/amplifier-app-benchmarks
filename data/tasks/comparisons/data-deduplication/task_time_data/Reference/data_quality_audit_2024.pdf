@@ -1,0 +1,102 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2100 >>
+stream
+BT
+/F1 16 Tf
+50 750 Td
+(DATA QUALITY AUDIT REPORT - Q4 2024) Tj
+0 -30 Td
+/F1 12 Tf
+(Prepared by: Data Operations Team) Tj
+0 -15 Td
+(Date: December 15, 2024) Tj
+0 -30 Td
+/F1 14 Tf
+(EXECUTIVE SUMMARY) Tj
+0 -20 Td
+/F1 11 Tf
+(This audit identified significant data quality issues across our customer) Tj
+0 -15 Td
+(database systems. Key findings require immediate remediation.) Tj
+0 -30 Td
+/F1 14 Tf
+(KEY FINDINGS) Tj
+0 -20 Td
+/F1 11 Tf
+(1. DUPLICATE RECORDS: 23% estimated duplicate rate across systems) Tj
+0 -15 Td
+(   - CRM contains ~15 confirmed duplicate company entries) Tj
+0 -15 Td
+(   - Salesforce legacy data has highest duplication \(31%\)) Tj
+0 -15 Td
+(   - Company name variations are primary cause) Tj
+0 -25 Td
+(2. BOUNCED EMAILS: 8 email addresses confirmed undeliverable) Tj
+0 -15 Td
+(   - defunctcorp.com domain no longer exists) Tj
+0 -15 Td
+(   - oldtimersllc.net mailbox permanently failed) Tj
+0 -15 Td
+(   - 4 additional hard bounces from marketing lists) Tj
+0 -25 Td
+(3. STALE RECORDS: 12% of active records have no contact >180 days) Tj
+0 -15 Td
+(   - Green Valley Farms: last contact July 2025) Tj
+0 -15 Td
+(   - Midwest Manufacturing: last contact August 2025) Tj
+0 -15 Td
+(   - Recommend status change to Inactive) Tj
+0 -25 Td
+(4. DATA INCONSISTENCIES:) Tj
+0 -15 Td
+(   - Phone formats vary \(XXX-XXXX, \(XXX\) XXX-XXXX, XXXXXXX\)) Tj
+0 -15 Td
+(   - Email domains don't always match company \(fnb.com vs firstnational.com\)) Tj
+0 -15 Td
+(   - Job titles inconsistent \(Dr. vs MD vs no title\)) Tj
+0 -30 Td
+/F1 14 Tf
+(RECOMMENDATIONS) Tj
+0 -20 Td
+/F1 11 Tf
+(1. Create unified Customer Master List from all sources) Tj
+0 -15 Td
+(2. Implement company name standardization mapping) Tj
+0 -15 Td
+(3. Remove all hard-bounced email addresses) Tj
+0 -15 Td
+(4. Flag and review stale records for status update) Tj
+0 -15 Td
+(5. Normalize phone number formats to XXX-XXXX) Tj
+0 -30 Td
+/F1 14 Tf
+(PRIORITY: HIGH - Complete by Q1 2025) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000266 00000 n 
+0000002420 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2497
+%%EOF

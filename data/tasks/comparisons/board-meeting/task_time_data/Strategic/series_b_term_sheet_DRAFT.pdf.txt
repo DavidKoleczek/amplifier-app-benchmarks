@@ -1,0 +1,143 @@
+**CONFIDENTIAL - DRAFT - NOT FOR DISTRIBUTION**
+
+==========================================================
+                    TERM SHEET
+                 SERIES B FINANCING
+                    NEXUSAI, INC.
+==========================================================
+
+This term sheet summarizes the principal terms of a proposed
+Series B Preferred Stock financing of NexusAI, Inc. (the "Company").
+This term sheet is for discussion purposes only and is not binding.
+
+----------------------------------------------------------
+                    OFFERING TERMS
+----------------------------------------------------------
+
+Issuer:                 NexusAI, Inc., a Delaware corporation
+
+Security:               Series B Preferred Stock
+
+Amount:                 $18,000,000 (may increase to $22,000,000
+                        with follow-on participation)
+
+Pre-Money Valuation:    $65,000,000
+
+Post-Money Valuation:   $83,000,000 (assuming $18M raise)
+
+Price Per Share:        $8.42 (subject to adjustment)
+
+Lead Investor:          [REDACTED] Ventures
+
+Participating:          - [REDACTED] Capital (existing, pro-rata)
+                        - [REDACTED] Partners (new)
+
+----------------------------------------------------------
+                    KEY TERMS
+----------------------------------------------------------
+
+Board Composition:      Five (5) directors:
+                        - Two (2) designated by Common
+                        - Two (2) designated by Preferred
+                        - One (1) independent, mutually agreed
+
+Liquidation            1x non-participating preferred
+Preference:            
+
+Anti-Dilution:         Broad-based weighted average
+
+Protective             Consent required for:
+Provisions:            - Changes to authorized shares
+                       - Dividends on Common
+                       - Acquisition, merger, or sale
+                       - Debt exceeding $500,000
+                       - Changes to Board size
+
+Drag-Along:            Standard (majority of Preferred + Common)
+
+Right of First         Pro-rata rights for investors holding
+Refusal:               >2% of Series B
+
+Information            Quarterly financials, annual audited
+Rights:                statements, annual budget
+
+----------------------------------------------------------
+                    USE OF PROCEEDS
+----------------------------------------------------------
+
+The Company intends to use the proceeds as follows:
+
+- Engineering & Product (50%):      $9,000,000
+  - Hire 15 additional engineers
+  - Accelerate product roadmap
+  - EU infrastructure deployment
+
+- Sales & Marketing (30%):          $5,400,000
+  - Expand sales team to 18
+  - International market entry (UK, Germany)
+  - Brand awareness campaigns
+
+- Customer Success (12%):           $2,160,000
+  - Scale CS team for enterprise support
+  - Implementation services capacity
+
+- G&A (8%):                         $1,440,000
+  - Finance, HR, legal infrastructure
+  - SOC 2 / compliance requirements
+
+----------------------------------------------------------
+                    MILESTONES
+----------------------------------------------------------
+
+The Company has represented that this financing will enable
+achievement of the following milestones within 24 months:
+
+- ARR:                  $32,000,000 (from current $8.6M)
+- Customers:            75+ enterprise accounts
+- Gross Margin:         >82%
+- Net Revenue Retention: >115%
+- Geographic:           UK and Germany market presence
+
+----------------------------------------------------------
+                    CONDITIONS PRECEDENT
+----------------------------------------------------------
+
+- Completion of due diligence satisfactory to Lead Investor
+- No material adverse change in business
+- Satisfactory legal documentation
+- Board approval
+
+----------------------------------------------------------
+                    TIMING
+----------------------------------------------------------
+
+Due Diligence Period:   January 6-31, 2026
+Target Signing:         February 15, 2026
+Target Closing:         March 1, 2026
+
+----------------------------------------------------------
+                    CONFIDENTIALITY
+----------------------------------------------------------
+
+This term sheet and its contents are confidential and may
+not be disclosed to any third party without prior written
+consent of the Lead Investor.
+
+----------------------------------------------------------
+
+ACKNOWLEDGED AND AGREED (for discussion purposes only):
+
+NexusAI, Inc.
+
+_________________________    Date: ____________
+Maya Rodriguez, CEO
+
+
+[LEAD INVESTOR]
+
+_________________________    Date: ____________
+[Name], General Partner
+
+==========================================================
+          DRAFT v3 - January 2, 2026 - CONFIDENTIAL
+==========================================================

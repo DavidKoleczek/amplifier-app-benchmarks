@@ -1,0 +1,321 @@
+VELOCITYRM - FREQUENTLY ASKED QUESTIONS
+========================================
+For Customer & Prospect Distribution
+Last Updated: January 2026
+
+TABLE OF CONTENTS
+-----------------
+1. General Questions
+2. Features & Capabilities
+3. Pricing & Plans
+4. Security & Compliance
+5. Implementation & Support
+6. Integrations
+7. Mobile & Accessibility
+
+================================================================================
+1. GENERAL QUESTIONS
+================================================================================
+
+Q: What is VelocityRM?
+A: VelocityRM is an AI-powered revenue management platform designed for B2B 
+sales teams. We combine traditional CRM capabilities with advanced deal 
+intelligence, automated activity capture, and ML-powered forecasting to help 
+sales organizations close more deals and forecast with confidence.
+
+Q: Who is VelocityRM designed for?
+A: VelocityRM is designed for B2B sales organizations with:
+- 10+ sales representatives
+- Complex deal cycles (30+ days)
+- Need for accurate forecasting
+- Desire to reduce manual data entry
+
+We serve companies from growth-stage startups to large enterprises across 
+technology, manufacturing, financial services, professional services, and 
+healthcare industries.
+
+Q: How is VelocityRM different from other CRMs?
+A: Three key differentiators:
+
+1. AI-Native Architecture: Unlike legacy CRMs that added AI as an afterthought,
+   VelocityRM was built from the ground up with machine learning at its core.
+   Our VelocityScore analyzes 47+ signals to predict deal outcomes.
+
+2. Automatic Activity Capture: Most CRMs rely on reps manually logging activities.
+   VelocityRM automatically captures emails, meetings, and calls, reducing admin
+   time by 5+ hours per rep per week.
+
+3. Forecasting Accuracy: Our customers consistently achieve 85%+ forecast accuracy,
+   compared to the industry average of 60-70%.
+
+Q: How long has VelocityRM been in business?
+A: VelocityRM was founded in 2021 and has grown to serve 500+ customers globally.
+We've raised $85M in venture funding and employ 250+ people across our San Francisco
+headquarters and offices worldwide.
+
+================================================================================
+2. FEATURES & CAPABILITIES
+================================================================================
+
+Q: What is VelocityScore?
+A: VelocityScore is our proprietary AI-powered deal health score. It analyzes 47
+signals across four categories:
+- Engagement: Email response rates, meeting frequency, stakeholder involvement
+- Momentum: Stage velocity, activity trends, deal progression
+- Fit: Company size, industry match, technology compatibility
+- Timing: Budget cycle alignment, urgency indicators
+
+Each deal receives a score from 0-100, with full transparency into why the score
+is what it is. This isn't a black box - you can drill into each factor.
+
+Q: How does automatic activity capture work?
+A: VelocityRM connects to your email and calendar systems (Microsoft 365, Google
+Workspace) via secure APIs. We automatically:
+- Log emails sent to and received from contacts
+- Record calendar events and meetings
+- Capture call logs (with supported phone systems)
+- Track email opens and link clicks (optional)
+
+Your reps don't need to manually log anything - activities appear automatically
+on deal and contact timelines.
+
+Q: How accurate is the forecasting?
+A: Our customers typically achieve 85%+ forecast accuracy within two quarters of
+implementation. This compares to industry averages of 60-70% with traditional
+CRM-based forecasting.
+
+The forecasting engine uses:
+- Deal-level probability based on VelocityScore
+- Historical patterns from your closed deals
+- Seasonal and trend adjustments
+- Confidence intervals at 80% and 95% levels
+
+Q: Can managers still override AI forecasts?
+A: Absolutely. We believe in AI-augmented decision making, not AI-replaced. Managers
+can override any deal forecast or the overall number. However, we track these overrides
+and report on accuracy, so you can see who's making good judgment calls over time.
+
+Q: What reports and dashboards are available?
+A: VelocityRM includes 40+ standard reports covering:
+- Pipeline by stage, owner, region, and segment
+- Forecast accuracy and trends
+- Rep performance and activity metrics
+- Deal velocity and conversion rates
+- Win/loss analysis
+
+You can also create custom reports and dashboards. Professional and Enterprise plans
+include advanced analytics like cohort analysis and predictive modeling.
+
+================================================================================
+3. PRICING & PLANS
+================================================================================
+
+Q: What plans do you offer?
+A: We offer three plans:
+
+STARTER - $45/user/month
+- For small teams getting started
+- Core deal management
+- Basic reporting (15 reports)
+- Email sync
+
+PROFESSIONAL - $85/user/month
+- For growing teams
+- AI-powered forecasting
+- Workflow automation
+- Full API access
+- SSO included
+
+ENTERPRISE - Custom pricing
+- For large organizations
+- Custom ML models
+- Dedicated support
+- Advanced security
+- Unlimited everything
+
+All plans require annual commitment. Volume discounts available.
+
+Q: Is there a free trial?
+A: Yes! We offer a 14-day free trial of our Professional plan. No credit card
+required to start. Contact sales@velocityrm.io or visit velocityrm.io/trial.
+
+Q: Do you offer discounts?
+A: Yes, we offer discounts for:
+- Volume (10%+ for 50+ users)
+- Multi-year contracts (up to 10%)
+- Nonprofit organizations (15%)
+- Educational institutions (15%)
+
+Contact our sales team for specific pricing.
+
+Q: What's included in implementation?
+A: Implementation packages vary by plan:
+- Starter: Self-service with online resources
+- Professional: Guided implementation ($7,500, includes data migration)
+- Enterprise: Custom implementation with dedicated team
+
+================================================================================
+4. SECURITY & COMPLIANCE
+================================================================================
+
+Q: Is VelocityRM secure?
+A: Yes, security is a top priority. We maintain:
+- SOC 2 Type II certification (audited annually)
+- ISO 27001 certification
+- AES-256 encryption at rest
+- TLS 1.3 encryption in transit
+- Regular penetration testing
+
+Q: Is VelocityRM compliant with privacy regulations?
+A: Yes, VelocityRM is compliant with:
+- GDPR (EU data protection)
+- CCPA (California privacy)
+- HIPAA (available for Enterprise customers with BAA)
+
+We provide Data Processing Agreements (DPA) for all customers.
+
+Q: Where is my data stored?
+A: You choose your data region during setup:
+- United States (N. Virginia or Oregon)
+- European Union (Ireland or Frankfurt)
+- Asia-Pacific (Singapore or Sydney)
+
+Data never leaves your chosen region without explicit configuration.
+
+Q: Do you offer Single Sign-On (SSO)?
+A: Yes. SSO via SAML 2.0 is included in Professional and Enterprise plans.
+We integrate with all major identity providers including Okta, Azure AD,
+OneLogin, and Google Workspace.
+
+Q: Can we get a SOC 2 report?
+A: Yes, SOC 2 Type II reports are available to Professional and Enterprise
+customers under NDA. Contact your account manager to request a copy.
+
+================================================================================
+5. IMPLEMENTATION & SUPPORT
+================================================================================
+
+Q: How long does implementation take?
+A: Typical timelines:
+- Cloud-only: 1-2 weeks
+- With integrations: 2-4 weeks
+- Enterprise with custom requirements: 4-8 weeks
+
+Most customers are up and running within their first month.
+
+Q: Can you migrate data from our current CRM?
+A: Yes, we have extensive migration experience. We've migrated data from:
+- Salesforce
+- HubSpot
+- Pipedrive
+- Microsoft Dynamics
+- Zoho CRM
+- Custom/homegrown systems
+
+Our professional services team handles migration with zero downtime.
+
+Q: What training is available?
+A: We offer multiple training options:
+- Self-paced online courses (included)
+- Live webinars (weekly, included)
+- Custom onsite training (available for purchase)
+- Admin certification program
+- Developer documentation
+
+Q: What support is included?
+A: Support varies by plan:
+- Starter: Email support, 48-hour response SLA
+- Professional: Email + chat, 8-hour response SLA
+- Enterprise: Email + chat + phone, 4-hour response SLA, dedicated CSM
+
+All customers have access to our help center and community forums.
+
+Q: Do you have a status page?
+A: Yes, real-time status is available at status.velocityrm.io. You can subscribe
+to receive notifications about any service issues.
+
+================================================================================
+6. INTEGRATIONS
+================================================================================
+
+Q: What systems does VelocityRM integrate with?
+A: We offer native integrations with:
+
+EMAIL & CALENDAR
+- Microsoft 365
+- Google Workspace
+- Microsoft Exchange (on-premise)
+
+CRM & DATA
+- Salesforce (bi-directional sync)
+- HubSpot (bi-directional sync)
+- LinkedIn Sales Navigator
+- ZoomInfo
+
+COMMUNICATION
+- Slack
+- Microsoft Teams
+- Zoom
+
+CONVERSATION INTELLIGENCE
+- Gong
+- Chorus
+- Clari
+
+Plus REST API and webhooks for custom integrations.
+
+Q: Can I use VelocityRM alongside Salesforce?
+A: Yes! Many customers use VelocityRM alongside Salesforce. We offer bi-directional
+sync so data flows between systems automatically. Use VelocityRM for deal intelligence
+and forecasting while maintaining Salesforce as your system of record.
+
+Q: Do you have an API?
+A: Yes, we offer a comprehensive REST API with:
+- Full CRUD operations on all objects
+- Webhook notifications for real-time events
+- OAuth 2.0 authentication
+- Extensive documentation at developers.velocityrm.io
+
+API access varies by plan (read-only for Starter, full access for Professional+).
+
+================================================================================
+7. MOBILE & ACCESSIBILITY
+================================================================================
+
+Q: Is there a mobile app?
+A: Yes, VelocityRM offers native mobile apps for iOS and Android. The mobile
+app includes:
+- Full pipeline visibility
+- Deal updates and editing
+- Activity logging
+- Push notifications
+- Offline access (Enterprise plan)
+
+Q: Does VelocityRM meet accessibility standards?
+A: Yes, we are committed to accessibility. VelocityRM conforms to WCAG 2.1 Level AA
+standards. We regularly conduct accessibility audits and welcome feedback.
+
+Q: What browsers are supported?
+A: VelocityRM supports all modern browsers:
+- Google Chrome (recommended)
+- Microsoft Edge
+- Mozilla Firefox
+- Safari
+
+Internet Explorer is not supported.
+
+================================================================================
+CONTACT US
+================================================================================
+
+Sales inquiries: sales@velocityrm.io
+Support: support@velocityrm.io
+General: info@velocityrm.io
+
+Website: velocityrm.io
+Status: status.velocityrm.io
+Documentation: docs.velocityrm.io
+
+---
+VelocityRM | AI-Powered Revenue Management
+(c) 2026 VelocityRM Inc. All rights reserved.

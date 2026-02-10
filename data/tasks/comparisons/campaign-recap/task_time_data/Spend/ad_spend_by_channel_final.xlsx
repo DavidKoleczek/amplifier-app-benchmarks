@@ -1,0 +1,73 @@
+This is a placeholder for an Excel file. In a real scenario, this would be binary Excel data.
+
+AD SPEND BY CHANNEL - SPRING CAMPAIGN 2025 (FINAL)
+==================================================
+
+Prepared by: Finance Team
+Last Updated: May 20, 2025
+Approved by: Jennifer Chen, CMO
+
+SUMMARY:
+--------
+Total Campaign Budget: $350,000
+Total Actual Spend: $340,127.45
+Variance: ($9,872.55) - 2.8% under budget
+
+SPEND BY CHANNEL:
+-----------------
+
+Channel              | Budget    | Actual      | Variance   | % of Total | Notes
+---------------------|-----------|-------------|------------|------------|------------------
+Google Ads           | $125,000  | $128,456.78 | +$3,456.78 | 37.8%      | Overspend approved
+Facebook/Instagram   | $85,000   | $82,340.12  | -$2,659.88 | 24.2%      | 
+LinkedIn Ads         | $45,000   | $43,567.89  | -$1,432.11 | 12.8%      |
+Twitter/X Ads        | $20,000   | $18,234.56  | -$1,765.44 | 5.4%       | Lower engagement
+Influencer Partners  | $35,000   | $38,500.00  | +$3,500.00 | 11.3%      | See notes below*
+Programmatic Display | $25,000   | $16,780.34  | -$8,219.66 | 4.9%       | Paused early
+Email (Marketo)      | $8,000    | $7,456.23   | -$543.77   | 2.2%       |
+Content Syndication  | $7,000    | $4,791.53   | -$2,208.47 | 1.4%       | Underperformed
+---------------------|-----------|-------------|------------|------------|------------------
+TOTAL                | $350,000  | $340,127.45 | -$9,872.55 | 100%       |
+
+* Influencer overspend: Additional $3,500 added mid-campaign for TechReviewPro partnership
+  (approved by Jennifer via email 4/18)
+
+MONTHLY BREAKDOWN:
+------------------
+
+Month    | Google    | FB/IG     | LinkedIn  | Twitter   | Influencer | Other     | Total
+---------|-----------|-----------|-----------|-----------|------------|-----------|----------
+April    | $72,345   | $48,670   | $25,890   | $10,456   | $22,000    | $18,234   | $197,595
+May      | $56,112   | $33,670   | $17,678   | $7,779    | $16,500    | $10,794   | $142,533
+---------|-----------|-----------|-----------|-----------|------------|-----------|----------
+TOTAL    | $128,457  | $82,340   | $43,568   | $18,235   | $38,500    | $29,028   | $340,127
+
+SPEND BY WEEK:
+--------------
+Week of      | Spend      | Cumulative | Notes
+-------------|------------|------------|---------------------------
+Apr 1-7      | $48,234    | $48,234    | Launch week - heavy spend
+Apr 8-14     | $52,678    | $100,912   | Peak week
+Apr 15-21    | $45,123    | $146,035   | Sustained push
+Apr 22-28    | $38,456    | $184,491   | Slight pullback
+Apr 29-May 5 | $42,890    | $227,381   | May burst
+May 6-12     | $38,234    | $265,615   | 
+May 13-19    | $35,678    | $301,293   | Wind down begins
+May 20-31    | $38,834    | $340,127   | Final push
+
+CPM/CPC TRENDS:
+---------------
+
+Channel    | Avg CPM   | Avg CPC  | Trend vs Q1
+-----------|-----------|----------|-------------
+Google     | $12.45    | $2.34    | +8% CPM, +5% CPC (competitive auction)
+Facebook   | $18.67    | $1.89    | -3% CPM, +2% CPC (improved targeting)
+LinkedIn   | $32.45    | $5.67    | +12% CPM (B2B demand high)
+Twitter    | $8.23     | $1.12    | -15% CPM (platform struggles)
+
+NOTES:
+------
+1. Google overspend was pre-approved due to strong ROAS (4.2x)
+2. Programmatic display paused April 20 due to poor performance
+3. Twitter underspend reallocated to Google/Facebook
+4. All invoices reconciled as of May 25, 2025

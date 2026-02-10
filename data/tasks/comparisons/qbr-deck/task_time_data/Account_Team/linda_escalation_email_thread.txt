@@ -1,0 +1,152 @@
+---------- Forwarded message ---------
+From: Linda Park <l.park@acmecorp.com>
+To: Support <support@cloudplatform.com>
+CC: Maria Santos <m.santos@acmecorp.com>, Thomas Chen <t.chen@acmecorp.com>
+Date: November 8, 2025, 2:47 PM
+Subject: URGENT: Complete platform outage - Escalation Required
+
+We are experiencing a COMPLETE outage of your platform. None of our 200 users 
+can access any functionality. This is impacting our end-of-week operations 
+and we have customer commitments that are now at risk.
+
+I need an immediate escalation to your leadership team. This is unacceptable 
+for a platform we pay nearly $300K annually for.
+
+What is the ETA for resolution?
+
+Linda Park
+Operations Manager, Acme Corp
+
+
+---------- Reply ---------
+From: Support Team <support@cloudplatform.com>
+To: Linda Park <l.park@acmecorp.com>
+Date: November 8, 2025, 3:15 PM
+Subject: RE: URGENT: Complete platform outage - Escalation Required
+
+Hi Linda,
+
+We are aware of a service disruption affecting multiple customers. Our 
+engineering team is actively investigating and working on resolution.
+
+Current status: Major incident declared
+ETA: Unknown at this time - will update hourly
+
+Your account team has been notified.
+
+Best regards,
+Support Team
+
+
+---------- Reply ---------
+From: Linda Park <l.park@acmecorp.com>
+To: Support <support@cloudplatform.com>
+Date: November 8, 2025, 5:32 PM
+Subject: RE: URGENT: Complete platform outage - Escalation Required
+
+This is now 3+ hours and "unknown ETA" is not acceptable.
+
+We have had to manually process transactions that would normally go through 
+your platform. We are tracking all costs associated with this outage.
+
+I expect a call from your VP of Customer Success within the hour.
+
+Linda
+
+
+---------- Reply ---------
+From: Janet Morrison <j.morrison@cloudplatform.com>
+To: Linda Park <l.park@acmecorp.com>
+CC: Thomas Chen <t.chen@acmecorp.com>, Maria Santos <m.santos@acmecorp.com>
+Date: November 8, 2025, 6:15 PM
+Subject: RE: URGENT: Complete platform outage - Escalation Required
+
+Linda, Thomas, Maria,
+
+I am so sorry for the disruption. I just got off a call with our VP of 
+Engineering - service is being restored now and should be fully operational 
+within the next 30 minutes.
+
+I will personally be available this weekend if you experience any issues.
+
+We take this extremely seriously and will be providing a full root cause 
+analysis and discussing appropriate credits once we've completed our review.
+
+My cell: [REDACTED] - please call anytime.
+
+Sincere apologies,
+Janet Morrison
+Account Director
+
+
+---------- Reply ---------
+From: Thomas Chen <t.chen@acmecorp.com>
+To: Janet Morrison <j.morrison@cloudplatform.com>
+CC: Linda Park <l.park@acmecorp.com>, Maria Santos <m.santos@acmecorp.com>, 
+    David Park <d.park@acmecorp.com>
+Date: November 9, 2025, 9:14 AM
+Subject: RE: URGENT: Complete platform outage - Escalation Required
+
+Janet,
+
+Thank you for the personal attention yesterday. Platform appears stable this 
+morning and teams are back to normal operations.
+
+Adding David (CFO) to this thread as he'll want to be part of any SLA credit 
+discussion. We documented approximately $15,000 in direct costs from yesterday 
+(overtime, manual processing, delayed shipments).
+
+We'd like to schedule a call this week to discuss:
+1. Root cause and what happened
+2. What preventive measures are being implemented
+3. SLA credits per our contract terms
+
+We've been happy with the platform overall, but this shook confidence across 
+our leadership team. We need to understand how this won't happen again.
+
+Thomas Chen
+VP Operations, Acme Corp
+
+
+---------- Reply ---------
+From: Janet Morrison <j.morrison@cloudplatform.com>
+To: Thomas Chen <t.chen@acmecorp.com>
+Date: November 9, 2025, 10:45 AM
+Subject: RE: URGENT: Complete platform outage - Escalation Required
+
+Thomas,
+
+Completely understand. I'm scheduling a call for Thursday with our VP of 
+Engineering to walk through the RCA and preventive measures.
+
+Regarding SLA credits - I've escalated this to our legal and finance teams 
+and will have an update for you by end of next week.
+
+Again, our apologies for the disruption. Your partnership means a great deal 
+to us.
+
+Janet
+
+
+---------- Latest ---------
+From: David Park <d.park@acmecorp.com>
+To: Thomas Chen <t.chen@acmecorp.com>
+CC: Maria Santos <m.santos@acmecorp.com>
+Date: November 15, 2025, 3:22 PM
+Subject: RE: URGENT: Complete platform outage - Escalation Required
+
+Thomas - 
+
+Still no word on SLA credits. It's been a week. Maria mentioned the RCA 
+call was helpful but I want to see something in writing.
+
+Also - I've asked procurement to pull together a competitive analysis. 
+Not saying we're switching, but I want options on the table before renewal.
+
+David
+
+---
+[END OF THREAD]
+
+NOTE FROM JANET: David's email is concerning. Need to expedite the SLA credit 
+discussion with finance. This is becoming a renewal blocker.

@@ -1,0 +1,35 @@
+name: vendor-evaluation
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  We're finalizing our CRM vendor selection and need materials for the steering committee meeting next week.
+
+  Create two deliverables:
+
+  1. "CRM_Comparison.pptx" - A comprehensive vendor comparison presentation with:
+     - Feature comparison across all three vendors
+     - Pricing analysis and total cost of ownership
+     - Security and compliance review
+     - Pros/cons summary for each vendor
+     - Risk assessment
+
+  2. "CRM_Recommendation.docx" - A written recommendation document with:
+     - Executive summary with clear recommendation
+     - Evaluation methodology
+     - Detailed justification for the recommendation
+     - Implementation considerations
+     - Dissenting opinions/risks of chosen vendor
+
+  We're evaluating Salesforce, HubSpot, and Pipedrive. All the source materials are in this folder - RFP responses, demo feedback, pricing quotes, security questionnaires, and reference call notes. Synthesize everything into a clear recommendation.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

@@ -1,0 +1,19 @@
+name: directory-update
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - excel
+    - data
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Employee_Directory_Updated.xlsx" by merging HR system export with manager updates and recent announcements (new hires, departures, promotions).
+
+  HR export is source of truth for employment status. Apply title/team changes from manager emails. Flag any conflicts between sources.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

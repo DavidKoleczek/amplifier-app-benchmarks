@@ -1,0 +1,153 @@
+DISCOVERY CALL TEMPLATE
+=======================
+Use this framework for initial discovery calls.
+Adjust based on conversation flow - don't read like a script!
+
+PREP (Before the call)
+======================
+[ ] Research company (size, industry, recent news)
+[ ] Check LinkedIn for attendees
+[ ] Review any previous interactions in CRM
+[ ] Prepare 2-3 company-specific questions
+[ ] Test screen share and audio
+
+OPENING (2-3 minutes)
+=====================
+"Thanks for taking the time today. Before we dive in, I'd love to
+understand more about your world so I can make this relevant for you.
+I have some questions, but feel free to jump in with anything."
+
+Set agenda:
+"Here's what I was thinking - I'd love to spend the first 20 minutes
+understanding your current situation and challenges. Then I can show
+you a few things that might be relevant. Does that work?"
+
+CURRENT STATE (5-7 minutes)
+===========================
+Goal: Understand how they operate today
+
+[ ] "Walk me through how your sales team manages pipeline today."
+
+[ ] "What tools are you currently using?"
+    - If they name a CRM: "How long have you been on that? How's it working?"
+    - If they say spreadsheets: "What made you look at alternatives now?"
+
+[ ] "How many reps are on the team? What's the typical deal size?"
+
+[ ] "What does your sales process look like - stages, typical cycle time?"
+
+PAIN IDENTIFICATION (8-10 minutes)
+==================================
+Goal: Find specific pain and quantify impact
+
+FORECASTING:
+[ ] "How accurate would you say your forecasts have been this year?"
+[ ] "What happens when forecasts are off? Who feels that?"
+[ ] "How much time does your team spend on forecasting activities?"
+
+PIPELINE VISIBILITY:
+[ ] "How do you know which deals are healthy vs. at risk?"
+[ ] "When was the last time a deal slipped unexpectedly? What happened?"
+[ ] "What visibility do managers have into rep activity?"
+
+PROCESS & TOOLS:
+[ ] "What's the biggest frustration with your current tools?"
+[ ] "How much time do reps spend on data entry vs. selling?"
+[ ] "What would you change if you could wave a magic wand?"
+
+IMPACT QUANTIFICATION:
+[ ] "What's the cost of an inaccurate forecast for your business?"
+[ ] "If reps had 2 more hours per day for selling, what would that mean?"
+[ ] "What's at stake if you don't solve this?"
+
+THE THREE WHYS
+==============
+When you hear a pain point, go deeper:
+
+1. Surface: "We struggle with forecast accuracy."
+   → "Why is that a problem?" (business impact)
+
+2. Business: "We miss our numbers and lose credibility with the board."
+   → "Why does that matter?" (personal impact)
+
+3. Personal: "I've missed my bonus twice and my job feels at risk."
+   → Now you have real urgency.
+
+DECISION PROCESS (5 minutes)
+============================
+Goal: Understand how they buy
+
+[ ] "If you saw something you liked, what would the process look like to move forward?"
+
+[ ] "Who else would be involved in this decision?"
+    - "Anyone from IT/Security/Finance?"
+    - "Who has budget authority?"
+
+[ ] "What's your timeline? Is there an event driving this?"
+
+[ ] "What would need to be true for you to move forward this quarter?"
+
+[ ] "Are you looking at other solutions? Who else is on your list?"
+
+TRANSITION TO DEMO / NEXT STEPS (2-3 minutes)
+=============================================
+"Thanks for sharing all of that. Based on what you've told me, I think
+[specific capabilities] would be most relevant. I'd love to show you
+[2-3 specific things]. Does that sound useful?"
+
+If scheduling demo for later:
+[ ] Confirm attendees for next call
+[ ] Confirm date/time
+[ ] Send calendar invite before hanging up
+[ ] "What would make our next call a success for you?"
+
+POST-CALL (Immediately after)
+=============================
+[ ] Log call notes in CRM
+[ ] Update deal stage and close date
+[ ] Note key pain points and decision criteria
+[ ] Identify stakeholders mentioned
+[ ] Send follow-up email within 2 hours
+[ ] Prepare customized demo based on discoveries
+
+FOLLOW-UP EMAIL TEMPLATE
+========================
+Subject: Great connecting - next steps for [Company]
+
+Hi [Name],
+
+Great talking with you today. A few things stood out:
+
+• [Pain point 1 they mentioned]
+• [Pain point 2 they mentioned]
+• [Timeline or driver they mentioned]
+
+As promised, I'd like to show you how VelocityRM addresses [specific need].
+
+[If demo scheduled]: Looking forward to [date/time]. I'll send a calendar invite.
+
+[If no next step yet]: Would you have 30 minutes this week for a quick demo
+focused on [their specific pain]?
+
+Best,
+[Your name]
+
+RED FLAGS TO WATCH FOR
+======================
+🚩 Vague answers to pain questions (no real urgency)
+🚩 Can't articulate decision process (may not be real opportunity)
+🚩 Won't discuss budget or timeline (not qualified)
+🚩 No access to economic buyer (deal will stall)
+🚩 "Just looking" or "doing research" (early stage, may not be serious)
+
+GOOD SIGNALS
+============
+✅ Specific, quantified pain ("We missed forecast by 30% last quarter")
+✅ Clear timeline tied to business event
+✅ Multiple stakeholders engaged
+✅ Previous negative experience with current solution
+✅ Asking detailed questions about implementation
+
+---
+Last Updated: January 2026
+Questions: enablement@velocityrm.io

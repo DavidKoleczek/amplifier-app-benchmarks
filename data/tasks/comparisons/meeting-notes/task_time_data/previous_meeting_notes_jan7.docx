@@ -1,0 +1,91 @@
+WEEKLY PLANNING MEETING NOTES
+January 7, 2026
+
+Attendees: Sarah Chen, Marcus Williams, Jennifer Park, Tom Rodriguez, Lisa Martinez, Alex Kim
+Absent: David Thompson (PTO)
+
+================================================================================
+
+1. PRISM DEVELOPMENT UPDATE
+
+Marcus provided status update on Prism development:
+- Core API development is on track, approximately 75% complete
+- Authentication module entering final testing phase
+- Security audit scheduled for week of January 13
+- Mobile SDK progress:
+  * Android: 90% complete, on track for early Feb
+  * iOS: Delayed due to Chen's medical leave; currently at 60%
+  * Contractor hired to backfill but ramping up slowly
+
+Key concern: iOS timeline at risk. Marcus estimates 3-4 week delay possible.
+
+Decision: Monitor iOS progress daily. Escalate to David if no improvement by Jan 14.
+
+2. LAUNCH DATE DISCUSSION
+
+Original target: February 15, 2026
+Current assessment: At risk due to iOS delays
+
+Options discussed:
+a) Push entire launch to March 1
+b) Phased launch (web first, mobile later)
+c) Launch without iOS initially
+
+No decision made - to be revisited January 14 when David returns.
+
+3. MARKETING CAMPAIGN TIMING
+
+Jennifer presented draft campaign timeline:
+- Teaser campaign: Feb 1-14
+- Launch announcement: Feb 15
+- Press push: Feb 15-28
+- Customer webinar: Feb 20
+
+Jennifer noted that any launch date changes need 2+ weeks notice to adjust paid media buys.
+
+4. Q1 BUDGET PREVIEW
+
+Lisa shared preliminary Q1 budget outlook:
+- Overall budget under pressure due to Q4 revenue miss
+- Expecting 10-15% reduction from original plan
+- Details to be finalized by Jan 14 meeting
+- Department heads should prepare contingency plans
+
+5. CRM INTEGRATION REQUEST
+
+Tom raised urgent need for new CRM integration:
+- Current system at capacity, causing lost leads
+- Sales team spending excessive time on manual entry
+- Requesting prioritization for Q1
+
+Marcus: Will need to evaluate scope. Tom to provide detailed requirements.
+Action: Tom to document CRM requirements by Jan 21.
+
+6. CUSTOMER ADVISORY BOARD
+
+Alex confirmed CAB meeting for January 28:
+- 12 customers confirmed
+- 3 pending responses
+- Agenda to include Prism preview (pending NDA confirmation)
+
+Action: Sarah to coordinate with Legal on NDA status for CAB members.
+
+================================================================================
+
+ACTION ITEMS:
+
+| Item | Owner | Due Date | Status |
+|------|-------|----------|--------|
+| Monitor iOS development daily | Marcus | Ongoing | In Progress |
+| Prepare marketing contingency timeline | Jennifer | Jan 10 | Complete |
+| Finalize Q1 budget numbers | Lisa | Jan 14 | In Progress |
+| Document CRM requirements | Tom | Jan 21 | Not Started |
+| Check CAB member NDA status | Sarah | Jan 14 | Not Started |
+| Escalate iOS if needed | Marcus | Jan 14 | Pending |
+
+================================================================================
+
+NEXT MEETING: January 14, 2026 - Q1 Planning Meeting (extended 1 hour)
+
+Notes prepared by: Sarah Chen
+Distribution: All attendees + David Thompson

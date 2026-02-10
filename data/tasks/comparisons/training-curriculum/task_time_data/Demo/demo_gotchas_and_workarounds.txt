@@ -1,0 +1,228 @@
+DEMO GOTCHAS AND WORKAROUNDS
+============================
+Things that can embarrass you in a demo - and how to avoid them
+Last Updated: January 2026 | Compiled from sales team feedback
+
+CRITICAL: READ THIS BEFORE EVERY DEMO
+=====================================
+
+GOTCHA #1: THE "CALCULATING" VELOCITYSCORE
+------------------------------------------
+Problem: You open a deal and VelocityScore shows "Calculating..." instead 
+of an actual score. You look unprepared.
+
+Why it happens: Demo environment resets nightly. Scores regenerate every 
+15 minutes. If you're demoing right after reset, scores may not be ready.
+
+WORKAROUND: 
+- Before the demo, open 5-6 deals you plan to show
+- This "warms up" the scoring engine
+- Wait 2-3 minutes before the actual demo
+- Have backup deals ready in case some still show "Calculating"
+
+TALK TRACK if it happens live:
+"This score is currently updating - it recalculates as new activity comes 
+in. Let me show you another deal where you can see the full breakdown."
+
+
+GOTCHA #2: EMPTY ACTIVITY TIMELINES
+-----------------------------------
+Problem: You show a deal's activity timeline and it's empty or has only
+one or two items. Doesn't demonstrate value.
+
+Why it happens: Demo accounts don't have real email/calendar sync.
+Activity is simulated and may be sparse on some deals.
+
+WORKAROUND:
+- Before demo, check the "Acme Corp - Enterprise" deal - it ALWAYS has
+  rich activity data (we maintain it specifically for demos)
+- Alternative: "TechStart Series B" also has good activity
+- Add a quick note or task before demo to show "recent" activity
+
+TALK TRACK if it happens live:
+"This particular deal has less captured activity - in your environment,
+you'd see all your emails and meetings automatically. Let me show you
+a more active deal so you can see what that looks like."
+
+
+GOTCHA #3: FORECAST NUMBERS DON'T ADD UP
+----------------------------------------
+Problem: Customer asks "why doesn't commit + best case + pipeline = total?"
+You don't have a good answer.
+
+Why it happens: These are overlapping categories, not exclusive buckets.
+Commit is >90% probability, Best Case is >60%, Pipeline is all open deals.
+A deal can be in multiple categories.
+
+WORKAROUND:
+- Preemptively explain this when showing forecasting
+- "These are confidence-based views, not exclusive buckets"
+
+TALK TRACK:
+"Great question - these aren't mutually exclusive categories. Commit is
+deals over 90% probability, Best Case is over 60%. A strong deal will 
+appear in both. Think of it as layers of confidence, not separate buckets."
+
+
+GOTCHA #4: THE SLOW DASHBOARD LOAD
+----------------------------------
+Problem: Dashboard takes 5+ seconds to load. Awkward silence while you
+wait. Customer thinks product is slow.
+
+Why it happens: Demo environment is shared, sometimes under load.
+First load of the day is always slower.
+
+WORKAROUND:
+- Load the dashboard BEFORE the call starts
+- Keep it in a background tab
+- When you're ready to show it, it's already loaded
+- Use a wired internet connection, not WiFi
+
+TALK TRACK if it happens live:
+"Let me give this a moment to load all the data - in your production
+environment, this is much snappier because you'll have a dedicated
+instance. Demo environments are shared."
+
+
+GOTCHA #5: WRONG CURRENCY/DATE FORMAT
+-------------------------------------
+Problem: Customer is in Europe, demo shows dollars and MM/DD/YYYY dates.
+Looks generic/US-centric.
+
+Why it happens: Demo defaults to US settings.
+
+WORKAROUND:
+- If demoing to international customer, adjust settings beforehand
+- Settings > Regional > Currency and Date Format
+- Takes 30 seconds, makes you look thoughtful
+- Or use the appropriate regional demo environment
+
+TALK TRACK if you forgot:
+"I notice this is showing US currency - VelocityRM fully supports
+localization. Let me show you how easy it is to switch." [Then switch it]
+
+
+GOTCHA #6: THE "WHY IS THIS DEAL RED?" QUESTION
+-----------------------------------------------
+Problem: Customer asks why a specific deal is marked "at risk" (red).
+You don't know because you didn't review the demo data.
+
+Why it happens: Demo data has specific risk reasons coded in. If you
+don't know the story, you can't explain it convincingly.
+
+WORKAROUND:
+- Before demo, review the 3-4 deals you plan to show
+- Know WHY they're scored the way they are
+- Green deals: "Summit Healthcare" - high engagement, recent activity
+- Red deals: "Omega Manufacturing" - stalled, no activity in 3 weeks
+
+TALK TRACK if caught off-guard:
+"Let me click in and see what's driving that risk score... [click into
+score breakdown] Ah, here we go - you can see the momentum score dropped
+because there's been no activity in two weeks. This is exactly what we
+want managers to see."
+
+
+GOTCHA #7: THE API ERROR MESSAGE
+--------------------------------
+Problem: You're showing integrations and an API error pops up. Looks bad.
+
+Why it happens: Demo integrations aren't connected to real systems.
+Sometimes they throw errors.
+
+WORKAROUND:
+- Avoid actually triggering integrations in demo
+- Show the configuration screen, not the "test connection" button
+- If showing Salesforce sync, show the mapping screen, not live sync
+
+TALK TRACK if error appears:
+"That's a demo environment artifact - we don't have a real Salesforce
+connected here. In your environment, you'd see the actual sync status.
+Let me show you what that looks like in a screenshot..."
+
+
+GOTCHA #8: DEAL AMOUNTS LOOK UNREALISTIC
+----------------------------------------
+Problem: Demo has deals like "$847,293" or "$12,500,000" that don't match
+customer's typical deal sizes. Feels irrelevant.
+
+Why it happens: Demo data is one-size-fits-all.
+
+WORKAROUND:
+- Before demo, mentally note customer's typical deal size (from discovery)
+- Focus on deals in demo that are similar size
+- Or: "If your typical deal is $50K, imagine these numbers scaled down"
+
+TALK TRACK:
+"I know your deals are typically in the $X range. The principles here 
+are the same regardless of deal size - the scoring, forecasting, and 
+visibility all work identically."
+
+
+GOTCHA #9: THE NOTIFICATION POPUP
+---------------------------------
+Problem: While sharing screen, you get a Slack notification, email popup,
+or calendar reminder. Distracting at best, embarrassing at worst.
+
+Why it happens: You didn't turn on Do Not Disturb.
+
+WORKAROUND:
+- ALWAYS enable Do Not Disturb before screensharing
+- Mac: Control Center > Focus > Do Not Disturb
+- Windows: Settings > System > Focus Assist > Alarms Only
+- Or: Use a separate "demo" browser profile with no logged-in accounts
+
+THERE IS NO TALK TRACK. Just prevent this. Always.
+
+
+GOTCHA #10: MOBILE APP DEMO ISSUES
+----------------------------------
+Problem: Customer asks to see mobile app. You try to show it and it's
+logged out, needs updating, or looks different than expected.
+
+Why it happens: Mobile app versions change, demo creds expire, etc.
+
+WORKAROUND:
+- Only demo mobile if specifically requested
+- Have screenshots ready as backup
+- Test mobile app morning of demo if you plan to show it
+- Consider using a screen mirroring tool so they see your actual phone
+
+TALK TRACK if mobile fails:
+"Mobile is updating at the moment - let me show you the mobile experience
+via these screenshots while that completes. [Show screenshots] This is
+exactly what your reps will see in the field."
+
+
+BONUS: QUESTIONS THAT STUMP NEW REPS
+====================================
+
+Q: "Can we do [very specific thing]?"
+A: "That's a great question. Rather than guess, let me confirm with our
+product team and get back to you today. What would that capability
+mean for your workflow?"
+
+Q: "What's your uptime / SLA?"
+A: "We guarantee 99.9% uptime in our SLA. I can send you the full SLA
+document after this call."
+
+Q: "Who are your biggest customers?"
+A: "We have 500+ customers including [2-3 public references for their
+industry]. I'd be happy to connect you with a reference customer."
+
+Q: "Why should we trust a startup with our data?"
+A: "Valid concern. We're SOC 2 Type II certified, backed by [investors],
+and have 98% customer retention. We can also provide our security
+documentation and connect you with our CISO if helpful."
+
+
+DEMO ENVIRONMENT STATUS PAGE
+============================
+If something seems wrong with demo environment:
+status.demo.velocityrm.io
+
+Report issues: #demo-support on Slack
+
+---
+This doc compiled from embarrassing moments so you don't repeat them.
+Add your own gotchas via #sales-enablement Slack channel.

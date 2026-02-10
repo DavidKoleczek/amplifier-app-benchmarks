@@ -1,0 +1,30 @@
+From: David Chen <david.chen@techcorp.com>
+To: HR Team <hr@techcorp.com>
+Date: Mon, Jan 13, 2026 4:32 PM
+Subject: Engineering Team Updates for Directory
+
+Hi HR Team,
+
+A few updates for the employee directory from Engineering:
+
+1. DEPARTURE - Sarah Mitchell
+   Her last day was January 10th. Please remove her from all systems. I've already collected her badge and laptop. IT is handling account deactivation.
+
+2. NEW HIRE - Alex Nguyen
+   Started January 6th as Software Engineer reporting to me. His extension is 3025 and he's seated on Floor 3, desk 3D.
+   Email: alex.nguyen@techcorp.com
+   
+3. TEAM RESTRUCTURE
+   With Sarah's departure, I'm restructuring the team a bit. James Wilson is now the technical lead for our backend systems, though his title stays the same for now. Emily Rodriguez is picking up some of Sarah's frontend work.
+
+4. Ryan Taylor moved desks - he's now at 3F instead of 3E. Same extension though.
+
+Let me know if you need any other info.
+
+Thanks,
+David
+
+---
+David Chen
+VP of Engineering
+TechCorp Inc.

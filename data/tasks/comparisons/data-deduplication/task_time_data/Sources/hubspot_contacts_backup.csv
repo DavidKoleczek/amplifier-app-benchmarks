@@ -1,0 +1,15 @@
+vid,email,firstname,lastname,company,jobtitle,lifecyclestage,hs_lead_status,createdate,lastmodifieddate
+10001,john.smith@acmecorp.com,John,Smith,ACME Corporation,VP Operations,customer,Connected,2024-01-15,2025-11-20
+10002,s.chen@techflow.io,Sarah,Chen,TechFlow Solutions,CTO,customer,Connected,2024-02-20,2025-12-05
+10003,newprospect@hotlead.com,Hot,Lead,Hot Lead Inc,CEO,lead,New,2025-12-01,2025-12-10
+10004,canderson@velocitymotors.com,Chris,Anderson,Velocity Motors Inc,Procurement Director,customer,Connected,2024-03-10,2025-11-25
+10005,mjohnson@globallogistics.com,Mike,Johnson,Global Logistics Incorporated,COO,customer,Connected,2024-04-05,2025-10-22
+10006,newcontact@emergingtech.io,Emerging,Tech,Emerging Tech Startup,Founder,lead,Open,2025-11-15,2025-12-08
+10007,rdavis@firstnational.com,Robert,Davis,First National Bank,SVP Technology,customer,Connected,2024-05-18,2025-12-01
+10008,lmartinez@sunriseenergy.com,Lisa,Martinez,Sunrise Energy Company,Director of IT,customer,Connected,2024-06-22,2025-09-18
+10009,delete.request@gdpruser.eu,GDPR,Delete,EU Company,Data Officer,other,Unqualified,2024-07-30,2025-01-15
+10010,nlee@brighteducation.edu,Nancy,Lee,Bright Education,Dean,customer,Connected,2024-08-12,2025-12-10
+10011,warmprospect@interested.co,Interested,Prospect,Interested Co,VP Sales,marketingqualifiedlead,In Progress,2025-10-20,2025-12-12
+10012,eolsen@northerntimber.com,Erik,Olsen,Northern Timber Company,Operations Manager,customer,Connected,2024-09-05,2025-10-01
+10013,pmorgan@harborshipping.com,Pete,Morgan,Harbor Shipping,Fleet Captain,customer,Connected,2024-10-15,2025-11-08
+10014,info@oldtimersllc.net,Old,Timer,Old Timers LLC,Owner,customer,Connected,2023-05-20,2024-02-28

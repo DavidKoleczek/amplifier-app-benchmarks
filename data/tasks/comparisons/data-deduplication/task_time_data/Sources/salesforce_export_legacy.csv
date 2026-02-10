@@ -1,0 +1,17 @@
+sf_id,account_name,primary_contact,email,phone,type,industry,created_date,last_modified,owner
+SF-00145,ACME Corp,John Smith,jsmith@acmecorp.com,(555) 010-1,Customer,Manufacturing,2023-03-15,2024-06-20,Sales Team A
+SF-00289,Tech Flow Solutions Inc,Sarah Chen,sarah.chen@techflow.io,555.0102,Customer,Technology,2023-05-22,2024-08-15,Sales Team B
+SF-00312,Global Logistics,Michael Johnson,m.johnson@globallogistics.com,5550103,Customer,Transportation,2022-11-08,2024-03-10,Sales Team A
+SF-00401,Pinnacle Health,Emily Watson MD,e.watson@pinnaclehealth.org,555-0104,Customer,Healthcare,2023-01-20,2024-09-05,Sales Team C
+SF-00156,First National Banking Corp,Bob Davis,bob.davis@fnb.com,555-0105,Prospect,Financial,2022-08-14,2023-12-01,Sales Team B
+SF-00523,Legacy Systems Inc,Harold Jenkins,hjenkins@legacysystems.com,555-0201,Customer,Technology,2021-06-30,2023-04-15,Sales Team A
+SF-00534,Riverdale Manufacturing,Betty Cooper,bcooper@riverdalemfg.com,555-0202,Customer,Manufacturing,2022-02-28,2024-01-20,Sales Team C
+SF-00567,Coastal Medical Center,Dr. Alan Shore,ashore@coastalmed.org,555-0203,Customer,Healthcare,2023-07-12,2024-05-30,Sales Team B
+SF-00612,Pacific Retail,David Kim,david.kim@pacificretail.com,555-0107,Customer,Retail,2023-04-05,2024-07-22,Sales Team A
+SF-00645,Midwest Mfg,Thomas Wilson,twwilson@midwestmfg.com,555-0108,Customer,Manufacturing,2022-09-18,2024-02-14,Sales Team C
+SF-00678,CloudTech,Jenny Park,jenny.park@cloudtech-innovations.com,555-0109,Customer,Technology,2023-08-25,2024-10-01,Sales Team B
+SF-00701,Atlantic Financial,Mark Thompson,mark.t@atlanticfinancial.com,555-0110,Prospect,Financial,2022-12-03,2024-04-18,Sales Team A
+SF-00734,Green Valley Agricultural,Sue Miller,sue.miller@greenvalley.com,555-0111,Customer,Agriculture,2021-10-22,2023-08-30,Sales Team C
+SF-00756,Metro Construction,Jim Brown,jbrown@metroconst.com,555-0112,Customer,Construction,2023-02-14,2024-06-05,Sales Team B
+SF-00789,Defunct Corp,Gone User,contact@defunctcorp.com,555-0301,Customer,Technology,2020-05-10,2022-01-15,Sales Team A
+SF-00812,Old Timers LLC,Retired Person,info@oldtimersllc.net,555-0302,Customer,Consulting,2019-11-20,2021-06-30,Sales Team C

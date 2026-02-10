@@ -1,0 +1,95 @@
+From: Thomas Park <thomas.park@techcorp.com>
+To: James Chen <james.chen@ourcompany.com>
+CC: Robert Martinez <robert.martinez@techcorp.com>
+Date: Wednesday, September 10, 2025 4:22 PM
+Subject: Urgent: Project Phoenix Concerns
+
+James,
+
+I need to share some concerns that have been building on our side.
+
+When we kicked off Phoenix in March, we had a clear scope and a September delivery target. Six months later, we're looking at November at the earliest, and I'm hearing murmurs it could slip further.
+
+Let me be specific about what's frustrating us:
+
+1. SHIFTING TIMELINES
+   - Original plan: September 1st go-live
+   - First revision: September 15th
+   - Current estimate: "Late November"
+   
+   Each time, we hear about it after the decision has been made. We should be partners in these discussions, not recipients of updates.
+
+2. SCOPE VS. TIMELINE DISCONNECT
+   Yes, we've asked for additional features. Multi-tenancy, workflow automation, SSO - these are all things we need. But when we asked for them, we were told "no problem, we can fit it in." Now we're hearing those same features are why we're delayed.
+   
+   I would have appreciated an honest conversation upfront: "This will add X weeks. Are you willing to accept that tradeoff?" Instead, scope got absorbed and then timelines quietly slipped.
+
+3. DEMO VS. REALITY
+   The demos look great. But every time we ask to test in our environment, something isn't ready. Is the product actually as far along as the demos suggest?
+
+4. THE SECURITY ISSUE
+   Last month, we were told about a security vulnerability found during an audit. I appreciate the transparency, but I'm now wondering what else might surface. Has there been a comprehensive security review?
+
+James, I like your team. I've enjoyed working with David and Sarah in particular. But my leadership is losing confidence, and I'm running out of ways to defend the project.
+
+I need a call this week. I need a realistic timeline. And I need to understand what's actually done vs. what's still at risk.
+
+Please advise on your availability.
+
+Thomas Park
+VP of Engineering, TechCorp Industries
+
+---
+
+From: James Chen <james.chen@ourcompany.com>
+To: Thomas Park <thomas.park@techcorp.com>
+CC: Robert Martinez <robert.martinez@techcorp.com>
+Date: Wednesday, September 10, 2025 6:45 PM
+Subject: RE: Urgent: Project Phoenix Concerns
+
+Thomas,
+
+Thank you for this email. I know it wasn't easy to write, and I appreciate you being direct.
+
+You're right on several points, and I owe you accountability rather than excuses.
+
+ON TIMELINE COMMUNICATION:
+We should have involved you earlier in timeline discussions. The pattern of surprising you with date changes is unacceptable. Going forward, I commit to flagging risks before they become decisions.
+
+ON SCOPE VS. TIMELINE:
+This is a systemic failure on our side. When scope changes were requested, our instinct was to say "yes" to be accommodating. We should have been more rigorous about communicating tradeoffs. "Yes, and it will add 3 weeks" is better than "yes" followed by a quiet slip. Lesson learned, painfully.
+
+ON DEMO VS. REALITY:
+The demos are representative of actual functionality. However, the integration with your specific environment has dependencies we underestimated (particularly Salesforce API quirks and your SSO provider). I'll prepare a detailed status by component showing what's production-ready vs. what needs work.
+
+ON SECURITY:
+The vulnerability found in August was in our file upload handling. It was fixed within 7 days of discovery. We have engaged a third-party security firm for a comprehensive penetration test scheduled for October 15th. I'll share the results with you directly.
+
+I'm available tomorrow (Thursday) anytime between 10 AM and 4 PM ET. Friday is also open.
+
+I want to rebuild your confidence. Let's talk.
+
+James Chen
+Project Manager, Project Phoenix
+
+---
+
+From: Thomas Park <thomas.park@techcorp.com>
+To: James Chen <james.chen@ourcompany.com>
+Date: Wednesday, September 10, 2025 7:15 PM
+Subject: RE: Urgent: Project Phoenix Concerns
+
+James,
+
+Thank you for the quick and honest response. Let's talk tomorrow at 2 PM ET.
+
+I'll come prepared with our specific concerns and priorities. Please come prepared with:
+- A component-by-component status (you mentioned this)
+- The realistic critical path to launch
+- What could still go wrong and how likely it is
+
+I want to find a path forward, not assign blame. But I need confidence that the next date you give me will hold.
+
+Talk tomorrow.
+
+Thomas

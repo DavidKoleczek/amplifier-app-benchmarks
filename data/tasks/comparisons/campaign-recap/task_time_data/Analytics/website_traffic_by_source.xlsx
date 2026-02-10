@@ -1,0 +1,55 @@
+This is a placeholder for an Excel file. In a real scenario, this would be binary Excel data.
+
+WEBSITE TRAFFIC BY SOURCE - SPRING CAMPAIGN 2025
+================================================
+
+SUMMARY TAB:
+-----------
+Source/Medium          | Sessions  | Users    | New Users | Bounce Rate | Conv Rate | Revenue
+-----------------------|-----------|----------|-----------|-------------|-----------|----------
+google / cpc           | 52,340    | 45,230   | 38,450    | 39.2%       | 2.8%      | $142,560
+facebook / paid        | 28,670    | 24,120   | 20,340    | 44.5%       | 1.9%      | $54,320
+linkedin / paid        | 12,450    | 10,890   | 9,230     | 41.8%       | 2.3%      | $28,670
+email / newsletter     | 18,920    | 15,670   | 8,450     | 35.2%       | 3.4%      | $64,230
+twitter / paid         | 8,340     | 7,120    | 6,230     | 48.2%       | 1.2%      | $9,980
+direct / (none)        | 15,670    | 12,340   | 5,670     | 38.5%       | 2.1%      | $32,890
+organic / google       | 22,450    | 18,670   | 12,340    | 42.1%       | 1.8%      | $40,340
+referral / various     | 6,780     | 5,890    | 4,230     | 45.6%       | 1.5%      | $12,120
+-----------------------|-----------|----------|-----------|-------------|-----------|----------
+TOTAL                  | 165,620   | 139,930  | 104,940   | 41.2%       | 2.2%      | $385,110
+
+* NOTE: April 11-24 data is estimated due to tracking pixel outage
+* Estimates based on extrapolation from surrounding periods + social platform data
+
+DAILY BREAKDOWN TAB:
+-------------------
+[Detailed daily data by source - see CSV export for full details]
+
+DEVICE BREAKDOWN TAB:
+--------------------
+Device      | Sessions | % of Total | Conv Rate | Avg Order Value
+------------|----------|------------|-----------|----------------
+Desktop     | 89,430   | 54.0%      | 2.8%      | $245.00
+Mobile      | 62,870   | 37.9%      | 1.5%      | $178.00
+Tablet      | 13,320   | 8.1%       | 2.1%      | $212.00
+
+GEOGRAPHIC TAB:
+--------------
+Region           | Sessions | Conv Rate | Revenue
+-----------------|----------|-----------|----------
+United States    | 132,496  | 2.4%      | $318,120
+Canada           | 16,562   | 1.9%      | $31,450
+United Kingdom   | 8,281    | 2.1%      | $18,670
+Australia        | 4,140    | 1.8%      | $7,450
+Other            | 4,141    | 1.2%      | $9,420
+
+LANDING PAGE PERFORMANCE TAB:
+----------------------------
+Landing Page                      | Sessions | Bounce Rate | Conv Rate
+----------------------------------|----------|-------------|----------
+/spring-launch                    | 45,670   | 35.2%       | 3.2%
+/spring-launch/features           | 28,340   | 38.5%       | 2.8%
+/spring-launch/pricing            | 22,120   | 32.1%       | 4.1%
+/spring-launch/demo               | 18,450   | 28.9%       | 5.2%
+/blog/spring-announcement         | 15,670   | 52.3%       | 1.2%
+/homepage                         | 35,370   | 45.8%       | 1.8%

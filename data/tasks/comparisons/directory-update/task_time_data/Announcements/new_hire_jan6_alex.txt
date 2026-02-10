@@ -1,0 +1,34 @@
+From: HR Team <hr@techcorp.com>
+To: All Staff <all-staff@techcorp.com>
+Date: Mon, Jan 6, 2026 9:00 AM
+Subject: Welcome to the Team - Alex Nguyen!
+
+Hi everyone!
+
+Please join us in welcoming our newest team member:
+
+╔══════════════════════════════════════════════════════════════╗
+║  WELCOME ALEX NGUYEN!                                        ║
+║                                                              ║
+║  Title: Software Engineer                                    ║
+║  Team: Engineering                                           ║
+║  Reports to: David Chen                                      ║
+║  Location: Floor 3, Desk 3D                                  ║
+║  Start Date: January 6, 2026                                 ║
+╚══════════════════════════════════════════════════════════════╝
+
+ABOUT ALEX:
+Alex joins us from Quantum Systems where he was a full-stack developer for 3 years. He has a BS in Computer Science from UC Berkeley and is passionate about building scalable web applications.
+
+Outside of work, Alex enjoys hiking, photography, and is an amateur chef who makes a mean pad thai (his words!).
+
+FUN FACTS:
+- Favorite programming language: Python
+- Hidden talent: Can solve a Rubik's cube in under 2 minutes
+- First job: Teaching coding to kids at a summer camp
+
+Please stop by and introduce yourself! Alex will be in new hire orientation this morning but available after lunch.
+
+Welcome aboard, Alex!
+
+- The TechCorp HR Team

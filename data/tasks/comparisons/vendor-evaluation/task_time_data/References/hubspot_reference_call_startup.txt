@@ -1,0 +1,149 @@
+HUBSPOT REFERENCE CALL - TECHFLOW SOLUTIONS
+============================================
+
+Date: December 17, 2025
+Reference Contact: Marcus Chen, Director of Revenue Operations
+Company: TechFlow Solutions (B2B SaaS)
+Employees: 180
+HubSpot Users: 85 (Sales) + All company (Marketing)
+Using Since: 2023 (2 years)
+Products: CRM Suite Professional (Marketing, Sales, Service, Operations)
+
+CALL ATTENDEES (Meridian):
+- Sarah Chen (IT Director)
+- Mike Torres (VP Sales)
+- Lisa Park (Marketing Director)
+
+---
+
+QUESTIONS AND RESPONSES:
+
+Q: What made you choose HubSpot?
+
+Marcus: We were actually on Salesforce Essentials before - their small 
+business tier. It was painful. Too complex for our size, mobile was 
+terrible, and our marketing team was on a completely separate system 
+(Mailchimp). When we started scaling and needed to upgrade, we evaluated 
+both Salesforce Enterprise and HubSpot.
+
+HubSpot won for three reasons:
+1. Marketing + Sales in one system - game changer
+2. Way easier to use - reps actually log stuff
+3. Half the cost for what we needed
+
+
+Q: How was implementation?
+
+Marcus: Shockingly smooth. We went live in 6 weeks. The HubSpot team was 
+good - not as polished as Salesforce's enterprise consultants, but they 
+knew the product cold. Data migration was straightforward because we 
+didn't have that much historical data.
+
+The biggest work was on our side - cleaning up our processes and deciding 
+what we actually needed vs. what we thought we needed.
+
+
+Q: User adoption - how did it go?
+
+Marcus: This is where HubSpot really shines. Our sales team was using it 
+properly within 2 weeks. Like, actually logging activities, updating 
+deals, using sequences. I've never seen that with any other CRM.
+
+The mobile app is fast. Reps actually pull it out after meetings. That 
+never happened with Salesforce.
+
+Marketing adoption was instant because the tools are genuinely good. 
+Our CMO called it "the best marketing software she's used."
+
+
+Q: Any limitations or pain points?
+
+Marcus: Being honest, a few:
+
+1. Custom objects are still maturing. We hit some walls when trying to 
+   build complex data relationships. Had to work around it.
+
+2. Reporting depth - for really complex multi-touch attribution, we 
+   ended up connecting to Looker. HubSpot's native reporting is good 
+   but not great.
+
+3. Enterprise features require Enterprise pricing. Some things we 
+   thought would be in Professional required upgrade.
+
+4. If you have really complex sales processes (multiple currencies, 
+   complex territories, CPQ), HubSpot might feel limiting.
+
+
+Q: Security and compliance - any concerns?
+
+Marcus: For us, no. We're a SaaS company, not healthcare or government. 
+SOC 2 was enough for our customers. If we had HIPAA or FedRAMP 
+requirements, HubSpot wouldn't work - they're clear about that.
+
+IT did a security review and found it acceptable for business data. 
+We have a policy not to put anything sensitive (SSNs, health data) 
+in HubSpot, but that's true for any CRM really.
+
+
+Q: Cost - did it come in as expected?
+
+Marcus: Yes, actually. HubSpot's pricing is pretty transparent. We pay 
+about $40K/year total for everything. That includes marketing for 
+50K contacts, sales for 85 users, service for 10 agents.
+
+Compare that to Salesforce where we'd be looking at probably $200K+ 
+for equivalent functionality. Even with some add-ons and integrations, 
+we're way ahead.
+
+
+Q: Would you choose HubSpot again?
+
+Marcus: 100%. It's not perfect, but for a company our size (50-500 
+employees), I think it's the sweet spot. Enterprise enough to grow with 
+you, simple enough that people actually use it.
+
+My only caveat: if you're going to 1000+ users or have hardcore 
+compliance requirements, start thinking about Salesforce. HubSpot's 
+sweet spot is mid-market.
+
+
+Q: Advice for Meridian?
+
+Marcus: 
+1. Take the marketing piece seriously. The real value is the unified 
+   platform. If you just use Sales Hub, you're missing half the benefit.
+
+2. Don't over-customize day one. HubSpot's defaults are good. Start 
+   there, then customize as you learn what you actually need.
+
+3. Your sales team will thank you. Seriously. The adoption difference 
+   vs. Salesforce is dramatic.
+
+4. Budget for Operations Hub if you need complex integrations. The 
+   data sync and workflow features are powerful.
+
+
+Q: Anything you wish you'd known before?
+
+Marcus: I wish I'd known how much time we wasted on Salesforce trying 
+to make it work for a team our size. We should have gone HubSpot 
+earlier. Live and learn.
+
+---
+
+OVERALL IMPRESSION:
+
+Marcus was enthusiastic - clearly a HubSpot fan. Takeaways:
+- Outstanding for mid-market companies (50-500 employees)
+- User adoption is genuinely better (reps actually use it)
+- Marketing + Sales integration is the killer feature
+- Some enterprise limitations (complex customization, reporting)
+- Security acceptable for business data, not for PHI
+- Significant cost savings vs. enterprise CRM
+
+Good fit for Meridian's size. Security gap for healthcare clients 
+is the main concern.
+
+---
+
+Notes by: Sarah Chen

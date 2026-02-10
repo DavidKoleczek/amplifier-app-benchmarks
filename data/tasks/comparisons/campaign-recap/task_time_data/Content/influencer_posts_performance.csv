@@ -1,0 +1,15 @@
+influencer,platform,post_type,post_date,post_url,views,likes,comments,shares,saves,clicks,engagement_rate,est_value,sentiment,notes
+TechReviewPro,YouTube,Dedicated Video,2025-04-08,https://youtube.com/watch?v=abc123xyz,487234,18923,2341,4521,8934,4560,5.32%,$45000,Very Positive,Main campaign video - exceeded expectations
+TechReviewPro,YouTube,Community Post,2025-04-15,https://youtube.com/post/def456,89234,3421,456,234,0,890,4.62%,$5000,Positive,Follow-up engagement post
+SarahTechTalks,Instagram,Feed Post 1,2025-04-10,https://instagram.com/p/xyz789,234567,12345,1234,2341,5678,2890,8.42%,$12000,Very Positive,Product showcase
+SarahTechTalks,Instagram,Feed Post 2,2025-04-17,https://instagram.com/p/abc012,198234,10234,987,1876,4521,2340,8.91%,$10000,Positive,Behind-the-scenes usage
+SarahTechTalks,Instagram,Feed Post 3,2025-04-24,https://instagram.com/p/def345,189456,9876,876,1654,4123,2120,8.75%,$9500,Positive,Feature highlight
+SarahTechTalks,Instagram,Stories (set),2025-04-10,N/A,456789,0,0,0,0,8920,1.95%,$6000,Positive,24-hour stories - 5 frames
+DevLifestyle,Twitter/X,Thread,2025-04-12,https://twitter.com/devlifestyle/status/123,234567,4567,345,1234,0,2340,2.62%,$8000,Very Positive,10-tweet thread with demo
+DevLifestyle,Twitter/X,Promo Tweet,2025-04-19,https://twitter.com/devlifestyle/status/456,156234,2345,234,876,0,1560,2.21%,$4000,Positive,Link to landing page
+CloudNativeChris,LinkedIn,Article,2025-04-14,https://linkedin.com/pulse/cloudsync-review-chris,45678,1234,234,567,456,1890,5.46%,$7500,Very Positive,Long-form review article
+CloudNativeChris,LinkedIn,Post 1,2025-04-21,https://linkedin.com/posts/chris123,23456,876,123,234,198,780,5.49%,$3500,Positive,Key feature highlight
+CloudNativeChris,LinkedIn,Post 2,2025-04-28,https://linkedin.com/posts/chris456,19876,765,98,198,167,650,5.58%,$3000,Positive,Use case example
+StartupSally,TikTok,Video 1,2025-04-11,https://tiktok.com/@startupsally/video/123,567234,45678,3421,8934,12345,5670,12.41%,$15000,Very Positive,Viral potential - hit FYP
+StartupSally,TikTok,Video 2,2025-04-18,https://tiktok.com/@startupsally/video/456,324567,28934,2134,5678,7654,3240,13.65%,$12000,Very Positive,Tutorial style content
+TheProductivityGuy,YouTube,Integration,2025-04-20,https://youtube.com/watch?v=ghi789,156234,6234,678,1234,2345,1230,6.65%,$8000,Positive,CloudSync segment in larger video

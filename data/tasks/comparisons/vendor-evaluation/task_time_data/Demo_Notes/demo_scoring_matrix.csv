@@ -1,0 +1,26 @@
+Category,Criterion,Weight,Salesforce Score,Salesforce Weighted,HubSpot Score,HubSpot Weighted,Pipedrive Score,Pipedrive Weighted
+Pipeline Management,Visual Pipeline,10,7,70,9,90,10,100
+Pipeline Management,Deal Tracking,10,9,90,8,80,8,80
+Pipeline Management,Forecasting,8,9,72,7,56,6,48
+Ease of Use,User Interface,12,6,72,9,108,10,120
+Ease of Use,Mobile Experience,8,6,48,8,64,10,80
+Ease of Use,Learning Curve,10,5,50,8,80,9,90
+Integration,Email Integration,8,8,64,9,72,8,64
+Integration,Marketing Tools,7,9,63,10,70,4,28
+Integration,Third-Party Apps,5,10,50,8,40,6,30
+Security,Certifications,10,10,100,7,70,4,40
+Security,Data Protection,8,10,80,8,64,7,56
+Security,Compliance,8,10,80,6,48,4,32
+Reporting,Standard Reports,6,8,48,8,48,7,42
+Reporting,Custom Reports,7,9,63,7,49,5,35
+Reporting,Dashboards,5,8,40,8,40,6,30
+Support,Documentation,3,9,27,9,27,8,24
+Support,Customer Support,5,9,45,8,40,7,35
+Support,Training Resources,4,10,40,9,36,7,28
+Implementation,Time to Value,8,5,40,8,64,9,72
+Implementation,Customization,7,10,70,7,49,5,35
+Implementation,Data Migration,5,8,40,8,40,7,35
+Total,,,,,,,
+Weighted Total,,,150,,1332,,1285,,1204
+Unweighted Average,,,,,8.16,,7.88,,6.95
+Weighted Percentage,,,,,,88.8%,,85.7%,,80.3%

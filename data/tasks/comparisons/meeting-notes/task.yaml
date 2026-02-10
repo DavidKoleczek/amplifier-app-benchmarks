@@ -1,0 +1,20 @@
+name: meeting-notes
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Planning_Meeting_Notes.docx" from the auto-transcript and handwritten notes. Include:
+  1. Clean summary of discussion and decisions
+  2. Action items with owners and due dates
+
+  The transcript has errors and crosstalk - cross-reference with agenda and previous meeting notes for accuracy.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

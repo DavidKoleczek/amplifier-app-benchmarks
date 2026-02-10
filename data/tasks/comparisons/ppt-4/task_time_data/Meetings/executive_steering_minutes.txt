@@ -1,0 +1,216 @@
+PROJECT PHOENIX - EXECUTIVE STEERING COMMITTEE MEETING
+======================================================
+
+Date: September 18, 2025
+Time: 3:00 PM - 4:30 PM ET
+Location: Executive Conference Room / Zoom
+
+ATTENDEES:
+- Susan Walsh (COO) - Chair
+- Marcus Thompson (CFO)
+- Linda Chen (VP Engineering)
+- James Chen (Project Manager)
+- Thomas Park (TechCorp VP Engineering) - Client Representative
+- Robert Martinez (TechCorp CEO) - Client Representative (joined at 3:45)
+
+ABSENT:
+- None
+
+======================================================
+AGENDA
+======================================================
+1. Project Status Review
+2. Timeline Discussion
+3. Budget Review
+4. Client Concerns
+5. Path Forward
+6. Executive Decisions
+
+======================================================
+1. PROJECT STATUS REVIEW
+======================================================
+
+James Chen presented current status:
+
+COMPLETED:
+- Core platform (authentication, dashboard, reporting)
+- Multi-tenant architecture (scope change #1)
+- Custom field support (scope change #2)
+- Notification system
+- Search and filtering
+- 65% of workflow automation (scope change #3)
+
+IN PROGRESS:
+- Workflow automation completion
+- SSO integration (scope change #4)
+- Performance optimization
+- Security hardening
+
+REMAINING:
+- Data retention policies (scope change #5 - pending)
+- QA cycle
+- UAT
+- Production deployment
+
+Susan Walsh: "James, let's be direct. Are we going to hit November 28th?"
+
+James Chen: "If there are no additional scope changes and we get timely UAT 
+feedback, yes. But we have minimal buffer."
+
+Thomas Park: "We're committed to no more scope changes after the retention 
+policy requirement. That's the last one."
+
+======================================================
+2. TIMELINE DISCUSSION
+======================================================
+
+Marcus Thompson: "Walk me through how we went from September 1st to 
+November 28th."
+
+James Chen provided breakdown:
+- Original scope (September 1st target): On track through Sprint 5
+- Multi-tenant addition (+6 weeks): May 28 approval
+- Custom fields (+4 weeks): June 25 approval  
+- Workflow automation (+8 weeks): July 20 approval
+- SSO requirement (+3 weeks): September 12 approval
+- Data retention (+2 weeks): October 10 approval (pending)
+- Bug fixes and rework (+3 weeks): Cumulative impact
+
+Total slip: 14 weeks (some overlap due to parallel work)
+
+Linda Chen: "Were these scope changes estimated before approval?"
+
+James Chen: "Initially, no. We started impact analysis after the multi-tenant 
+change. The later changes have documented estimates."
+
+Linda Chen: "So we learned mid-project."
+
+James Chen: "Yes. Expensive lesson."
+
+Marcus Thompson: "The pattern I see is we said yes to scope without adjusting 
+timeline expectations. That's a process failure."
+
+Susan Walsh: "Agreed. We'll address that separately. Today I need to know 
+if November 28th holds."
+
+James Chen: "I'm confident if we maintain scope freeze."
+
+======================================================
+3. BUDGET REVIEW
+======================================================
+
+Marcus Thompson reviewed financials:
+
+ORIGINAL CONTRACT: $840,000
+APPROVED CHANGE ORDERS: $336,000 (as of this meeting)
+REVISED CONTRACT: $1,176,000
+PROJECTED FINAL: $1,176,000 (on budget for revised scope)
+
+Marcus Thompson: "The project is 40% over original budget, but within approved 
+scope changes. From a financial controls perspective, we're clean."
+
+Susan Walsh: "And the client approved each change order?"
+
+Marcus Thompson: "Correct. Documented and signed."
+
+Thomas Park: "We know we asked for more. We're willing to pay for it. Our 
+concern is delivery, not cost."
+
+======================================================
+4. CLIENT CONCERNS
+======================================================
+
+Thomas Park presented TechCorp perspective:
+
+PRIMARY CONCERNS:
+1. Date certainty - "We've heard November before. We need it to stick."
+2. Quality assurance - "The security issue in August was concerning."
+3. Communication gaps - "We learned about delays after decisions were made."
+
+WHAT'S WORKING:
+1. Product quality - "Demos have been impressive."
+2. Technical team - "David and Sarah are excellent."
+3. Responsiveness - "When issues arise, they're addressed quickly."
+
+Thomas Park: "Robert will join shortly. He wants to hear directly that 
+November 28th is committed."
+
+Susan Walsh: "I'll make that commitment personally."
+
+[Robert Martinez joined at 3:45 PM]
+
+Robert Martinez: "Susan, thank you for making time. I'll be brief. I have a 
+board meeting in January. I need Phoenix live and stable by then. Can you 
+guarantee November 28th?"
+
+Susan Walsh: "Robert, I'm committing to November 28th delivery. James and his 
+team have my full support and resources. If anything threatens that date, 
+I will know immediately, and so will you."
+
+Robert Martinez: "That's what I needed to hear. Thomas will work with James on 
+the details. Thank you."
+
+[Robert Martinez left at 3:55 PM]
+
+======================================================
+5. PATH FORWARD
+======================================================
+
+Susan Walsh outlined requirements:
+
+FOR PROJECT TEAM:
+1. Weekly written status updates to Thomas (CC Susan)
+2. Immediate escalation of any risks to November date
+3. No scope absorption without explicit timeline discussion
+
+FOR TECHCORP:
+1. Scope freeze confirmed (data retention is final change)
+2. UAT feedback within 48 hours of deliverables
+3. Executive availability for issue resolution
+
+FOR LEADERSHIP:
+1. Resource requests from James get priority
+2. No internal distractions for Phoenix team
+3. Weekly check-in between Susan and James
+
+======================================================
+6. EXECUTIVE DECISIONS
+======================================================
+
+DECISION 1: November 28th is committed date
+- Owner: Susan Walsh
+- Client: Robert Martinez acknowledged
+
+DECISION 2: Scope freeze effective immediately
+- Owner: James Chen / Thomas Park
+- Exception process: Requires Susan + Robert approval
+
+DECISION 3: Weekly executive updates
+- Owner: James Chen
+- Distribution: Susan Walsh, Thomas Park
+- Start: Friday September 20, 2025
+
+DECISION 4: Post-launch retrospective with leadership
+- Owner: James Chen
+- Date: December 2025 (TBD)
+- Purpose: Process improvements for future projects
+
+======================================================
+NEXT MEETING
+======================================================
+
+Date: October 16, 2025
+Time: 3:00 PM ET
+Focus: Pre-launch readiness review
+
+======================================================
+MEETING ADJOURNED: 4:25 PM
+======================================================
+
+Minutes prepared by: James Chen
+Approved by: Susan Walsh
+Distribution: Attendees + Project Archive
+
+---
+
+CONFIDENTIAL - INTERNAL USE ONLY

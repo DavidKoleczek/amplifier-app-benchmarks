@@ -1,0 +1,19 @@
+name: qbr-deck
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - excel
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create a QBR deck for Acme Corp called "Acme_QBR_Q4.pptx". Include health scores, usage metrics, support ticket summary, and renewal status.
+
+  Note: Support tickets spiked this quarter but usage is strong - present a balanced view. Do not mention the November outage (SLA credit still pending).
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

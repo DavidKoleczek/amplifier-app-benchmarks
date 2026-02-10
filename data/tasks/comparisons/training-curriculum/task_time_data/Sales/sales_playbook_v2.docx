@@ -1,0 +1,303 @@
+VELOCITYRM SALES PLAYBOOK v2.0
+==============================
+Effective: January 2026
+Owner: Sales Enablement
+
+TABLE OF CONTENTS
+=================
+1. Sales Process Overview
+2. Qualification Framework (MEDDPICC)
+3. Discovery Best Practices
+4. Demo Strategy
+5. Proposal & Negotiation
+6. Closing Techniques
+7. Competitive Positioning
+8. Objection Handling
+9. Tools & Resources
+
+---
+
+1. SALES PROCESS OVERVIEW
+=========================
+
+Our sales process follows a structured 6-stage approach:
+
+Stage 1: QUALIFY (0-10% probability)
+- Initial outreach response received
+- Basic fit confirmed (company size, industry)
+- Key activities: Research, initial call scheduled
+- Exit criteria: Discovery call completed
+
+Stage 2: DISCOVER (10-25% probability)
+- Pain points identified and quantified
+- Stakeholder map started
+- Key activities: Discovery calls, needs assessment
+- Exit criteria: Business case outline agreed
+
+Stage 3: DEMONSTRATE (25-50% probability)
+- Tailored demo delivered
+- Technical validation started
+- Key activities: Demo, trial setup, technical Q&A
+- Exit criteria: Champion confirmed, positive demo feedback
+
+Stage 4: PROPOSE (50-75% probability)
+- Proposal delivered
+- Commercial terms discussed
+- Key activities: Proposal presentation, negotiation
+- Exit criteria: Verbal agreement on terms
+
+Stage 5: NEGOTIATE (75-90% probability)
+- Contract redlines in progress
+- Procurement engaged
+- Key activities: Contract negotiation, security review
+- Exit criteria: Final terms agreed
+
+Stage 6: CLOSE (90-100% probability)
+- Signature pending or obtained
+- Key activities: Contract execution, handoff to CS
+- Exit criteria: Signed contract received
+
+---
+
+2. QUALIFICATION FRAMEWORK (MEDDPICC)
+=====================================
+
+Use MEDDPICC to qualify opportunities rigorously:
+
+M - METRICS
+- What business outcomes are they trying to achieve?
+- How do they measure success today?
+- What's the cost of the status quo?
+- Target: Quantified impact (e.g., "$2M in lost deals due to forecast inaccuracy")
+
+E - ECONOMIC BUYER
+- Who has budget authority?
+- What's their approval limit?
+- Have we engaged them directly?
+- Target: Direct conversation with budget holder
+
+D - DECISION CRITERIA
+- How will they evaluate solutions?
+- What's must-have vs. nice-to-have?
+- Are criteria documented?
+- Target: Understand and influence criteria in our favor
+
+D - DECISION PROCESS
+- What are the steps to a decision?
+- Who's involved at each step?
+- What's the timeline?
+- Target: Mapped process with dates
+
+P - PAPER PROCESS
+- Who handles contracts?
+- What's their procurement process?
+- Security review requirements?
+- Target: Know the paperwork path
+
+I - IDENTIFY PAIN
+- What's broken today?
+- What's the impact of not solving this?
+- Is this an urgent priority?
+- Target: Compelling, quantified pain
+
+C - CHAMPION
+- Who's advocating for us internally?
+- Do they have influence?
+- Will they coach us?
+- Target: Active, empowered champion
+
+C - COMPETITION
+- Who else are they evaluating?
+- What's their current solution?
+- What would make them choose us?
+- Target: Know the competitive landscape
+
+---
+
+3. DISCOVERY BEST PRACTICES
+===========================
+
+The Rule of Three Whys:
+- Surface problem → "Why is that a problem?"
+- Business impact → "Why does that matter to the business?"
+- Personal impact → "Why does that matter to you?"
+
+Key Discovery Questions:
+
+CURRENT STATE
+- "Walk me through how you manage your sales pipeline today."
+- "What tools are you currently using? How long have you used them?"
+- "On a scale of 1-10, how satisfied are you with your current solution?"
+
+PAIN IDENTIFICATION
+- "What's the biggest challenge you face with forecasting accuracy?"
+- "How much time does your team spend on manual data entry?"
+- "When was the last time a deal slipped unexpectedly? What happened?"
+
+IMPACT QUANTIFICATION
+- "What's the revenue impact of inaccurate forecasts?"
+- "How many deals are lost due to lack of visibility?"
+- "What would 10% better forecast accuracy mean in dollar terms?"
+
+DECISION PROCESS
+- "Besides yourself, who else is involved in this evaluation?"
+- "What would need to be true for you to move forward?"
+- "What's your ideal timeline for implementation?"
+
+---
+
+4. DEMO STRATEGY
+================
+
+Demo Principles:
+1. NEVER demo without discovery first
+2. Customize every demo to their specific pain points
+3. Show 3 features max - depth over breadth
+4. End every demo with clear next steps
+
+Standard Demo Flow (45 minutes):
+- Recap pain points (5 min)
+- Tailored feature demonstration (25 min)
+- Customer questions (10 min)
+- Next steps (5 min)
+
+Demo Environments:
+- Production demo: demo.velocityrm.io (for most demos)
+- Industry-specific: demo-manufacturing.velocityrm.io, demo-finserv.velocityrm.io
+- Sandbox: Request via #demo-support in Slack
+
+See Demo/ folder for detailed scripts and gotchas.
+
+---
+
+5. PROPOSAL & NEGOTIATION
+=========================
+
+Proposal Best Practices:
+- Always present proposals live (never just email)
+- Include 3 options when possible (good/better/best)
+- Lead with business value, not features
+- Include clear timeline and next steps
+
+Negotiation Guidelines:
+- Never discount without getting something in return
+- Common trade items: Contract length, payment terms, case study rights
+- Maximum discounts: See pricing documentation
+- Always involve manager for discounts >15%
+
+---
+
+6. CLOSING TECHNIQUES
+=====================
+
+Trial Close Questions:
+- "Based on what you've seen, does this solve your [specific pain]?"
+- "On a scale of 1-10, how confident are you this is the right solution?"
+- "What would prevent us from moving forward this quarter?"
+
+Assumptive Close:
+- "Let's look at the implementation timeline. When would you want to go live?"
+- "I'll send over the contract. Who should I cc from your procurement team?"
+
+Urgency Creation (Ethical):
+- End of quarter/year discounts (real, time-limited)
+- Implementation capacity (actually constrained)
+- Price increase announcements (when true)
+
+---
+
+7. COMPETITIVE POSITIONING
+==========================
+
+See competitive_battlecards.pdf for detailed competitor analysis.
+
+Quick Competitive Soundbites:
+
+vs. Salesforce:
+"Salesforce is great for many things, but it was built 20 years ago. VelocityRM was built AI-first for modern revenue teams. Our customers see 30% better forecast accuracy and save 5+ hours per rep per week on admin."
+
+vs. HubSpot:
+"HubSpot is excellent for inbound marketing. For serious B2B sales teams with complex deals, you'll find VelocityRM's deal intelligence and forecasting capabilities are in a different league."
+
+vs. Pipedrive:
+"Pipedrive is designed for small teams. As you scale, you'll outgrow it quickly. VelocityRM grows with you from 10 reps to 10,000."
+
+vs. "We have a CRM already":
+"Our best customers already have a CRM. VelocityRM either replaces it entirely or layers on top to provide the intelligence and automation that basic CRMs lack."
+
+---
+
+8. OBJECTION HANDLING
+=====================
+
+See common_objections_janet.md for comprehensive objection responses.
+
+Top 5 Objections Quick Reference:
+
+1. "It's too expensive"
+→ "I understand budget is important. Let's talk about ROI. Our average customer sees [X] return in year one. What would even half of that mean for your business?"
+
+2. "We need to think about it"
+→ "Of course. To help me help you, what specifically do you need to think through? Is it fit, timing, or something else?"
+
+3. "We're locked into our current contract"
+→ "When does that contract end? Let's plan the evaluation to align with your renewal. We can also discuss contract buyout options for the right situations."
+
+4. "We don't have time to implement"
+→ "That's exactly why we offer implementation packages. Most customers are up and running in 3-4 weeks with minimal IT involvement. What does your timeline look like?"
+
+5. "We're looking at [competitor] too"
+→ "Great, you should evaluate all options. What criteria are most important to your decision? I want to make sure we're addressing what matters most to you."
+
+---
+
+9. TOOLS & RESOURCES
+====================
+
+Internal Systems:
+- VelocityRM (our own product!) - Pipeline management
+- Gong - Call recording and analysis
+- Outreach - Email sequences
+- LinkedIn Sales Navigator - Prospecting
+- Salesforce - Corporate reporting (yes, we use both)
+
+Key Resources:
+- Proposal templates: Drive > Sales > Templates
+- Case studies: Drive > Marketing > Customer Stories
+- Competitive intel: Drive > Sales > Competitive
+- ROI calculator: internal.velocityrm.io/roi
+
+Slack Channels:
+- #sales-wins - Celebrate wins
+- #deal-support - Get help on active deals
+- #competitive-intel - Competitor updates
+- #demo-support - Demo environment help
+
+---
+
+APPENDIX: KEY METRICS TO KNOW
+=============================
+
+Customer Stats:
+- 500+ customers
+- 98% customer retention rate
+- 85% forecast accuracy (vs. 60% industry average)
+- NPS score: 72
+
+Product Capabilities:
+- 47 signals analyzed by VelocityScore AI
+- 90% faster forecasting vs. manual methods
+- 5+ hours saved per rep per week
+- 30% average improvement in forecast accuracy
+
+Company Info:
+- Founded: 2021
+- Employees: 250+
+- Headquarters: San Francisco
+- Funding: Series C ($85M raised)
+
+---
+Document Version: 2.0
+Last Updated: January 3, 2026
+Owner: Sales Enablement Team
+Questions: enablement@velocityrm.io

@@ -1,0 +1,101 @@
+COMPETITIVE INTELLIGENCE: Recent Funding & Market Activity
+==========================================================
+Compiled by: Jennifer Walsh, VP Marketing
+Last Updated: December 28, 2025
+
+RECENT FUNDING ROUNDS
+---------------------
+
+1. SupplyAI (YC W25)
+   - Amount: $8M Seed
+   - Date: October 2025
+   - Investors: Y Combinator, SV Angel, First Round
+   - Valuation: ~$32M post-money
+   - Focus: SMB supply chain automation
+   - Our Take: Different market segment (SMB vs mid-market/enterprise).
+     Not direct competition today but watch for upmarket moves.
+
+2. Kinaxis
+   - Amount: N/A (public company)
+   - Recent: Acquired supply chain analytics startup for $45M
+   - Focus: Bolting on AI capabilities
+   - Our Take: Validates our approach. They're buying what we built.
+     Their enterprise focus means long implementations - our advantage.
+
+3. Coupa
+   - Amount: Took on $500M debt facility
+   - Focus: M&A and international expansion
+   - Our Take: They're focused on procurement, not forecasting.
+     Potential partner, not competitor.
+
+4. Blue Yonder (Panasonic subsidiary)
+   - Amount: $100M investment from Panasonic
+   - Focus: Warehouse automation and robotics
+   - Our Take: Different focus area. Not directly competitive.
+
+5. Project44
+   - Amount: $80M Series E (May 2025)
+   - Valuation: $1.2B
+   - Focus: Visibility platform
+   - Our Take: Complementary, not competitive. Potential integration partner.
+
+
+MARKET TRENDS WE'RE TRACKING
+----------------------------
+
+1. AI Hype Cycle Peak?
+   Several analysts suggest AI-in-supply-chain hype may be peaking.
+   Buyers becoming more sophisticated about distinguishing real AI
+   from marketing. This is GOOD for us - our accuracy is real.
+
+2. Consolidation
+   SAP, Oracle acquiring smaller players. We could be a target in
+   12-18 months if we hit $30M+ ARR. Board should discuss exit
+   scenarios as part of strategic planning.
+
+3. Vertical Specialization
+   Winning vendors are going deep in specific verticals rather than
+   horizontal. Our healthcare traction is a good proof point.
+
+4. Post-COVID Supply Chain Awareness
+   CFOs/CEOs now care about supply chain. Budget is there. The
+   challenge is cutting through noise.
+
+
+COMPETITOR ACTIVITY TO NOTE
+---------------------------
+
+Kinaxis:
+- Launched "Kinaxis One" platform (Nov 2025)
+- Aggressive pricing in 3 of our recent deals
+- Rumored to be spreading FUD about our funding status
+- ACTION: We need proactive PR around Series B
+
+SAP:
+- Announced "SAP AI Supply Chain" add-on
+- Pricing: $200K+ minimum
+- Reality: It's rebranded existing features, not native AI
+- Our response: Speed-to-value messaging
+
+Oracle:
+- Quiet in our space
+- Focus on ERP consolidation plays
+- Lost GlobalMfg to them (existing Oracle customer)
+
+
+WHAT THIS MEANS FOR SERIES B
+----------------------------
+
+1. Market validation is strong - multiple players raising/investing
+2. We're differentiated on mid-market focus and AI-native approach
+3. Timing is good - raise before potential market correction
+4. Valuation comps support $65-80M pre-money range
+
+
+SOURCES
+-------
+- TechCrunch, VentureBeat, Supply Chain Dive
+- G2 Crowd reviews and traffic analysis
+- LinkedIn job postings (competitor hiring patterns)
+- Customer and prospect feedback
+- Industry analyst reports (Gartner, Forrester)

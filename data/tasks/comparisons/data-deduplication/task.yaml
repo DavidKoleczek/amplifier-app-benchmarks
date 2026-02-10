@@ -1,0 +1,19 @@
+name: data-deduplication
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - excel
+    - data
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Customer_Master_List.xlsx" by merging and deduplicating customer data from multiple sources (CRM export, legacy Salesforce, marketing list).
+
+  Tasks: identify duplicates (watch for company name variations), merge records preferring newer info, flag stale records, remove bounced emails. Include a summary of changes made.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

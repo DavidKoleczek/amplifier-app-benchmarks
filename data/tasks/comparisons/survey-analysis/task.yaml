@@ -1,0 +1,30 @@
+name: survey-analysis
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - excel
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Analyze our employee engagement survey results and create:
+
+  1. "Survey_Analysis.xlsx" - An Excel workbook with:
+     - Scores by category (engagement, satisfaction, leadership, etc.)
+     - Year-over-year comparison with 2024 results
+     - Department breakdown showing how each team scored
+     - At least one visualization of the trends
+
+  2. "Survey_Summary.docx" - A Word document summarizing:
+     - Key themes from the free-text responses
+     - Top concerns employees raised
+     - Recommendations for leadership to act on
+
+  Compare against the industry benchmarks and last year's results. Important: anonymize any identifying details in the qualitative feedback before including in the summary.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

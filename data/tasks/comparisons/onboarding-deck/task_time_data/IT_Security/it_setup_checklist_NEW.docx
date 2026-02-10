@@ -1,0 +1,166 @@
+HORIZONWORKS NEW HIRE IT SETUP CHECKLIST
+=========================================
+Version 3.0 - Effective: January 2026
+IT Operations Team
+
+Welcome to HorizonWorks! This checklist will guide you through your 
+technology setup. Most items should be completed on Day 1.
+
+========================================================================
+PRE-ARRIVAL (REMOTE EMPLOYEES)
+========================================================================
+
+Your laptop will be shipped to arrive 1-2 days before your start date.
+
+[ ] Confirm shipping address with HR
+[ ] Watch for FedEx tracking email from IT
+[ ] DO NOT open the sealed laptop bag until Day 1 (security requirement)
+
+========================================================================
+DAY 1 SETUP - ALLOW 90 MINUTES
+========================================================================
+
+STEP 1: UNBOX AND POWER ON (10 min)
+----------------------------------
+[ ] Open laptop bag and remove all contents
+[ ] Verify serial number matches your welcome email
+[ ] Connect to power and turn on
+[ ] Complete initial OS setup using temporary credentials from email
+
+STEP 2: CLOUDFLARE ZERO TRUST SETUP (15 min)
+-------------------------------------------
+[IMPORTANT: This replaces the old Cisco VPN]
+
+[ ] Open browser and navigate to: access.horizonworks.com
+[ ] Sign in with your @horizonworks.com email
+[ ] You'll be redirected to Okta - sign in with temporary password
+[ ] Create new password (min 16 characters, no reuse of last 10)
+[ ] Set up MFA using Okta Verify app on your phone:
+    - Download "Okta Verify" from App Store / Google Play
+    - Scan QR code shown on screen
+    - Complete test verification
+[ ] Install WARP client when prompted
+[ ] Verify "WARP" icon shows connected (orange cloud icon)
+
+STEP 3: CORE APPLICATIONS (20 min)
+---------------------------------
+Launch each app and sign in with your Okta credentials:
+
+[ ] Chrome - Set as default browser
+[ ] Slack - Join #general and #your-department
+[ ] Google Workspace (Gmail, Calendar, Drive)
+[ ] Notion - Our internal wiki and documentation
+[ ] Zoom - Test audio/video
+[ ] 1Password - Set up personal vault
+    - IMPORTANT: Save your recovery kit in a safe place!
+
+STEP 4: DEPARTMENT-SPECIFIC TOOLS (30 min)
+-----------------------------------------
+Engineering:
+[ ] GitHub - Request access via #eng-access Slack channel
+[ ] VS Code or JetBrains IDE
+[ ] Docker Desktop
+[ ] AWS SSO access (request via IT ticket if needed)
+
+Sales/CS:
+[ ] Salesforce
+[ ] Gong
+[ ] Zendesk
+
+Marketing:
+[ ] HubSpot
+[ ] Figma (view access)
+[ ] Canva
+
+Product:
+[ ] Figma
+[ ] ProductBoard
+[ ] Amplitude
+
+Finance/HR:
+[ ] Workday
+[ ] Expensify
+[ ] NetSuite (if applicable)
+
+STEP 5: SECURITY COMPLIANCE (15 min)
+-----------------------------------
+[ ] Verify FileVault (Mac) or BitLocker (Windows) is enabled
+    - Mac: System Settings > Privacy & Security > FileVault
+    - Windows: Settings > Update & Security > Device Encryption
+[ ] Install CrowdStrike Falcon (should auto-install)
+    - Verify falcon icon in menu bar/system tray
+[ ] Confirm automatic updates are enabled
+
+========================================================================
+WITHIN FIRST WEEK
+========================================================================
+
+[ ] Complete all security training modules (see separate document)
+[ ] Set up email signature using template at: notion.horizonworks.com/email-sig
+[ ] Configure Slack notifications to your preference
+[ ] Review IT policies in Notion: notion.horizonworks.com/it-policies
+[ ] Schedule optional 15-min IT office hours for questions
+
+========================================================================
+IT SUPPORT
+========================================================================
+
+Slack (fastest): #it-help
+Email: helpdesk@horizonworks.com
+Phone: (555) 467-4357
+Hours: 24/7 for urgent issues, next-business-day for non-urgent
+
+Self-service portal: support.horizonworks.com
+- Password resets
+- Software requests
+- Access requests
+- FAQ and troubleshooting guides
+
+========================================================================
+IMPORTANT POLICIES
+========================================================================
+
+EQUIPMENT:
+- You may use your laptop for incidental personal use
+- Do not install unauthorized software
+- Report loss/theft IMMEDIATELY to IT (security risk)
+- Equipment must be returned on your last day
+
+REMOTE WORK:
+- WARP must be connected when accessing company resources
+- Use private WiFi only (no coffee shop networks for sensitive work)
+- Enable screen lock when stepping away
+
+DATA:
+- Do not store company data on personal devices or cloud storage
+- Use 1Password for all work credentials (no Chrome password saving)
+- Report any suspected data exposure immediately
+
+========================================================================
+QUICK TROUBLESHOOTING
+========================================================================
+
+"WARP won't connect"
+→ Click WARP icon > Preferences > Reset connection
+→ If persists, sign out of Okta in browser and sign back in
+
+"Can't access a website"
+→ Verify WARP is connected
+→ Try incognito window
+→ Check #it-help for known outages
+
+"MFA not working"
+→ Ensure phone time is set to automatic
+→ Use backup codes if needed (stored in 1Password)
+→ Contact IT for MFA reset if locked out
+
+"Need software not listed"
+→ Submit request at support.horizonworks.com/software
+→ All software must be approved for security compliance
+
+========================================================================
+
+Thank you for your patience during setup! A well-configured laptop 
+keeps you and the company secure.
+
+Questions? Don't hesitate to reach out to #it-help!

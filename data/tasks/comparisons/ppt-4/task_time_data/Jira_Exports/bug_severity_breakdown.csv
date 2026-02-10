@@ -1,0 +1,66 @@
+bug_id,summary,severity,component,discovered_date,resolved_date,days_to_fix,discovered_by,sprint_found,root_cause_category
+PHX-030,Login fails intermittently on Safari,P1-Critical,Authentication,2025-05-22,2025-05-28,6,QA Team,Sprint 6,Browser Compatibility
+PHX-031,Dashboard charts not rendering on mobile,P2-High,Dashboard,2025-05-25,2025-06-02,8,QA Team,Sprint 6,Responsive Design
+PHX-040,Export PDF crashes on large reports,P1-Critical,Reporting,2025-06-20,2025-06-28,8,QA Team,Sprint 8,Memory Management
+PHX-041,Memory leak in real-time dashboard updates,P1-Critical,Dashboard,2025-06-22,2025-07-05,13,DevOps,Sprint 8,Resource Leak
+PHX-050,Search results inconsistent after data sync,P2-High,Search,2025-07-18,2025-07-28,10,QA Team,Sprint 10,Race Condition
+PHX-056,Tenant data leaking in certain API calls,P0-Blocker,Security,2025-08-05,2025-08-12,7,Security Audit,Sprint 12,Authorization Logic
+PHX-057,Workflow triggers firing multiple times,P2-High,Automation,2025-08-08,2025-08-18,10,QA Team,Sprint 12,Event Handling
+PHX-063,Dashboard performance degradation with large datasets,P1-Critical,Dashboard,2025-08-22,2025-09-05,14,Client,Sprint 13,Query Optimization
+PHX-065,Email notifications not sending in production,P1-Critical,Notifications,2025-08-28,2025-09-02,5,DevOps,Sprint 13,Configuration
+PHX-070,Import fails silently on malformed CSV,P2-High,Data,2025-09-10,2025-09-18,8,QA Team,Sprint 14,Error Handling
+PHX-080,Production outage - database connection pool exhausted,P0-Blocker,Infrastructure,2025-10-08,2025-10-10,2,DevOps,Sprint 16,Resource Limit
+PHX-084,SSO logout not propagating correctly,P2-High,Security,2025-10-18,2025-10-25,7,QA Team,Sprint 17,Session Management
+PHX-090,Data migration script fails on special characters,P1-Critical,Data,2025-11-05,2025-11-10,5,QA Team,Sprint 19,Encoding
+PHX-091,Security vulnerability in file upload,P0-Blocker,Security,2025-11-08,2025-11-15,7,Security Audit,Sprint 19,Input Validation
+PHX-095,Race condition in concurrent report generation,P2-High,Reporting,2025-11-18,2025-11-25,7,QA Team,Sprint 20,Concurrency
+PHX-112,Session timeout not honored consistently,P2-High,Security,2025-06-15,2025-06-22,7,QA Team,Sprint 7,Session Management
+PHX-134,Websocket reconnection fails after network change,P2-High,Dashboard,2025-07-02,2025-07-12,10,QA Team,Sprint 9,Connection Handling
+PHX-156,Report scheduling timezone handling incorrect,P2-High,Reporting,2025-07-25,2025-08-05,11,Client,Sprint 10,Date/Time Logic
+PHX-178,Custom field validation not applying on bulk import,P2-High,Core,2025-08-12,2025-08-22,10,QA Team,Sprint 12,Validation
+PHX-189,OAuth token refresh failing silently,P1-Critical,Authentication,2025-08-20,2025-08-28,8,DevOps,Sprint 12,Token Management
+PHX-201,Audit log entries missing for bulk operations,P2-High,Security,2025-09-05,2025-09-15,10,Security Audit,Sprint 14,Logging
+PHX-223,Search index not updating for workflow-modified records,P2-High,Search,2025-09-22,2025-10-02,10,QA Team,Sprint 15,Event Propagation
+PHX-245,HubSpot sync duplicating records on retry,P2-High,Integration,2025-10-05,2025-10-15,10,Client,Sprint 16,Idempotency
+PHX-267,Permission cache not invalidating on role change,P1-Critical,Security,2025-10-20,2025-10-28,8,QA Team,Sprint 17,Cache Invalidation
+PHX-289,Export job hanging on network timeout,P2-High,Data,2025-11-02,2025-11-10,8,QA Team,Sprint 18,Timeout Handling
+
+---
+SEVERITY SUMMARY
+---
+P0-Blocker: 3 bugs (Production-impacting, drop everything)
+P1-Critical: 9 bugs (Major functionality broken)
+P2-High: 13 bugs (Significant issues, workarounds possible)
+P3-Medium: 0 bugs shown (filtered out - 47 total)
+P4-Low: 0 bugs shown (filtered out - 31 total)
+
+---
+ROOT CAUSE ANALYSIS SUMMARY
+---
+Authorization/Security Logic: 4 bugs (16%)
+Resource Management: 3 bugs (12%)
+Race Conditions/Concurrency: 3 bugs (12%)
+Error Handling: 3 bugs (12%)
+Session/Token Management: 3 bugs (12%)
+Date/Time/Encoding: 2 bugs (8%)
+Configuration Issues: 2 bugs (8%)
+Browser/Platform Compatibility: 2 bugs (8%)
+Other: 3 bugs (12%)
+
+---
+DISCOVERY SOURCE
+---
+QA Team: 15 bugs (60%)
+DevOps/Monitoring: 4 bugs (16%)
+Security Audit: 3 bugs (12%)
+Client Reported: 3 bugs (12%)
+
+---
+KEY OBSERVATIONS
+---
+1. Three P0-Blocker bugs discovered late in project (August-November)
+2. Security-related bugs found primarily through audits, not testing
+3. Client discovered 3 bugs that internal QA missed
+4. Average time to fix P1 bugs: 7.6 days
+5. Average time to fix P2 bugs: 9.0 days
+6. 60% of critical bugs related to multi-tenancy or integration work

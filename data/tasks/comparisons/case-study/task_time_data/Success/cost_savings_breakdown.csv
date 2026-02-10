@@ -1,0 +1,14 @@
+category,subcategory,monthly_savings,annual_savings,calculation_notes,verification_source
+Infrastructure,Server Maintenance,$3,750,$45,000,"6 servers x $625/month maintenance contracts eliminated",IT Asset Inventory
+Infrastructure,Software Licenses,$2,333,$28,000,"Windows Server + Veeam licenses no longer needed",IT Budget Records
+Infrastructure,Data Center Space,$1,500,$18,000,"2 racks returned to data center provider",Facility Invoice
+IT Labor,Backup Management,$3,467,$41,600,"8 hours/week x $50/hr fully loaded",IT Time Tracking
+IT Labor,Server Administration,$2,600,$31,200,"6 hours/week x $50/hr fully loaded",IT Time Tracking
+IT Labor,Storage Provisioning,$1,300,$15,600,"3 hours/week x $50/hr fully loaded",IT Time Tracking
+IT Labor,Support Tickets,$4,073,$48,880,"187 fewer tickets x 2 hrs x $10.90/hr help desk rate",ServiceNow Reports
+Compliance,Audit Preparation,$4,333,$52,000,"10 hrs reduced to 2 hrs weekly x $50/hr",Compliance Team Estimate
+Compliance,Report Generation,$1,625,$19,500,"38 hrs saved per report x 12 reports x $50/hr",Compliance Team Log
+Compliance,Policy Management,$1,300,$15,600,"3 hours/week x $50/hr fully loaded",Compliance Team Estimate
+Storage,Deduplication,$2,333,$28,000,"3.1 TB storage eliminated",CloudSync Analytics
+Storage,Growth Avoidance,$2,917,$35,000,"Deferred SAN expansion project",IT Capital Plan
+TOTAL,,$31,531,$378,380,,

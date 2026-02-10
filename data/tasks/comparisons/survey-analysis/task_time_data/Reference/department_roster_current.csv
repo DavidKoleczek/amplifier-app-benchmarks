@@ -1,0 +1,303 @@
+employee_id,department,tenure_band,level,location,manager_id
+EMP001,Engineering,3-5 years,Senior IC,San Francisco,EMP100
+EMP002,Engineering,1-2 years,Individual Contributor,Remote - US,EMP100
+EMP003,Engineering,<1 year,Individual Contributor,San Francisco,EMP100
+EMP004,Engineering,5-10 years,Manager,San Francisco,EMP200
+EMP005,Sales,3-5 years,Senior IC,New York,EMP101
+EMP006,Sales,1-2 years,Individual Contributor,Chicago,EMP101
+EMP007,Sales,5-10 years,Director,New York,EMP201
+EMP008,Marketing,3-5 years,Manager,San Francisco,EMP202
+EMP009,Marketing,<1 year,Individual Contributor,Remote - US,EMP008
+EMP010,Finance,10+ years,Director,San Francisco,EMP203
+EMP011,Finance,3-5 years,Senior IC,San Francisco,EMP010
+EMP012,HR,5-10 years,Manager,San Francisco,EMP204
+EMP013,HR,1-2 years,Individual Contributor,San Francisco,EMP012
+EMP014,Operations,3-5 years,Senior IC,San Francisco,EMP102
+EMP015,Operations,<1 year,Individual Contributor,Remote - US,EMP102
+EMP016,Product,3-5 years,Manager,San Francisco,EMP205
+EMP017,Product,1-2 years,Senior IC,Remote - US,EMP016
+EMP018,Customer Support,1-2 years,Individual Contributor,Austin,EMP103
+EMP019,Customer Support,<1 year,Individual Contributor,Austin,EMP103
+EMP020,Customer Support,3-5 years,Team Lead,Austin,EMP206
+EMP021,Legal,5-10 years,Senior IC,San Francisco,EMP207
+EMP022,IT,3-5 years,Manager,San Francisco,EMP208
+EMP023,IT,1-2 years,Individual Contributor,Remote - US,EMP022
+EMP024,Engineering,3-5 years,Senior IC,Remote - US,EMP004
+EMP025,Engineering,<1 year,Individual Contributor,San Francisco,EMP004
+EMP026,Operations,<1 year,Senior IC,New York,EMP128
+EMP027,Engineering,<1 year,Senior IC,Remote - US,EMP111
+EMP028,Operations,<1 year,Individual Contributor,New York,EMP129
+EMP029,HR,<1 year,Senior IC,London,EMP183
+EMP030,Product,5-10 years,Individual Contributor,Remote - US,EMP135
+EMP031,Customer Support,<1 year,Team Lead,New York,EMP189
+EMP032,Marketing,3-5 years,Individual Contributor,Singapore,EMP143
+EMP033,Engineering,5-10 years,Individual Contributor,Singapore,EMP144
+EMP034,Operations,<1 year,Senior IC,Remote - US,EMP115
+EMP035,IT,5-10 years,Individual Contributor,Austin,EMP206
+EMP036,Operations,3-5 years,Senior IC,London,EMP108
+EMP037,Engineering,1-2 years,Team Lead,San Francisco,EMP209
+EMP038,Sales,<1 year,Individual Contributor,Chicago,EMP181
+EMP039,Customer Support,1-2 years,Individual Contributor,New York,EMP185
+EMP040,Sales,<1 year,Senior IC,New York,EMP168
+EMP041,Product,1-2 years,Individual Contributor,Austin,EMP181
+EMP042,Product,1-2 years,Senior IC,Singapore,EMP198
+EMP043,Customer Support,1-2 years,Team Lead,Singapore,EMP140
+EMP044,Marketing,<1 year,Individual Contributor,Remote - US,EMP191
+EMP045,Sales,5-10 years,Individual Contributor,London,EMP158
+EMP046,Engineering,1-2 years,Individual Contributor,Remote - US,EMP168
+EMP047,Sales,10+ years,Individual Contributor,Remote - US,EMP151
+EMP048,Marketing,1-2 years,Senior IC,San Francisco,EMP196
+EMP049,Engineering,<1 year,Individual Contributor,New York,EMP201
+EMP050,Product,10+ years,Individual Contributor,Chicago,EMP176
+EMP051,IT,10+ years,Individual Contributor,Remote - US,EMP210
+EMP052,IT,<1 year,Senior IC,Remote - US,EMP196
+EMP053,Sales,3-5 years,Individual Contributor,Chicago,EMP120
+EMP054,Finance,3-5 years,Director,Singapore,EMP122
+EMP055,HR,<1 year,Manager,Austin,EMP207
+EMP056,Operations,10+ years,Individual Contributor,Austin,EMP197
+EMP057,Engineering,10+ years,Manager,Remote - US,EMP141
+EMP058,Finance,<1 year,Manager,Singapore,EMP203
+EMP059,Sales,<1 year,Individual Contributor,Remote - US,EMP110
+EMP060,Engineering,5-10 years,Team Lead,Singapore,EMP168
+EMP061,Customer Support,1-2 years,Senior IC,Remote - US,EMP121
+EMP062,Sales,10+ years,Individual Contributor,New York,EMP169
+EMP063,Customer Support,1-2 years,Senior IC,Chicago,EMP185
+EMP064,Operations,5-10 years,Manager,Chicago,EMP115
+EMP065,Sales,<1 year,Individual Contributor,Remote - US,EMP170
+EMP066,Sales,1-2 years,Individual Contributor,London,EMP180
+EMP067,Engineering,<1 year,Manager,Singapore,EMP142
+EMP068,Engineering,1-2 years,Individual Contributor,Chicago,EMP127
+EMP069,HR,10+ years,Senior IC,New York,EMP200
+EMP070,Finance,5-10 years,Individual Contributor,San Francisco,EMP184
+EMP071,Marketing,5-10 years,Individual Contributor,Singapore,EMP193
+EMP072,Engineering,<1 year,Individual Contributor,London,EMP143
+EMP073,Customer Support,<1 year,Individual Contributor,New York,EMP168
+EMP074,Finance,5-10 years,Individual Contributor,Chicago,EMP131
+EMP075,Customer Support,<1 year,Individual Contributor,Singapore,EMP209
+EMP076,Operations,<1 year,Senior IC,Remote - US,EMP207
+EMP077,Engineering,<1 year,Manager,Singapore,EMP130
+EMP078,Engineering,5-10 years,Individual Contributor,Singapore,EMP151
+EMP079,Legal,1-2 years,Individual Contributor,Chicago,EMP133
+EMP080,IT,5-10 years,Individual Contributor,London,EMP193
+EMP081,IT,10+ years,Senior IC,Chicago,EMP119
+EMP082,Engineering,1-2 years,Director,Remote - US,EMP194
+EMP083,HR,3-5 years,Individual Contributor,Remote - US,EMP161
+EMP084,Finance,10+ years,Individual Contributor,Remote - US,EMP110
+EMP085,Customer Support,<1 year,Senior IC,London,EMP210
+EMP086,Sales,<1 year,Manager,Remote - US,EMP131
+EMP087,Operations,<1 year,Senior IC,Chicago,EMP184
+EMP088,Operations,10+ years,Individual Contributor,Austin,EMP126
+EMP089,Product,3-5 years,Individual Contributor,Chicago,EMP116
+EMP090,Product,3-5 years,Individual Contributor,Singapore,EMP109
+EMP091,Engineering,10+ years,VP+,San Francisco,EMP109
+EMP092,HR,10+ years,Individual Contributor,Austin,EMP108
+EMP093,Customer Support,3-5 years,Individual Contributor,Chicago,EMP206
+EMP094,HR,3-5 years,Senior IC,Singapore,EMP183
+EMP095,HR,10+ years,Individual Contributor,London,EMP113
+EMP096,IT,1-2 years,Individual Contributor,San Francisco,EMP195
+EMP097,Operations,3-5 years,Individual Contributor,New York,EMP191
+EMP098,Sales,3-5 years,Senior IC,Austin,EMP208
+EMP099,Engineering,5-10 years,Team Lead,San Francisco,EMP100
+EMP100,Sales,1-2 years,Senior IC,Austin,EMP120
+EMP101,Customer Support,10+ years,Senior IC,Remote - US,EMP101
+EMP102,Engineering,1-2 years,Senior IC,Singapore,EMP147
+EMP103,Operations,1-2 years,Individual Contributor,San Francisco,EMP139
+EMP104,Marketing,<1 year,Manager,New York,EMP187
+EMP105,Sales,<1 year,Individual Contributor,Remote - US,EMP152
+EMP106,IT,1-2 years,Manager,New York,EMP210
+EMP107,Engineering,1-2 years,Manager,San Francisco,EMP122
+EMP108,Customer Support,3-5 years,Team Lead,Chicago,EMP202
+EMP109,Product,1-2 years,Individual Contributor,Singapore,EMP189
+EMP110,Engineering,<1 year,Manager,New York,EMP125
+EMP111,Customer Support,5-10 years,Individual Contributor,Singapore,EMP201
+EMP112,Customer Support,1-2 years,Individual Contributor,New York,EMP151
+EMP113,Sales,<1 year,Director,Austin,EMP144
+EMP114,Operations,5-10 years,Senior IC,Singapore,EMP168
+EMP115,Sales,<1 year,Individual Contributor,Austin,EMP122
+EMP116,Operations,3-5 years,Individual Contributor,Remote - US,EMP155
+EMP117,Sales,3-5 years,Individual Contributor,Remote - US,EMP114
+EMP118,Marketing,10+ years,Individual Contributor,San Francisco,EMP190
+EMP119,Marketing,10+ years,Manager,Remote - US,EMP187
+EMP120,Product,1-2 years,Individual Contributor,San Francisco,EMP185
+EMP121,Legal,10+ years,Individual Contributor,Singapore,EMP115
+EMP122,Product,3-5 years,Senior IC,London,EMP152
+EMP123,Sales,3-5 years,Senior IC,New York,EMP153
+EMP124,Product,5-10 years,Senior IC,New York,EMP178
+EMP125,Operations,5-10 years,Senior IC,San Francisco,EMP138
+EMP126,Sales,5-10 years,Team Lead,Remote - US,EMP183
+EMP127,Sales,5-10 years,Individual Contributor,New York,EMP165
+EMP128,Finance,1-2 years,Senior IC,Austin,EMP165
+EMP129,Product,10+ years,Individual Contributor,Singapore,EMP196
+EMP130,Sales,3-5 years,Individual Contributor,New York,EMP118
+EMP131,Engineering,1-2 years,Director,Remote - US,EMP208
+EMP132,Customer Support,5-10 years,Individual Contributor,London,EMP173
+EMP133,Engineering,5-10 years,Individual Contributor,New York,EMP118
+EMP134,Product,<1 year,Manager,Singapore,EMP198
+EMP135,Customer Support,5-10 years,Individual Contributor,Singapore,EMP189
+EMP136,HR,<1 year,Senior IC,Singapore,EMP115
+EMP137,Finance,5-10 years,Senior IC,Remote - US,EMP176
+EMP138,Sales,5-10 years,Senior IC,London,EMP164
+EMP139,Marketing,10+ years,Individual Contributor,New York,EMP195
+EMP140,Customer Support,5-10 years,Individual Contributor,New York,EMP207
+EMP141,Operations,10+ years,Individual Contributor,New York,EMP135
+EMP142,Finance,3-5 years,Individual Contributor,Austin,EMP140
+EMP143,Customer Support,<1 year,Individual Contributor,New York,EMP149
+EMP144,Product,1-2 years,Individual Contributor,Chicago,EMP142
+EMP145,HR,5-10 years,Individual Contributor,Singapore,EMP153
+EMP146,Marketing,10+ years,Manager,San Francisco,EMP209
+EMP147,Customer Support,10+ years,Individual Contributor,San Francisco,EMP145
+EMP148,Sales,5-10 years,Manager,Singapore,EMP153
+EMP149,HR,10+ years,Team Lead,New York,EMP162
+EMP150,Engineering,5-10 years,Individual Contributor,Chicago,EMP143
+EMP151,Product,5-10 years,Senior IC,Singapore,EMP159
+EMP152,Legal,10+ years,Senior IC,Chicago,EMP175
+EMP153,Operations,<1 year,Individual Contributor,Chicago,EMP117
+EMP154,Customer Support,1-2 years,Individual Contributor,Chicago,EMP141
+EMP155,Engineering,3-5 years,Individual Contributor,Chicago,EMP135
+EMP156,Customer Support,5-10 years,Individual Contributor,San Francisco,EMP160
+EMP157,Engineering,10+ years,Individual Contributor,Austin,EMP128
+EMP158,Operations,<1 year,Team Lead,New York,EMP125
+EMP159,Customer Support,10+ years,Individual Contributor,New York,EMP160
+EMP160,Product,10+ years,Manager,Chicago,EMP189
+EMP161,Sales,3-5 years,Individual Contributor,Remote - US,EMP195
+EMP162,Product,1-2 years,Director,San Francisco,EMP174
+EMP163,Engineering,3-5 years,Senior IC,Chicago,EMP150
+EMP164,IT,1-2 years,Individual Contributor,London,EMP206
+EMP165,Operations,<1 year,Senior IC,Austin,EMP208
+EMP166,Product,<1 year,Team Lead,Remote - US,EMP200
+EMP167,Engineering,10+ years,Individual Contributor,Austin,EMP108
+EMP168,HR,3-5 years,Individual Contributor,Chicago,EMP205
+EMP169,Finance,5-10 years,Director,London,EMP206
+EMP170,Finance,1-2 years,Individual Contributor,London,EMP166
+EMP171,IT,3-5 years,Senior IC,Remote - US,EMP199
+EMP172,Finance,5-10 years,Team Lead,Remote - US,EMP134
+EMP173,Sales,1-2 years,Team Lead,San Francisco,EMP135
+EMP174,Customer Support,1-2 years,Team Lead,Remote - US,EMP178
+EMP175,Product,3-5 years,Individual Contributor,Singapore,EMP141
+EMP176,Engineering,1-2 years,Individual Contributor,Austin,EMP143
+EMP177,Sales,10+ years,Senior IC,Austin,EMP171
+EMP178,Engineering,1-2 years,Individual Contributor,London,EMP152
+EMP179,Finance,1-2 years,Senior IC,London,EMP191
+EMP180,Finance,<1 year,Individual Contributor,New York,EMP151
+EMP181,Product,3-5 years,Senior IC,Austin,EMP160
+EMP182,Operations,3-5 years,Individual Contributor,London,EMP170
+EMP183,Sales,5-10 years,Individual Contributor,Austin,EMP129
+EMP184,Engineering,1-2 years,Individual Contributor,London,EMP168
+EMP185,IT,1-2 years,Individual Contributor,London,EMP161
+EMP186,Sales,10+ years,Director,Remote - US,EMP176
+EMP187,Sales,<1 year,Team Lead,Austin,EMP129
+EMP188,Marketing,3-5 years,Individual Contributor,Remote - US,EMP116
+EMP189,Sales,<1 year,Senior IC,London,EMP116
+EMP190,Operations,5-10 years,Individual Contributor,San Francisco,EMP173
+EMP191,Sales,5-10 years,Individual Contributor,New York,EMP106
+EMP192,Sales,5-10 years,Individual Contributor,San Francisco,EMP151
+EMP193,Finance,10+ years,Senior IC,San Francisco,EMP119
+EMP194,Engineering,10+ years,Manager,San Francisco,EMP131
+EMP195,Engineering,5-10 years,Senior IC,Singapore,EMP179
+EMP196,Sales,10+ years,Individual Contributor,Chicago,EMP138
+EMP197,Customer Support,5-10 years,Individual Contributor,Remote - US,EMP107
+EMP198,Operations,<1 year,Manager,New York,EMP180
+EMP199,Engineering,<1 year,Individual Contributor,New York,EMP170
+EMP200,Engineering,<1 year,Individual Contributor,London,EMP176
+EMP201,Finance,<1 year,Individual Contributor,London,EMP136
+EMP202,Product,5-10 years,Individual Contributor,New York,EMP133
+EMP203,Customer Support,10+ years,Senior IC,New York,EMP154
+EMP204,Engineering,1-2 years,Senior IC,Austin,EMP205
+EMP205,Engineering,<1 year,Individual Contributor,Austin,EMP176
+EMP206,Customer Support,10+ years,Manager,Chicago,EMP115
+EMP207,Finance,3-5 years,Senior IC,Austin,EMP164
+EMP208,HR,5-10 years,Individual Contributor,San Francisco,EMP155
+EMP209,Customer Support,10+ years,Individual Contributor,San Francisco,EMP129
+EMP210,IT,10+ years,Senior IC,San Francisco,EMP197
+EMP211,Product,3-5 years,Senior IC,Singapore,EMP196
+EMP212,Engineering,10+ years,Senior IC,Austin,EMP123
+EMP213,IT,5-10 years,Senior IC,Chicago,EMP111
+EMP214,Finance,5-10 years,Individual Contributor,London,EMP113
+EMP215,Customer Support,3-5 years,Individual Contributor,Chicago,EMP136
+EMP216,Product,5-10 years,Team Lead,Remote - US,EMP104
+EMP217,Finance,3-5 years,Individual Contributor,San Francisco,EMP198
+EMP218,Marketing,10+ years,Team Lead,San Francisco,EMP184
+EMP219,Customer Support,5-10 years,Individual Contributor,New York,EMP166
+EMP220,Marketing,5-10 years,Senior IC,Singapore,EMP106
+EMP221,Engineering,10+ years,Individual Contributor,Austin,EMP156
+EMP222,Customer Support,5-10 years,Individual Contributor,London,EMP177
+EMP223,Customer Support,1-2 years,Individual Contributor,San Francisco,EMP170
+EMP224,Marketing,1-2 years,VP+,San Francisco,EMP159
+EMP225,IT,1-2 years,Individual Contributor,London,EMP137
+EMP226,HR,3-5 years,Individual Contributor,Chicago,EMP160
+EMP227,Sales,10+ years,Individual Contributor,New York,EMP176
+EMP228,HR,1-2 years,Manager,Austin,EMP198
+EMP229,Customer Support,5-10 years,Individual Contributor,Singapore,EMP164
+EMP230,Sales,<1 year,Individual Contributor,Austin,EMP207
+EMP231,Operations,5-10 years,Manager,Chicago,EMP168
+EMP232,Finance,3-5 years,Senior IC,Remote - US,EMP148
+EMP233,Finance,3-5 years,Manager,London,EMP130
+EMP234,Operations,1-2 years,Manager,Chicago,EMP105
+EMP235,Sales,5-10 years,Senior IC,Singapore,EMP148
+EMP236,Marketing,1-2 years,Individual Contributor,San Francisco,EMP116
+EMP237,Finance,10+ years,Individual Contributor,San Francisco,EMP208
+EMP238,Finance,10+ years,Manager,San Francisco,EMP192
+EMP239,Engineering,1-2 years,Individual Contributor,Singapore,EMP133
+EMP240,Sales,5-10 years,Senior IC,Singapore,EMP142
+EMP241,Customer Support,10+ years,Individual Contributor,Austin,EMP180
+EMP242,Product,5-10 years,Manager,San Francisco,EMP179
+EMP243,Engineering,3-5 years,VP+,London,EMP111
+EMP244,Marketing,<1 year,Team Lead,London,EMP112
+EMP245,Finance,3-5 years,Manager,San Francisco,EMP141
+EMP246,Customer Support,3-5 years,Individual Contributor,Chicago,EMP118
+EMP247,Sales,5-10 years,Senior IC,Singapore,EMP123
+EMP248,Engineering,<1 year,Senior IC,Chicago,EMP179
+EMP249,Product,5-10 years,Manager,New York,EMP129
+EMP250,Finance,3-5 years,Individual Contributor,London,EMP101
+EMP251,Legal,5-10 years,Manager,London,EMP169
+EMP252,Engineering,5-10 years,Manager,Remote - US,EMP138
+EMP253,Operations,5-10 years,Senior IC,Chicago,EMP208
+EMP254,Sales,5-10 years,Manager,San Francisco,EMP130
+EMP255,Marketing,3-5 years,Senior IC,London,EMP137
+EMP256,Engineering,5-10 years,Individual Contributor,Remote - US,EMP210
+EMP257,Product,<1 year,Manager,London,EMP163
+EMP258,Customer Support,3-5 years,Team Lead,New York,EMP177
+EMP259,Customer Support,1-2 years,Senior IC,Remote - US,EMP132
+EMP260,Product,1-2 years,Senior IC,London,EMP182
+EMP261,Engineering,5-10 years,Individual Contributor,Austin,EMP193
+EMP262,Engineering,3-5 years,Individual Contributor,Chicago,EMP122
+EMP263,Engineering,10+ years,Manager,Austin,EMP167
+EMP264,Finance,3-5 years,Team Lead,Austin,EMP205
+EMP265,IT,3-5 years,Senior IC,Austin,EMP202
+EMP266,Engineering,<1 year,Individual Contributor,New York,EMP210
+EMP267,Product,5-10 years,Director,Singapore,EMP171
+EMP268,Marketing,5-10 years,Individual Contributor,Remote - US,EMP115
+EMP269,Finance,3-5 years,Senior IC,Singapore,EMP181
+EMP270,IT,<1 year,Senior IC,Chicago,EMP103
+EMP271,Operations,10+ years,Individual Contributor,Remote - US,EMP128
+EMP272,Operations,5-10 years,Manager,Austin,EMP183
+EMP273,Marketing,1-2 years,Individual Contributor,San Francisco,EMP138
+EMP274,IT,<1 year,Individual Contributor,Remote - US,EMP117
+EMP275,Marketing,3-5 years,Senior IC,London,EMP189
+EMP276,IT,5-10 years,Senior IC,London,EMP119
+EMP277,Customer Support,<1 year,Team Lead,Remote - US,EMP152
+EMP278,IT,3-5 years,Individual Contributor,Austin,EMP127
+EMP279,Finance,1-2 years,Manager,San Francisco,EMP187
+EMP280,Marketing,3-5 years,Individual Contributor,Austin,EMP124
+EMP281,IT,5-10 years,Individual Contributor,New York,EMP182
+EMP282,Operations,<1 year,Individual Contributor,Austin,EMP131
+EMP283,IT,10+ years,Individual Contributor,Singapore,EMP197
+EMP284,Operations,10+ years,Individual Contributor,Singapore,EMP129
+EMP285,Sales,1-2 years,Team Lead,Remote - US,EMP100
+EMP286,Sales,1-2 years,Director,Remote - US,EMP132
+EMP287,Customer Support,<1 year,Senior IC,San Francisco,EMP116
+EMP288,Engineering,1-2 years,Senior IC,San Francisco,EMP122
+EMP289,Sales,1-2 years,Senior IC,Remote - US,EMP114
+EMP290,Customer Support,5-10 years,Individual Contributor,Austin,EMP165
+EMP291,Operations,5-10 years,Senior IC,Remote - US,EMP105
+EMP292,Product,10+ years,Individual Contributor,London,EMP103
+EMP293,Engineering,5-10 years,Team Lead,Chicago,EMP187
+EMP294,Engineering,5-10 years,Individual Contributor,San Francisco,EMP141
+EMP295,Operations,<1 year,Individual Contributor,Remote - US,EMP181
+EMP296,Operations,3-5 years,Individual Contributor,Remote - US,EMP167
+EMP297,Sales,10+ years,Senior IC,San Francisco,EMP201
+EMP298,Product,10+ years,Senior IC,New York,EMP155
+EMP299,Finance,1-2 years,Individual Contributor,Singapore,EMP158
+EMP300,Marketing,<1 year,Individual Contributor,Austin,EMP185
+EMP301,Sales,1-2 years,Senior IC,Chicago,EMP108
+EMP302,Engineering,<1 year,Individual Contributor,San Francisco,EMP195

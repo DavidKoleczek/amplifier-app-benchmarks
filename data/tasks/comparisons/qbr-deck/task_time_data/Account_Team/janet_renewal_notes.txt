@@ -1,0 +1,58 @@
+ACME CORP RENEWAL NOTES
+=======================
+Account Manager: Janet Morrison
+Last Updated: January 8, 2026
+
+RENEWAL OVERVIEW
+----------------
+Current Contract End: March 31, 2026
+Contract Value: $287,500 ARR
+Renewal Target: Q1 2026 (ideally close by end of February)
+
+STATUS: YELLOW - Requires attention
+
+KEY CONTACTS
+------------
+- Thomas Chen, VP Operations (Executive Sponsor) - relationship is solid
+- Maria Santos, IT Director (Technical Champion) - concerned about Nov incident
+- David Park, CFO - controls budget, has been quiet lately
+
+RENEWAL CONVERSATION NOTES
+--------------------------
+Dec 12 call with Thomas:
+- Overall satisfied with platform, team loves the collaboration features
+- BUT the November outage came up immediately
+- He said "David [CFO] is asking questions about our vendor relationships"
+- Wants to see reliability data in the QBR
+- Mentioned they're getting pitched by competitors
+
+Dec 18 email from Maria:
+- Forwarded an internal IT audit request about platform stability
+- Asked for RCA document (I sent the sanitized version, not the full one)
+- She's supportive but under pressure from her team
+
+RENEWAL RISKS
+-------------
+1. November outage still top of mind - need to show it was isolated
+2. CFO involvement suggests budget scrutiny
+3. Competitor activity - heard they're looking at alternatives (TBD which ones)
+
+EXPANSION OPPORTUNITY
+---------------------
+Thomas mentioned they're expanding the West Coast office (50 new seats)
+If we nail the QBR and address concerns, could be $42K expansion on top of renewal
+
+ACTION ITEMS FOR QBR
+--------------------
+[ ] Show strong usage growth (we have the data - use it!)
+[ ] Address support ticket spike honestly but with context
+[ ] DO NOT dwell on the outage - acknowledge briefly, pivot to improvements
+[ ] Highlight upcoming product features they've requested
+[ ] Get Thomas aligned before the CFO joins
+
+TIMING NOTE
+-----------
+I originally told the team renewal was Q2, but contract actually ends Q1. 
+Need to move faster than planned. QBR is critical.
+
+-Janet

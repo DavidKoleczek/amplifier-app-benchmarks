@@ -1,0 +1,129 @@
+NexusAI Board of Directors - Biographical Information
+=====================================================
+Last updated: August 2025
+
+BOARD MEMBERS
+-------------
+
+Michael Torres
+--------------
+Position: Independent Board Member
+Joined Board: March 2024
+
+Michael is the former CIO of Titan Manufacturing, a Fortune 100 industrial
+company where he led digital transformation initiatives for 12 years. He
+brings deep expertise in enterprise technology adoption and supply chain
+operations from the buyer's perspective.
+
+Current Roles:
+- Board member, 3 other technology companies
+- Senior Advisor, McKinsey Digital Practice
+- Lecturer, MIT Sloan School of Management
+
+Background:
+- CIO, Titan Manufacturing (2008-2020)
+- VP IT, Boeing Commercial Airplanes (2002-2008)
+- Director, Accenture Technology Practice (1995-2002)
+
+Education:
+- MBA, Northwestern Kellogg School of Management
+- BS Computer Science, University of Illinois
+
+Contact: michael.torres@email.com
+
+---
+
+Dr. Jennifer Walsh
+------------------
+Position: Independent Board Member
+Joined Board: June 2024
+
+Jennifer is a Professor of Operations Research at MIT Sloan School of
+Management, specializing in supply chain optimization and machine learning
+applications. She brings academic rigor and deep domain expertise to our
+product strategy discussions.
+
+Current Roles:
+- Professor, MIT Sloan School of Management
+- Director, MIT Center for Transportation & Logistics
+- Board member, 2 other technology companies
+
+Notable Research:
+- Author of "Supply Chain Intelligence" (Harvard Business Press, 2023)
+- 50+ peer-reviewed publications in operations research
+- Pioneer in applying ML to demand forecasting
+
+Education:
+- PhD Operations Research, Stanford University
+- MS Industrial Engineering, Georgia Tech
+- BS Mathematics, UC Berkeley
+
+Contact: jennifer.walsh@mit.edu
+
+---
+
+Robert Kim
+----------
+Position: Board Lead / Lead Director
+Joined Board: September 2023 (Seed round)
+
+Robert is a General Partner at Horizon Ventures, where he led our Seed
+investment. He has 20 years of experience in enterprise software investing
+and has served on the boards of 15+ companies, including 4 successful exits.
+
+Current Roles:
+- General Partner, Horizon Ventures
+- Board member, 6 active portfolio companies
+
+Notable Investments:
+- DataPlatform (acquired for $800M)
+- CloudSecure (IPO 2022)
+- LogiFlow (acquired for $450M)
+
+Background:
+- Principal, Sequoia Capital (2008-2015)
+- VP Business Development, Oracle (2003-2008)
+- Consultant, Bain & Company (1998-2003)
+
+Education:
+- MBA, Harvard Business School
+- BA Economics, Princeton University
+
+Contact: robert.kim@horizonvc.com
+
+---
+
+MANAGEMENT BOARD MEMBERS
+------------------------
+
+Maya Rodriguez - CEO & Co-Founder
+(See executive team page for full bio)
+
+David Park - CTO & Co-Founder
+(See executive team page for full bio)
+
+---
+
+BOARD MEETING LOGISTICS
+-----------------------
+
+Regular Meeting Schedule:
+- Quarterly meetings (Jan, Apr, Jul, Oct)
+- Ad-hoc meetings as needed
+
+Typical Agenda:
+- CEO Update (15 min)
+- Financial Review (15 min)
+- Department Updates (30 min)
+- Strategic Discussion (30 min)
+- Executive Session (15 min)
+
+Board Materials Distribution:
+- Deck distributed 48 hours before meeting
+- Financial package distributed 72 hours before
+- Questions/comments to Maya in advance preferred
+
+---
+
+Note: This document is for reference only. Board members do not need
+introduction - we've been working together for over a year.

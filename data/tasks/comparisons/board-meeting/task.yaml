@@ -1,0 +1,31 @@
+name: board-meeting
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - ppt
+    - excel
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create board meeting materials for our Q4 update:
+
+  1. "Board_Deck_Q4.pptx" - A comprehensive board presentation covering:
+     - Company update and key highlights
+     - Financial performance summary
+     - Department summaries from each team lead
+     - Strategic outlook for 2026
+
+  2. "Financial_Summary_Q4.xlsx" - Key financial metrics in spreadsheet format
+
+  Important notes:
+  - Series B discussions are ongoing but NOT finalized - don't present it as a done deal
+  - We lost 2 enterprise customers this quarter - frame this as strategic refocusing, not a failure
+
+  All source materials are in this folder. Some files have multiple versions - use the latest/most accurate.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

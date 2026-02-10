@@ -1,0 +1,132 @@
+From: Jennifer Lawson <j.lawson@healthfirst.org>
+To: Marcus Thompson <m.thompson@cloudsync.com>
+CC: Michael Chen <m.chen@healthfirst.org>, Amanda Torres <a.torres@healthfirst.org>
+Date: Thu, November 21, 2025 4:32 PM
+Subject: RE: HealthFirst Case Study - Draft Review and Feedback
+
+Marcus,
+
+Thank you for sending over the case study draft. Our team has reviewed the materials, and I'm pleased to say we're approving them with a few minor edits. I've documented our feedback below and attached a marked-up version of the document.
+
+APPROVED AS-IS:
+- Executive summary
+- Company background section  
+- ROI and metrics section
+- Michael's quotes
+- Amanda's quotes
+- Photography usage (both approved images)
+
+REQUESTED EDITS:
+
+1. Page 2, Paragraph 3:
+   ORIGINAL: "HealthFirst was struggling with outdated file management systems that had accumulated over 15 years of neglect."
+   
+   REVISED: "HealthFirst had an opportunity to modernize file management systems that had evolved organically over 15 years."
+   
+   Rationale: "Struggling" and "neglect" are too negative. We want to acknowledge the situation without suggesting mismanagement.
+
+2. Page 3, Implementation Section:
+   ORIGINAL: "The go-live was plagued with issues including system failures and angry clinicians."
+   
+   REVISED: "The initial go-live weekend presented challenges that tested both teams, including performance issues that were quickly addressed."
+   
+   Rationale: "Plagued," "failures," and "angry" are too strong. The approved language focuses on the challenges being resolved.
+
+3. Page 4, Before/After Comparison:
+   ORIGINAL: "Before: Clinicians wasted up to 5 minutes searching for critical documents during emergencies."
+   
+   REVISED: "Before: Document search times could exceed several minutes during high-pressure situations."
+   
+   Rationale: "Wasted" implies blame on staff. And let's not quantify the before state - just the improvement.
+
+4. Page 5, Quote from Dr. Torres:
+   ORIGINAL: "That first weekend was a disaster, but CloudSync redeemed themselves."
+   
+   Dr. Torres has asked to revise her quote to: "The first weekend was challenging, but CloudSync's response showed me we picked the right partner."
+   
+   Rationale: "Disaster" is too strong and "redeemed themselves" implies they had done something wrong. The revised quote is accurate and more balanced.
+
+5. Page 6, Compliance Section:
+   Please ADD a sentence noting that HealthFirst had no compliance violations or findings prior to this implementation. We don't want readers to assume we had compliance problems.
+   
+   Suggested addition: "While HealthFirst maintained a strong compliance record, the new system significantly reduced the manual effort required to sustain that record."
+
+ADDITIONAL NOTES:
+
+- We've approved use of the lobby photo (Image_HF_001.jpg) and the team meeting photo (Image_HF_002.jpg)
+- Logo usage must follow the attached guidelines (horizontal version only, minimum clear space observed)
+- Michael's title should be "Chief Information Officer" spelled out, not "CIO" in the pull quote
+- Amanda is now "Chief" not "Director" of Emergency Medicine - please update throughout
+
+TIMELINE:
+Please send the revised draft by December 1. Assuming no issues, we'll provide final sign-off within 5 business days, targeting publication the week of December 8.
+
+DISTRIBUTION:
+Once published, please send us:
+- Link to the web version
+- PDF of the final case study
+- Copy of any presentation slides using this content
+
+We're excited to see this published. Michael and Amanda both feel strongly that an honest case study - including the challenges we faced - will be more valuable to other healthcare organizations considering a similar project.
+
+Thank you for your partnership on this.
+
+Best regards,
+
+Jennifer Lawson
+General Counsel
+HealthFirst Regional Medical Center
+(215) 555-0147
+
+---
+
+From: Marcus Thompson <m.thompson@cloudsync.com>
+To: Jennifer Lawson <j.lawson@healthfirst.org>
+Date: Fri, November 22, 2025 9:15 AM
+Subject: RE: HealthFirst Case Study - Draft Review and Feedback
+
+Jennifer,
+
+Thank you for the thorough and thoughtful review. All requested edits are completely reasonable and we'll incorporate them into the revised draft.
+
+I especially appreciate the framing suggestions for the implementation challenges section. Your edits make the story more balanced while still being authentic - which was our goal.
+
+A few quick responses:
+
+1-4. All edits accepted as requested. Will update the draft.
+
+5. Great suggestion on the compliance addition. We'll include that language.
+
+Additional notes: All acknowledged - will update the title, use the correct logo version, and ensure photo attribution is correct.
+
+You'll have the revised draft by November 28 (ahead of December 1 deadline).
+
+And agreed - the honest version of this story is more valuable than a sanitized one. We've received feedback from prospects that they appreciate case studies that acknowledge real-world challenges.
+
+Thank you again for being such great partners throughout this process.
+
+Best,
+Marcus
+
+Marcus Thompson
+Senior Content Marketing Manager
+CloudSync Solutions
+m.thompson@cloudsync.com
+
+---
+
+From: Jennifer Lawson <j.lawson@healthfirst.org>
+To: Marcus Thompson <m.thompson@cloudsync.com>
+Date: Mon, December 2, 2025 11:45 AM
+Subject: RE: HealthFirst Case Study - Final Approval
+
+Marcus,
+
+The revised draft looks perfect. All edits have been incorporated correctly.
+
+FINAL APPROVAL GRANTED
+
+You're cleared to publish. Please send us the final materials once live.
+
+Thank you!
+Jennifer

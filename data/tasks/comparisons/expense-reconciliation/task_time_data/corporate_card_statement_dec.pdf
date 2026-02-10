@@ -1,0 +1,102 @@
+================================================================================
+                         APEX BUSINESS CREDIT CARD
+                         MONTHLY STATEMENT
+================================================================================
+
+Account Holder: Sarah Mitchell
+Card Number: ****-****-****-4821
+Statement Period: December 1-31, 2025
+Payment Due Date: January 15, 2026
+
+--------------------------------------------------------------------------------
+ACCOUNT SUMMARY
+--------------------------------------------------------------------------------
+Previous Balance:                                              $0.00
+Payments/Credits:                                              $0.00
+New Charges:                                                $4,847.63
+                                                           ----------
+Current Balance Due:                                        $4,847.63
+Minimum Payment:                                              $50.00
+
+================================================================================
+TRANSACTION DETAIL
+================================================================================
+
+Date        Reference #     Merchant                          Category        Amount
+--------------------------------------------------------------------------------
+12/01/25    REF-445821     UNITED AIRLINES               AIR TRAVEL       $487.20
+            Flight confirmation #UA8834521
+            
+12/01/25    REF-445822     UBER TECHNOLOGIES             GROUND TRANS      $47.85
+            Trip from SFO to home
+            
+12/02/25    REF-445901     THE VENETIAN LAS VEGAS        LODGING        $1,847.52
+            Conf #VEN-8843921, 4 nights (12/2-12/6)
+            
+12/02/25    REF-445902     UBER TECHNOLOGIES             GROUND TRANS      $38.50
+            Trip from LAS airport to Venetian
+            
+12/02/25    REF-445903     STARBUCKS LAS VEGAS           MEALS/ENT         $12.47
+            
+12/03/25    REF-446012     UBER TECHNOLOGIES             GROUND TRANS      $24.15
+            Trip to convention center
+            
+12/03/25    REF-446013     BAZAAR MEAT VEGAS             MEALS/ENT        $187.42
+            Dinner - 1 guest
+            
+12/04/25    REF-446114     UBER TECHNOLOGIES             GROUND TRANS      $18.90
+            Trip from convention center
+            
+12/04/25    REF-446115     MIZUMI WYNN                   MEALS/ENT        $156.83
+            Dinner - solo
+            
+12/04/25    REF-446116     MIZUMI WYNN                   MEALS/ENT        $156.83
+            Dinner - solo
+            [DUPLICATE CHARGE - MERCHANT ERROR]
+            
+12/05/25    REF-446201     AWS RE:INVENT REGISTRATION    CONFERENCE     $1,299.00
+            Already paid via company PO - DO NOT REIMBURSE
+            
+12/05/25    REF-446202     TACOS EL GORDO                MEALS/ENT         $23.45
+            Lunch
+            
+12/05/25    REF-446203     CITIZENS KITCHEN              MEALS/ENT         $89.50
+            Dinner - 2 guests (AWS partners)
+            
+12/06/25    REF-446301     UBER TECHNOLOGIES             GROUND TRANS      $42.30
+            Trip to LAS airport
+            
+12/06/25    REF-446302     UNITED AIRLINES               AIR TRAVEL       $415.71
+            Flight confirmation #UA9921847
+            
+================================================================================
+CATEGORY SUMMARY
+================================================================================
+
+Category              Transaction Count       Total Amount
+--------------------------------------------------------------------------------
+AIR TRAVEL                    2                    $902.91
+LODGING                       1                  $1,847.52
+GROUND TRANS                  5                    $171.70
+MEALS/ENT                     7                    $626.50
+CONFERENCE                    1                  $1,299.00
+--------------------------------------------------------------------------------
+TOTAL                        16                  $4,847.63
+
+================================================================================
+IMPORTANT NOTICES
+================================================================================
+
+* Transaction REF-446116 appears to be a duplicate charge. Please contact 
+  the merchant or our fraud department at 1-800-555-0123.
+
+* For expense reimbursement, please submit receipts within 30 days of 
+  statement date.
+
+* This statement is for business expenses only. Personal charges should 
+  be paid separately and not submitted for reimbursement.
+
+================================================================================
+                    Questions? Call 1-800-555-APEX (2739)
+                    Online: www.apexbusinesscard.com
+================================================================================

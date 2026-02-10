@@ -1,26 +1,274 @@
+comparison_benchmark:
+  benchmark_type: comparison
+  continuation_provider: openai
+  continuation_model: gpt-5.2
+  comparison_runs: 7
+  comparison_benchmarks:
+    - task_name: annual-report
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: board-meeting
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: budget-request
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: calendar-scheduling
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: campaign-recap
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: case-study
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: contact-consolidation
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: contract-redlines
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: data-deduplication
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: directory-update
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: expense-reconciliation
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: invoice-matching
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: meeting-notes
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: onboarding-deck
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: ppt-1
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: ppt-2
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: ppt-3
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: ppt-4
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: qbr-deck
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: survey-analysis
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: training-curriculum
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: travel-itinerary
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+    - task_name: vendor-evaluation
+      agent_ids:
+        - claude_code
+        - gh_cli
+        - amplifier_foundation
+        - openai_codex
+
 score_benchmark:
   benchmark_type: score
   continuation_provider: openai
   continuation_model: gpt-5.2
   score_benchmarks:
-    - agent_id: amplifier_foundation
+    - agent_id: claude_code
       task_names:
         - arxiv_conclusion_extraction
         - arxiv_paper_summarizer
+        - chiptune_generator
         - code-discrepancy-docs-knack
         - code-discrepancy-docstrings-grasp
         - code-discrepancy-tutorials-grasp
         - cpsc_recall_monitor
         - cross_repo_improvement_tool
         - email_drafting
+        - energy_forecast_new_england
         - gdpval_extraction
+        - git_changelog_generator
         - github_docs_extractor
         - image_tagging
+        - ipo_tracker
         - linkedin_drafting
         - markdown_deck_converter
         - news_research_tool
+        - pdf-hr-q1
+        - pdf-hr-q2
+        - pdf-hr-q3
         - pdf-hr-q4
+        - pdf-hr-q5
+        - pixel_art_generator
         - product_review_finder
         - repo_embedding_server
+        - sec_10q_extractor
         - style_blender
-      trials: 2
+      trials: 1
+    - agent_id: gh_cli
+      task_names:
+        - arxiv_conclusion_extraction
+        - arxiv_paper_summarizer
+        - chiptune_generator
+        - code-discrepancy-docs-knack
+        - code-discrepancy-docstrings-grasp
+        - code-discrepancy-tutorials-grasp
+        - cpsc_recall_monitor
+        - cross_repo_improvement_tool
+        - email_drafting
+        - energy_forecast_new_england
+        - gdpval_extraction
+        - git_changelog_generator
+        - github_docs_extractor
+        - image_tagging
+        - ipo_tracker
+        - linkedin_drafting
+        - markdown_deck_converter
+        - news_research_tool
+        - pdf-hr-q1
+        - pdf-hr-q2
+        - pdf-hr-q3
+        - pdf-hr-q4
+        - pdf-hr-q5
+        - pixel_art_generator
+        - product_review_finder
+        - repo_embedding_server
+        - sec_10q_extractor
+        - style_blender
+      trials: 1
+    - agent_id: amplifier_foundation
+      task_names:
+        - arxiv_conclusion_extraction
+        - arxiv_paper_summarizer
+        - chiptune_generator
+        - code-discrepancy-docs-knack
+        - code-discrepancy-docstrings-grasp
+        - code-discrepancy-tutorials-grasp
+        - cpsc_recall_monitor
+        - cross_repo_improvement_tool
+        - email_drafting
+        - energy_forecast_new_england
+        - gdpval_extraction
+        - git_changelog_generator
+        - github_docs_extractor
+        - image_tagging
+        - ipo_tracker
+        - linkedin_drafting
+        - markdown_deck_converter
+        - news_research_tool
+        - pdf-hr-q1
+        - pdf-hr-q2
+        - pdf-hr-q3
+        - pdf-hr-q4
+        - pdf-hr-q5
+        - pixel_art_generator
+        - product_review_finder
+        - repo_embedding_server
+        - sec_10q_extractor
+        - style_blender
+      trials: 1
+    - agent_id: openai_codex
+      task_names:
+        - arxiv_conclusion_extraction
+        - arxiv_paper_summarizer
+        - chiptune_generator
+        - code-discrepancy-docs-knack
+        - code-discrepancy-docstrings-grasp
+        - code-discrepancy-tutorials-grasp
+        - cpsc_recall_monitor
+        - cross_repo_improvement_tool
+        - email_drafting
+        - energy_forecast_new_england
+        - gdpval_extraction
+        - git_changelog_generator
+        - github_docs_extractor
+        - image_tagging
+        - ipo_tracker
+        - linkedin_drafting
+        - markdown_deck_converter
+        - news_research_tool
+        - pdf-hr-q1
+        - pdf-hr-q2
+        - pdf-hr-q3
+        - pdf-hr-q4
+        - pdf-hr-q5
+        - pixel_art_generator
+        - product_review_finder
+        - repo_embedding_server
+        - sec_10q_extractor
+        - style_blender
+      trials: 1

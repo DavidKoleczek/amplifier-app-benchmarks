@@ -1,0 +1,141 @@
+SLACK EXPORT - #phoenix-engineering
+Thread: Architecture Decision - Multi-Tenancy Approach
+Date: 2025-05-28 to 2025-06-02
+
+---
+
+David Park [2025-05-28 09:15 AM]
+Heads up everyone - just got out of the call with TechCorp. They're asking for multi-tenant support. This wasn't in the original scope.
+
+Sarah Kim [2025-05-28 09:18 AM]
+Wait, what? The whole database schema assumes single-tenant. This is a massive change.
+
+James Chen [2025-05-28 09:22 AM]
+@David Park can you share more context? What exactly are they asking for?
+
+David Park [2025-05-28 09:25 AM]
+They want to white-label the platform for their subsidiaries. Each subsidiary needs isolated data but shared administration. Classic multi-tenant pattern.
+
+Maria Santos [2025-05-28 09:28 AM]
+From a security perspective, this changes everything. Tenant isolation is non-trivial to retrofit.
+
+Alex Turner [2025-05-28 09:32 AM]
+I spent 3 weeks on the reporting engine. All of it assumes single-tenant queries. FML.
+
+Sarah Kim [2025-05-28 09:35 AM]
+Same with the dashboard. Every single API endpoint would need tenant context.
+
+David Park [2025-05-28 09:40 AM]
+I know this is a big ask. But TechCorp is hinting they might expand the contract significantly if we can do this. @James Chen we need to make a call here.
+
+James Chen [2025-05-28 09:45 AM]
+Let me talk to stakeholders. Don't panic yet.
+
+---
+
+James Chen [2025-05-28 02:30 PM]
+Update: Leadership wants us to pursue this. TechCorp is our anchor client and the expansion opportunity is real.
+
+Alex Turner [2025-05-28 02:33 PM]
+So we're going to retrofit multi-tenancy into a system that's 60% built? Has anyone actually estimated this?
+
+David Park [2025-05-28 02:38 PM]
+I've been sketching it out. The database layer is the hardest part. We have two options:
+
+Option A: Shared database, tenant column on every table
+- Pros: Simpler deployment, easier cross-tenant queries
+- Cons: Risk of data leaks if we miss a query, every query needs modification
+
+Option B: Schema-per-tenant (PostgreSQL schemas)
+- Pros: Stronger isolation, fewer code changes to queries
+- Cons: More complex deployment, harder to manage at scale
+
+Sarah Kim [2025-05-28 02:45 PM]
+I strongly prefer Option B. I've seen data leak bugs with Option A before. They're career-ending.
+
+Maria Santos [2025-05-28 02:48 PM]
++1 for Option B from security perspective. Row-level security is hard to audit.
+
+Alex Turner [2025-05-28 02:52 PM]
+Option B means we need to refactor less application code though. The tenant isolation happens at the connection level.
+
+Michael Brown [2025-05-28 02:55 PM]
+But Option B means we can't do cross-tenant reporting, which I think TechCorp will want for their admin portal.
+
+David Park [2025-05-28 03:00 PM]
+Michael raises a good point. @James Chen can we get clarification on cross-tenant requirements?
+
+James Chen [2025-05-28 03:05 PM]
+Checking with the client. Give me a day.
+
+---
+
+James Chen [2025-05-29 11:00 AM]
+Confirmed with TechCorp: They DO need cross-tenant reporting for their corporate admin users. Option A is probably the path.
+
+Sarah Kim [2025-05-29 11:05 AM]
+Then we need to be extremely careful. Every single query needs review. I'm talking about adding tenant_id checks to hundreds of queries.
+
+David Park [2025-05-29 11:10 AM]
+I'm going to propose a hybrid approach. Let me write up an ADR.
+
+Alex Turner [2025-05-29 11:15 AM]
+Whatever we do, can we at least agree on a timeline estimate before committing? Last time we just said "yes" without sizing.
+
+Maria Santos [2025-05-29 11:18 AM]
++1. I need to do a security review of whatever approach we choose.
+
+---
+
+David Park [2025-05-30 10:00 AM]
+Posted the ADR. TL;DR: Shared database with mandatory tenant_id on all tables, plus row-level security policies as a safety net.
+
+Link: [confluence-link-redacted]
+
+Key points:
+- All new queries go through a tenant-aware repository layer
+- Existing queries need migration (estimated 180 queries)
+- RLS policies as defense-in-depth
+- Dedicated security review before each release
+
+Sarah Kim [2025-05-30 10:15 AM]
+The repository layer is a good idea. It centralizes the tenant context. I can start on the database migration.
+
+Alex Turner [2025-05-30 10:20 AM]
+This is going to take at least 4 weeks. Probably 6. We're looking at a month delay minimum.
+
+James Chen [2025-05-30 10:25 AM]
+I'll communicate the timeline impact to stakeholders. Let's not sugarcoat it.
+
+Michael Brown [2025-05-30 10:30 AM]
+Is anyone else worried we're taking on too much risk mid-project? Honest question.
+
+David Park [2025-05-30 10:35 AM]
+@Michael Brown It's a valid concern. But if we said no, we might lose the client relationship. Rock and a hard place.
+
+Maria Santos [2025-05-30 10:40 AM]
+I want to go on record that this decision should have been made in the requirements phase. We're paying for it now.
+
+James Chen [2025-05-30 10:45 AM]
+Noted. Let's make sure we capture this in the lessons learned. For now, we move forward.
+
+---
+
+Alex Turner [2025-06-02 04:30 PM]
+Update: I've started touching the reporting engine queries. It's worse than I thought. Some of these queries are 200+ lines with nested subqueries.
+
+Sarah Kim [2025-06-02 04:35 PM]
+Same experience on my end. The dashboard API has 47 endpoints. Each one needs review.
+
+David Park [2025-06-02 04:40 PM]
+Let's set up a tracking sheet. We need visibility into progress.
+
+James Chen [2025-06-02 04:45 PM]
+Good idea. Daily standup focus on this until we're through the worst of it.
+
+Maria Santos [2025-06-02 04:50 PM]
+I'll schedule the security review for after the migration. No point reviewing half-done work.
+
+---
+END OF THREAD EXPORT
+---

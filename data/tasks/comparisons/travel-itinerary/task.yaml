@@ -1,0 +1,16 @@
+name: travel-itinerary
+task_info:
+  difficulty: medium
+  non_deterministic_evals: true
+  categories:
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Chicago_Trip_Itinerary.docx" consolidating all travel confirmations into a single printable document. Include flight times, hotel address, rental car details, meeting location, dinner reservation, and all confirmation numbers.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

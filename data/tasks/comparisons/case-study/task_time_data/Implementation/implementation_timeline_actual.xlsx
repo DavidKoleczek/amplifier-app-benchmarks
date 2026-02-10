@@ -1,0 +1,49 @@
+HealthFirst Implementation - Actual Timeline
+Project Start: March 15, 2025
+Actual Go-Live: July 12, 2025 (5 weeks delayed)
+
+Phase,Task,Planned Start,Actual Start,Planned End,Actual End,Variance (Days),Notes
+Phase 1: Discovery,Kickoff meeting,2025-03-17,2025-03-17,2025-03-17,2025-03-17,0,On time
+Phase 1: Discovery,Stakeholder interviews,2025-03-18,2025-03-18,2025-03-21,2025-03-26,+3,Key stakeholders unavailable - rescheduled
+Phase 1: Discovery,Technical assessment,2025-03-18,2025-03-18,2025-03-25,2025-04-01,+5,Network assessment revealed issues
+Phase 1: Discovery,Requirements documentation,2025-03-24,2025-03-31,2025-03-28,2025-04-08,+9,Scope expanded - radiology dept added
+Phase 2: Technical Setup,Environment provisioning,2025-03-31,2025-04-09,2025-04-04,2025-04-15,+9,Dependency on Phase 1 completion
+Phase 2: Technical Setup,Security baseline config,2025-04-01,2025-04-14,2025-04-07,2025-04-22,+11,HIPAA audit requirements stricter than expected
+Phase 2: Technical Setup,SSO integration (Okta),2025-04-07,2025-04-21,2025-04-11,2025-05-02,+15,Okta config issues - required vendor support
+Phase 3: Integration,Epic EMR connector setup,2025-04-14,2025-05-05,2025-04-25,2025-05-30,+25,Epic API changes required custom work
+Phase 3: Integration,Data migration - pilot,2025-04-21,2025-05-19,2025-04-25,2025-05-23,+22,Blocked by integration delays
+Phase 3: Integration,Data migration - full,2025-04-28,2025-06-02,2025-05-09,2025-06-20,+30,Legacy data quality issues discovered
+Phase 3: Integration,ServiceNow integration,2025-05-05,2025-06-09,2025-05-09,2025-06-13,+25,Parallel with other work
+Phase 4: UAT,User acceptance testing,2025-05-12,2025-06-23,2025-05-23,2025-07-03,+29,Extended due to defect fixes
+Phase 4: UAT,Admin training,2025-05-19,2025-06-30,2025-05-21,2025-07-02,+30,Rescheduled due to UAT delays
+Phase 4: UAT,End-user training (wave 1),2025-05-26,2025-07-07,2025-05-30,2025-07-10,+29,Compressed timeline
+Phase 5: Go-Live,Production cutover,2025-06-07,2025-07-12,2025-06-07,2025-07-12,+35,Delayed 5 weeks from original
+Phase 5: Go-Live,End-user training (wave 2),2025-06-09,2025-07-14,2025-06-13,2025-07-18,+25,Adjusted to new go-live
+Phase 6: Hypercare,Enhanced support period,2025-06-07,2025-07-12,2025-07-05,2025-08-23,+35,Extended to 6 weeks due to early issues
+
+DELAY ANALYSIS
+Category,Days Impact,Root Cause
+Discovery scope creep,+9,Radiology department added mid-discovery
+Network infrastructure,+5,Customer network below spec - required upgrades
+SSO complexity,+10,Okta multi-tenant config more complex than estimated
+Epic integration,+15,Epic module version incompatibility
+Data quality,+12,Legacy file metadata inconsistencies
+Customer resource constraints,+8,Key staff pulled to other priorities
+Total Delay,+35 days,(5 weeks)
+
+MILESTONE COMPARISON
+Milestone,Planned Date,Actual Date,Variance
+Project Kickoff,2025-03-17,2025-03-17,On time
+Technical Design Approved,2025-03-28,2025-04-08,+11 days
+Environment Ready,2025-04-11,2025-05-02,+21 days
+Integration Complete,2025-05-09,2025-06-20,+42 days
+UAT Sign-off,2025-05-30,2025-07-08,+39 days
+Go-Live,2025-06-07,2025-07-12,+35 days
+Hypercare Complete,2025-07-05,2025-08-23,+49 days
+
+ADDITIONAL COSTS INCURRED
+Item,Original Budget,Actual Cost,Variance
+Implementation Services,$85,000,$85,000,$0 (absorbed by CloudSync)
+Customer Network Upgrades,$0,$28,000,+$28,000 (customer cost)
+Epic Custom Connector,$0,$15,000,+$15,000 (split 50/50)
+Extended Hypercare,$0,$0,$0 (goodwill - no charge)

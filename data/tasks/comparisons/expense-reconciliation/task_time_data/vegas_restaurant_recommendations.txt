@@ -1,0 +1,83 @@
+================================================================================
+                VEGAS RESTAURANT RECOMMENDATIONS
+              (Notes from coworkers before the trip)
+================================================================================
+
+Hey Sarah! Since you're heading to Vegas for re:Invent, here are some 
+restaurant recs from the team:
+
+--------------------------------------------------------------------------------
+FROM: Mike (DevOps) - Slack DM, Nov 15
+--------------------------------------------------------------------------------
+
+The BEST tacos in Vegas are at Tacos El Gordo on the Strip. It's a hole 
+in the wall but the adobada tacos are incredible. Like $3-4 per taco. 
+Way better than any fancy place. Get there early because the line gets 
+insane. Also their horchata is amazing.
+
+If you want cheap eats, there's a food court in the Venetian that's 
+actually pretty good - they have a solid ramen place.
+
+--------------------------------------------------------------------------------
+FROM: Jennifer (Product) - Email, Nov 18
+--------------------------------------------------------------------------------
+
+OMG if you can get a reservation at Bazaar Meat by Jose Andres, DO IT. 
+It's expensive but the wagyu is life-changing. Their cotton candy foie 
+gras sounds weird but trust me. Great for client dinners if you need 
+to impress someone.
+
+Also SW Steakhouse at Wynn has amazing views of the Lake of Dreams.
+
+--------------------------------------------------------------------------------
+FROM: David (Sales) - Teams message, Nov 20
+--------------------------------------------------------------------------------
+
+For sushi, Mizumi at Wynn is incredible. Ask for the omakase if they 
+have it. Nobu is overrated IMHO - same quality as the one in NYC but 
+more expensive and longer wait.
+
+Cheap lunch tip: The food court at Fashion Show Mall is walking distance 
+from the convention center and way cheaper than convention food.
+
+--------------------------------------------------------------------------------
+FROM: Lisa (HR) - Slack, Nov 22
+--------------------------------------------------------------------------------
+
+Not food related but - the secret pizza place on the 3rd floor of 
+Cosmopolitan is amazing for late night. No sign, just follow the smell. 
+Cash only! But obviously not expensable lol.
+
+For breakfast, Eggslut at Venetian is so good but the line is always 
+30+ minutes. Worth it for the Fairfax sandwich.
+
+--------------------------------------------------------------------------------
+FROM: Alex (CEO) - Email forward, Nov 25
+--------------------------------------------------------------------------------
+
+Sarah - if you end up entertaining any AWS executives, here are the 
+spots I've had success with:
+
+- Carbone (Aria) - Italian, very impressive, reservations impossible 
+  but my assistant can help
+- Le Cirque (Bellagio) - Classic French, old school Vegas vibes
+- Gordon Ramsay Hell's Kitchen - Touristy but fun, good for informal
+
+Let me know if you need reservation help. Have a great trip!
+
+--------------------------------------------------------------------------------
+MY NOTES:
+--------------------------------------------------------------------------------
+
+Places to try:
+[x] Tacos El Gordo - Lunch Day 3 (Mike was right, amazing!)
+[x] Bazaar Meat - Dinner with David Chen from AWS
+[x] Mizumi - Solo dinner Day 4
+[ ] Secret pizza place - Didn't get a chance
+[ ] Eggslut - Line too long
+
+DEFINITELY go back to:
+- Bazaar Meat
+- Tacos El Gordo
+
+================================================================================

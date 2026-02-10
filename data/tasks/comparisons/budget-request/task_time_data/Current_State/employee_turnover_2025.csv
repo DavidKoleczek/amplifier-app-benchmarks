@@ -1,0 +1,5 @@
+employee_name,role,hire_date,departure_date,tenure_months,reason,exit_interview_notes
+Jennifer Walsh,Senior Engineer,2020-05-15,2025-03-01,58,Voluntary - New Opportunity,"Cited burnout and lack of work-life balance. Felt team was understaffed."
+Marcus Lee,Engineer II,2022-09-01,2025-06-15,33,Voluntary - New Opportunity,"Mentioned excessive on-call duties. Concerned about career growth with current team size."
+Amanda Chen,DevOps Engineer,2021-08-01,2025-09-30,50,Voluntary - New Opportunity,"Left for 25% salary increase. Noted that workload was unsustainable."
+Robert Taylor,Engineer I,2024-03-01,2025-08-15,17,Voluntary - Relocation,"Moving to another city. Mentioned team stress as secondary factor."

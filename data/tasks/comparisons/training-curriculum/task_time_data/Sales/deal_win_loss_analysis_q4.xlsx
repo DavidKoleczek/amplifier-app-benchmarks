@@ -1,0 +1,183 @@
+VELOCITYRM DEAL WIN/LOSS ANALYSIS - Q4 2025
+============================================
+Analysis Period: October 1 - December 31, 2025
+Total Deals Analyzed: 127 (67 won, 47 lost, 13 no decision)
+Average Deal Size: $42,800 (won), $38,200 (lost)
+
+================================================================================
+SUMMARY METRICS
+================================================================================
+
+Win Rate by Segment:
+- Enterprise (>200 employees): 58% (won 29 of 50)
+- Mid-Market (50-200 employees): 54% (won 28 of 52)
+- SMB (<50 employees): 40% (won 10 of 25)
+
+Win Rate by Deal Size:
+- >$100K: 62% (best win rate)
+- $50K-$100K: 55%
+- $25K-$50K: 48%
+- <$25K: 42%
+
+Average Sales Cycle:
+- Won deals: 47 days
+- Lost deals: 62 days (longer cycles = lower win rate)
+
+================================================================================
+WHY WE WON (67 deals)
+================================================================================
+
+PRIMARY WIN REASONS (self-reported by reps)
+
+Reason                              | Count | % of Wins | Avg Deal Size
+------------------------------------|-------|-----------|---------------
+AI forecasting capabilities         | 24    | 36%       | $52,400
+Total cost of ownership            | 16    | 24%       | $38,100
+Ease of implementation             | 11    | 16%       | $31,800
+Modern UX / usability              | 9     | 13%       | $29,500
+Competitive displacement win       | 5     | 7%        | $68,200
+Customer reference / case study    | 2     | 3%        | $45,000
+
+KEY INSIGHTS - WINS:
+
+1. AI FORECASTING IS OUR KILLER FEATURE
+   When forecasting accuracy was the primary evaluation criteria, we won
+   82% of the time. Demo the VelocityScore heavily.
+
+2. TCO WINS ENTERPRISE DEALS
+   Our "40% lower TCO than Salesforce" claim resonated in 16 deals.
+   Always calculate TCO comparison in proposals.
+
+3. FAST IMPLEMENTATION MATTERS
+   "Up and running in 3-4 weeks" was decisive in 11 deals, especially
+   mid-market where IT resources are constrained.
+
+4. COMPETITIVE DISPLACEMENTS ARE LARGE
+   The 5 competitive displacement deals averaged $68K - significantly
+   above average. Worth the extra effort to pursue.
+
+QUOTES FROM WON DEALS:
+- "Your forecasting AI is in a different league" - Director of Sales, Tech company
+- "Half the price of Salesforce with better forecasting" - VP Revenue, Manufacturing
+- "We were up and running in 2 weeks" - Sales Manager, Professional Services
+
+================================================================================
+WHY WE LOST (47 deals)
+================================================================================
+
+PRIMARY LOSS REASONS
+
+Reason                              | Count | % of Losses | Deal Value Lost
+------------------------------------|-------|-------------|------------------
+Already have CRM (no compelling change) | 14  | 30%       | $485,000
+Selected Salesforce                 | 11    | 23%        | $612,000
+Budget constraints                  | 8     | 17%        | $186,000
+Selected HubSpot                    | 6     | 13%        | $198,000
+Internal project / build own        | 4     | 8%         | $142,000
+Selected other competitor           | 4     | 8%         | $178,000
+
+KEY INSIGHTS - LOSSES:
+
+1. "ALREADY HAVE A CRM" IS OUR BIGGEST OBSTACLE
+   30% of losses were to inertia, not competitors. We need better messaging
+   on why switching is worth it. Status quo is enemy #1.
+
+2. SALESFORCE BRAND STILL WINS
+   We lost $612K to Salesforce in Q4. Common themes: "safe choice," "already
+   know it," "ecosystem." Need stronger Salesforce counter-positioning.
+
+3. BUDGET LOSSES ARE OFTEN TIMING
+   6 of 8 budget-constrained deals said they'd reconsider in 2026. Mark for
+   follow-up in Q1/Q2.
+
+4. HUBSPOT WINS ON MARKETING INTEGRATION
+   All 6 HubSpot losses were companies with strong inbound motions who wanted
+   marketing-sales alignment. We should qualify this out earlier.
+
+QUOTES FROM LOST DEALS:
+- "We just implemented Salesforce 2 years ago, can't justify switching" - Lost to status quo
+- "Salesforce is the safe choice" - Lost to Salesforce
+- "HubSpot gives us marketing and sales in one" - Lost to HubSpot
+
+================================================================================
+COMPETITIVE WIN/LOSS BREAKDOWN
+================================================================================
+
+Competitor        | Wins Against | Losses To | Win Rate | Notes
+------------------|--------------|-----------|----------|------------------------
+Salesforce        | 12           | 11        | 52%      | Improving (was 45% in Q3)
+HubSpot           | 8            | 6         | 57%      | Strong, but watch marketing-led
+Pipedrive         | 7            | 1         | 88%      | Dominant in upmarket moves
+Clari             | 4            | 2         | 67%      | Position as all-in-one
+Freshsales        | 5            | 0         | 100%     | Easy wins
+Other/Unknown     | 3            | 4         | 43%      | Need better intel
+
+SALESFORCE DEEP DIVE:
+- Wins: TCO (6), Implementation speed (4), Forecasting (2)
+- Losses: Brand/safety (5), Existing investment (4), Ecosystem (2)
+- Key: If they're already on Salesforce, win rate drops to 38%
+- Key: If they're evaluating fresh, win rate is 71%
+
+HUBSPOT DEEP DIVE:
+- Wins: Enterprise features (4), Forecasting (3), Scalability (1)
+- Losses: Marketing integration (4), Ease of use (2)
+- Key: Qualify marketing-led companies early - may not be ideal fit
+
+================================================================================
+DEALS BY INDUSTRY
+================================================================================
+
+Industry          | Won | Lost | Win Rate | Avg Won Deal | Notes
+------------------|-----|------|----------|--------------|------------------
+Technology        | 22  | 12   | 65%      | $48,200      | Our sweet spot
+Professional Svcs | 14  | 8    | 64%      | $36,500      | Strong
+Manufacturing     | 11  | 9    | 55%      | $51,800      | Large deals
+Financial Svcs    | 8   | 7    | 53%      | $62,100      | Biggest deals
+Healthcare        | 6   | 5    | 55%      | $34,200      | HIPAA matters
+Retail            | 4   | 4    | 50%      | $28,400      | Mixed results
+Other             | 2   | 2    | 50%      | $31,000      | -
+
+INSIGHT: Technology and Professional Services are highest win-rate verticals.
+Focus prospecting efforts there.
+
+================================================================================
+RECOMMENDATIONS FOR Q1 2026
+================================================================================
+
+1. DOUBLE DOWN ON FORECASTING MESSAGING
+   Our AI forecasting is the #1 win reason. Make it central to every pitch.
+   Train all reps on VelocityScore demo.
+
+2. IMPROVE SALESFORCE COMPETITIVE RESPONSE
+   We're at 52% win rate vs. Salesforce - need to get to 60%+. Schedule
+   competitive training session in January.
+
+3. QUALIFY MARKETING-LED COMPANIES EARLIER
+   We lose to HubSpot when marketing integration is the priority. Add
+   qualification question: "How important is marketing-sales integration?"
+
+4. ATTACK STATUS QUO MORE AGGRESSIVELY
+   30% of losses are to "do nothing." Need better ROI tools and
+   pain quantification to make status quo uncomfortable.
+
+5. TARGET LARGER DEALS
+   Win rate increases with deal size. Enterprise deals worth extra effort.
+
+6. SHORTEN SALES CYCLES
+   Won deals average 47 days; lost deals average 62 days. If deal extends
+   beyond 60 days without clear reason, reassess qualification.
+
+================================================================================
+ACTION ITEMS
+================================================================================
+
+[ ] Schedule Salesforce competitive training - January 15
+[ ] Update discovery questions to qualify marketing integration needs
+[ ] Build ROI calculator for status quo cost analysis
+[ ] Create case study for Professional Services vertical
+[ ] Review all open deals >60 days for requalification
+
+---
+Report Prepared By: Sales Operations
+Contact: salesops@velocityrm.io
+Next Analysis: Q1 2026 (April 2026)

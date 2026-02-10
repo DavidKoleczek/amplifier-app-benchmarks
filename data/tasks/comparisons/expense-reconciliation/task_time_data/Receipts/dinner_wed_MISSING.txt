@@ -1,0 +1,42 @@
+================================================================================
+                    MISSING RECEIPT - PLACEHOLDER
+================================================================================
+
+Date: December 5, 2025
+Meal: Dinner
+Location: Citizens Kitchen & Bar, Mandalay Bay
+
+Expected amount: ~$89.50 (per corporate card statement)
+
+Status: RECEIPT NOT OBTAINED
+
+Reason: 
+Left restaurant without requesting receipt. Realized the next 
+morning when organizing expenses. Called restaurant but they 
+said they cannot reprint receipts for card transactions after 
+24 hours due to PCI compliance policies.
+
+Card statement shows:
+- Merchant: CITIZENS KITCHEN
+- Date: 12/05/25
+- Amount: $89.50
+- Reference: REF-446203
+
+Business purpose:
+Dinner with AWS Partner (Jordan Lee, AWS Account Manager) and
+AWS Technical Account Manager (Priya Sharma) to discuss 
+enterprise support tier upgrade for 2026.
+
+Attendees (2 guests):
+1. Jordan Lee - AWS Account Manager
+2. Priya Sharma - AWS Technical Account Manager
+
+ACTION REQUIRED:
+[ ] Complete Missing Receipt Affidavit (form HR-127)
+[ ] Obtain manager approval signature
+[ ] Attach copy of credit card statement as backup documentation
+
+Per company policy section 4.2.3, meals without receipts over 
+$25 require the Missing Receipt Affidavit form.
+
+================================================================================

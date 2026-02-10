@@ -1,0 +1,45 @@
+ACME CORP - NPS SURVEY RESPONSES Q4 2025
+=========================================
+Survey Period: October 1 - December 31, 2025
+Response Rate: 34% (68 of 200 users surveyed)
+Overall NPS: 42
+
+PROMOTERS (Score 9-10): 38 responses (56%)
+------------------------------------------
+"Great platform, has transformed how our team collaborates." - Marketing Dept
+"Support team is always helpful and responsive." - Operations
+"Love the new analytics dashboard - exactly what we needed." - Finance
+"Best tool we've implemented this year. Easy to use." - Sales
+"Reliable and fast. No complaints." - IT
+"Finally a solution that actually works as advertised." - Executive Team
+"The mobile app is excellent for on-the-go access." - Field Sales
+"Integration with our existing tools was seamless." - IT
+
+PASSIVES (Score 7-8): 18 responses (26%)
+----------------------------------------
+"Good overall but could use more customization options." - Marketing
+"Works well for our needs. Nothing exceptional." - HR
+"Solid product. Support response times could be faster." - Operations
+"Does what it says. Would like more training resources." - New Employee
+"Generally satisfied. Pricing is a bit high for what we get." - Finance
+
+DETRACTORS (Score 0-6): 12 responses (18%)
+------------------------------------------
+"November outage was unacceptable. Lost a full day of work." - Sales Director
+"System reliability has been concerning lately." - IT Manager
+"Had to escalate multiple times to get issues resolved." - Operations Lead
+"Not impressed with the response to the platform outage." - CFO
+"Training documentation is outdated and confusing." - New Hire
+"Too many clicks to do simple tasks." - Marketing Analyst
+
+KEY THEMES:
+- Positive: Ease of use, collaboration features, mobile app, integrations
+- Negative: November incident impact, support response times during crisis
+- Requests: More customization, better documentation, faster support
+
+NOTE: NPS dropped from 58 in Q3 to 42 in Q4. Primary driver appears to be 
+the November service disruption. Detractor comments specifically cite the 
+outage and subsequent support experience.
+
+Survey administered by: Customer Success Team
+Report generated: January 2, 2026

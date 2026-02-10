@@ -1,0 +1,66 @@
+Q1 2025 HIGHLIGHTS DRAFT
+========================
+Department Quarterly Review - January through March
+
+EXECUTIVE SUMMARY
+-----------------
+Strong start to the year. Exceeded targets across most KPIs. Team morale high
+following successful holiday product launch. Set the foundation for ambitious
+2025 roadmap.
+
+KEY ACCOMPLISHMENTS
+-------------------
+
+1. Customer Portal Redesign - LAUNCHED
+   - Completed 2 weeks ahead of schedule
+   - Self-service adoption increased 34% within first month
+   - Customer feedback overwhelmingly positive
+   - Reduced support ticket volume by 18%
+
+2. SOC2 Type II Certification - INITIATED
+   - Kicked off formal certification process
+   - Gap assessment completed
+   - Remediation plan approved
+   - On track for Q3 certification
+
+3. Data Pipeline Modernization - PHASE 1 COMPLETE
+   - Legacy ETL processes migrated
+   - Real-time data feeds established
+   - Performance improvements already visible
+
+4. Team Expansion
+   - 6 new hires onboarded successfully
+   - Filled critical engineering and product roles
+   - New employee training platform utilized
+   - 100% 90-day retention
+
+METRICS SNAPSHOT
+----------------
+- Customer Satisfaction: 78 → 81 (+3 points)
+- NPS: 32 → 38 (+6 points)
+- Project Delivery: 100% on-time
+- Budget: 1.6% under plan
+
+CHALLENGES
+----------
+- Onboarding 6 new team members simultaneously stretched management
+- Some technical debt accumulated during portal sprint
+- Cross-functional coordination with Marketing needs improvement
+
+LOOKING AHEAD TO Q2
+-------------------
+- Mobile App v3.0 development accelerating
+- Customer Analytics Dashboard kickoff
+- Continued infrastructure investments
+- Team offsite planned for April
+
+RECOGNITION
+-----------
+- Sarah Chen: Employee of the Quarter (Portal leadership)
+- Engineering team: Spot bonus for early delivery
+- Customer Success: Highest CSAT in company history for Q1
+
+---
+Draft prepared by: Department Operations
+Last updated: April 2, 2025
+Status: Ready for manager review

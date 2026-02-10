@@ -1,0 +1,68 @@
+This is a placeholder for a PNG image file. In a real scenario, this would be binary image data.
+
+LANDING PAGE VERSION B (TEST)
+=============================
+
+Screenshot captured: April 7, 2025
+URL: /spring-launch?v=b
+Designer: CreativeStudio Inc
+
+PAGE STRUCTURE:
+---------------
+
+[HEADER]
+- Logo (left)
+- Navigation: Features | Pricing | Enterprise | Login
+- CTA Button: "Start Free Trial"
+
+[HERO SECTION]
+- Customer Quote: "CloudSync transformed how our team works. Migration took
+                  30 minutes, and we've never looked back." - Mike Rodriguez,
+                  TechFlow Industries
+- Customer Photo: Headshot of Mike
+- Primary CTA: "Join 10,000+ Happy Teams" (large green button)
+- Secondary CTA: "See More Stories" (text link)
+- Trust Badges: G2 rating (4.8/5), Capterra rating, TrustRadius
+
+[BENEFITS SECTION]
+- 3-column layout with larger icons
+- Benefit 1: "40% Faster File Access" (stat-driven)
+- Benefit 2: "99.9% Uptime Guarantee" (stat-driven)
+- Benefit 3: "30-Minute Setup" (stat-driven)
+
+[VIDEO TESTIMONIAL]
+- Embedded video thumbnail
+- "See How Pinnacle Healthcare Uses CloudSync"
+- Play button overlay
+
+[SIMPLIFIED FORM SECTION]
+- Heading: "Try CloudSync Free"
+- Fields: Work Email, Company Name, Password
+- Checkbox: "I agree to terms" (pre-checked)
+- Submit Button: "Start Free - No Credit Card"
+- Below form: "Setup takes less than 2 minutes"
+
+[FOOTER]
+- Standard footer links
+- Trust badges: SOC2, HIPAA, GDPR
+
+DESIGN CHANGES FROM VERSION A:
+------------------------------
+1. Testimonial-led hero (social proof first)
+2. Simplified form: 3 fields vs 5 fields
+3. Green CTA color (#00CC66) vs blue
+4. Stats/benefits instead of features
+5. Video testimonial added
+6. "No credit card" messaging
+
+DESIGN RATIONALE:
+-----------------
+- Hypothesis: Social proof increases trust and conversions
+- Shorter form reduces friction
+- Video increases engagement and time on page
+
+A/B TEST RESULTS:
+-----------------
+Form completion rate: 64% (+6 pp vs Version A)
+Statistical significance: 91.3% (below 95% threshold)
+See ab_test_landing_pages.md for full analysis

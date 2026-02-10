@@ -1,0 +1,99 @@
+================================================================================
+                    VENMO TRANSACTION HISTORY
+                   Personal Account: @sarah-m-88
+================================================================================
+
+This is a record of personal Venmo transactions during the Vegas trip.
+DO NOT include in expense report - these are personal expenses.
+
+================================================================================
+TRANSACTION 1
+================================================================================
+
+Date: December 3, 2025
+Time: 1:15 PM
+
+FROM: @mike-devops-2020
+TO: @sarah-m-88
+Amount: $6.35
+Note: "Lunch split - tacos were fire"
+
+Status: COMPLETED
+
+Context: Split lunch at Tacos El Gordo. Mike paid me his portion 
+before I put the full amount on the corporate card. The card was 
+charged $23.45 (my portion only).
+
+================================================================================
+TRANSACTION 2
+================================================================================
+
+Date: December 4, 2025
+Time: 11:30 PM
+
+FROM: @sarah-m-88
+TO: @jordan-aws-partner
+Amount: $45.00
+Note: "My share of Nobu - thanks for dinner!"
+
+Status: COMPLETED
+
+Context: Personal dinner at Nobu with Jordan after the official 
+business dinner. Jordan picked up the whole tab, I Venmo'd my share.
+NOT A BUSINESS EXPENSE - purely personal/social.
+
+================================================================================
+TRANSACTION 3
+================================================================================
+
+Date: December 5, 2025
+Time: 2:30 PM
+
+FROM: @reinvent-buddy-alex
+TO: @sarah-m-88
+Amount: $15.00
+Note: "Coffee run - you're the best!"
+
+Status: COMPLETED
+
+Context: Grabbed coffees for the group during a break. Alex from 
+another company paid me back. This was personal, not on corporate card.
+
+================================================================================
+TRANSACTION 4
+================================================================================
+
+Date: December 5, 2025
+Time: 10:45 PM
+
+FROM: @sarah-m-88
+TO: @uber-driver-tip
+Amount: $10.00
+Note: "Extra tip - thanks for waiting!"
+
+Status: COMPLETED
+
+Context: Additional cash tip to Uber driver who waited while I 
+ran into CVS. Personal expense, not reimbursable.
+
+================================================================================
+SUMMARY - DO NOT EXPENSE
+================================================================================
+
+Received (personal):
+  - Mike lunch split: +$6.35
+  - Alex coffee payback: +$15.00
+  
+Paid (personal):
+  - Nobu dinner share: -$45.00
+  - Extra Uber tip: -$10.00
+
+Net personal transactions: -$33.65
+
+================================================================================
+REMINDER: Personal and business expenses must be kept separate!
+
+Per company policy Section 8, personal expenses are NOT reimbursable.
+The transactions above are for personal record-keeping only.
+
+================================================================================

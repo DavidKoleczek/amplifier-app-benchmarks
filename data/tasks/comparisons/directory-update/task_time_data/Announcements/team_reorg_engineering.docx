@@ -1,0 +1,37 @@
+MEMORANDUM
+
+TO: Engineering Team
+FROM: David Chen, VP of Engineering
+DATE: January 10, 2026
+RE: Engineering Team Structure Update
+
+Following Sarah Mitchell's departure, I want to share some updates on how we're reorganizing to ensure continuity and set us up for success in Q1.
+
+TEAM STRUCTURE CHANGES:
+
+1. Technical Leadership
+   James Wilson will serve as the technical lead for our backend systems. While his title remains Software Engineer, he'll be taking on additional responsibilities for architecture decisions and code review standards.
+
+2. Frontend Coverage  
+   Emily Rodriguez will assume primary responsibility for frontend development, previously led by Sarah. Emily has been ramping up on our React codebase and is well-prepared for this expanded role.
+
+3. DevOps
+   Ryan Taylor continues to own our infrastructure and CI/CD pipeline. No changes here.
+
+4. New Addition
+   Alex Nguyen started January 6th and will initially focus on feature development while he ramps up on our systems. He brings strong full-stack experience and will be a great addition to the team.
+
+REPORTING STRUCTURE:
+All engineers continue to report directly to me. We're a small enough team that this works well for now.
+
+OPEN POSITION:
+We will be posting a Senior Software Engineer position to backfill Sarah's role. If you know qualified candidates, please refer them to HR.
+
+NEXT STEPS:
+- Team sync Monday Jan 13 at 10am to discuss Q1 roadmap
+- Updated on-call rotation will be published by EOD Friday
+- 1:1s with each team member scheduled for next week
+
+Questions? My door is always open.
+
+David

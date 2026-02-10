@@ -1,0 +1,182 @@
+From: Dr. Amanda Torres <a.torres@healthfirst.org>
+To: Michael Chen <m.chen@healthfirst.org>
+CC: David Nguyen <d.nguyen@healthfirst.org>
+Date: Sat, July 12, 2025 2:47 PM
+Subject: URGENT - CloudSync Go-Live Issues Impacting Patient Care
+
+Michael,
+
+I need to escalate a serious concern about today's CloudSync go-live.
+
+The Emergency Department has experienced significant disruptions this morning:
+
+1. Multiple clinicians unable to log in during the 7 AM shift change
+2. Critical patient files taking 30+ seconds to open (unacceptable in emergencies)
+3. Some care plans from last week appear to be missing entirely
+4. The Epic integration is throwing errors - we can't access linked documents
+
+My staff is frustrated and several are asking to go back to the paper-based backup procedures we used before the old system. I understand there are always bumps with new technology, but this is affecting our ability to provide timely patient care.
+
+I need to know:
+- What is being done RIGHT NOW to fix these issues?
+- When can we expect stable performance?
+- What is our rollback plan if this doesn't improve?
+
+I have a department meeting at 4 PM and need answers before then.
+
+Dr. Amanda Torres
+Chief of Emergency Medicine
+HealthFirst Regional Medical Center
+
+---
+
+From: Michael Chen <m.chen@healthfirst.org>
+To: Dr. Amanda Torres <a.torres@healthfirst.org>
+CC: David Nguyen <d.nguyen@healthfirst.org>, Sarah Mitchell <s.mitchell@cloudsync.com>, Jennifer Martinez <j.martinez@cloudsync.com>
+Date: Sat, July 12, 2025 3:15 PM
+Subject: RE: URGENT - CloudSync Go-Live Issues Impacting Patient Care
+
+Amanda,
+
+I understand your concerns completely, and patient care is our top priority. I've been in the war room with the CloudSync team since 6 AM and want to give you a direct update.
+
+Current status:
+
+1. LOGIN ISSUES - Resolved as of 11 AM. There was an SSO caching issue that affected about 15% of users. All authentication is now stable.
+
+2. PERFORMANCE - We've identified the root cause (database connection pooling) and deployed a fix at 1:30 PM. We're seeing significant improvement but monitoring closely.
+
+3. MISSING FILES - These were NOT missing, but were placed in an archive folder during migration. We've relocated them to the correct locations. Please have your staff check again.
+
+4. EPIC INTEGRATION - This is our highest priority. The CloudSync engineering team is deploying a patch within the next hour. I'll update you as soon as it's live.
+
+I want to acknowledge that this go-live has been rougher than any of us wanted. The CloudSync team has committed to extending their hypercare period at no cost, and they're bringing in additional engineers this weekend.
+
+That said, I do NOT recommend rolling back. The issues we're seeing are solvable, and a rollback would create its own disruption. The old file servers are already in read-only mode.
+
+I'd like to join your 4 PM meeting to address staff concerns directly. David Nguyen from my team can also attend to answer technical questions.
+
+Please know I'm taking this very seriously. We'll get through this rough patch.
+
+Michael Chen
+Chief Information Officer
+HealthFirst Regional Medical Center
+
+---
+
+From: Jennifer Martinez <j.martinez@cloudsync.com>
+To: Michael Chen <m.chen@healthfirst.org>
+CC: Dr. Amanda Torres <a.torres@healthfirst.org>, David Nguyen <d.nguyen@healthfirst.org>, Sarah Mitchell <s.mitchell@cloudsync.com>
+Date: Sat, July 12, 2025 3:32 PM
+Subject: RE: URGENT - CloudSync Go-Live Issues Impacting Patient Care
+
+Michael, Dr. Torres,
+
+On behalf of CloudSync, I want to personally apologize for the challenges you've experienced today. This is not the go-live experience we planned for or that HealthFirst deserves.
+
+Here's what we're doing:
+
+IMMEDIATE ACTIONS:
+- Epic integration patch deploying NOW (ETA: 4:00 PM)
+- Two additional senior engineers joining the war room tonight
+- Extended on-site support through next weekend
+- Direct Slack channel established between your IT team and our engineering leads
+
+COMMITTED SUPPORT:
+- Extending hypercare from 4 weeks to 6 weeks at no additional cost
+- Daily executive check-ins until stability confirmed
+- Comprehensive root cause analysis within 7 days
+
+I've personally asked our VP of Engineering to prioritize HealthFirst above all other accounts until you're fully stable.
+
+Dr. Torres, I understand the pressure you're under. Healthcare implementations are our specialty, and while today has been challenging, I'm confident we'll have you fully operational very soon. Patient care cannot be compromised, and we're treating this with the urgency it deserves.
+
+Jennifer Martinez
+VP of Professional Services
+CloudSync Solutions
+
+---
+
+From: Dr. Amanda Torres <a.torres@healthfirst.org>
+To: Michael Chen <m.chen@healthfirst.org>, Jennifer Martinez <j.martinez@cloudsync.com>
+CC: David Nguyen <d.nguyen@healthfirst.org>, Sarah Mitchell <s.mitchell@cloudsync.com>
+Date: Sat, July 12, 2025 4:45 PM
+Subject: RE: URGENT - CloudSync Go-Live Issues Impacting Patient Care
+
+Michael, Jennifer,
+
+Thank you both for the quick responses and for joining our department meeting.
+
+I just wanted to follow up after the meeting. The staff appreciated hearing directly from you, Michael, and the CloudSync team. Knowing there's a clear plan and that additional resources are being deployed helped calm some of the frustration.
+
+The Epic patch seems to be working - we've had no errors in the last 30 minutes. Performance also feels much better, though we'll know more after the evening shift change.
+
+I'm cautiously optimistic. Let's see how tonight goes. I'll send an update tomorrow morning.
+
+One request: Can we have a brief daily check-in call for the next week? Even just 10 minutes to flag any issues before they become crises. I think that would help rebuild confidence with the clinical staff.
+
+Thank you for taking this seriously.
+
+Amanda
+
+---
+
+From: Michael Chen <m.chen@healthfirst.org>
+To: Dr. Amanda Torres <a.torres@healthfirst.org>
+CC: David Nguyen <d.nguyen@healthfirst.org>, Sarah Mitchell <s.mitchell@cloudsync.com>, Jennifer Martinez <j.martinez@cloudsync.com>
+Date: Sat, July 12, 2025 5:02 PM
+Subject: RE: URGENT - CloudSync Go-Live Issues Impacting Patient Care
+
+Amanda,
+
+Absolutely - daily check-ins are a great idea. Sarah will send a calendar invite for 8 AM starting Monday. We can adjust the time if that doesn't work for your schedule.
+
+I appreciate your patience and professionalism today. Situations like this are when leadership matters, and your measured approach helped keep the department calm.
+
+We'll get through this together.
+
+Michael
+
+---
+
+From: Dr. Amanda Torres <a.torres@healthfirst.org>
+To: Michael Chen <m.chen@healthfirst.org>
+CC: Jennifer Martinez <j.martinez@cloudsync.com>
+Date: Sun, July 13, 2025 7:15 AM
+Subject: RE: URGENT - CloudSync Go-Live Issues Impacting Patient Care
+
+Michael,
+
+Quick morning update: Night shift reported no major issues. A few minor slowdowns around 3 AM but nothing that impacted care. 
+
+Staff mood is noticeably better this morning. The charge nurse said "it's actually pretty good now that it's working."
+
+Let's keep monitoring, but I think we're turning the corner.
+
+Amanda
+
+---
+
+From: Dr. Amanda Torres <a.torres@healthfirst.org>
+To: Michael Chen <m.chen@healthfirst.org>, Jennifer Martinez <j.martinez@cloudsync.com>
+Date: Fri, July 18, 2025 3:30 PM
+Subject: RE: URGENT - CloudSync Go-Live Issues Impacting Patient Care
+
+Michael, Jennifer,
+
+One week later, I wanted to formally close the loop on this thread.
+
+CloudSync is now working well for the Emergency Department. In fact, several of our physicians have commented that the search function is significantly better than what we had before. Finding patient records is faster, and the Epic integration (once it was fixed) is actually quite seamless.
+
+I want to acknowledge that the first 48 hours were rough, but the response from both our IT team and CloudSync was exemplary. The daily check-ins, extended support, and transparent communication made a real difference in rebuilding staff confidence.
+
+I'm actually willing to participate in that case study Jennifer mentioned, if it would help other healthcare organizations understand what to expect. The honest story - including the bumps - might be more valuable than a perfect-sounding testimonial.
+
+Thank you all for the partnership.
+
+Best,
+Amanda
+
+Dr. Amanda Torres
+Chief of Emergency Medicine
+HealthFirst Regional Medical Center

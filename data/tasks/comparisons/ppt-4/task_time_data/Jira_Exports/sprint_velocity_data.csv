@@ -1,0 +1,21 @@
+sprint,sprint_number,start_date,end_date,committed_points,completed_points,velocity_percent,team_size,notes
+Sprint 1,1,2025-03-15,2025-03-28,34,32,94%,6,Strong start. Team ramping up.
+Sprint 2,2,2025-03-29,2025-04-11,38,35,92%,6,Good momentum. OAuth took longer than expected.
+Sprint 3,3,2025-04-12,2025-04-25,42,38,90%,6,Dashboard complexity underestimated.
+Sprint 4,4,2025-04-26,2025-05-09,40,36,90%,6,Integration layer proving challenging.
+Sprint 5,5,2025-05-10,2025-05-23,38,30,79%,6,First velocity dip. Technical debt accumulating.
+Sprint 6,6,2025-05-24,2025-06-06,36,28,78%,6,Multi-tenant scope change absorbed. Team stretched.
+Sprint 7,7,2025-06-07,2025-06-20,32,22,69%,5,Alex out sick 1 week. Integrations blocked.
+Sprint 8,8,2025-06-21,2025-07-04,30,24,80%,6,Recovering but behind schedule. Critical bugs fixed.
+Sprint 9,9,2025-07-05,2025-07-18,34,21,62%,6,Workflow automation scope change. Major impact.
+Sprint 10,10,2025-07-19,2025-08-01,28,23,82%,6,Better planning. Still catching up.
+Sprint 11,11,2025-08-02,2025-08-15,30,26,87%,6,Custom fields complete. Team morale improving.
+Sprint 12,12,2025-08-16,2025-08-29,32,20,63%,5,Sarah vacation. Security bug discovery - all hands.
+Sprint 13,13,2025-08-30,2025-09-12,34,25,74%,6,Performance issues discovered. Emergency fixes.
+Sprint 14,14,2025-09-13,2025-09-26,28,26,93%,6,Team stabilizing. SSO scope change manageable.
+Sprint 15,15,2025-09-27,2025-10-10,32,30,94%,6,Strong execution. End in sight.
+Sprint 16,16,2025-10-11,2025-10-24,30,28,93%,6,Production outage handled well.
+Sprint 17,17,2025-10-25,2025-11-07,34,32,94%,6,Final feature work complete.
+Sprint 18,18,2025-11-08,2025-11-21,28,24,86%,6,QA phase. Bug volume higher than expected.
+Sprint 19,19,2025-11-22,2025-12-05,26,25,96%,6,UAT support. Client engaged and happy.
+Sprint 20,20,2025-12-06,2025-12-15,18,18,100%,6,Launch sprint. Clean execution.

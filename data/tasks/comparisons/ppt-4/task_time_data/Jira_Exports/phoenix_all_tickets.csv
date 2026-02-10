@@ -1,0 +1,101 @@
+ticket_id,summary,type,status,priority,assignee,reporter,created_date,resolved_date,sprint,story_points,labels,blocked_by,resolution,component
+PHX-001,Project Phoenix - Epic: User Authentication,Epic,Done,High,Maria Santos,James Chen,2025-03-15,,Sprint 1,40,"core,security",,Completed,Authentication
+PHX-002,Set up development environment and CI/CD pipeline,Story,Done,High,David Park,James Chen,2025-03-15,2025-03-22,Sprint 1,8,"infrastructure,devops",,Done,Infrastructure
+PHX-003,Design database schema for user management,Story,Done,High,Sarah Kim,Maria Santos,2025-03-15,2025-03-25,Sprint 1,5,database,,Done,Database
+PHX-004,Implement basic login/logout functionality,Story,Done,High,David Park,Maria Santos,2025-03-18,2025-04-02,Sprint 1,8,core,,Done,Authentication
+PHX-005,Create user registration flow,Story,Done,Medium,Alex Turner,Maria Santos,2025-03-20,2025-04-05,Sprint 2,5,core,,Done,Authentication
+PHX-006,Implement password reset functionality,Story,Done,Medium,Sarah Kim,Maria Santos,2025-03-22,2025-04-08,Sprint 2,3,core,,Done,Authentication
+PHX-007,Set up OAuth integration with Google,Story,Done,Medium,David Park,James Chen,2025-03-25,2025-04-15,Sprint 2,8,"integration,oauth",,Done,Authentication
+PHX-008,Epic: Dashboard Module,Epic,Done,High,Alex Turner,James Chen,2025-03-28,,Sprint 3,55,"core,frontend",,Completed,Dashboard
+PHX-009,Design dashboard wireframes,Story,Done,High,Jennifer Liu,Alex Turner,2025-03-28,2025-04-05,Sprint 2,3,design,,Done,Dashboard
+PHX-010,Implement dashboard layout components,Story,Done,Medium,Michael Brown,Alex Turner,2025-04-01,2025-04-18,Sprint 3,8,frontend,,Done,Dashboard
+PHX-011,Create data visualization widgets,Story,Done,Medium,Jennifer Liu,Alex Turner,2025-04-05,2025-04-25,Sprint 3,13,frontend,,Done,Dashboard
+PHX-012,Implement real-time data updates,Story,Done,High,David Park,Alex Turner,2025-04-08,2025-05-02,Sprint 4,8,"backend,websocket",,Done,Dashboard
+PHX-013,Epic: Reporting Engine,Epic,Done,High,Sarah Kim,James Chen,2025-04-10,,Sprint 4,89,"core,analytics",,Completed,Reporting
+PHX-014,Design report template system,Story,Done,Medium,Jennifer Liu,Sarah Kim,2025-04-10,2025-04-22,Sprint 3,5,design,,Done,Reporting
+PHX-015,Implement PDF export functionality,Story,Done,Medium,Michael Brown,Sarah Kim,2025-04-15,2025-05-08,Sprint 4,8,backend,,Done,Reporting
+PHX-016,Create Excel export feature,Story,Done,Medium,Alex Turner,Sarah Kim,2025-04-18,2025-05-12,Sprint 5,5,backend,,Done,Reporting
+PHX-017,Build scheduled report system,Story,Done,High,David Park,Sarah Kim,2025-04-20,2025-05-20,Sprint 5,13,"backend,scheduler",,Done,Reporting
+PHX-018,Epic: Data Integration Layer,Epic,Done,Critical,David Park,James Chen,2025-04-22,,Sprint 5,144,"core,integration",,Completed,Integration
+PHX-019,Design API architecture for third-party integrations,Story,Done,High,David Park,James Chen,2025-04-22,2025-05-05,Sprint 4,8,architecture,,Done,Integration
+PHX-020,Implement Salesforce connector,Story,Done,High,Sarah Kim,David Park,2025-04-25,2025-06-15,Sprint 7,21,"integration,salesforce",PHX-019,Done,Integration
+PHX-021,Build HubSpot integration,Story,Done,High,Michael Brown,David Park,2025-04-28,2025-06-20,Sprint 7,21,"integration,hubspot",PHX-019,Done,Integration
+PHX-022,Create data transformation pipeline,Story,Done,High,Alex Turner,David Park,2025-05-01,2025-06-08,Sprint 6,13,backend,,Done,Integration
+PHX-023,Implement data validation layer,Story,Done,Medium,Jennifer Liu,David Park,2025-05-05,2025-06-12,Sprint 6,8,backend,,Done,Integration
+PHX-024,Build error handling and retry logic,Story,Done,High,David Park,Sarah Kim,2025-05-08,2025-06-25,Sprint 8,8,backend,,Done,Integration
+PHX-025,Epic: User Permissions System,Epic,Done,Critical,Maria Santos,James Chen,2025-05-10,,Sprint 6,55,"security,core",,Completed,Security
+PHX-026,Design role-based access control model,Story,Done,High,Maria Santos,James Chen,2025-05-10,2025-05-25,Sprint 5,8,"security,design",,Done,Security
+PHX-027,Implement permission checking middleware,Story,Done,High,David Park,Maria Santos,2025-05-15,2025-06-05,Sprint 6,8,backend,,Done,Security
+PHX-028,Create admin panel for user management,Story,Done,Medium,Michael Brown,Maria Santos,2025-05-18,2025-06-18,Sprint 7,13,frontend,,Done,Security
+PHX-029,Implement audit logging,Story,Done,High,Sarah Kim,Maria Santos,2025-05-20,2025-06-22,Sprint 7,8,"security,logging",,Done,Security
+PHX-030,Bug: Login fails intermittently on Safari,Bug,Done,Critical,David Park,QA Team,2025-05-22,2025-05-28,Sprint 6,3,bug,,Fixed,Authentication
+PHX-031,Bug: Dashboard charts not rendering on mobile,Bug,Done,High,Jennifer Liu,QA Team,2025-05-25,2025-06-02,Sprint 6,5,bug,,Fixed,Dashboard
+PHX-032,Scope Change: Add multi-tenant support,Story,Done,Critical,David Park,Client - TechCorp,2025-05-28,2025-07-15,Sprint 9,34,"scope-change,architecture",,"Done - Major Rework",Architecture
+PHX-033,Refactor database for multi-tenancy,Story,Done,Critical,Sarah Kim,David Park,2025-06-01,2025-07-08,Sprint 8,21,database,PHX-032,Done,Database
+PHX-034,Update all queries for tenant isolation,Story,Done,Critical,Alex Turner,David Park,2025-06-05,2025-07-12,Sprint 9,13,backend,PHX-033,Done,Database
+PHX-035,Epic: Notification System,Epic,Done,High,Michael Brown,James Chen,2025-06-08,,Sprint 8,34,"core,notifications",,Completed,Notifications
+PHX-036,Design notification preferences UI,Story,Done,Medium,Jennifer Liu,Michael Brown,2025-06-08,2025-06-22,Sprint 7,5,design,,Done,Notifications
+PHX-037,Implement email notification service,Story,Done,High,Sarah Kim,Michael Brown,2025-06-10,2025-07-02,Sprint 8,8,backend,,Done,Notifications
+PHX-038,Build in-app notification center,Story,Done,Medium,Jennifer Liu,Michael Brown,2025-06-15,2025-07-08,Sprint 8,8,frontend,,Done,Notifications
+PHX-039,Add push notification support,Story,Done,Medium,David Park,Michael Brown,2025-06-18,2025-07-15,Sprint 9,8,"mobile,backend",,Done,Notifications
+PHX-040,Bug: Export PDF crashes on large reports,Bug,Done,Critical,Michael Brown,QA Team,2025-06-20,2025-06-28,Sprint 8,5,bug,,Fixed,Reporting
+PHX-041,Bug: Memory leak in real-time dashboard updates,Bug,Done,Critical,David Park,DevOps,2025-06-22,2025-07-05,Sprint 8,8,bug,,Fixed,Dashboard
+PHX-042,Scope Change: Add custom field support for all entities,Story,Done,High,Sarah Kim,Client - TechCorp,2025-06-25,2025-08-05,Sprint 11,21,"scope-change,flexibility",,Done,Core
+PHX-043,Design custom fields schema,Story,Done,High,Sarah Kim,James Chen,2025-06-28,2025-07-12,Sprint 9,8,database,,Done,Core
+PHX-044,Implement custom field CRUD operations,Story,Done,High,Alex Turner,Sarah Kim,2025-07-01,2025-07-25,Sprint 10,13,backend,PHX-043,Done,Core
+PHX-045,Build custom field UI components,Story,Done,Medium,Jennifer Liu,Sarah Kim,2025-07-05,2025-08-02,Sprint 10,8,frontend,PHX-044,Done,Core
+PHX-046,Epic: Search and Filtering,Epic,Done,High,Alex Turner,James Chen,2025-07-08,,Sprint 10,34,"core,search",,Completed,Search
+PHX-047,Implement full-text search with Elasticsearch,Story,Done,High,David Park,Alex Turner,2025-07-08,2025-08-01,Sprint 10,13,"backend,search",,Done,Search
+PHX-048,Build advanced filter UI,Story,Done,Medium,Jennifer Liu,Alex Turner,2025-07-12,2025-08-08,Sprint 11,8,frontend,,Done,Search
+PHX-049,Create saved search functionality,Story,Done,Medium,Michael Brown,Alex Turner,2025-07-15,2025-08-12,Sprint 11,5,backend,,Done,Search
+PHX-050,Bug: Search results inconsistent after data sync,Bug,Done,High,David Park,QA Team,2025-07-18,2025-07-28,Sprint 10,5,bug,,Fixed,Search
+PHX-051,Scope Change: Add workflow automation engine,Story,Done,Critical,David Park,Client - TechCorp,2025-07-20,2025-09-10,Sprint 14,55,"scope-change,automation",,Done,Automation
+PHX-052,Design workflow rule engine,Story,Done,High,David Park,James Chen,2025-07-22,2025-08-10,Sprint 11,13,architecture,,Done,Automation
+PHX-053,Implement trigger system,Story,Done,High,Sarah Kim,David Park,2025-07-25,2025-08-22,Sprint 12,13,backend,PHX-052,Done,Automation
+PHX-054,Build action execution framework,Story,Done,High,Alex Turner,David Park,2025-07-28,2025-08-28,Sprint 12,13,backend,PHX-053,Done,Automation
+PHX-055,Create workflow builder UI,Story,Done,Medium,Jennifer Liu,David Park,2025-08-01,2025-09-05,Sprint 13,13,frontend,PHX-054,Done,Automation
+PHX-056,Bug: Tenant data leaking in certain API calls,Bug,Done,Critical,David Park,Security Audit,2025-08-05,2025-08-12,Sprint 12,8,"bug,security",,Fixed,Security
+PHX-057,Bug: Workflow triggers firing multiple times,Bug,Done,High,Sarah Kim,QA Team,2025-08-08,2025-08-18,Sprint 12,5,bug,,Fixed,Automation
+PHX-058,Epic: Mobile Responsiveness,Epic,Done,High,Jennifer Liu,James Chen,2025-08-10,,Sprint 12,34,"frontend,mobile",,Completed,Frontend
+PHX-059,Audit and fix mobile layout issues,Story,Done,High,Jennifer Liu,Alex Turner,2025-08-10,2025-08-28,Sprint 12,13,frontend,,Done,Frontend
+PHX-060,Implement touch-friendly interactions,Story,Done,Medium,Michael Brown,Jennifer Liu,2025-08-15,2025-09-02,Sprint 13,8,frontend,,Done,Frontend
+PHX-061,Optimize mobile performance,Story,Done,High,David Park,Jennifer Liu,2025-08-18,2025-09-08,Sprint 13,8,"frontend,performance",,Done,Frontend
+PHX-062,Scope Change: Add API rate limiting per tenant,Story,Done,High,Maria Santos,Client - TechCorp,2025-08-20,2025-09-12,Sprint 14,13,"scope-change,security",,Done,Security
+PHX-063,Bug: Dashboard performance degradation with large datasets,Bug,Done,Critical,David Park,Client - TechCorp,2025-08-22,2025-09-05,Sprint 13,13,bug,,Fixed,Dashboard
+PHX-064,Implement pagination and lazy loading,Story,Done,High,Alex Turner,David Park,2025-08-25,2025-09-10,Sprint 13,8,frontend,,Done,Dashboard
+PHX-065,Bug: Email notifications not sending in production,Bug,Done,Critical,Sarah Kim,DevOps,2025-08-28,2025-09-02,Sprint 13,3,bug,,Fixed,Notifications
+PHX-066,Epic: Data Import/Export,Epic,Done,Medium,Michael Brown,James Chen,2025-09-01,,Sprint 14,21,"core,data",,Completed,Data
+PHX-067,Build CSV import functionality,Story,Done,Medium,Michael Brown,Sarah Kim,2025-09-01,2025-09-18,Sprint 14,8,backend,,Done,Data
+PHX-068,Create bulk export feature,Story,Done,Medium,Alex Turner,Michael Brown,2025-09-05,2025-09-22,Sprint 15,8,backend,,Done,Data
+PHX-069,Implement data mapping wizard,Story,Done,Low,Jennifer Liu,Michael Brown,2025-09-08,2025-09-28,Sprint 15,5,frontend,,Done,Data
+PHX-070,Bug: Import fails silently on malformed CSV,Bug,Done,High,Michael Brown,QA Team,2025-09-10,2025-09-18,Sprint 14,3,bug,,Fixed,Data
+PHX-071,Scope Change: Add SSO support (SAML 2.0),Story,Done,Critical,Maria Santos,Client - TechCorp,2025-09-12,2025-10-15,Sprint 17,21,"scope-change,security,sso",,Done,Security
+PHX-072,Research and select SAML library,Story,Done,Medium,Maria Santos,James Chen,2025-09-15,2025-09-22,Sprint 15,3,research,,Done,Security
+PHX-073,Implement SAML authentication flow,Story,Done,High,David Park,Maria Santos,2025-09-18,2025-10-08,Sprint 16,13,backend,PHX-072,Done,Security
+PHX-074,Build SSO configuration UI,Story,Done,Medium,Jennifer Liu,Maria Santos,2025-09-22,2025-10-12,Sprint 16,5,frontend,PHX-073,Done,Security
+PHX-075,Epic: Performance Optimization,Epic,Done,Critical,David Park,James Chen,2025-09-25,,Sprint 16,34,"performance,infrastructure",,Completed,Performance
+PHX-076,Profile and identify performance bottlenecks,Story,Done,High,David Park,DevOps,2025-09-25,2025-10-05,Sprint 15,8,performance,,Done,Performance
+PHX-077,Implement database query optimization,Story,Done,High,Sarah Kim,David Park,2025-09-28,2025-10-15,Sprint 16,13,database,,Done,Performance
+PHX-078,Add Redis caching layer,Story,Done,High,Alex Turner,David Park,2025-10-01,2025-10-18,Sprint 17,8,"backend,caching",,Done,Performance
+PHX-079,Optimize frontend bundle size,Story,Done,Medium,Jennifer Liu,David Park,2025-10-05,2025-10-22,Sprint 17,5,frontend,,Done,Performance
+PHX-080,Bug: Production outage - database connection pool exhausted,Bug,Done,Critical,David Park,DevOps,2025-10-08,2025-10-10,Sprint 16,5,"bug,incident",,Fixed,Infrastructure
+PHX-081,Scope Change: Add data retention policies,Story,Done,High,Sarah Kim,Client - TechCorp,2025-10-10,2025-10-28,Sprint 18,13,"scope-change,compliance",,Done,Compliance
+PHX-082,Design retention policy framework,Story,Done,Medium,Sarah Kim,Maria Santos,2025-10-12,2025-10-22,Sprint 17,5,architecture,,Done,Compliance
+PHX-083,Implement automated data archival,Story,Done,High,Alex Turner,Sarah Kim,2025-10-15,2025-10-28,Sprint 18,8,backend,PHX-082,Done,Compliance
+PHX-084,Bug: SSO logout not propagating correctly,Bug,Done,High,Maria Santos,QA Team,2025-10-18,2025-10-25,Sprint 17,5,bug,,Fixed,Security
+PHX-085,Epic: Final QA and Polish,Epic,Done,High,QA Team,James Chen,2025-10-20,,Sprint 18,55,"qa,polish",,Completed,QA
+PHX-086,Comprehensive regression testing,Story,Done,High,QA Team,James Chen,2025-10-20,2025-11-05,Sprint 18,13,qa,,Done,QA
+PHX-087,Fix critical bugs from regression,Story,Done,Critical,All,QA Team,2025-10-25,2025-11-12,Sprint 19,21,bug,,Done,QA
+PHX-088,UI/UX polish pass,Story,Done,Medium,Jennifer Liu,James Chen,2025-10-28,2025-11-08,Sprint 18,8,frontend,,Done,Frontend
+PHX-089,Documentation updates,Story,Done,Medium,Michael Brown,James Chen,2025-11-01,2025-11-15,Sprint 19,5,docs,,Done,Documentation
+PHX-090,Bug: Data migration script fails on special characters,Bug,Done,Critical,Sarah Kim,QA Team,2025-11-05,2025-11-10,Sprint 19,5,bug,,Fixed,Data
+PHX-091,Bug: Security vulnerability in file upload,Bug,Done,Critical,Maria Santos,Security Audit,2025-11-08,2025-11-15,Sprint 19,8,"bug,security",,Fixed,Security
+PHX-092,Scope Change: Add audit trail export for compliance,Story,Done,High,Maria Santos,Client - TechCorp,2025-11-10,2025-11-22,Sprint 20,8,"scope-change,compliance",,Done,Compliance
+PHX-093,Final performance testing,Story,Done,High,David Park,James Chen,2025-11-12,2025-11-20,Sprint 19,5,performance,,Done,Performance
+PHX-094,Load testing and capacity planning,Story,Done,High,DevOps,David Park,2025-11-15,2025-11-25,Sprint 20,8,infrastructure,,Done,Infrastructure
+PHX-095,Bug: Race condition in concurrent report generation,Bug,Done,High,David Park,QA Team,2025-11-18,2025-11-25,Sprint 20,5,bug,,Fixed,Reporting
+PHX-096,Production deployment preparation,Story,Done,Critical,DevOps,James Chen,2025-11-20,2025-11-28,Sprint 20,8,infrastructure,,Done,Infrastructure
+PHX-097,Client UAT support,Story,Done,High,All,James Chen,2025-11-22,2025-12-05,Sprint 21,13,qa,,Done,QA
+PHX-098,Bug fixes from UAT,Story,Done,High,All,QA Team,2025-11-25,2025-12-08,Sprint 21,13,bug,,Done,QA
+PHX-099,Go-live deployment,Story,Done,Critical,DevOps,James Chen,2025-12-08,2025-12-10,Sprint 21,5,deployment,,Done,Deployment
+PHX-100,Post-launch monitoring and stabilization,Story,Done,High,DevOps,James Chen,2025-12-10,2025-12-15,Sprint 22,8,operations,,Done,Operations

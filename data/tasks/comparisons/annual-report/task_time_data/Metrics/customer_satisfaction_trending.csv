@@ -1,0 +1,46 @@
+month,overall_csat,nps_score,support_satisfaction,product_satisfaction,response_time_hours,resolution_rate_pct,survey_responses,notes
+2025-01,78,32,82,76,4.2,94,234,Baseline Q1
+2025-02,79,34,83,77,3.8,95,256,Portal improvements noticed
+2025-03,81,38,85,79,3.5,96,278,Strong Q1 close
+2025-04,82,41,86,80,3.2,96,289,New features well-received
+2025-05,83,43,87,81,3.0,97,301,Mobile app preview feedback positive
+2025-06,84,45,88,82,2.8,97,312,Best Q2 scores on record
+2025-07,82,42,86,80,3.1,96,298,Slight dip pre-reorg concerns
+2025-08,79,35,82,78,4.5,93,267,Reorg announcement impact
+2025-09,77,31,80,76,5.2,91,245,Reorg transition - lowest point
+2025-10,80,36,83,79,3.8,94,289,Recovery begins
+2025-11,83,42,86,82,3.0,96,315,Strong recovery
+2025-12,86,48,89,85,2.5,98,342,Best scores of the year
+
+ANNUAL SUMMARY
+==============
+Metric,2024 Avg,2025 Avg,Change,2025 End
+Overall CSAT,76,81,+5 pts,86
+NPS Score,28,39,+11 pts,48
+Support Satisfaction,79,84,+5 pts,89
+Product Satisfaction,74,80,+6 pts,85
+Avg Response Time,5.1 hrs,3.5 hrs,-31%,2.5 hrs
+Resolution Rate,91%,95%,+4 pts,98%
+
+KEY INSIGHTS
+============
+1. REMARKABLE RECOVERY: Despite Q3 reorg disruption, ended year at all-time highs
+2. NPS GROWTH: +11 points YoY is exceptional; industry avg growth is +3-5
+3. SUPPORT EXCELLENCE: Response time reduced 31% despite smaller team
+4. Q4 SURGE: Customer feedback integration project directly contributed to Dec scores
+5. RESILIENCE STORY: Team maintained service quality through significant change
+
+CONTRIBUTING FACTORS
+====================
+- Customer Portal Redesign (self-service up 34%)
+- Automated feedback collection and response
+- Proactive communication during reorg
+- Mobile App v3.0 launch exceeded expectations
+- Enhanced analytics enabling faster issue identification
+
+CUSTOMER VERBATIMS (Selected)
+=============================
+"Impressed that service quality actually improved during your transition" - Enterprise Customer
+"The new portal has saved us hours every week" - Mid-Market Customer
+"Your team's communication during the changes was exemplary" - Strategic Account
+"Best support experience we've had in 5 years of partnership" - Long-term Customer

@@ -1,0 +1,58 @@
+ZOOM DIAL-IN INFORMATION
+Q1 Planning Meeting
+
+================================================================================
+
+JOIN ZOOM MEETING
+https://novatech.zoom.us/j/8472931056
+
+Meeting ID: 847 293 1056
+Password: Q1Plan26
+
+================================================================================
+
+ONE TAP MOBILE
++16699006833,,8472931056#,,,,*123456# US (San Jose)
++13462487799,,8472931056#,,,,*123456# US (Houston)
+
+================================================================================
+
+DIAL BY YOUR LOCATION
++1 669 900 6833 US (San Jose)
++1 346 248 7799 US (Houston)
++1 253 215 8782 US (Tacoma)
++1 929 205 6099 US (New York)
++1 301 715 8592 US (Washington DC)
++1 312 626 6799 US (Chicago)
+
+Meeting ID: 847 293 1056
+Password: 123456
+
+Find your local number: https://novatech.zoom.us/u/abc123xyz
+
+================================================================================
+
+JOIN BY SIP
+8472931056@zoomcrc.com
+
+================================================================================
+
+JOIN BY H.323
+162.255.37.11 (US West)
+162.255.36.11 (US East)
+Meeting ID: 847 293 1056
+Password: 123456
+
+================================================================================
+
+TIPS FOR A BETTER MEETING EXPERIENCE
+
+1. Join 5 minutes early to test your audio/video
+2. Use a headset to reduce echo
+3. Mute yourself when not speaking
+4. Use the chat for non-urgent questions
+5. Raise your hand (Reactions menu) to speak
+
+Having issues? Contact IT support: it-help@novatech.com
+
+================================================================================

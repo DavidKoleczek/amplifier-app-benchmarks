@@ -1,0 +1,18 @@
+name: calendar-scheduling
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Find a 90-minute slot for leadership offsite within the next 2 weeks. Attendees: CEO, CFO, CTO, VP Sales, VP Marketing, VP Product.
+
+  Output "Scheduling_Analysis.docx" with top 3 options ranked by feasibility, noting conflicts and tradeoffs for each. Check calendar exports, travel schedules, and room availability.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

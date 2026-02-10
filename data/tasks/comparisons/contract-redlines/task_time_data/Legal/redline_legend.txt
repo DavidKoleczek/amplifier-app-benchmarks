@@ -1,0 +1,49 @@
+REDLINE DOCUMENT LEGEND
+=======================
+
+This document explains the markup conventions used in our contract review process.
+
+CHANGE MARKERS IN TEXT:
+
+[DELETED]    - Language that has been removed from the original
+[ADDED]      - New language inserted that was not in original
+[MODIFIED]   - Language that has been changed (see before/after)
+[NEW SECTION] - Entirely new section added to the agreement
+
+CHANGE CATEGORIES:
+
+The changes fall into the following priority categories:
+
+CRITICAL (RED) - Must be accepted; dealbreakers if rejected
+- Liability cap modifications (Section 6.2)
+- Indemnification scope changes (Section 7.1, 7.2)
+- IP ownership and data usage restrictions (Section 4)
+
+IMPORTANT (ORANGE) - Strongly preferred; negotiate hard
+- Insurance limit increases (Section 8)
+- Breach notification timing (Section 9.3)
+- Termination flexibility (Section 2.2, 2.4, 2.5)
+
+STANDARD (YELLOW) - Best practice improvements
+- Payment term extensions (Section 3.2, 3.3, 3.4)
+- Audit rights (Section 9.4, 9.5)
+- Confidentiality survival period (Section 5.3)
+
+NICE TO HAVE (GREEN) - Can concede if needed for deal
+- Service level additions (Section 1.4)
+- Dispute resolution procedures (Section 10.2)
+- Survival clause (Section 10.5)
+
+REVIEW STATUS:
+
+Document Version: v2.0
+Reviewed By: Rachel Kim, Senior Corporate Counsel
+Review Date: January 10, 2026
+Status: Ready for vendor negotiation
+
+NEXT STEPS:
+
+1. Procurement to review legal summary
+2. Align on negotiation strategy
+3. Send to DataFlow with cover letter
+4. Schedule negotiation call

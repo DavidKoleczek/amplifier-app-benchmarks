@@ -1,0 +1,18 @@
+name: annual-report
+task_info:
+  difficulty: hard
+  non_deterministic_evals: true
+  categories:
+    - doc
+    - office
+evaluation_configs:
+  - type: comparison
+    guidelines: null
+instructions: |
+  Create "Department_Annual_Report_2025.docx" summarizing the year's accomplishments, metrics, and 2026 goals. Use last year's report as format reference.
+
+  Highlight: customer satisfaction scores improved despite Q3 reorg. Keep it concise - focus on key wins and forward-looking goals.
+task_time_files:
+  - source: task_time_data
+    dest: /project
+timeout: 3600

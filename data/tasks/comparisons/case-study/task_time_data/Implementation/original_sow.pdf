@@ -1,0 +1,75 @@
+STATEMENT OF WORK
+CloudSync Solutions - HealthFirst Regional Medical Center
+Contract #: CS-2025-HF-0892
+Effective Date: March 15, 2025
+
+PROJECT OVERVIEW
+
+This Statement of Work ("SOW") defines the implementation services for CloudSync Enterprise 
+to be deployed at HealthFirst Regional Medical Center ("Customer").
+
+SCOPE OF WORK
+
+1. Implementation Services
+   - Discovery and planning sessions (2 weeks)
+   - Technical environment assessment
+   - Integration design with existing EMR system (Epic)
+   - Data migration from legacy file servers
+   - Security configuration and HIPAA compliance setup
+   - User provisioning and SSO integration (Okta)
+   - Training delivery (admin and end-user)
+   - Go-live support and hypercare
+
+2. Deployment Specifications
+   - Users: 2,400 licensed users
+   - Storage: 15 TB initial allocation
+   - Integrations: Epic EMR, Okta SSO, ServiceNow ITSM
+   - Compliance: HIPAA BAA executed separately
+
+3. Project Timeline
+   - Phase 1: Discovery & Planning - Weeks 1-2
+   - Phase 2: Technical Setup - Weeks 3-4
+   - Phase 3: Integration & Migration - Weeks 5-7
+   - Phase 4: UAT & Training - Weeks 8-9
+   - Phase 5: Go-Live - Week 10
+   - Phase 6: Hypercare - Weeks 11-12
+
+   Total Duration: 12 weeks
+   Planned Go-Live: June 7, 2025
+
+4. Deliverables
+   - Technical design document
+   - Migration runbook
+   - Security configuration documentation
+   - Admin training materials (customized)
+   - End-user quick start guide
+   - Go-live readiness checklist
+
+PRICING
+
+Implementation Services: $85,000 (fixed fee)
+Annual Subscription (2,400 users @ Enterprise): $312,000/year
+Total Year 1 Investment: $397,000
+
+ASSUMPTIONS
+
+- Customer will provide dedicated project manager
+- Customer IT team available for integration work
+- Existing Active Directory is current and clean
+- Network meets minimum bandwidth requirements (100 Mbps sustained)
+- Customer provides test environment access within 5 business days
+
+SIGNATURES
+
+CloudSync Solutions:
+_________________________
+Jennifer Martinez, VP Professional Services
+Date: March 12, 2025
+
+HealthFirst Regional Medical Center:
+_________________________
+Michael Chen, CIO
+Date: March 15, 2025
+
+---
+Document Classification: Confidential - Customer Contract

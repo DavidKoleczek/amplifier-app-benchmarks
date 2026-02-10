@@ -1,0 +1,69 @@
+CFO FEEDBACK ON 2025 ENGINEERING BUDGET REQUEST
+================================================
+From: Patricia Chen, CFO
+To: David Kim, Tech Lead; Michael Torres, VP Engineering
+Date: January 25, 2025
+Re: FY2025 Budget Request - Engineering
+
+David, Michael,
+
+Thank you for the detailed budget request. I've reviewed it with the executive 
+team and wanted to provide context on our decisions.
+
+APPROVED ITEMS
+--------------
+- Senior Engineer (L4): Approved. Clear need for technical leadership.
+- QA Engineer (L3): Approved. Quality issues are impacting customer satisfaction.
+- Infrastructure increase: Approved in full. Business growth requires this.
+- Core tool renewals: Approved. Necessary for operations.
+
+DENIED/REDUCED ITEMS
+--------------------
+
+1. Engineer II and DevOps Engineer positions (DENIED)
+   
+   I understand the utilization data shows the team is stretched. However, 
+   given the company's cash position and upcoming Series B timeline, we need 
+   to be conservative with headcount additions. We're asking all departments 
+   to do more with less until we close the round.
+   
+   Suggestion: Revisit in Q3 if Series B closes successfully.
+
+2. APM Tool - New Relic ($36,000) (DENIED)
+   
+   We already pay for Datadog. I'd like to see the team maximize the current 
+   tooling before adding another vendor. Can you work with Datadog support 
+   to enable the features you need?
+
+3. Training & Conferences (REDUCED from $15K to $8K)
+   
+   Travel budgets are being reduced company-wide. Please prioritize virtual 
+   options where possible.
+
+LOOKING AHEAD
+-------------
+I know this isn't the answer you were hoping for. The engineering team has 
+been doing great work, and I recognize the strain. My commitment:
+
+- If we close Series B in H1, I will prioritize backfilling denied positions
+- Q3 budget review will reconsider deferred requests
+- Open to mid-year adjustments if critical needs arise
+
+Please let me know if you want to discuss further. I'm happy to walk through 
+the reasoning in more detail.
+
+Best,
+Patricia
+
+---
+
+FOLLOW-UP NOTE (Added October 2025)
+-----------------------------------
+Series B closed in August 2025. Q3 budget review was delayed due to 
+integration planning. Engineering headcount requests deferred to 2026 cycle.
+
+Turnover in 2025: 4 engineers (including Jennifer Walsh who was hired in Q1)
+Current headcount: 8 (net decrease of 2 from start of year despite 2 hires)
+
+This context should inform the 2026 budget discussion.
+- David Kim

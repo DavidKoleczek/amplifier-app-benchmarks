@@ -1,0 +1,83 @@
+# Known Duplicate Records - Manual Identification
+# Last reviewed: 2025-12-10 by Data Quality Team
+# 
+# These duplicates were identified during Q4 data audit
+# Action: Merge into single record, preferring newer/more complete data
+
+=== CONFIRMED DUPLICATES ===
+
+1. Acme Corporation / ACME Corp
+   - CRM: john.smith@acmecorp.com (CRM-001)
+   - Salesforce: jsmith@acmecorp.com (SF-00145)
+   - HubSpot: john.smith@acmecorp.com (vid 10001)
+   NOTES: Same person, different email formats. CRM has most recent contact date.
+   ACTION: Keep CRM record as master, merge SF/HS data
+
+2. TechFlow Solutions
+   - CRM: schen@techflow.io (CRM-002)
+   - Salesforce: sarah.chen@techflow.io (SF-00289)
+   - HubSpot: s.chen@techflow.io (vid 10002)
+   NOTES: Sarah Chen appears 3x with email variations. All same person.
+   ACTION: Merge to schen@techflow.io (primary work email per Sarah)
+
+3. Global Logistics Inc
+   - CRM: mjohnson@globallogistics.com (CRM-003)
+   - Salesforce: m.johnson@globallogistics.com (SF-00312)
+   - HubSpot: mjohnson@globallogistics.com (vid 10005)
+   NOTES: Mike/Michael Johnson - confirmed same person
+   ACTION: Use CRM record (most complete)
+
+4. Pinnacle Healthcare Systems
+   - CRM: ewatson@pinnaclehealthcare.org (CRM-004)
+   - Salesforce: e.watson@pinnaclehealth.org (SF-00401) - NOTE: different domain!
+   - Marketing: ewatson@pinnaclehealthcare.org (MKT-2024-007)
+   NOTES: Dr. Emily Watson. SF has old domain (pinnaclehealth.org was rebranded)
+   ACTION: Use pinnaclehealthcare.org domain, discard old
+
+5. Pacific Retail Group
+   - CRM: dkim@pacificretail.com (CRM-007)
+   - Salesforce: david.kim@pacificretail.com (SF-00612)
+   - Marketing: dkim@pacificretail.com (MKT-2024-005)
+   NOTES: David Kim - same person
+   ACTION: Merge, keep CRM as master
+
+6. Midwest Manufacturing LLC
+   - CRM: twilson@midwestmfg.com (CRM-008) - Status: Inactive
+   - Salesforce: twwilson@midwestmfg.com (SF-00645)
+   NOTES: Tom/Thomas Wilson. CRM shows inactive - verify before removing
+   ACTION: Keep but flag as potentially stale
+
+7. CloudTech Innovations
+   - CRM: jpark@cloudtech-innovations.com (CRM-009)
+   - Salesforce: jenny.park@cloudtech-innovations.com (SF-00678)
+   NOTES: Jennifer/Jenny Park - same person
+   ACTION: Merge to CRM record
+
+8. Atlantic Financial Services
+   - CRM: mthompson@atlanticfinancial.com (CRM-010)
+   - Salesforce: mark.t@atlanticfinancial.com (SF-00701)
+   NOTES: Mark Thompson - different email formats
+   ACTION: Verify which email is current, merge
+
+9. Green Valley Farms
+   - CRM: smiller@greenvalleyfarms.com (CRM-011) - Status: Inactive
+   - Salesforce: sue.miller@greenvalley.com (SF-00734) - different domain!
+   NOTES: Susan/Sue Miller. greenvalley.com is old domain. CRM inactive since July.
+   ACTION: Flag as stale, verify if still customer
+
+10. Metro Construction Co
+    - CRM: jbrown@metroconstruction.com (CRM-012)
+    - Salesforce: jbrown@metroconst.com (SF-00756) - abbreviated domain
+    NOTES: James/Jim Brown. metroconst.com forwards to metroconstruction.com
+    ACTION: Use full domain, merge records
+
+=== RECORDS TO DELETE (BOUNCED/DEFUNCT) ===
+
+- Defunct Corp: contact@defunctcorp.com - company closed 2022
+- Old Timers LLC: info@oldtimersllc.net - bounced, no response to outreach
+
+=== PENDING VERIFICATION ===
+
+- First National Bank: rdavis@firstnational.com vs bob.davis@fnb.com
+  QUESTION: Are these the same person? Different emails, similar names
+  STATUS: Waiting for sales team confirmation

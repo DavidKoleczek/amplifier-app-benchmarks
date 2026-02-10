@@ -1,0 +1,28 @@
+month,day,employee_name,department,years_at_company,cake_preference
+January,15,James Wilson,Engineering,4,Chocolate
+January,28,Jennifer Martinez,Marketing,7,Vanilla
+February,3,Kevin Patel,Sales,5,Carrot Cake
+February,14,Nicole Johnson,Operations,6,Red Velvet
+March,8,Derek Brown,Operations,6,Chocolate
+March,22,Ryan Taylor,Engineering,5,Cheesecake
+April,5,Lisa Wang,Sales,4,Fruit Tart
+April,19,Brandon Lee,Marketing,4,Chocolate
+May,12,Rachel Kim,Sales,8,Lemon
+May,30,Emily Rodriguez,Engineering,4,Vanilla
+June,7,Amanda Foster,Marketing,4,Chocolate
+June,21,Carlos Reyes,Operations,9,Tres Leches
+July,4,David Chen,Engineering,7,Tiramisu
+July,18,Stephanie Clark,HR,5,Strawberry
+August,9,Michelle Adams,Finance,8,Carrot Cake
+September,14,Michael Thompson,Sales,5,Chocolate
+October,3,Sarah Mitchell,Engineering,5,Vanilla
+November,11,AVAILABLE,,, 
+December,25,HOLIDAY,,,
+
+NOTES:
+- Celebrations held on Fridays at 3pm in respective floor break rooms
+- Budget: $50 per celebration
+- Dietary restrictions noted in HR system
+- For new hires, add to this calendar within first week
+
+Questions? Contact Stephanie Clark, HR

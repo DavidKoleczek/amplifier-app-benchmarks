@@ -1,0 +1,46 @@
+date,sessions,users,new_users,pageviews,bounce_rate,avg_session_duration,goal_completions,transactions,revenue,source_medium,campaign,notes
+2025-04-01,3245,2890,2156,8934,42.3,185,78,12,4560.00,google/cpc,spring_launch,
+2025-04-02,3567,3102,2345,9876,41.8,192,89,15,5890.00,google/cpc,spring_launch,
+2025-04-03,4123,3654,2789,11234,39.5,201,102,18,7120.00,google/cpc,spring_launch,
+2025-04-04,3987,3456,2654,10567,40.2,195,95,16,6450.00,facebook/paid,spring_launch,
+2025-04-05,2345,2012,1567,6789,45.6,165,56,8,3210.00,facebook/paid,spring_launch,Weekend drop
+2025-04-06,2123,1876,1432,5987,46.8,158,48,6,2780.00,linkedin/paid,spring_launch,Weekend drop
+2025-04-07,4567,4012,3123,12345,38.9,208,118,22,8790.00,google/cpc,spring_launch,
+2025-04-08,4890,4256,3345,13456,37.5,215,132,25,9870.00,google/cpc,spring_launch,Peak day
+2025-04-09,4234,3678,2876,11567,39.8,198,108,19,7560.00,email/newsletter,spring_launch,
+2025-04-10,3876,3345,2567,10234,41.2,188,94,17,6780.00,google/cpc,spring_launch,
+2025-04-11,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-12,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-13,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-14,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-15,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-16,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-17,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-18,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-19,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-20,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-21,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-22,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-23,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-24,0,0,0,0,0,0,0,0,0.00,all,spring_launch,TRACKING PIXEL DOWN - NO DATA
+2025-04-25,3456,2987,2234,9123,43.5,175,82,14,5430.00,google/cpc,spring_launch,Pixel restored
+2025-04-26,2234,1923,1456,6234,47.2,162,52,7,2980.00,facebook/paid,spring_launch,Weekend
+2025-04-27,2012,1756,1298,5678,48.1,155,45,5,2340.00,linkedin/paid,spring_launch,Weekend
+2025-04-28,3987,3456,2678,10789,40.5,192,98,18,7120.00,google/cpc,spring_launch,
+2025-04-29,4123,3589,2789,11234,39.2,198,105,20,7890.00,google/cpc,spring_launch,
+2025-04-30,3876,3345,2567,10123,41.8,185,92,16,6540.00,email/newsletter,spring_launch,
+2025-05-01,4234,3678,2876,11567,38.9,202,112,21,8120.00,google/cpc,spring_launch,
+2025-05-02,4567,3987,3123,12345,37.8,210,125,24,9230.00,google/cpc,spring_launch,
+2025-05-03,2567,2234,1678,7123,44.5,168,62,9,3560.00,facebook/paid,spring_launch,Weekend
+2025-05-04,2345,2012,1523,6567,45.8,162,55,7,3120.00,facebook/paid,spring_launch,Weekend
+2025-05-05,4890,4234,3345,13234,36.5,218,138,28,10450.00,google/cpc,spring_launch,Strong Monday
+2025-05-06,4678,4056,3198,12678,37.2,212,130,26,9870.00,google/cpc,spring_launch,
+2025-05-07,4345,3765,2945,11890,38.5,205,118,23,8760.00,email/newsletter,spring_launch,
+2025-05-08,4123,3567,2789,11234,39.8,198,108,20,7890.00,google/cpc,spring_launch,
+2025-05-09,3987,3432,2678,10567,40.5,192,98,18,7230.00,linkedin/paid,spring_launch,
+2025-05-10,2456,2123,1598,6890,45.2,165,58,8,3340.00,facebook/paid,spring_launch,Weekend
+2025-05-11,2234,1923,1432,6234,46.5,158,52,6,2890.00,facebook/paid,spring_launch,Weekend
+2025-05-12,4567,3956,3098,12234,37.5,208,125,25,9450.00,google/cpc,spring_launch,
+2025-05-13,4345,3765,2945,11678,38.2,202,118,23,8670.00,google/cpc,spring_launch,
+2025-05-14,4123,3567,2789,11012,39.5,195,110,21,8120.00,google/cpc,spring_launch,
+2025-05-15,3890,3356,2612,10345,40.8,188,102,19,7450.00,email/newsletter,spring_launch,Campaign wind down

@@ -1,0 +1,130 @@
+From: Robert Martinez <robert.martinez@techcorp.com>
+To: Susan Walsh <susan.walsh@ourcompany.com>
+CC: James Chen <james.chen@ourcompany.com>, Thomas Park <thomas.park@techcorp.com>
+Date: Monday, September 22, 2025 8:45 AM
+Subject: RE: Project Phoenix Status - Executive Escalation
+
+Susan,
+
+I appreciate you getting on the call last week to discuss the Phoenix timeline. I wanted to follow up in writing to ensure we're aligned.
+
+First, let me be clear: TechCorp remains committed to this partnership. The demos we've seen have been impressive, and my team speaks highly of your engineers. The product vision is exactly what we need.
+
+That said, I have to be direct about our concerns:
+
+1. TIMELINE: We originally signed for a September delivery. We're now looking at late November. That's a 3-month slip on a 9-month project. My board is asking questions.
+
+2. BUDGET: The scope changes we've requested have added cost. I understand that. But we're now 40% over the original contract value. I need to justify this to my CFO.
+
+3. COMMUNICATION: Some of the timeline slips caught us by surprise. I'd rather hear bad news early than be surprised late.
+
+Here's what I need from your team:
+
+- A fixed delivery date that won't move. November 28th was mentioned. Can you commit to that?
+- Weekly status updates directly to Thomas (CC'd) so we can manage expectations internally
+- A post-launch support plan - we can't afford instability when we go live to our subsidiaries
+
+In return, TechCorp commits to:
+
+- No additional scope changes. The retention policy feature is the last one.
+- Timely feedback during UAT (we've sometimes been slow to respond)
+- Active executive sponsorship to remove blockers on our side
+
+I want this project to succeed. You have good people and we've seen good work. Let's get across the finish line together.
+
+I'm available for a call this week if you'd like to discuss.
+
+Regards,
+Robert Martinez
+CEO, TechCorp Industries
+
+---
+
+From: Susan Walsh <susan.walsh@ourcompany.com>
+To: Robert Martinez <robert.martinez@techcorp.com>
+CC: James Chen <james.chen@ourcompany.com>, Thomas Park <thomas.park@techcorp.com>
+Date: Monday, September 22, 2025 2:30 PM
+Subject: RE: Project Phoenix Status - Executive Escalation
+
+Robert,
+
+Thank you for your candid email. I appreciate your directness and your continued commitment to the partnership.
+
+You're right to hold us accountable. Let me address your concerns:
+
+TIMELINE: I am personally committing to a November 28th delivery. James Chen and his team have my full support and resources to hit this date. If anything threatens it, I will know immediately and so will you.
+
+BUDGET: The scope expansion has been significant - 23 change requests adding multi-tenancy, workflow automation, SSO, and compliance features. Each was discussed and approved, but I acknowledge the cumulative impact wasn't well communicated. I'm having my team prepare a detailed value analysis showing what you're getting for the additional investment.
+
+COMMUNICATION: This is on us. I've asked James to send weekly written updates every Friday to Thomas, with an executive summary copied to both of us. No surprises.
+
+Regarding your commitments - I'm grateful for the scope freeze and the UAT responsiveness pledge. Both will help us stay on track.
+
+I'd welcome a call later this week. My EA will reach out to coordinate.
+
+TechCorp is an important customer. We will deliver.
+
+Best regards,
+Susan Walsh
+Chief Operating Officer
+
+---
+
+From: Susan Walsh <susan.walsh@ourcompany.com>
+To: James Chen <james.chen@ourcompany.com>
+Date: Monday, September 22, 2025 2:45 PM
+Subject: FW: Project Phoenix Status - Executive Escalation
+
+James,
+
+See below. I've made commitments on your behalf. I trust you to deliver.
+
+Some context: Robert called me personally last Thursday. He was frustrated but not hostile. His board is putting pressure on him and he needs to show control.
+
+What I need from you:
+
+1. Confirm November 28th is achievable. If it's not, tell me now. I'd rather reset expectations again than miss another date.
+
+2. Friday updates, every Friday, no exceptions. Keep them brief but honest.
+
+3. If you need resources, escalate to me immediately. Don't be a hero.
+
+The silver lining: Robert's email makes clear they still want this to work. The product has impressed them. Let's not squander that goodwill.
+
+Call me if you need to talk through anything.
+
+Susan
+
+---
+
+From: James Chen <james.chen@ourcompany.com>
+To: Susan Walsh <susan.walsh@ourcompany.com>
+Date: Monday, September 22, 2025 4:15 PM
+Subject: RE: FW: Project Phoenix Status - Executive Escalation
+
+Susan,
+
+Thank you for having our backs in that response. I know this escalation reflects on the whole team.
+
+November 28th is achievable. We've done the detailed planning and have buffer built in. The scope freeze is critical though - one more major change would put us at risk.
+
+I'll start the Friday updates this week. You'll have them by 5 PM every Friday.
+
+One ask: Can you help ensure the scope freeze sticks? In the past, scope changes have come down as "urgent client requests" that bypass normal process. If Thomas or Robert reach out with new ideas, I'd appreciate you routing them to me first so we can have an honest conversation about impact.
+
+We're going to deliver this. The team is tired but motivated. They know the stakes.
+
+James
+
+---
+
+From: Susan Walsh <susan.walsh@ourcompany.com>
+To: James Chen <james.chen@ourcompany.com>
+Date: Monday, September 22, 2025 4:30 PM
+Subject: RE: FW: Project Phoenix Status - Executive Escalation
+
+James - Done. Any scope requests come through me first. You focus on execution.
+
+And for what it's worth - this project has had challenges, but you've handled them professionally. That matters.
+
+Susan

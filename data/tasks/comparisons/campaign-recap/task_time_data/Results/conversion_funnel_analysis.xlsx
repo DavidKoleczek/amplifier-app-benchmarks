@@ -1,0 +1,75 @@
+This is a placeholder for an Excel file. In a real scenario, this would be binary Excel data.
+
+CONVERSION FUNNEL ANALYSIS - SPRING CAMPAIGN 2025
+=================================================
+
+FULL FUNNEL VIEW:
+-----------------
+
+Stage                  | Volume    | Conv Rate | Drop-off | Notes
+-----------------------|-----------|-----------|----------|---------------------------
+Impressions            | 8,450,000 | -         | -        | Across all paid channels
+Clicks                 | 168,900   | 2.0%      | 98.0%    | CTR
+Landing Page Views     | 152,010   | 90.0%     | 10.0%    | Some bounces before load
+Engaged Sessions       | 98,807    | 65.0%     | 35.0%    | >30 sec or >2 pages
+Form Starts            | 24,702    | 25.0%     | 75.0%    | Began registration
+Form Completions       | 14,821    | 60.0%     | 40.0%    | MQLs generated
+Sales Qualified (SQL)  | 5,928     | 40.0%     | 60.0%    | Passed to sales
+Opportunities          | 2,371     | 40.0%     | 60.0%    | Active deals
+Closed Won             | 948       | 40.0%     | 60.0%    | Revenue deals
+
+* Data incomplete due to April tracking outage (estimated 15-20% of funnel data missing)
+
+FUNNEL BY CHANNEL:
+------------------
+
+Channel    | Clicks  | MQLs  | SQLs  | Opps  | Won   | Conv % | Avg Deal
+-----------|---------|-------|-------|-------|-------|--------|----------
+Google     | 68,450  | 6,234 | 2,494 | 998   | 399   | 0.58%  | $11,200
+Facebook   | 42,340  | 3,456 | 1,382 | 553   | 221   | 0.52%  | $8,900
+LinkedIn   | 18,670  | 2,123 | 849   | 340   | 136   | 0.73%  | $14,500
+Email      | 24,120  | 2,145 | 858   | 343   | 137   | 0.57%  | $12,100
+Twitter    | 8,450   | 456   | 182   | 73    | 29    | 0.34%  | $7,200
+Other      | 6,870   | 407   | 163   | 64    | 26    | 0.38%  | $9,800
+-----------|---------|-------|-------|-------|-------|--------|----------
+TOTAL      | 168,900 | 14,821| 5,928 | 2,371 | 948   | 0.56%  | $10,850
+
+KEY INSIGHTS:
+-------------
+1. LinkedIn has highest click-to-won conversion (0.73%) despite lower volume
+   - B2B audience more qualified
+   - Recommend increased LinkedIn investment in future campaigns
+
+2. Twitter significantly underperforms across all funnel stages
+   - 0.34% conversion rate is below acceptable threshold
+   - Consider eliminating from paid mix
+
+3. Form completion rate (60%) is strong - landing page optimization working
+   - A/B test showed Version B outperformed (see separate analysis)
+
+4. MQL to SQL drop-off (40%) indicates potential lead quality issues
+   - Sales feedback: "Too many tire-kickers from Facebook"
+   - Consider tightening Facebook targeting
+
+FUNNEL VELOCITY:
+----------------
+
+Stage Transition            | Median Days | P90 Days | Notes
+----------------------------|-------------|----------|------------------
+Click to MQL                | 0.5         | 3        | Most same-session
+MQL to SQL                  | 4           | 12       | Qualification time
+SQL to Opportunity          | 7           | 21       | Discovery calls
+Opportunity to Close        | 18          | 45       | Deal cycle
+----------------------------|-------------|----------|------------------
+Total Click to Close        | 29.5        | 81       | 
+
+Enterprise deals (>$15K) average 45 days click-to-close
+SMB deals (<$10K) average 18 days click-to-close
+
+A/B TEST IMPACT ON FUNNEL:
+--------------------------
+Landing Page Version A (control): 58% form completion
+Landing Page Version B (test): 64% form completion
+Lift: +10.3%
+
+However, see A/B test notes - sample size concerns exist for statistical significance.

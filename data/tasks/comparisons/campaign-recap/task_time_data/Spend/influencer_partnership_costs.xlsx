@@ -1,0 +1,61 @@
+This is a placeholder for an Excel file. In a real scenario, this would be binary Excel data.
+
+INFLUENCER PARTNERSHIP COSTS - SPRING CAMPAIGN 2025
+===================================================
+
+Total Budget: $35,000
+Total Spent: $38,500
+Variance: +$3,500 (10% over - approved mid-campaign)
+
+PARTNERSHIP DETAILS:
+--------------------
+
+Influencer         | Platform  | Followers | Content Type      | Fee      | Status    | Performance
+-------------------|-----------|-----------|-------------------|----------|-----------|-------------
+TechReviewPro      | YouTube   | 2.4M      | Dedicated video   | $15,000  | Complete  | 487K views
+SarahTechTalks     | Instagram | 890K      | 3 posts + stories | $8,500   | Complete  | 1.2M reach
+DevLifestyle       | Twitter   | 456K      | Thread + promo    | $4,000   | Complete  | 234K impr
+CloudNativeChris   | LinkedIn  | 125K      | Article + posts   | $3,500   | Complete  | 89K views
+StartupSally       | TikTok    | 1.1M      | 2 videos          | $5,000   | Complete  | 892K views
+TheProductivityGuy | YouTube   | 780K      | Integration       | $2,500   | Complete  | 156K views
+-------------------|-----------|-----------|-------------------|----------|-----------|-------------
+TOTAL              |           |           |                   | $38,500  |           |
+
+** CONTENTIOUS ITEM - SEE NOTES BELOW **
+
+NOTES ON TECHREVIEWPRO PARTNERSHIP:
+-----------------------------------
+Original budget was $12,000. Mid-campaign (April 18), we negotiated additional 
+$3,000 for extended promotion period after seeing strong early results.
+
+Some internal debate on whether this was worth it:
+- Marketing (Jennifer): "Absolutely worth it - 487K views, great engagement"
+- Finance (Tom): "ROI unclear - can't directly attribute sales to influencer"
+- Sales (David): "Anecdotally hearing customers mention seeing the video"
+
+For the recap, recommend showing the spend but noting attribution is soft.
+CFO asked specifically about this line item in last week's meeting.
+
+PERFORMANCE METRICS:
+--------------------
+
+Influencer         | Views/Reach | Engagements | Clicks | Est. Conv | CPM    | Cost/Click
+-------------------|-------------|-------------|--------|-----------|--------|------------
+TechReviewPro      | 487,000     | 23,400      | 4,560  | ~45       | $30.80 | $3.29
+SarahTechTalks     | 1,200,000   | 67,800      | 8,920  | ~62       | $7.08  | $0.95
+DevLifestyle       | 234,000     | 8,900       | 2,340  | ~18       | $17.09 | $1.71
+CloudNativeChris   | 89,000      | 4,230       | 1,890  | ~22       | $39.33 | $1.85
+StartupSally       | 892,000     | 45,600      | 5,670  | ~28       | $5.61  | $0.88
+TheProductivityGuy | 156,000     | 7,800       | 1,230  | ~12       | $16.03 | $2.03
+-------------------|-------------|-------------|--------|-----------|--------|------------
+TOTAL              | 3,058,000   | 157,730     | 24,610 | ~187      | $12.59 | $1.56
+
+Note: "Est. Conv" is estimated based on UTM tracking. Not all clicks used trackable links.
+TechReviewPro specifically asked to use their own redirect link for "authenticity" -
+this makes attribution harder but was a condition of the partnership.
+
+CONTRACT STATUS:
+----------------
+All contracts signed and payments processed.
+Usage rights: 12 months from publication date
+Exclusivity: 60 days (no competitor promotions)

@@ -1,0 +1,16 @@
+invoice_id,vendor,description,invoice_date,due_date,amount,status,category,campaign,approved_by,notes
+INV-2025-0401,MediaMax Agency,Google Ads management - April,2025-04-30,2025-05-30,8500.00,Paid,Agency Fees,Spring Launch,Jennifer Chen,Monthly retainer
+INV-2025-0402,MediaMax Agency,Facebook/Instagram management - April,2025-04-30,2025-05-30,6500.00,Paid,Agency Fees,Spring Launch,Jennifer Chen,Monthly retainer
+INV-2025-0403,MediaMax Agency,LinkedIn campaign management - April,2025-04-30,2025-05-30,4500.00,Paid,Agency Fees,Spring Launch,Jennifer Chen,Monthly retainer
+INV-2025-0404,CreativeStudio Inc,Banner ad design - Set A,2025-04-05,2025-05-05,3200.00,Paid,Creative,Spring Launch,Marcus Webb,8 banner variants
+INV-2025-0405,CreativeStudio Inc,Banner ad design - Set B,2025-04-12,2025-05-12,3200.00,Paid,Creative,Spring Launch,Marcus Webb,8 banner variants for A/B test
+INV-2025-0406,CreativeStudio Inc,Landing page design - 2 versions,2025-04-08,2025-05-08,5500.00,Paid,Creative,Spring Launch,Marcus Webb,A/B test variants
+INV-2025-0407,VideoWorks LLC,Product demo video - 60s,2025-04-15,2025-05-15,12000.00,Paid,Creative,Spring Launch,Jennifer Chen,Main campaign video
+INV-2025-0408,VideoWorks LLC,Social cutdowns - 6 versions,2025-04-18,2025-05-18,4500.00,Paid,Creative,Spring Launch,Marcus Webb,15s and 30s versions
+INV-2025-0409,ContentFirst Agency,Blog posts and PR,2025-04-25,2025-05-25,6800.00,Paid,Content,Spring Launch,Jennifer Chen,4 blog posts + PR distribution
+INV-2025-0410,MediaMax Agency,Google Ads management - May,2025-05-31,2025-06-30,8500.00,Paid,Agency Fees,Spring Launch,Jennifer Chen,Monthly retainer
+INV-2025-0411,MediaMax Agency,Facebook/Instagram management - May,2025-05-31,2025-06-30,6500.00,Paid,Agency Fees,Spring Launch,Jennifer Chen,Monthly retainer
+INV-2025-0412,MediaMax Agency,LinkedIn campaign management - May,2025-05-31,2025-06-30,4500.00,Paid,Agency Fees,Spring Launch,Jennifer Chen,Monthly retainer
+INV-2025-0413,DataAnalytics Pro,Attribution modeling consulting,2025-05-20,2025-06-20,7500.00,Paid,Analytics,Spring Launch,Marcus Webb,Multi-touch attribution setup
+INV-2025-0414,CreativeStudio Inc,Campaign refresh - May creatives,2025-05-10,2025-06-10,2800.00,Paid,Creative,Spring Launch,Marcus Webb,Updated messaging
+INV-2025-0415,PR Newswire,Press release distribution,2025-04-02,2025-05-02,1200.00,Paid,PR,Spring Launch,Jennifer Chen,Launch announcement
